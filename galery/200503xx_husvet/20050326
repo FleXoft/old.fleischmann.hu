@@ -1,0 +1,70 @@
+#!/bin/sh
+#
+##############################################
+# Just a little trick...
+  eval 'exec photoalbum_generator -f $0 -a 20050326.txt -A NG_Style -S NG_Style_v2 -c 5 ${1+"$@"}'
+##############################################
+#
+# Album
+#
+# Created: 2005.03.29.
+#
+# Global overwriting
+# overwrite:	[{{STYLE}}=>file:css/NG_Style.CSS]
+#
+#############################################################################################################################
+# Title: 2005 03 Húsvét
+#############################################################################################################################
+#
+# The structure:
+# filename|albumbodytheme|slidetheme|backgroundtheme|frametheme
+#
+#############################################################################################################################
+
+#
+pics/KM20050326_00353.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050326_00354.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050326_00356.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050326_00373.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050326_00374.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050327_00419.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050327_00420.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050327_00421.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050327_00423.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050327_00424.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050327_00425.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050327_00426.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050327_00428.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050327_00429.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050327_00430.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050327_00438.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050327_00442.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050327_00443.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050327_00451.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050327_00458.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050327_00464.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050327_00465.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050327_00466.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050327_00467.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050328_00469.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050328_00470.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050328_00472.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050328_00473.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050328_00474.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050328_00475.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050328_00479.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050328_00484.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050328_00485.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050328_00486.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050328_00487.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050328_00488.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050328_00489.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050328_00490.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050328_00492.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050328_00494.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050328_00495.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+
+#############################################################################################################################
+#
+### _END_OF_FILE ###
+
