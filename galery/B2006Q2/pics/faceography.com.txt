@@ -1,5 +1,0 @@
-#
-# Title        : faceography.com
-#
-
-Érdekes: <a href="http://faceography.com/">faceography.com</a>.

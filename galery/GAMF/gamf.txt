@@ -1,10 +1,0 @@
-<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
-</script>
-<script type="text/javascript">
-_uacct = "UA-1076916-1";
-urchinTracker();
-</script>
-
-<a href="http://www.gamf.hu/">Kecskeméti Fõiskola Gépipari és Automatizálási Mûszaki Fõiskolai Kar</a><br>
-a.k.a<br>
-<a href="http://www.gamf.hu/"><b>G.A.M.F.</b></a>

@@ -1,4 +1,0 @@
-# nolink: yes
-# nopic: yes
-
-<a href="http://www.mohacs.hu/"><b>Mohács</b></a>on jártunk a hétvégén Part I.
