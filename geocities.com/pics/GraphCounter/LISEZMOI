@@ -1,0 +1,123 @@
+######################################################################
+# Basic Graphical Counter                 Version 1.0                #
+# Copyright 1999 Frederic TYNDIUK (FTLS)  All Rights Reserved.       #
+# E-Mail: tyndiuk@ftls.org                Script License: GPL        #
+# Created  ??/??/98                       Last Modified 05/30/99     #
+# Scripts Archive at:                     http://www.ftls.org/cgi/   #
+######################################################################
+
+
+1. Qu'est ce que c'est ?
+========================
+
+	Basic Graphical Counter (counter.cgi) n'est qu'un simple compteur graphique.
+
+
+2. Dépendances:
+===============
+
+	- Perl 4.0 ou une version plus récente; vous pouvez le trouver sur
+http://www.perl.com
+	- Un serveur Web avec la possibilité d'ajouter/exécuter des scripts CGI.
+
+
+3. Que contient cette archive ?
+===============================
+
+	Cette Archive contient 5 fichiers différents:
+        1) COPYING:      La licence de ce programme (GPL).
+       	2) README:       La doc en anglais...
+    	3) LISEZMOI:     Ce fichier...
+       	4) counter.cgi:  Le script Perl. 
+       	5) count.txt:    Donnés du compteur.
+		6) Digits/       Examples de chiffres.
+
+
+4. Installation et Configuration:
+=================================
+
+	C'est un script Perl, l'installation est simple. Vous n'avez pas besoin
+de compiler quelque chose...
+
+	Copiez counter.cgi dans le répertoire /cgi-bin/
+	Rendez le exécutable (chmod a+rx counter.cgi) Unix seulement...
+
+	Pour le bon fonctionnement de ce script, vous avez quelques configurations
+à faire...
+
+		Editez counter.cgi et changez #/usr/bin/perl, si nécessaire...
+		
+		Editez la section "Necessary Variables" de counter.cgi et faite les
+	changements suivant :
+
+	# URL of gif digits (URL des images représantant les chiffres 0->9)
+	$digits_basedir = "http://www.hostname.dom/images/Digits/";
+
+	# Real path and file of counter (chemin du fichier du compteur)
+	$count_file = "/Absolute/path/to/count.txt";
+
+
+5. Comment l'utiliser ?
+=======================
+
+Ajoutez dans votre page web:
+	<IMG SRC="http://www.hostname.dom/cgi-bin/counter.cgi?X">
+	ou X est le numéro du chiffre à afficher...
+
+Exemple (pour un compteur à 3 chiffres):
+	<IMG SRC="http://www.hostname.com/cgi-bin/counter.cgi?0">
+		Affiche le 1er chiffre.
+	<IMG SRC="http://www.hostname.com/cgi-bin/counter.cgi?1">
+		Affiche le 2em chiffre.
+	<IMG SRC="http://www.hostname.com/cgi-bin/counter.cgi?2&w">
+		Affiche le 3em chiffre est incrémente le compteur.
+
+
+6. Remerciements:
+=================
+
+	Merci à Stephane Roquelle (http://www.open-mix.com/) pour les examples de
+chiffres fournits dans l'archive.
+
+
+7. Histoire:
+============
+
+	Version 1.0         30/05/99  - Création de l'archive.
+
+
+8. Copyright:
+=============
+
+	This software is copyright (C) 1999 Frédéric TYNDIUK. It is distributed
+under the terms of the GNU General Public License (GPL). Because it is licensed
+free of charge, there is NO WARRANTY, it is provided AS IS. The author can not
+be held liable for any damage that might arise from the use of this software.
+Use it at your own risk. 
+	See the file COPYING for more details (or http://www.gnu.org/).
+
+
+9. Nouvelles versions:
+=====================
+
+	Les nouvelles versions ainsi que d'autres scripts sont disponibles sur:
+
+		http://www.ftls.org/fr/
+
+
+10. Contact:
+===========
+	
+	N'hésitez pas à m'envoyez un mail si vous avez des commentaires, des
+suggestions, si vous trouvez des bugs, ou si vous avez des critiques, ou juste
+pour me dire que vous aimez ce programme...
+
+	Si vous avez des problèmes de configuration, d'utilisation de ces
+scripts, relisez ce document en premier, si vous ne trouvez pas la 
+solution, n'hésitez pas à me contacter...
+
+	E-Mail: tyndiuk@ftls.org
+	Web: http://www.ftls.org/
+
+
+                                                  Frédéric TYNDIUK

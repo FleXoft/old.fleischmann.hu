@@ -1,0 +1,188 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Gyurci/Flex's LiNUX Page</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#ffffff" background="../pics/linux/linux_inside_bg.jpg">
+
+<table ALIGN=left BORDER=0 WIDTH="100%" COLS=3>
+<tr>
+<td><A href="../index.html"><IMG border=0 height=22 src="../pics/html/myhome.jpg" width=22></A></td>
+<td align=middle></td>
+<td align=right><tt><b><FONT SIZE="+3">LiNUX</FONT></b></tt> <A HREF="http://www.linux.org/"><IMG align=absMiddle src="../pics/linux/pengu.jpg" HEIGHT="60" BORDER="0"></A></td>
+</tr>
+</table>
+
+<br clear="all">
+
+<hr SIZE="3" NOSHADE>
+
+<tt>LiNUX projektek:<br>
+<IMG src="../pics/html/mini_line.gif" width=62 height=15>
+<ul>
+<li><A HREF="LCD/lcd_project.htm">LCD driver for LiNUX</A>
+<li>disklogger for LiNUX
+<li><A HREF="http://me.in-berlin.de/~kraxel/bttv.html">bttv</A> patch for C.U.C.U.S video grabber card (with <A HREF="http://www.conexant.com/techinfo/ShowFiles.asp?ID=108&ST=C">Bt848A</A> Single-Chip Video Capture for PCI)
+</ul>
+</tt>
+
+<tt>Hasznos LiNUX csomagok:<br>
+<IMG src="../pics/html/mini_line.gif" width=62 height=15>
+<ul>
+<li>queso, wget, ncftp, smbclient, wvdial, samba, apache, squid, mc, xnetload, xosview, smail, mpage, netcat, a2ps, gs, magicfilter, lprng, mirror, links
+<li><A HREF="http://www.extra.hu/hupppcol/">HuPPPcol - modemes analizáló program linuxhoz</a>
+<li>Network backup solution: <A HREF="http://www.arkeia.com/">Arkeia</a>
+</ul>
+</tt>
+
+<tt>UNIX link-ek:<br>
+<IMG src="../pics/html/mini_line.gif" width=62 height=15>
+<ul>
+<li>Jamie Zawinski - <A HREF="http://www.jwz.org/">www.jwz.org</A>
+</ul>
+</tt>
+
+<br><tt>LiNUX otthon:<br>
+<IMG src="../pics/html/mini_line.gif" width=62 height=15>
+</tt>
+
+<p><tt><b>2000.04.02. - Új kernel ugrott fel az alpha-ra</b><br>
+<IMG align=absMiddle height=17 src="../pics/html/r_arrow.gif" width=20> Feltettem a 2.3.99-Pre3-at. A Creative RT300 video digi kártya helyett pedig betettem egy Bt848A chip-es C.U.C.U.S. névre hallgató kártyát.
+(A kártya Puttié... nincs elfelejtve...) Néhány órás szívás után elkészült a patch a bttv modulhoz. Mostantól nem megy a GUS P&P... :-(((</tt></p>
+
+<p><tt><b>2000.01.30. - Kazett&aacute;s egys&eacute;g.</b><br>
+<IMG align=absMiddle height=17 src="../pics/html/r_arrow.gif" width=20> Kaptam egy TANDBERG Model: TDC 360092X4180 Rev: I07 SCSI kazattas magn&oacute;t.
+</tt></p>
+
+<p><tt><b>1999.10.28. - Nyomtat&aacute;s II.</b><br>
+<IMG align=absMiddle height=17 src="../pics/html/r_arrow.gif" width=20> Na ilyet sem lehet Windows-on csin&aacute;lni: man -Tps pppd|mpage -2|lp (avagy duplex nyomat&oacute;ra: man -Tps pppd|mpage -2 -t|lp). Az eredm&eacute;ny egyszer&ucirc;en hihetetlen.
+</tt></p>
+
+<p><tt><b>1999.10.28. - Mini HTML2TXT</b><br>
+<IMG align=absMiddle height=17 src="../pics/html/r_arrow.gif" width=20> sed -e 's/<[^>]*>//g' (A PERL-es megold&aacute;s jobb, de ahova nem kell nagy&aacute;gy&uacute; oda ez is +teszi.)</a><br>
+Example:  echo 'GET /flex/index.html'|nc www.extra.hu 80|sed -e 's/<[^>]*>//g'
+</tt></p>
+
+<p><tt><b>1999.10.22. - Nyomat&aacute;s I. (HP LaserJetIIIp &eacute;s egy HP JetDirect 300X)</b><br>
+<IMG align=absMiddle height=17 src="../pics/html/r_arrow.gif" width=20> Nincs arra kifejez&eacute;s, hogy mekkora szopat&aacute;s egy magicfilter-es nyomtat&aacute;s bekonfigur&aacute;l&aacute;sa Debian alatt... Koll&eacute;g&aacute;m tal&aacute;lta + a +old&aacute;st: <a href="http://www.debian.org/Bugs/db/41/41310.html">Debian) bug report logs - #41310
+printcap setup should be easier to do</a>. A val&oacute;s&aacute;gban pedig a /etc/printcap valahogy &iacute;gy n&eacute;z ki:<br>
+<br>
+lp|hpljIIIp|HP LaserJet IIIp:\<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:rp=jetdirect:\<br>                        
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:sd=/var/spool/lpd/hpljIIIp:rm=192.168.1.100:\<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:lf=/var/log/hplog:\<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:sh:pw#80:pl#72:px#1440:mx#0:\<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:if=/etc/magicfilter/ljet3-filter:\<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:af=/var/log/lp-acct:lf=/var/log/lp-errs:\<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="Red"><b>:lpr_bounce:</b></font><br>
+<br>
+<IMG align=absMiddle height=17 src="../pics/html/r_arrow.gif" width=20> Egy less csomag install&aacute;l&aacute;sa bar&aacute;ts&aacute;gosabb&aacute; teszi a man page-ek olvasgat&aacute;s&aacute;t...<br>
+</tt></p>
+
+<p><tt><b>1999.10.21. - Hang (Gravis Ultrasound P&P Pro)</b><br>
+<IMG align=absMiddle height=17 src="../pics/html/r_arrow.gif" width=20> V&eacute;gre siker&uuml;lt beizgatnom a GUS P&P hangk&aacute;rty&aacute;mat. <a href="http://www.alsa-project.org/">ALSA driver version 0.4.1c</a><br>
+
+<UL>
+Quick install<br>
+=============<br>
+<br>
+1) You must turn on sound support (soundcore module).<br>
+<br>
+2) Run './configure' script.<br>
+&nbsp;&nbsp;&nbsp;If you have ISA Plug & Play soundcard, use --with-isapnp=yes switch.<br>
+&nbsp;&nbsp;&nbsp;Example: ./configure --with-isapnp=yes<br>
+3) Run 'make install'.<br>
+4) Run the './snddevices' script to create new sound devices in /dev directory.<br>
+&nbsp;&nbsp;&nbsp;Skip this step, if you have a kernel with the DEVFS support.<br>
+5) Edit your /etc/conf.modules (see the kerneld/kmod support section below).<br>
+<br>
+A complete example for Gravis UltraSound PnP soundcard:<br>
+<br>
+----- /etc/conf.modules<br>
+<br>
+# ISA PnP support<br>
+options isapnp isapnp_reserve_irq=9,10,11,12,13<br>
+<br>
+# ALSA native device support<br>
+alias char-major-116 snd<br>
+options snd snd_major=116 snd_cards_limit=1<br>
+alias snd-card-0 snd-card-interwave<br>
+options snd-card-interwave snd_index=1 snd_id="GusPnP"<br>
+<br>
+# OSS/Free setup<br>
+alias char-major-14 soundcore<br>
+alias sound-slot-0 snd-card-0<br>
+alias sound-service-0-0 snd-mixer-oss<br>
+alias sound-service-0-1 snd-seq-oss<br>
+alias sound-service-0-3 snd-pcm1-oss<br>
+alias sound-service-0-12 snd-pcm1-oss<br>
+<br>
+6)&nbsp;Run 'modprobe snd-card' where the card is the name of your card.<br>
+<br>
+&nbsp;&nbsp;&nbsp;Note: If you have a ISA PnP soundcard you need to first run the isapnp<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;program from isapnptools package to initialize your<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;soundcard. You can also use the native ISA PnP support by<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;using the --with-isapnp=yes configuration switch, in which<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;case you do not need the isapnptools package.<br>
+</UL>
+</tt></p>
+
+<p><tt><b>1999.10.20. - Hálózat ()</b><br>
+<IMG align=absMiddle height=17 src="../pics/html/r_arrow.gif" width=20> ppp megy, ipforward megy, bridging megy.<br>
+</tt></p>
+<P><tt><b>1999.10.18. - egyelõre DEBIAN v2.1 (potato)</b><br>
+<IMG align=absMiddle height=17 src="../pics/html/r_arrow.gif" width=20> Elkészült az otthoni háló:<br>
+<FONT SIZE="-1">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ppp1<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>
+&nbsp;&nbsp;PPP&nbsp;to&nbsp;Internet&nbsp;&nbsp;+-----------+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+-----------+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;provider&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;LiNUX&nbsp;&nbsp;&nbsp;|&nbsp;192.168.0.254&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;LiNUX&nbsp;&nbsp;&nbsp;|&nbsp;192.168.0.2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+-----------+<br>  &nbsp;&lt;----------&nbsp;ppp0&nbsp;-|Debian&nbsp;v2.1|-&nbsp;eth0&nbsp;-----------&nbsp;eth0&nbsp;-|Debian&nbsp;v2.1|-&nbsp;ppp0&nbsp;----------------|&nbsp;Psion&nbsp;S3c&nbsp;|<br>
+&nbsp;&nbsp;dynamic&nbsp;IP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;lowry*&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;192.168.0.1&nbsp;|&nbsp;&nbsp;alpha**&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;192.168.0.3&nbsp;+-----------+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+-----------+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+-----------+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;192.168.1.254<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;eth1<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;192.168.1.100&nbsp;|<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+-----------+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+-----------------+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;JetDirect&nbsp;|-&nbsp;parallel&nbsp;--------------|&nbsp;HP&nbsp;LaserJetIIIp&nbsp;|<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+-----------+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+-----------------+<br>
+<br>
+lowry*&nbsp; - COMPAQ Presario 486SX, 20MB RAM, Quantum 270MB IDE, NE2000, AMD2100, ZyXEL serial port, 3Com U.S.Robotics 56K<br>
+alpha** - DTK P120, 32MB RAM,&nbsp;Adaptec 2940 SCSI(MICROP 640MB, MICROP 640MB, IBM 1G, HP 1G, NEC CD, TANDBERG TDC 3600), WD 1.2MB IDE, 3Com 3C905B-TX, Creative VideoBlaster RT300, GUS P&P Pro<br>
+</FONT></tt></P>
+
+<center>
+<IMG src="../pics/pcs.jpg"> <IMG src="../pics/printer.jpg">
+</center>
+
+<hr SIZE=1 NOSHADE WIDTH="80%"><br>
+
+<tt>LiNUX Distributions:</tt><br>
+<IMG src="../pics/html/mini_line.gif" width=62 height=15>
+
+<TABLE BORDER=0 WIDTH=100%>
+<TR>
+<TD ALIGN=CENTER><A HREF="http://www.debian.org/"><IMG SRC="../pics/linux/debian_logo.gif" ALT="Debian Linux" BORDER=0></A></TD>
+<TD ALIGN=CENTER><A HREF="http://www.caldera.com/"><IMG SRC="../pics/linux/caldera_logo.gif" ALT="Caldera Linux" BORDER=0></A></TD>
+<TD ALIGN=CENTER><A HREF="http://www.redhat.com/"><IMG SRC="../pics/linux/redhat_logo.gif" ALT="Red Hat Linux" BORDER=0></A></TD>
+<TD ALIGN=CENTER><A HREF="http://www.trans-am.com/"><IMG SRC="../pics/linux/trans_am_logo.gif" ALT="Trans-Ameritech Linuxware" BORDER=0></A></TD>
+<TD ALIGN=CENTER><A HREF="http://www.slackware.com/"><IMG SRC="../pics/linux/slack_logo.jpg" ALT="Slackware" BORDER=0></A></TD>
+<TD ALIGN=CENTER><A HREF="http://www.suse.com/"><IMG SRC="../pics/linux/suse_logo.gif" ALT="S.u.S.E." BORDER=0></A></TD>
+<TD ALIGN=CENTER><A HREF="http://www.Linux-Pro.com/"><IMG SRC="../pics/linux/linux_pro_logo.gif" ALT="Linux Pro" BORDER=0></A></TD>
+<TD ALIGN=CENTER><A HREF="http://linux.corel.com/"><IMG SRC="../pics/linux/corel_logo.gif" ALT="Corel" BORDER=0></A></TD>
+</TR>
+</TABLE>
+
+<p><table BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%">
+<tr>
+<td ALIGN=CENTER VALIGN=CENTER BGCOLOR="#000000"><font face="Arial, Helvetica, Verdana, Lucida"><font color="#FFFFFF"><font size=-2>&copy;
+FLEISCHMANN Gy&ouml;rgy -&nbsp;</font></font></font><a href="contact.htm"><img SRC="../pics/html/mailto.gif" BORDER=0 height=10 width=14 ALIGN="absmiddle"></a></td>
+</tr>
+</table>
+
+</BODY>
+
+</HTML>

@@ -1,0 +1,373 @@
+<HTML>
+
+<HEAD>
+  <TITLE>SzoVegyKonyha</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#ffffff">
+
+<table width="100%" height="100%" border=0>
+<tr>
+  <td>
+  <A href="../../index.html"><IMG border=0 height=22 src="../../pics/html/myhome.jpg" width=22></A>
+  </td>
+</tr>
+<tr valign="middle" align="center">
+	<td>
+	
+    <img src="../../pics/SzoVegyKonyha/szovegykonyha.jpg" width="148" height="122" alt="" border="0">
+
+	<form name="form_1">
+	<select name="select_1" size="10" OnChange="index_1=this.selectedIndex; update();">
+	<option>--------------
+	</select>
+	<select name="select_2" size="10" OnChange="index_2=this.selectedIndex; update();">
+	<option>--------------
+	</select>
+	<select name="select_3" size="10" OnChange="index_3=this.selectedIndex; update();">
+	<option>--------------
+	</select><br>
+	<input size=7 name="variation" value=""> lehets&eacute;ges vari&aacute;ci&oacute;<br><br>
+	
+	<input size=30 name="result" value=""><input type=button name="gomb" value="&Uacute;j!" onclick="generate(); update();"><br>
+
+	<input type=checkbox name="checkbox">Meglepet&eacute;s 
+	<select name="select_4" size="1" OnChange="javascript:(this.selectedIndex==1)?delay=900000:(this.selectedIndex==2)?delay=1800000:(this.selectedIndex==3)?delay=3600000:delay=300000">
+	<option>5
+	<option>15
+	<option>30
+	<option>60
+	</select> percenk&eacute;nt!<br><br>
+	
+	<input type=button name="about" value="N&eacute;vjegy" onclick="window.open('szovegykonyha_nevjegy.htm','test','width=390,height=180');">
+	</form>
+				
+	L&aacute;togat&oacute;k sz&aacute;ma: <img src="http://visit.geocities.com/counter.gif" width="50" height="15">.
+		
+	</td>
+</tr>
+</table>	
+
+<SCRIPT LANGUAGE="JavaScript">
+
+// **************************************************************************
+// SzoVegyKonyha for InternYet 
+//
+// Copyright (C) 2000 Flex.
+//   SOCIETE GENERALE HUNGARIA BANK Rt.
+//
+// Designed by FleXoft
+// Written  by FleXoft
+// (mailto: Gyorgy.Fleischmann@socgen.com or gfleischmann@yahoo.com)
+//
+// Original idea by Veszett Vereb, 1998
+//
+// v1.0 +2000/12/23 Buda, Flex.
+//	Rls: first release.
+//
+// Documentation:
+// --------------
+//
+// TODO:
+// -----
+//
+//
+// ==========================================================================
+//
+// This program is free software; you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation; either version 2, or (at your option)
+// any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program; see the file COPYING.  If not, write to
+// the Free Software Foundation, 675 Mass Ave, Cambridge, MA 02139, USA.
+//
+// **************************************************************************
+
+// DATA
+
+list_1=new Array(
+					"apáca",
+					"asszony",
+					"baba",
+					"bagoly",
+					"banya",
+					"bányász",
+					"bárány",
+					"cica",
+					"csiga",
+					"csótány",
+					"denevér",
+					"disznó",
+					"dudor",
+					"fácán",
+					"fenék",
+					"féreg",
+					"hernyó",
+					"hurka",
+					"jak",
+					"kanász",
+					"kárász",
+					"kolbász",
+					"köldök",
+					"koldus",
+					"kukac",
+					"kullancs",
+					"láma",
+					"lárva",
+					"majom",
+					"mókus",
+					"néni",
+					"nyúl",
+					"páva",
+					"pióca",
+					"pók",
+					"pulyka",
+					"sellõ",
+					"sógor",
+					"sün",
+					"szatír",
+					"szemölcs",
+					"szódás",
+					"tapír",
+					"tojás",
+					"tulok",
+					"tündér",
+					"tyúk",
+					"vakond",
+					"vendég",
+					"zsiráf"
+                )
+		
+list_2=new Array(
+				    "ámító",
+					"bámuló",
+					"bántó",
+					"bosszantó",
+					"csábító",
+					"csavaró",
+					"faló",
+					"fárasztó",
+					"fenyegetõ",
+					"feszítõ",
+					"fogó",
+					"fõzõ",
+					"fürdetõ",
+					"göndörítõ",
+					"gyötrõ",
+					"gyúró",
+					"hajító",
+					"harapó",
+					"hódító",
+					"idomító",
+					"ijesztõ",
+					"imádó",
+					"kenõ",
+					"kergetõ",
+					"keserítõ",
+					"kopasztó",
+					"lengetõ",
+					"markolászó",
+					"méregetõ",
+					"mosó",
+					"nézõ",
+					"nyaló",
+					"nyûvõ",
+					"pofozó",
+					"puhító",
+					"rágó",
+					"rémisztõ",
+					"szagoló",
+					"szépítõ",
+					"szívó",
+					"szõkítõ",
+					"szomorító",
+					"szorító",
+					"tartó",
+					"tömõ",
+					"ugrasztó",
+					"vadító",
+					"vallató",
+					"verõ",
+    				"zabáló"
+                )
+
+list_3=new Array(
+					"állvány",
+					"bál",
+					"banda",
+					"bogár",
+					"bot",
+					"brigád",
+					"csapat",
+					"csarnok",
+					"csipesz",
+					"csõ",
+					"dívány",
+					"fa",
+					"gép",
+					"görcs",
+					"gyakorlat",
+					"ház",
+					"hely",
+					"izom",
+					"járvány",
+					"kád",
+					"készség",
+					"klub",
+					"kór",
+					"kör",
+					"lánc",
+					"lány",
+					"lapát",
+					"láz",
+					"legény",
+					"masina",
+					"mérkõzés",
+					"mester",
+					"mûvész",
+					"nõ",
+					"nyúlvány",
+					"pad",
+					"pálya",
+					"pince",
+					"pumpa",
+					"rongy",
+					"szerszám",
+					"szoba",
+					"tánc",
+					"tanfolyam",
+					"tömlõ",
+					"túra",
+					"üzem",
+					"vas",
+					"verem",
+					"verseny"
+                )
+				  
+var length_1,length_2,length_3;
+var index_1, index_2, index_3;
+
+var delay = 300000; // milliseconds
+
+var surprise_window=null;
+				  
+var child_window_status="AVAILABLE"; // semaphore-signal
+				  
+// FUNCTIONs
+	
+function list_init(object, list) {
+
+	var i;
+
+	for (i=0; i<list.length; i++) {
+		object.options[i] = new Option(list[i],list[i]);
+	}
+    
+	return 0
+                
+}
+
+function rnd(max) {
+
+	return Math.round((Math.random()*max)-.5);
+
+}
+
+function generate() {
+
+    index_1=rnd(length_1);
+    index_2=rnd(length_2);		
+    index_3=rnd(length_3);
+
+}	
+
+function update() {
+
+	document.form_1.result.value = list_1[index_1]+list_2[index_2]+list_3[index_3];
+		
+	document.form_1.select_1.options[index_1].selected=true;
+	document.form_1.select_2.options[index_2].selected=true;
+	document.form_1.select_3.options[index_3].selected=true;
+
+	document.form_1.variation.value = length_1*length_2*length_3;
+		
+}
+
+function surprise() {
+	
+	surprise_window=window.open('','','width=380,height=155');
+
+	surprise_window.document.open();
+	
+	surprise_window.document.write('<body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" onUnload="javascript:if((parent.opener.document!=null)) {parent.opener.child_window_status=\'CLOSED\'};">');
+		
+	surprise_window.document.write('<table width=100% height=100% border=0 cellpadding="0" cellspacing="0">');
+	surprise_window.document.write('<tr valign="middle">');
+	surprise_window.document.write('<td align="center"><img src="../../pics/SzoVegyKonyha/szovegykonyha.jpg" width="100" alt="" border="0"></td>');
+	surprise_window.document.write('<td align="center">');
+
+	surprise_window.document.write(list_1[index_1]+list_2[index_2]+list_3[index_3]);
+
+	surprise_window.document.write('</td>');
+	surprise_window.document.write('</tr>');
+	surprise_window.document.write('</table>');
+	surprise_window.document.write('');
+	surprise_window.document.write('</body>');	
+
+	surprise_window.document.close();
+
+//	surprise_window=window.open('szovegykonyha_meglepetes.htm','','width=380,height=155');	
+//	surprise_window.formx.resultx.value=list_1[index_1]+list_2[index_2]+list_3[index_3];
+	
+}
+
+function mainloop() {
+
+// CORE ENGINE v1.0.87 pre Beta based on Linux kernel 2.2.4 test 10 with semaphore-signal
+
+	if (child_window_status=="CLOSED") {
+	
+		child_window_status="AVAILABLE";
+		
+	}
+	
+	if (document.form_1.checkbox.checked && child_window_status=="AVAILABLE") {
+		
+		generate(); update();
+		
+		surprise();
+		child_window_status="OPENED";
+	}
+		
+	setTimeout("mainloop();", delay);
+	
+}
+
+// Main program
+
+// INITs
+
+list_init(document.form_1.select_1, list_1);
+list_init(document.form_1.select_2, list_2);
+list_init(document.form_1.select_3, list_3);
+
+length_1=list_1.length;
+length_2=list_2.length;
+length_3=list_3.length;
+
+generate(); update();
+
+mainloop();
+		
+</SCRIPT>
+				
+</BODY>
+
+</HTML>

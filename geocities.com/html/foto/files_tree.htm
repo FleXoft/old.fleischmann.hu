@@ -1,0 +1,733 @@
+<htmIl>
+<head>
+	<title>File Selector v2.2</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<SCRIPT language=JavaScript1.2>
+
+function anItem(adesc,alink,awidth,aheight,atext) {
+	this.adesc = adesc
+	this.alink = alink
+	this.awidth = awidth
+	this.aheight = aheight
+	this.atext = atext
+}
+
+var VOLUMES		= new Array
+var CHAPTERS	= new Array
+var ITEMS		= new Array
+
+VOLUMES[1] = new anItem("Esztergom Rallye 2000","http://www.ecssubaru.hu/Keptar/Esztergom_Rally/esztergom_rally.html")
+VOLUMES[2] = new anItem("Egy kicsit m&aacute;s:","")
+VOLUMES[3] = new anItem("BUDAPEST","http://www.budapest.hu/")
+
+CHAPTERS[1] = 3
+CHAPTERS[2] = 4
+CHAPTERS[3] = 1
+
+// Item template
+//ITEMS[x] = new anItem("","",,,"")
+
+//Esztergom Rallye 2000
+ITEMS[1] = new anItem("Esztergom Rallye 2000 #1","http://www.extra.hu/flex/pics/photos/Esztergom_rallye/e1.jpg",600,386,"<tt>&nbsp;<B>Esztergom Rallye (2000)</B></tt><BR><IMG src=../../pics/html/mini_line.gif width=62 height=15><BR>Csak néhány kép...<BR>")
+ITEMS[2] = new anItem("Esztergom Rallye 2000 #2","http://www.extra.hu/flex/pics/photos/Esztergom_rallye/e2.jpg",600,386,"<tt>&nbsp;<B>Esztergom Rallye (2000)</B></tt><BR><IMG src=../../pics/html/mini_line.gif width=62 height=15><BR>Csak néhány kép...<BR>")
+ITEMS[3] = new anItem("Esztergom Rallye 2000 #3","http://www.extra.hu/flex/pics/photos/Esztergom_rallye/e3.jpg",600,401,"<tt>&nbsp;<B>Esztergom Rallye (2000)</B></tt><BR><IMG src=../../pics/html/mini_line.gif width=62 height=15><BR>Csak néhány kép...<BR>")
+
+// Egy kicsit m&aacute;s
+ITEMS[4] = new anItem("Egy &aacute;g","http://www.extra.hu/flex/pics/photos/kedvencek/ag.jpg",438,308,"<tt>&nbsp;<B>Egy &aacute;g (1999)</B></tt><BR><IMG src=../../pics/html/mini_line.gif width=62 height=15><BR>")
+ITEMS[5] = new anItem("Csend&eacute;let a h&ucirc;t&otilde;ben","http://www.extra.hu/flex/pics/photos/kedvencek/huto.jpg",438,308,"<tt>&nbsp;<B>Csend&eacute;let a h&ucirc;t&otilde;ben (1999)</B></tt><BR><IMG src=../../pics/html/mini_line.gif width=62 height=15>")
+ITEMS[6] = new anItem("Ker&iacute;t&eacute;s","http://www.extra.hu/flex/pics/photos/kedvencek/kerites.jpg",438,308,"<tt>&nbsp;<B>Ker&iacute;t&eacute;s (1999)</B></tt><BR><IMG src=../../pics/html/mini_line.gif width=62 height=15>")
+ITEMS[7] = new anItem("Mosogat&aacute;s","http://www.extra.hu/flex/pics/photos/kedvencek/mosogatas.jpg",438,308,"<tt>&nbsp;<B>Mosogat&aacute;s (1999)</B></tt><BR><IMG src=../../pics/html/mini_line.gif width=62 height=15>")
+
+// BUDAPEST
+ITEMS[8] = new anItem("Hajl&eacute;ktalan","http://www.extra.hu/flex/pics/photos/kedvencek/hajlektalan_budapest.jpg",480,320,"<tt>&nbsp;<B>Hajl&eacute;ktalan Budapesten (1999)</B></tt><BR><IMG src=../../pics/html/mini_line.gif width=62 height=15>")
+
+// **************************************************************************
+// Photo tools with Cookie and "realtime" tree for my HomePage
+//
+// Copyright (C) 2000 Flex.
+//   SOCIETE GENERALE HUNGARIA BANK Rt.
+//
+// Designed by FleXoft
+// Written  by FleXoft
+// (mailto: Gyorgy.Fleischmann@socgen.com or gfleischmann@yahoo.com)
+//
+// v2.2 +2001/01/04 Buda, Flex.
+//	Add: minor changes
+//
+// v2.1 +2000/09/14
+//  Chg: New Cookie & better tree system
+//
+// v2.0 +2000/08/31
+//  Add: I got JavaScript source for tree and inserted my code.
+//
+// v1.0 +2000/01/31 Buda, Flex.
+//	Rls: first release.
+//
+// Documentation:
+// --------------
+//
+// TODO:
+// -----
+//
+// ==========================================================================
+//
+// This program is free software; you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation; either version 2, or (at your option)
+// any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program; see the file COPYING.  If not, write to
+// the Free Software Foundation, 675 Mass Ave, Cambridge, MA 02139, USA.
+//
+// **************************************************************************
+
+//
+// Sets cookie values. Expiration date is optional
+//
+function setCookie(name, value, expire) {
+	document.cookie = name + "=" + escape(value) + ((expire == null) ? "" : ("; expires=" + expire.toGMTString()))
+}
+		
+function getCookie(Name)
+{
+	var search = Name + "=";
+	if (document.cookie.length > 0) { 				// if there are any cookies
+       offset = document.cookie.indexOf(search); 
+       if (offset != -1) { 							// if cookie exists 
+         offset += search.length; 
+         // set index of beginning of value
+         end = document.cookie.indexOf(";", offset);
+         // set index of end of cookie value
+         if (end == -1) end=document.cookie.length;
+         return unescape(document.cookie.substring(offset, end));
+        }
+		else {
+			return "4";
+		}
+    }
+	return "4";
+}
+
+function getItem(item) {
+   	window.parent.imagename=ITEMS[item].alink;
+	window.parent.imagewidth=ITEMS[item].awidth;
+   	window.parent.imageheight=ITEMS[item].aheight;
+	window.parent.htmlmessage=ITEMS[item].atext;
+}
+
+//
+// Set current file
+//
+function setfile(filename, x, y, htmlmessage) {
+	var today = new Date()
+	var expires = new Date()
+	expires.setTime(today.getTime() + 1000*60*60*24*365)
+	if (window.parent.imagename!=filename) {
+    	window.parent.imagename=filename;
+		window.parent.imagewidth=x;
+    	window.parent.imageheight=y;
+		window.parent.htmlmessage=htmlmessage;
+    	setCookie("FlexLastPhotoCookie", filename, expires);
+		setCookie("FlexLastPhotoWidthCookie", x, expires);
+		setCookie("FlexLastPhotoHeightCookie", y, expires);
+		setCookie("FlexLastPhotoHTMLMessageCookie", htmlmessage, expires);
+    	window.parent.frames[1].zoom(100);}
+		//else
+		//{window.status="It's the same picture!!!"}
+}
+
+function setfile2(item) {
+	var today = new Date()
+	var expires = new Date()
+	expires.setTime(today.getTime() + 1000*60*60*24*365)
+
+    getItem(item);
+   	setCookie("FlexLastPhoto", item, expires);
+   	window.parent.frames[1].zoom(100);
+}
+  
+//window.parent.imagename=getCookie("FlexLastPhotoCookie");
+
+//if (window.parent.imagename=="") {
+//	window.parent.imagename="http://www.extra.hu/flex/pics/photos/kedvencek/ag.jpg";
+//	window.parent.imagewidth=438;
+//    window.parent.imageheight=308;
+//	window.parent.htmlmessage="";
+//}
+//else {
+//	window.parent.imagewidth=getCookie("FlexLastPhotoWidthCookie");
+//	window.parent.imageheight=getCookie("FlexLastPhotoHeightCookie");
+//	window.parent.htmlmessage=getCookie("FlexLastPhotoHTMLMessageCookie");
+//}
+
+getItem(getCookie("FlexLastPhoto"));
+
+//At the first time
+window.parent.frames[2].document.open(); 
+window.parent.frames[2].document.writeln('<body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0">');
+window.parent.frames[2].document.writeln('<TABLE CELLSPACING="0" CELLPADDING="0" WIDTH="100%" HEIGHT="100%" BORDER="0"><TR><TD VALIGN="middle">');
+window.parent.frames[2].document.writeln('<CENTER><a href="javascript: window.parent.frames[1].zoom(100);"><IMG ALT="100%" SRC="'+window.parent.imagename+'" ' + 'border=0></a></CENTER>');
+window.parent.frames[2].document.writeln('</TD></TR><tr><td align="center" valign="center"><img src="../../pics/html/alert.gif" width="47" height="38" alt="" border="0" align="left"><tt>Copyright to all of the photographs displayed on this site is owned by <b>FLEISCHMANN&nbsp;Gy&ouml;rgy</b>&nbsp;<a href="../contact.htm" target="_parent"><img SRC="../../pics/html/mailto.gif" BORDER=0 height=10 width=14></a>, unless otherwise noted. All rights reserved.</tt></TD></TR></TABLE>');
+	
+// It only works with Netscape. I'm so sad. Hmmmm...
+// window.document.writeln(window.document.images[1].width);
+window.parent.frames[2].document.close();
+
+// **************************************************************************
+
+var bExpanded		= false;						// is tree initially expanded completely
+var bLoaded			= false;						// tree is ready
+var width			= 400;
+var height			= 18;
+var MAX_ITEMS		= VOLUMES.length + ITEMS.length;
+var SPACER_HEIGHT	= (MAX_ITEMS + 4) * height;		// allow space for toc to expand when all nodes visible
+var listX			= 2;							// start x of list
+var listY			= 30;							// start y of list
+var bgColor 		= "FFFFFF";
+
+function BrowserInfo() {
+	var agent = navigator.userAgent.toLowerCase();
+	this.major = parseInt(navigator.appVersion);
+	this.minor = parseFloat(navigator.appVersion);
+	this.ns  = ((agent.indexOf('mozilla')!=-1) && ((agent.indexOf('spoofer')==-1) && (agent.indexOf('compatible') == -1)));
+	this.ns2 = (this.ns && (this.major == 3));
+	this.ns3 = (this.ns && (this.major == 3));
+	this.ns4 = (this.ns && (this.major >= 4));
+	this.ie   = (agent.indexOf("msie") != -1);
+	this.ie3  = (this.ie && (this.major == 2));
+	this.ie4  = (this.ie && (this.major >= 4));
+	this.op3 = (agent.indexOf("opera") != -1);
+}
+
+var browserinfo = new BrowserInfo()
+	
+if (parseInt(navigator.appVersion) < 4) {
+	var item = 0
+	var alink = ""
+	var adesc = ""
+	with (window.document)
+	{
+		writeln('<body bgcolor="FFFFFF">')
+		writeln('<font size=3 face="Arial" color="000000" ><b>Table of Contents</b></font>');
+		writeln('<BR>');
+		writeln('<BR>');
+		writeln('<table border=0 cellpadding=0 cellspacing=0>');
+
+		for (var volume = 1; volume <= (VOLUMES.length-1); volume++)
+		{
+			writeln('<TR>')
+			write('  <TD colspan=2><font size=2 face="Arial"><a href="' + VOLUMES[volume].alink + '" target="CONTENT"><b>' + VOLUMES[volume].adesc + '</b></a></font></td>')
+			writeln('</TR>')
+			
+			for (var chapters=1; chapters <= CHAPTERS[volume]; chapters++)
+			{
+				item += 1
+				alink = ITEMS[item].alink
+				adesc = ITEMS[item].adesc
+				writeln('<tr>')
+				write('  <td valign=top><font size=1 face="Arial"><B>&nbsp;&nbsp;&nbsp;&nbsp;&#149&nbsp;</B></TD>')
+				write('  <td><font size=1 face="Arial"><a href="' + alink + '" target="CONTENT"><b>' + adesc + '</b></a></font></td>')
+				writeln('</tr>')
+			}
+
+			writeln('<tr>')
+			write('  <td colspan=2><font size=2 face="Arial">&nbsp;</font></td>')
+			writeln('</tr>')
+		}
+
+		writeln('</table>');
+		writeln('</body>')
+	}
+}
+
+// resize and list functions
+if(!window.saveInnerWidth) {
+  window.onresize = resize;
+  window.saveInnerWidth = window.innerWidth;
+  window.saveInnerHeight = window.innerHeight;
+}
+
+function resize() {
+	
+    if (saveInnerWidth < window.innerWidth || 
+        saveInnerWidth > window.innerWidth || 
+        saveInnerHeight > window.innerHeight || 
+        saveInnerHeight < window.innerHeight ) 
+    {
+        window.history.go(0);
+    }
+}
+
+var _id = 0, _pid = 0, _lid = 0, _pLayer;
+var _mLists = new Array();
+document.lists = _mLists;
+
+function List(visible, width, height, bgColor) {
+  this.setIndent = setIndent;
+  this.addItem = addItem;
+  this.addList = addList;
+  this.build = build;
+  this.rebuild = rebuild;
+  this.setFont = _listSetFont;
+  this._writeList = _writeList;
+  this._showList = _showList;
+  this._updateList = _updateList;
+  this._updateParent = _updateParent;
+  this.onexpand = null; this.postexpand = null;
+  this.lists = new Array(); 
+  this.items = new Array(); 
+  this.types = new Array(); 
+  this.strs = new Array();  
+  this.x = 0;
+  this.y = 0;
+  this.visible = visible;
+  this.id = _id;
+  this.i = 18;
+  this.space = true;
+  this.pid = 0;
+  this.fontIntro = false;
+  this.fontOutro = false;
+  this.width = width; 
+  this.height = height;
+  this.parLayer = false;
+  this.built = false;
+  this.shown = false;
+  this.needsUpdate = false;
+  this.needsRewrite = false;
+  this.parent = null;
+  this.l = 0;
+  if(bgColor) this.bgColor = bgColor;
+  else this.bgColor = null;
+  _mLists[_id++] = this;
+}
+
+function _listSetFont(i,j) {
+  this.fontIntro = i;
+  this.fontOutro = j;
+}
+
+function setIndent(indent) { this.i = indent; if(this.i < 0) { this.i = 0; this.space = false;} this.space = false; }
+
+function setClip(layer, l, r, t, b) {
+  if(browserinfo.ns4) {
+    layer.clip.left = l; layer.clip.right = r;
+    layer.clip.top = t;  layer.clip.bottom = b;
+  } else {
+    layer.style.pixelWidth = r-l;
+    layer.style.pixelHeight = b-t;
+    layer.style.clip = "rect("+t+","+r+","+b+","+l+")";
+  }
+}
+
+function _writeList() {
+  var layer, str, clip;
+  for(var i = 0; i < this.types.length; i++) { 
+    layer = this.items[i];
+    if(browserinfo.ns4) layer.visibility = "hidden";
+    else layer.style.visibility = "hidden";
+    str = "";
+    if(browserinfo.ns4) layer.document.open();
+    str += "<form name=reptoc><TABLE bgcolor=FFFFFF WIDTH="+this.width+"  BORDER=0 CELLPADDING=0 CELLSPACING=0><TR>";
+    if(this.types[i] == "list") {
+      str += "<TD WIDTH=15  VALIGN=MIDDLE><A HREF=\"javascript:expand("+this.lists[i].id+");\"><IMG BORDER=0 SRC='../../pics/foto/true.gif' NAME=\"_img"+this.lists[i].id+"\"></A></TD>";
+      _pid++;
+    } else if(this.space)
+      str += "<TD WIDTH=15 >&nbsp;</TD>";
+    if(this.l>0 && this.i>0) str += "<TD WIDTH="+this.l*this.i+" >&nbsp;</TD>";
+    str += "<TD HEIGHT="+(this.height-3)+" WIDTH="+(this.width-15-this.l*this.i)+" VALIGN=MIDDLE ALIGN=LEFT>";
+  	self.status = "Table of Contents: " + ITEMS[i+1].adesc + window.parent.imagename
+    if(this.fontIntro) str += this.fontIntro;
+    str += this.strs[i];
+    if(this.fontOutro) str += this.fontOutro;
+    str += "</TD></TABLE></form>";
+   if(browserinfo.ns4) {
+      layer.document.writeln(str);
+      layer.document.close();
+    } else layer.innerHTML = str;
+    if(this.types[i] == "list" && this.lists[i].visible)
+      this.lists[i]._writeList();
+  }
+  this.built = true;
+  this.needsRewrite = false;
+  self.status = '';
+}
+
+function _showList() {
+  var layer;
+  for(var i = 0; i < this.types.length; i++) { 
+    layer = this.items[i];
+    setClip(layer, 0, this.width, 0, this.height-1);
+    if(browserinfo.ie4) {
+      if(layer.oBgColor) layer.style.backgroundColor = layer.oBgColor;
+      else layer.style.backgroundColor = this.bgColor;
+    } else {
+      if(layer.oBgColor) layer.document.bgColor = layer.oBgColor;
+      else layer.document.bgColor = this.bgColor;
+    }
+    if(this.types[i] == "list" && this.lists[i].visible)
+      this.lists[i]._showList();
+  }
+  this.shown = true;
+  this.needsUpdate = false;
+}
+
+function _updateList(pVis, x, y) {
+  var currTop = y, layer;
+  for(var i = 0; i < this.types.length; i++) { 
+    layer = this.items[i];
+    if(this.visible && pVis) {
+      if(browserinfo.ns4) {
+	layer.visibility = "visible";
+	layer.top = currTop;
+	layer.left = x;
+      } else {
+	layer.style.visibility = "visible";
+	layer.style.pixelTop = currTop;
+	layer.style.pixelLeft = x;
+      }
+      currTop += this.height;
+    } else {
+      if(browserinfo.ns4) layer.visibility = "hidden";
+      else layer.style.visibility = "hidden";
+    }
+    if(this.types[i] == "list") {
+      if(this.lists[i].visible) {
+        if(!this.lists[i].built || this.lists[i].needsRewrite) this.lists[i]._writeList();
+        if(!this.lists[i].shown || this.lists[i].needsUpdate) this.lists[i]._showList();
+        if(browserinfo.ns4) layer.document.images[0].src = "../../pics/foto/true.gif";
+	else eval('document.images._img'+this.lists[i].id+'.src = "../../pics/foto/true.gif"');
+      } else {
+	if(browserinfo.ns4) layer.document.images[0].src = "../../pics/foto/false.gif";
+	else eval('document.images._img'+this.lists[i].id+'.src = "../../pics/foto/false.gif"');
+      }
+      if(this.lists[i].built)
+        currTop = this.lists[i]._updateList(this.visible && pVis, x, currTop);
+    }
+  }
+  return currTop;
+}
+
+function _updateParent(pid, l) {
+  var layer;
+  if(!l) l = 0;
+  this.pid = pid;
+  this.l = l;
+  for(var i = 0; i < this.types.length; i++)
+    if(this.types[i] == "list")
+      this.lists[i]._updateParent(pid, l+1);
+}
+
+function expand(i) {
+  _mLists[i].visible = !_mLists[i].visible;
+  if(_mLists[i].onexpand != null) _mLists[i].onexpand(_mLists[i].id);
+  _mLists[_mLists[i].pid].rebuild();
+  if(_mLists[i].postexpand != null) _mLists[i].postexpand(_mLists[i].id);
+}
+
+function build(x, y) {
+  this._updateParent(this.id);
+  this._writeList();
+  this._showList();
+  this._updateList(true, x, y);
+  this.x = x; this.y = y;
+}
+
+function rebuild() { this._updateList(true, this.x, this.y); }
+
+function addItem(str, bgColor, layer) {
+  var testLayer = false;
+  if(!document.all) document.all = document.layers;
+  if(!layer) {
+    if(browserinfo.ie4 || !this.parLayer) testLayer = eval('document.all.lItem'+_lid);
+    else {
+      _pLayer = this.parLayer;
+      testLayer = eval('_pLayer.document.layers.lItem'+_lid);
+    }
+    if(testLayer) layer = testLayer;
+    else {
+      if(browserinfo.ns4) {
+	if(this.parLayer) layer = new Layer(this.width, this.parLayer);
+	else layer = new Layer(this.width);
+      } else return;
+    }
+  }
+  if(bgColor) layer.oBgColor = bgColor;
+  this.items[this.items.length] = layer;
+  this.types[this.types.length] = "item";
+  this.strs[this.strs.length] = str;
+  _lid++;
+}
+
+function addList(list, str, bgColor, layer) {
+  var testLayer = false;
+  if(!document.all) document.all = document.layers;
+  if(!layer) {
+    if(browserinfo.ie4 || !this.parLayer) testLayer = eval('document.all.lItem'+_lid);
+    else {
+      _pLayer = this.parLayer;
+      testLayer = eval('_pLayer.document.layers.lItem'+_lid);
+    }
+    if(testLayer) layer = testLayer;
+    else {
+      if(browserinfo.ns4) {
+	if(this.parLayer) layer = new Layer(this.width, this.parLayer);
+	else layer = new Layer(this.width);
+      } else return;
+    }
+  }
+  if(bgColor) layer.oBgColor = bgColor;
+  this.lists[this.items.length] = list;
+  this.items[this.items.length] = layer;
+  this.types[this.types.length] = "list";
+  this.strs[this.strs.length] = str;
+  list.parent = this;
+  _lid++;
+}
+
+document.vlinkColor = document.linkColor
+document.alinkColor = document.linkColor
+document.linkColor	= document.linkColor
+
+var onit		= new Image()
+var ofit		= new Image()
+var cursel		= new Image()
+onit.src		= "../../pics/foto/tocarw.gif" 
+ofit.src		= "../../pics/foto/tocclr.gif"  
+cursel.src		= "../../pics/foto/tocsel.gif" 
+var curlink		= null
+var prvlink		= null
+
+// List initialization
+var subvar = new Array()
+var image = 0
+var vol   = 0
+var sublist = null
+var  l = new List(true, width, height, bgColor);
+
+l.setFont("<FONT FACE='Arial' SIZE=-1'>","</FONT>");
+
+function imgover(id) {
+  	if (browserinfo.ns4) {	
+		var objstr = "document.layers[" + id + "].document.reptoc.wt" + id
+		img = eval(objstr) 
+	}
+	else {
+		img = eval("document.wt" + id) 
+	}
+    if (curlink && img == curlink)
+      img.src = cursel.src  
+    else
+      img.src = onit.src
+}
+
+function imgout(id) {
+	var img
+	
+  	if (browserinfo.ns4){
+		var objstr = "document.layers[" + id + "].document.reptoc.wt" + id
+		img = eval(objstr) 
+	}
+	else
+		img = eval("document.wt" + id) 
+
+	if (curlink && img == curlink)
+		img.src = cursel.src
+    else
+		img.src = ofit.src
+}
+
+function currentVol() {
+	if (prvlink)
+		prvlink.src = ofit.src
+}
+
+function current(id, bVolume) {
+  	if (browserinfo.ns4){		
+		var objstr = "document.layers[" + id + "].document.reptoc.wt" + id
+		img = eval(objstr) 
+	}
+	else
+		img = eval("document.wt" + id) 
+
+	if (img && img != curlink){
+		curlink = img
+		if ( !bVolume )
+			curlink.src = cursel.src
+		if (prvlink)
+			prvlink.src = ofit.src
+		prvlink = curlink
+	}
+}
+
+var nscontrol		= false
+document.onkeydown	= keyPressed
+
+function loaddbg() {
+	top.frames.CONTENT.location.href = "indexdbgstats.html"
+}
+
+function keyPressed(evt) {
+	var theKey
+	if (browserinfo.ns4) 	{
+		modif = (evt.modifiers & Event.CONTROL_MASK)
+		if ( modif == 2) {
+			nscontrol = true
+			return
+		}
+		if ( nscontrol && evt.which == 48) {
+			loaddbg()
+		}
+		else if (evt.modifiers == 0) {
+			nscontrol = false
+		}
+	}
+	else {
+		if (window.event.keyCode == 48 && window.event.ctrlKey)
+			loaddbg()
+	}
+}
+
+function subnode(numElements) {
+	this.list			= new List(bExpanded, width, height, bgColor);
+	this.numElements	= numElements
+}
+
+function initsublist() {
+	sublist = new subnode(0)
+    sublist.list.setIndent(0);
+    sublist.list.setFont("<FONT FACE='Arial' SIZE=-2>","</FONT>");
+ 	cursublist = sublist
+    return sublist
+}
+
+// Items
+function addsubitem(reportlink,reportdesc,reportwidth,reportheight,reporttext) {	
+	image++;
+	cursublist.numElements++;
+	if (reportlink=="") {
+	cursublist.list.addItem("<nobr><img name=wt" + image + " src='../../pics/foto/tocclr.gif'>" + reportdesc + "</font></A></nobr>");
+	}
+	else {
+	cursublist.list.addItem("<nobr><img name=wt" + image + " src='../../pics/foto/tocclr.gif'><a href='" + "javascript:setfile(" + '"' + reportlink + '",' + reportwidth + "," + reportheight + "," + '"' + reporttext + '"' + ")" + "'  style='text-decoration:none' onClick='current(" + image + ");return true;' onMouseOver='imgover(" + image + ");return true;' onMouseOut='imgout(" + image + ");return true;'>&nbsp;<font face='Arial'>" + reportdesc + "</font></A></nobr>");
+	}
+}
+
+function addsubitem2(item) {	
+	image++;
+	cursublist.numElements++;
+	if (ITEMS[item].alink=="") {
+	cursublist.list.addItem("<nobr><img name=wt" + image + " src='../../pics/foto/tocclr.gif'>" + ITEMS[item].adesc + "</font></A></nobr>");
+	}
+	else {
+	//cursublist.list.addItem("<nobr><img name=wt" + image + " src='../../pics/foto/tocclr.gif'><a href='" + "javascript:setfile(" + '"' + reportlink + '",' + reportwidth + "," + reportheight + "," + '"' + reporttext + '"' + ")" + "'  style='text-decoration:none' onClick='current(" + image + ");return true;' onMouseOver='imgover(" + image + ");return true;' onMouseOut='imgout(" + image + ");return true;'>&nbsp;<font face='Arial'>" + ITEMS[item].adesc + "</font></A></nobr>");
+	cursublist.list.addItem("<nobr><img name=wt" + image + " src='../../pics/foto/tocclr.gif'><a href='" + "javascript:setfile2(" + '"' + item + '")' + "'  style='text-decoration:none' onClick='current(" + image + ");return true;' onMouseOver='imgover(" + image + ");return true;' onMouseOut='imgout(" + image + ");return true;'>&nbsp;<font face='Arial'>" + ITEMS[item].adesc + "</font></A></nobr>");
+	}
+}
+
+function addvolume(vollink,voldesc) {
+	vol++
+	image++
+	if (vollink=="") {
+	l.addList(cursublist.list, "<nobr>" + voldesc + "</nobr>");
+	}
+	else {
+	l.addList(cursublist.list, "<nobr><A HREF='" + vollink + "' TARGET='_parent' onClick='currentVol();return true;' style='color:0066FF;text-decoration:none'>" + voldesc + "</a>");
+	}
+}
+
+function expandAll() {
+	if (bLoaded) {
+		for (var i=1; i < l.types.length +1; i++)
+		{
+ 		 _mLists[i].visible = true
+ 		 if(_mLists[i].onexpand != null) 
+			_mLists[i].onexpand(_mLists[i].id);
+  		 _mLists[_mLists[i].pid].rebuild();
+  		 if(_mLists[i].postexpand != null) 
+			_mLists[i].postexpand(_mLists[i].id);
+		}
+	}
+}
+
+function collapseAll() {
+	if (bLoaded) {
+		for (var i=1; i < l.types.length +1; i++)
+		{
+ 		 _mLists[i].visible = false
+ 		 if(_mLists[i].onexpand != null) 
+			_mLists[i].onexpand(_mLists[i].id);
+  		 _mLists[_mLists[i].pid].rebuild();
+  		 if(_mLists[i].postexpand != null) 
+			_mLists[i].postexpand(_mLists[i].id);
+		}
+	}
+}
+
+function init() {
+   var item = 0
+
+   for (var volume = 1; volume <= (VOLUMES.length-1); volume++)
+   {
+		subvar[vol] = initsublist();
+		for (var chapters=1; chapters <= CHAPTERS[volume]; chapters++)
+		{
+			item++
+			subvar[vol] = addsubitem2(item)
+			//subvar[vol] = addsubitem(ITEMS[item].alink, ITEMS[item].adesc, ITEMS[item].awidth, ITEMS[item].aheight, ITEMS[item].atext)
+		}
+		addvolume(VOLUMES[volume].alink, VOLUMES[volume].adesc)
+   }
+
+  l.build(listX,listY);
+  bLoaded = true
+}
+
+var TOC_HTML
+
+TOC_HTML =  '<style TYPE="text/css">'
+TOC_HTML += '#spacer {margin-top:0;position:absolute; height:' + SPACER_HEIGHT + ';z-index:0}'
+TOC_HTML += 'BODY {margin-top:0; margin-left:0; background-color:FFFFFF;}'
+
+for (var i=0; i <= MAX_ITEMS; i++) {
+	TOC_HTML += '#lItem' + i + ' { position:absolute; }'
+}
+
+TOC_HTML += '</style>'
+TOC_HTML += '<body marginHeight=0 marginWidth=0 bgcolor="FFFFFF" onLoad="init();">'
+
+if (browserinfo.ns4) {
+	TOC_HTML += '<form name=frmtoc>'
+	TOC_HTML += '<a href="javascript:expandAll();"><img width=22 height=14 name=treExp valign=top border=0 alt="Expand all sections"   src="../../pics/foto/expall.gif"></a>'
+	TOC_HTML += '<a href="javascript:collapseAll();"><img width=22 height=14 name=treCol valign=top border=0 alt="Collapse all sections" src="../../pics/foto/collall.gif"></a>'
+	TOC_HTML += '<a href="../../index.html" target="_parent"><IMG border=0 height=22 src="../../pics/html/myhome.jpg" width=22></a>'
+ 	TOC_HTML += '</form>'
+}
+else {
+	TOC_HTML += '<img style="cursor:hand" onClick="expandAll();" width=22 height=14 border=0 alt="Expand all sections"   src="../../pics/foto/expall.gif">'
+	TOC_HTML += '<img style="cursor:hand" onClick="collapseAll();" width=22 height=14 border=0 alt="Collapse all sections" src="../../pics/foto/collall.gif">'
+	TOC_HTML += '<a href="../../index.html" target="_parent"><IMG border=0 height=22 src="../../pics/html/myhome.jpg" width=22></a>'
+}
+
+TOC_HTML += '<div ID="spacer"></div>'
+
+for (var i=0; i <= MAX_ITEMS; i++) {
+	TOC_HTML += '<div ID="lItem' + i + '" name="lItem' + i + '"></div>'
+}
+
+document.writeln( TOC_HTML )
+
+</SCRIPT>
+
+</body>
+
+</html>
+

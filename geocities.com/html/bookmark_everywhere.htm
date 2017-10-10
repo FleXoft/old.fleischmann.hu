@@ -1,0 +1,140 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Bookmarks Everywhere project</TITLE>
+
+<style>
+.spanstyle {
+	position:absolute;
+	visibility:visible;
+	top:-50px;
+	font-size:8pt;
+	font-family:Courier;
+	color:black;
+}
+</style>
+<script>
+
+/*
+Cursor Trailor Text- By Peter Gehrig (http://www.24fun.ch/)
+Permission given to Dynamicdrive.com to feature script in it's archive.
+For full source code, installation instructions, and 1000's more DHTML scripts,
+visit http://dynamicdrive.com
+*/
+
+var x,y
+var step=10
+var flag=0
+
+// Your snappy message. Important: the space at the end of the sentence!!!
+var message=" Flex from [FleXoft!] "
+message=message.split("")
+
+var xpos=new Array()
+for (i=0;i<=message.length-1;i++) {
+	xpos[i]=-50
+}
+
+var ypos=new Array()
+for (i=0;i<=message.length-1;i++) {
+	ypos[i]=-50
+}
+
+function handlerMM(e){
+	x = (document.layers) ? e.pageX : document.body.scrollLeft+event.clientX
+	y = (document.layers) ? e.pageY : document.body.scrollTop+event.clientY
+	flag=1
+}
+
+function makesnake() {
+	if (flag==1 && document.all) {
+    	for (i=message.length-1; i>=1; i--) {
+   			xpos[i]=xpos[i-1]+step
+			ypos[i]=ypos[i-1]
+    	}
+		xpos[0]=x+step
+		ypos[0]=y
+	
+		for (i=0; i<message.length-1; i++) {
+    		var thisspan = eval("span"+(i)+".style")
+    		thisspan.posLeft=xpos[i]
+			thisspan.posTop=ypos[i]
+    	}
+	}
+	
+	else if (flag==1 && document.layers) {
+    	for (i=message.length-1; i>=1; i--) {
+   			xpos[i]=xpos[i-1]+step
+			ypos[i]=ypos[i-1]
+    	}
+		xpos[0]=x+step
+		ypos[0]=y
+	
+		for (i=0; i<message.length-1; i++) {
+    		var thisspan = eval("document.span"+i)
+    		thisspan.left=xpos[i]
+			thisspan.top=ypos[i]
+    	}
+	}
+		var timer=setTimeout("makesnake()",30)
+}
+
+</script>  
+  
+</HEAD>
+
+<BODY BGCOLOR="#ffffff" bottommargin="0" topmargin="0" leftmargin="0" rightmargin="0" onLoad="makesnake()" style="width:100%;overflow-x:hidden;overflow-y:scroll">
+
+<script>
+<!-- Beginning of JavaScript -
+
+for (i=0;i<=message.length-1;i++) {
+    document.write("<span id='span"+i+"' class='spanstyle'>")
+	document.write(message[i])
+    document.write("</span>")
+}
+
+if (document.layers){
+	document.captureEvents(Event.MOUSEMOVE);
+}
+document.onmousemove = handlerMM;
+
+// - End of JavaScript - -->
+</script>
+
+<table border="0" width="99%" cellpadding="0" cellspacing="0" cols="2">
+<tr>
+	<td width=130 align="center" valign="top">
+	<table border="0" width="130" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width=130 align="left" valign="top">
+		<table border="1" width="99%" cellpadding="0" cellspacing="0">
+		<tr>
+			<td width=11 align="left" valign="top">
+			<img src="../pics/foto/false.gif" width="11" height="11" alt="" border="0">
+			</td>
+			<td align="left" bgcolor="Fuchsia">
+			<a href=""><font face="Arial,serif" size="-5">XXX</font></a>&nbsp;<img src="../pics/foto/false.gif" width="11" height="11" alt="" border="0"><img src="../pics/foto/false.gif" width="11" height="11" alt="" border="0">
+			</td>
+		</tr>
+		<tr>
+			<td width=11 align="left" valign="top">
+			<img src="../pics/foto/false.gif" width="11" height="11" alt="" border="0">
+			</td>
+			<td align="left" bgcolor="Fuchsia">
+			<a href=""><font face="Arial,serif" size="-5">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx x </font></a>&nbsp;<img src="../pics/foto/false.gif" width="11" height="11" alt="" border="0"><img src="../pics/foto/false.gif" width="11" height="11" alt="" border="0">
+			</td>
+		</tr>
+		</table>
+		</td>
+	</tr>
+	</table>
+	</td>
+	<td align="left" bgcolor="Fuchsia">
+	&nbsp;sdjskldljskld sldjls ldjsljdlsj ljdlsj ld slldsjl jdls</td>
+</tr>
+</table>
+
+</body>
+
+</html>

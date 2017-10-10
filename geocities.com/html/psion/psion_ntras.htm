@@ -1,0 +1,62 @@
+<html>
+
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <title>Connecting a Psion S3x to MS WinNT 4.0 RAS</title>
+</head>
+
+<body background="../../pics/psion/psionbg.gif">
+
+<center>
+<h1>
+<font size=+4>Connecting a Psion S3x to MS WinNT 4.0 RAS...</font></h1></center>
+I read <a href="http://pages.ncipher.com/~nicko/psion/psion.html">Nicko van Someren's</a> page where he describe
+how he had connected his Psion S5 to an NT RAS server.
+<br>I was very curious that would it work with my S3c and PsiMail Internet...
+<center><p><img SRC="../../pics/psion/psisync.gif"><br><font size=+4>...it also works!!!</font></center>
+
+<p><font size=+0>Before you start read <a href="http://pages.ncipher.com/~nicko/psion/psion.html">his page</a> through
+for some details.</font>
+<div align=right><font size=+0><a href="../contact.htm">Gyurci/Flex.</a></font></div>
+Finally I want to suggest a <a href="http://ourworld.compuserve.com/homepages/Jochen_Siegenthaler/">Jochen Siegenthaler's Web Page</a> page where you can find summery, tricks, tips, prv files for PsiMail Internet.
+
+<p>...and <a href="ras.htm">Greg Dawson's mail</a>. (I've not found the original article...)
+
+<hr NOSHADE WIDTH="100%">
+
+<h2>Configuring the Psion</h2>
+I made it on my PSION SERIES 3c (Version: 5.20F - English).
+<p>Setting up the Psion to contact the NT RAS server is very easy. I made
+two example files for simple setup:
+<p>&nbsp;&nbsp;&nbsp;&nbsp; - <A HREF="http://www.extra.hu/flex/down/net/WIN_NT40.SCR">Win_nt40.scr</A> - script file - <A HREF="http://www.extra.hu/flex/down/net/WIN_NT40.SCR">download it</A>!
+<br>&nbsp;&nbsp;&nbsp;&nbsp; - <A HREF="http://www.extra.hu/flex/down/net/WIN_NT40.CFG">Win_nt40.cfg</A> - setup file - <A HREF="http://www.extra.hu/flex/down/net/WIN_NT40.CFG">download it</A>!
+<p>You have to fill in the TCP/IP details with your own settings. You will
+then need to change to the <b>Account</b> tab and fill in your user name
+and password. It must be the same as in the CHAP setting will be on your
+NT.
+<h2>
+Setting up the NT RAS server</h2>
+Microsoft Windows NT Workstation 4.0 [with SP3] is the system I use.
+<p>First step is to install the Remote Access Server (RAS). Some picture
+show how I did it:
+<p><img SRC="../../pics/psion/dlgbox01.gif" height=571 width=612>
+<p><img SRC="../../pics/psion/dlgbox02.gif" height=574 width=608>
+<p><img SRC="../../pics/psion/dlgbox03.gif" height=568 width=600>
+<p><img SRC="../../pics/psion/dlgbox04.gif" height=323 width=441>
+<p><img SRC="../../pics/psion/dlgbox05.gif" height=571 width=595>
+<p><img SRC="../../pics/psion/dlgbox06.gif" height=566 width=717>
+<p>Don't forget to set your logon name and password into the registry.
+After this stop and re-start the RAS service from the services entry on
+the NT control panel.
+<p><img SRC="../../pics/psion/dlgbox07.gif" height=179 width=347><img SRC="../../pics/psion/dlgbox08.gif" height=358 width=600>
+<h2>
+Known bugs, problems:</h2>
+&nbsp;&nbsp;&nbsp; I noticed only two problems so far:
+<blockquote><img SRC="../../pics/html/dart.gif"> When I want to connect with "SETUP" application it often
+doesn't connect. If I use the "TOOLS", "MAIL" or "WEB" (built-in) connect function it works ALWAYS!!!</blockquote>
+<blockquote><img SRC="../../pics/html/dart.gif"> If you install the NT Service Pack 5 it'll change the %SystemRoot%\SYSTEM32\RASCHAP.DLL file and you won't be able to connect. You need to copy the old one. Here is the <a href=http://www.extra.hu/flex/down/raschap.zip>raschap.dll</a> SP3.</blockquote>
+<blockquote><img SRC="../../pics/html/dart.gif"> If you have any comments let me know. <a href="../contact.htm">Gyurci</a></blockquote>
+
+</body>
+
+</html>

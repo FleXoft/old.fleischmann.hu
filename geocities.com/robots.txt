@@ -1,0 +1,6 @@
+# /robots.txt file for http://www.geocities.com/gfleischmann/
+# mail GFleischmann@geocities.com for constructive criticism
+
+User-agent: *
+Disallow: /
+

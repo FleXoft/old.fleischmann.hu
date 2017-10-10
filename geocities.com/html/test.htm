@@ -1,0 +1,363 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Test page</TITLE>
+  
+<SCRIPT LANGUAGE="javascript">
+
+	pic1=new Image();
+	pic1.src="../pics/html/arrow_up.gif";
+	pic2=new Image();
+	pic2.src="../pics/html/back.gif";
+
+	home_on=new Image;
+	home_on.src="../pics/html/arrow_up.gif";
+	home_off=new Image;
+	home_off.src="../pics/html/back.gif";
+
+// **************************************************************************
+// change_image for my HomePage
+//
+// Copyright (C) 2000 Flex.
+//   SOCIETE GENERALE HUNGARIA BANK Rt.
+//
+// Designed by FleXoft
+// Written  by FleXoft
+// (mailto: Gyorgy.Fleischmann@socgen.com or gfleischmann@yahoo.com)
+//
+// v1.0 +2000/02/25 Buda, Flex.
+//	Rls: first release.
+//
+// Documentation:
+// --------------
+//
+// preLoading the pictures:
+// ------------------------
+//
+//	pic1=new Image();
+//	pic1.src="../pics/html/pic1.gif";
+//	pic2=new Image();
+//	pic2.src="../pics/html/pic2.gif";
+//
+//  Using:
+//  ------
+//
+//  <A HREF="http://?" onMouseOver="change_image('pic', pic1);" onMouseOut="change_image('pic', pic2);">
+//  <IMG SRC="../pics/html/pic2.gif" WIDTH=16 HEIGHT=16 ALT="" BORDER="0" name="pic">
+//  </A>
+//
+// TODO:
+// -----
+//
+// ==========================================================================
+//
+// This program is free software; you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation; either version 2, or (at your option)
+// any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program; see the file COPYING.  If not, write to
+// the Free Software Foundation, 675 Mass Ave, Cambridge, MA 02139, USA.
+//
+// **************************************************************************
+
+function change_image (name, to)
+{
+	document.images[name].src = to.src;
+}
+
+</SCRIPT>
+ 
+</HEAD>
+
+<body bgcolor="black" text="lime" link="white" vlink="#228b22">
+
+<FORM method="post" action="http://primo/cgi-bin/flextest.cgi">
+<TR>
+<TH ALIGN="right">Username:</TH>
+<TD ALIGN="left"><INPUT NAME="username" SIZE=20 MAXLENGTH=10></TD>
+</TR>
+<TR>
+<TH ALIGN="right">Password:</TH>
+<TD ALIGN="left"><INPUT TYPE="password" NAME="password" SIZE=20 MAXLENGTH=10></TD>
+</TR>
+<TR>
+<TD><BR></TD>
+<TD ALIGN="left"><INPUT TYPE="submit" VALUE="Submit"></TD>
+</TR>             
+</FORM>
+
+
+
+<!--#echo "alma test" -->
+
+<embed src="http://www.computerhope.com/clouds.mid" align="baseline" border="0" width="145" height="60" autostart="false" loop="true">
+
+<div align="center"><center>
+      <table border="1" width="60%">
+      <tr>
+        <td width="30">&nbsp;</td>
+        <td width="30" bgcolor="#BD0000">&nbsp;</td>
+        <td width="30" bgcolor="#7E0000">&nbsp;</td>
+        <td bgcolor="#3F0000">&nbsp;</td>
+        <td width="30" bgcolor="#7E0000">&nbsp;</td>
+        <td width="30" bgcolor="#BD0000">&nbsp;</td>
+        <td width="30">&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="30" bgcolor="#BD0000">&nbsp;</td>
+        <td width="30" bgcolor="#7E0000">&nbsp;</td>
+        <td width="30" bgcolor="#3F0000">&nbsp;</td>
+        <td bgcolor="#000000"><p align="center"><FONT color="#FFFFFF"></FONT></p></td>
+        <td width="30" bgcolor="#3F0000">&nbsp;</td>
+        <td width="30" bgcolor="#7E0000">&nbsp;</td>
+        <td width="30" bgcolor="#BD0000">&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="30">&nbsp;</td>
+        <td width="30" bgcolor="#BD0000">&nbsp;</td>
+        <td width="30" bgcolor="#7E0000">&nbsp;</td>
+        <td bgcolor="#3F0000">&nbsp;</td>
+        <td width="30" bgcolor="#7E0000">&nbsp;</td>
+        <td width="30" bgcolor="#BD0000">&nbsp;</td>
+        <td width="30">&nbsp;</td>
+      </tr>
+      </table>
+      </center></div>
+
+	  <table cols="3" border=1 width=149 height=149 cellpadding="0" cellspacing="0" align="left">
+	  <tr>
+	    <td colspan="3"><img src="../pics/foto/diakeret_red_top.jpg" alt="" border="0"></td>
+	  </tr>
+	  <tr>
+	    <td><img src="../pics/foto/diakeret_red_left.jpg" alt="" border="0"></td>
+		<!-- 108x72 -->
+		<td width=108 height=72 align="left">a</td>
+		<td align="right"><img src="../pics/foto/diakeret_red_right.jpg" alt="" border="0"></td>
+	  </tr>
+	  <tr>
+	    <td colspan="3"><img src="../pics/foto/diakeret_red_bottom.jpg" alt="" border="0"></td>
+	  </tr>
+	  </table>
+ 	  		
+	  <BR clear="all">
+	  
+	  
+
+<TABLE CELLSPACING="0" CELLPADDING="0" WIDTH=100% HEIGHT=100%>
+<TR>
+<TD><IMG SRC="../pics/muhely.jpg" ALT="" BORDER="0" HEIGHT="100%"></TD>
+</TR>
+</TABLE>
+
+<A HREF="" onMouseOver="change_image('pic', pic1);" onmouseout="change_image('pic', pic2);"><IMG SRC="../pics/html/back.gif" WIDTH=16 HEIGHT=16 ALT="" BORDER="0" name="pic"></A>
+
+<a href="index.html" target="_top" onmouseover="home.src=home_on.src; window.status='Home'; return true;" onmouseout="home.src=home_off.src">
+<img  height="21" width="16" src="../pics/html/back.gif" border="0" name="home" alt="LinuxWorld Expo Home"></a>
+
+Los Angeles School District<BR>
+Felsotagozatos Matematika Dolgozat<BR>
+Nev___________________ Gang____________________<BR>
+<BR>
+1. Mike-nak van egy 30 toltenyes pisztolya. Ahogy a  highwayen kocsikra
+lovoldozik, 10 kozul csak 6-ot talal el, es minden alkalommal 13-szor lo.
+Hany lovoldozesben vehet reszt anelkul, hogy ujra kellene toltenie?<BR>
+2. Johnnak van 2 dkg. kokainja. Elad Jimminek 8 grammot $320-ert es 2 grammot
+Billynek $80-ert. Hany dollar erteku kokainja marad meg a vegen?<BR>
+3. Richard 3 lanyt futtat. Ha minden ferfi $65-ot fizet, hany ferfit kell
+egy-egy lanynak felszedni, hogy Richard 800 dollaros napi kabitoszer szukseglete
+fedezve legyen?<BR>
+4. Jacob fel akarja a 25 dkg heroinjat higitani ugy, hogy 20%-kal tobb profitja
+legyen. Mennyi "higitoszerre" van szuksege ehhez?<BR>
+5. Willie $200-at kap egy BMW lopasaert, $50-et egy Chevroletert es $100-at
+mikrobuszert. Ha lopott 2 BMW-t es 3 mikrobuszt, hany Chevy-t kell lopnia hogy
+$800-ja legyen?<BR>
+6. Robert 6 evet tolt bortonben gyilkossagert. A zsakmanybol a resze $10.000
+volt. Ha a no akivel osszeallt havi 100 dollart kolt havonta, mennyi penze marad
+ha kijon a bortonbol, es hany evet fog kapni ha megoli a not amiert elkoltotte a
+penzet?<BR>
+
+<tt>
+<BR>
+For the InSync menu to appear in Notes your Notes.ini file should indeed contain the following entry:
+
+AddinMenus=InSyncMenu.dll
+
+Make sure once you have added this line, that your "InSyncMenu.dll" is located in your Notes directory.
+The next time you run Lotus Notes, your InSync Menu should be available.
+
+<BR>
+<BR>
+
+> A GraFtonnak elkuldeni. -><BR>
+> PDF és DOC verzió -> PDF OK.<BR>
+> Mazák Viktor-nak levél -> Csabinak elküldve. -> megj&ouml;tt a v&aacute;lasz.-> &Iacute;rtam a Viktornak. -> &Otilde; vissza&iacute;rt -> &Eacute;n megint &iacute;rtam -> Semmi v&aacute;lasz -> &Iacute;rok m&eacute;g...
+<BR>
+> index.newyork -> nincs e-mail cim. DeadLine.<BR>
+<BR>
+jobs & jobs search<BR>
+------------------<BR>
+<BR>
+http://jobs.internet.com/<BR>
+http://www.bestjobsusa.com/<BR>
+www.computerjobs.com<BR>
+www.fedworld.gov/jobs/jobsearch.html<BR>
+classifieds.mercurycenter.com/classifieds/jobhunter/indexnojava.html<BR>
+www.usajobs.opm.gov<BR>
+www.ajb.dni.us<BR>
+www.hotjobs.com<BR>
+www.nationjob.com<BR>
+www.ajb.dni.us<BR>
+www.dice.com<BR>
+www.careermosaic.com<BR>
+www.jobweb.org<BR>
+www.monster.com<BR>
+<BR>
+www.jobtrak.com<BR>
+www.collegegrad.com<BR>
+www.careermosaic.com<BR>
+www.overseasjobs.com<BR>
+jobstar.org<BR>
+www.summerjobs.com<BR>
+www.fedworld.gov<BR>
+wa.jobsearch.org<BR>
+www.earthweb.com/jobs/<BR>
+www.jobvertise.com<BR>
+www.jobbankusa.com<BR>
+www.bestjobsusa.com<BR>
+www.joblink-usa.com<BR>
+www.job-hunt.org<BR>
+www.1-jobs.com/jobs.htm<BR>
+careerdb.theglobeandmail.com/jobshome/plsql/cc.search_cri<BR>
+www.cweb.com<BR>
+www.americanjobs.com<BR>
+www.ceweekly.wa.com<BR>
+www.hrsjobs.com<BR>
+<BR>
+tefl.com/jobs/search.htm<BR>
+<BR>
+job foreigner<BR>
+-------------<BR>
+www.careermag.com/bbs/ubb/Forum5/HTML/000024.html<BR>
+<BR>
+job foreigner usa<BR>
+-----------------<BR>
+www.bbb.org/library/joblist.html<BR> 
+<BR>
+work foreigner usa<BR>
+------------------<BR>
+<BR>
+magyarok usa<BR>
+------------<BR>
+<BR>
+http://www.undergrad.math.uwaterloo.ca/~kmszekel/Main.html<BR>
+<BR>
+munka usa-ban<BR>
+-------------<BR>
+<BR>
+http://www.wesselenyi.com/karrier/<BR>
+<BR>
+</tt>
+
+<script language = "JavaScript">
+
+function testSelect(form){
+
+        DeviceIndex = form.devicelist.selectedIndex;
+        OSIndex = form.oslist.selectedIndex;
+        PIMIndex = form.pimlist.selectedIndex;
+
+        var destlocation = "http://www.timeis.com"
+        if(OSIndex < 2){
+                if(PIMIndex == 2){
+                        destlocation += "/live/timewebs/timewebs.nsf/7f485d876c8fcef58025655300360214/65f15a548711912d802566d6003f349f?OpenDocument";
+                }
+                else{
+                        if(PIMIndex == 3){
+                                destlocation += "/live/timewebs/timewebs.nsf/7f485d876c8fcef58025655300360214/4749360a1e51b722802566750039c052?OpenDocument";
+                        }
+                        else{
+                                destlocation += "/live/timewebs/timewebs.nsf/7f485d876c8fcef58025655300360214/3b11012c319a47138025656b00379797?OpenDocument";
+                        }
+                }
+        }
+        else {
+                if((DeviceIndex > 0) && (DeviceIndex < 4)){
+                        if((PIMIndex > 0) && (PIMIndex < 4)){
+                                destlocation += "/live/timewebs/timewebs.nsf/7f485d876c8fcef58025655300360214/c3e8c9930cfb37d0802567a9005471df?OpenDocument";
+                        }
+                        else{
+                                destlocation += "/live/timewebs/timewebs.nsf/7f485d876c8fcef58025655300360214/4749360a1e51b722802566750039c052?OpenDocument";
+                        }
+                }
+                else{
+                        destlocation += "/live/timewebs/timewebs.nsf/7f485d876c8fcef58025655300360214/4749360a1e51b722802566750039c052?OpenDocument";
+                }
+        }
+
+        location = destlocation;
+}
+
+</script>
+
+<!-- Image with table -->
+<CENTER>
+<table border="0" cellpadding="0" cellspacing="0" width="498">
+  <tr><!-- spacing row, 0 height. -->
+   <td><img src="gifs/psion-table_00.gif" width="79" height="1" border="0"></td>
+   <td><img src="gifs/psion-table_00.gif" width="369" height="1" border="0"></td>
+   <td><img src="gifs/psion-table_00.gif" width="50" height="1" border="0"></td>
+  </tr>
+  <tr><!-- row 01 -->
+    <td rowspan="2" colspan="1"><img name="Npsiontable_01_01" src="gifs/psion-left.gif" width="79" height="187" border="0"></td>
+    <td rowspan="1" colspan="2"><img name="Npsiontable_01_02" src="gifs/psion-top.gif" width="419" height="29" border="0"></td>
+   <td><img src="gifs/psion-table_00.gif" width="1" height="29" border="0"></td>
+  </tr>
+  <tr><!-- row 02 -->
+    <td rowspan="1" colspan="1" width="369" height="158" bgcolor="#99CCCC" background="gifs/psion5-screengrab.gif" ALIGN=CENTER><img src="gifs/psion-table_00.gif" width="10" height="120" align=left border="0"><img src="gifs/psion-table_00.gif" width="50" height="120" align=right border="0">
+<font size=2 face="Arial,Helvetica,Sans"><B>Please select which Personal Organiser, Operating system and PC application you have, then click on the keyboard to find out more.</B>
+<form name="myform" action="" method="GET">
+<select name="devicelist" size="1">
+<option selected>Psion Series 5</option>
+<option>Psion Series 3mx</option>
+<option>Psion Series 3c</option>
+<option>Psion Series 3a</option>
+<option>Geofox One</option>
+<option>Philips Synergy</option>
+</select>
+<select name="oslist" size="1">
+<option selected>Windows 95</option>
+<option>Windows NT 4.0</option>
+<option>Windows 3.1x</option>
+</select>
+<br>
+<select name="pimlist" size="1">
+<option>Lotus Organizer 97/GS/4.1 Premium</option>
+<option>Lotus Organizer 2.1</option>
+<option selected>Lotus Notes 4.5/4.6</option>
+<option>Microsoft Schedule+ 1.0</option>
+<option>Microsoft Schedule+ 7.0/7.0a/7.5</option>
+<option>Microsoft Outlook 97/98</option>
+</select>
+</form>
+</td>
+    <td rowspan="1" colspan="1"><img name="Npsiontable_02_03" src="gifs/psion-right.gif" width="50" height="158" border="0"></td>
+   <td><img src="gifs/psion-table_00.gif" width="1" height="158" border="0"></td>
+  </tr>
+  <tr><!-- row 03 -->
+    <td rowspan="1" colspan="3"><A HREF="JavaScript:testSelect(document.myform)" height="169" width="498" onMouseout="window.status=''" onMouseover="window.status='GO!'"><IMG SRC="gifs/psion-key.gif" ALT="Submit" border=0></A>
+   <td><img src="gifs/psion-table_00.gif" width="1" height="169" border="0"></td>
+  </tr>
+</table>
+</CENTER>
+
+</body>
+
+</HTML>
+

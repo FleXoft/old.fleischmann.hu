@@ -1,0 +1,119 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Gyurci/Flex's Lotus Notes Page</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#ffffff">
+
+<table ALIGN=left BORDER=0 WIDTH="100%" COLS=3>
+<tr>
+<td><A href="../index.html"><IMG border=0 height=22 src="../pics/html/myhome.jpg" width=22></A></td>
+<td align=middle></td>
+<td align=right>
+<A href="http://www.lotus.com/"><IMG SRC="../pics/logos/lotus_logo.gif" WIDTH=117 HEIGHT=39 ALT="" BORDER="0"></A> <b><FONT SIZE="+3">Notes</FONT></b> <IMG SRC="../pics/logos/lotus_domino_logo.gif" WIDTH=92 HEIGHT=14 ALT="" BORDER="0"></td>
+</tr>
+</table>
+
+<br clear="all">
+
+<hr SIZE="3" NOSHADE>
+
+Egyszerû dokumentumvédelem:<br>
+<br>
+Tanulmány #1:<br>
+<br>
+<b>Sub Queryopen(Source As Notesuidocument, Mode As Integer, Isnewdoc As Variant, Continue As Variant)</b><br>
+<br>	
+'<br>
+'	Document controller via ROLEs for GIZMOs<br>
+'	design for CSIZMADIA Laszlo ONLY<br>
+'<br>     
+	Version = "1.0"<br>
+'<br>
+'  Designed by FleXoft<br>
+'  Written by FleXoft<br>
+'  (mailto:GFleischmann@yahoo.com or Flex@flexoft.dyndns.org)<br>
+'<br>
+'  v1.0 +2001/07/31 Buda<br>
+'         Rls: First release<br>
+'<br>
+'	I'm planning todo:<br>
+'	---------------------<br>
+'<br>
+'	Known bugs:<br>
+'	------------------<br>
+'		- You'll get a message if you don't have default role: [All]<br>
+'		- This version doesn't take care about groups (for example: -Default- and the others)<br>
+'<br>
+<br>	
+	If IsNewDoc = True Then<br>
+		' No role checking needed<br>
+		Exit Sub<br>
+	End If<br>
+<br>	
+	Dim session As New NotesSession<br>
+	Dim acl As NotesACL<br>
+	Dim entry As NotesACLEntry<br>
+<br>	
+	Set db = session.CurrentDatabase<br>
+	Set acl = db.ACL<br>
+	Set entry = acl.GetEntry( session.CommonUserName )<br>
+<br>	
+	If entry Is Nothing Then<br>
+		Set entry = acl.GetEntry( session.UserName )<br>
+	End If<br>
+	If entry Is Nothing Then<br>
+		Messagebox  "No entry for " & session.CommonUserName & " or " & session.UserName,, "No entry"<br>
+		Exit Sub<br>
+	End If<br>
+<br>	
+	If entry.IsRoleEnabled( "[All]" ) Then<br>
+		' Approved for Superusers<br>
+		Continue = True<br>
+		Exit Sub<br>
+	Else<br>
+		' Checking Engine<br>
+		Forall x In Source.document.Whatsaboutshort<br>
+			Forall y In acl.Roles<br>
+				If  "[" & Ucase( x ) & "]" = Ucase( y ) Then<br>
+					If entry.IsRoleEnabled( y ) Then<br>
+						' Approved<br>
+						Continue = True<br>
+						Exit Sub<br>
+					Else<br>
+			              ' Not approved<br>
+						Continue = False<br>
+					End If<br>
+				End If<br>
+			End Forall<br>
+		End Forall<br>
+	End If<br>
+<br>	
+	' No matching => Not approved<br>
+	Continue=False<br>
+<br>	
+<b>End Sub</b><br>
+<br>
+<IMG SRC="../pics/Notes/Incident_log.jpg" ALT="" BORDER="0">
+<IMG SRC="../pics/Notes/Inventory.jpg" ALT="" BORDER="0"><BR>
+
+Korrekt beállítások téli/nyári idõszámitás átváltáshoz:<BR>
+<BR>
+ZONE_SET=0<BR>
+TIMEZONE=-1<BR>
+DST=1<BR>
+<b>DSTLaw=3 -1 1 10 -1 1</b><BR>
+<BR>
+http://www.keysolutions.com/NotesFAQ/howquoted.html<BR>
+<BR>
+<p><table BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%">
+<tr>
+<td ALIGN=CENTER VALIGN=CENTER BGCOLOR="#000000"><font face="Arial, Helvetica, Verdana, Lucida"><font color="#FFFFFF"><font size=-2>&copy;
+FLEISCHMANN Gy&ouml;rgy -&nbsp;</font></font></font><a href="contact.htm"><img SRC="../pics/html/mailto.gif" BORDER=0 height=10 width=14 ALIGN="absmiddle"></a></td>
+</tr>
+</table>
+
+</BODY>
+
+</HTML>

@@ -1,0 +1,105 @@
+<html>
+
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <title>FF</title>
+</head>
+
+<script LANGUAGE="javascript">
+<!--- Hide script from old browsers
+
+// **************************************************************************
+// Photo tools part #1 for my HomePage
+//
+// Copyright (C) 2000 Flex.
+//   SOCIETE GENERALE HUNGARIA BANK Rt.
+//
+// Designed by FleXoft
+// Written  by FleXoft
+// (mailto: Gyorgy.Fleischmann@socgen.com or gfleischmann@yahoo.com)
+//
+// v1.0 +2000/01/31 Buda, Flex.
+//	Rls: first release.
+//
+// Documentation:
+// --------------
+//
+// TODO:
+// -----
+//
+//	- [2000.02.28] if the picture come from "cookie" no correct width and height set. [OK. 2000.02.28.]
+//
+// ==========================================================================
+//
+// This program is free software; you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation; either version 2, or (at your option)
+// any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program; see the file COPYING.  If not, write to
+// the Free Software Foundation, 675 Mass Ave, Cambridge, MA 02139, USA.
+//
+// **************************************************************************
+
+// Default imagename, imagewidth, imageheight, htmlmessage
+var imagename="";                           		// filename 
+var imagewidth;										// x
+var imageheight;									// y
+var htmlmessage="";									// message, text
+
+function getCookie(Name) {
+	var search = Name + "=";
+	if (document.cookie.length > 0) { 				// if there are any cookies
+       offset = document.cookie.indexOf(search); 
+       if (offset != -1) { 							// if cookie exists 
+         offset += search.length; 
+         // set index of beginning of value
+         end = document.cookie.indexOf(";", offset);
+         // set index of end of cookie value
+         if (end == -1) end=document.cookie.length;
+         return unescape(document.cookie.substring(offset, end));
+        } 
+     }
+}
+  
+imagename=getCookie("FlexLastPhotoCookie");
+imagewidth=getCookie("FlexLastPhotoWidthCookie");
+imageheight=getCookie("FlexLastPhotoHeightCookie");
+htmlmessage=getCookie("FlexLastPhotoHTMLMessageCookie");
+
+if (imagename == null) {
+   imagename="http://www.extra.hu/flex/pics/photos/kedvencek/ag.jpg";		// Default value
+   imagewidth=438;															// x
+   imageheight=308;															// y
+  }
+  
+// end script hiding from old browsers -->	 
+</script>
+
+<frameset COLS="162,*" BORDER=0>
+ <frame src="files.htm" SCROLLING="AUTO" MARGINHEIGHT="0" MARGINWIDTH="0">
+ <frameset rows="50,*" BORDER=0>
+	<frame src="fototools.htm" SCROLLING="NO" MARGINHEIGHT="0" MARGINWIDTH="0">
+	<frame src="fotoshow.htm" SCROLLING="AUTO" MARGINHEIGHT="0" MARGINWIDTH="0">
+ </frameset>
+</frameset>
+
+<body bgcolor="#FFFFFF">
+
+<table BORDER=0 WIDTH="100%" HEIGHT="100%">
+<tr>
+<td ALIGN=CENTER VALIGN=CENTER>
+[ <a href="http://www.extra.hu/flex/pics/photos/">Fot&oacute;k</a> ]
+</td>
+</tr>
+</table>
+
+</body>
+
+</html>

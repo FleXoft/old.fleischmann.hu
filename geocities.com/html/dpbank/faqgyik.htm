@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<title>DPBank FAQ-GyIK</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<p align="center"><img src="../../pics/dpbank/dpbank.gif" width="338" height="120"><br>
+<font color="#004080" size="7"><b>FAQ-GyIK<br>
+</b></font>DPBank Frequently Asked Questions (FAQ) DPBank Gyakran Ismétlodo
+Kérdések(GyIK)</p>
+
+<p>Q)Why do I suddenly get a &quot;subscript or dimension error&quot; when I start DPBank?<br>
+A)Have you recently changed the decimal separator from &quot;dot&quot; to
+&quot;comma&quot; (or the other way around)? If so, then you either have to set it back to
+what it was, or re-enter your data. This is a problem with the Psion, not DPBank (when it
+evaluates numbers).</p>
+
+<p>Q)My data is out of order, what can I do?<br>
+A)Up to version 1.5 it could happen that if you were really short on memory, DPBank would
+&quot;hang&quot; in the middle of &quot;reconcile upto&quot; operation. This would result
+in a wrongly ordered data file. You can fix this yourself by using either JBData or JBSort
+to sort the database file (*.d*) on the FIRST field (the date in YYYYMMDD format).</p>
+
+<p>Q)Why can't I open the data file with the standard &quot;Data&quot; application?<br>
+A)The data files contain fields different from strings. Data cannot work with such
+database files.</p>
+
+<p>Q)Will the program continue to work after the 30 day limit without being registered?<br>
+A)Should I really answer that??? Well, basically, yes, but be prepared for some surprise!
+If you like the program, please register it.</p>
+
+<p>Q)Why does DPBank get so slow when I have 50+ transactions in one account?<br>
+A)Basically, DPBank keeps the transactions in order on the disk and not in memory (that's
+why it takes up so little memory). Because of the way Psion have implemented the database
+file format, you cannot update a transaction (record) &quot;in place&quot;. Instead, each
+time you update a record, the Psion will erase the current one and append the updated
+record to the end of the file. Since DPBank needs to have the transactions in order, it
+needs to reorder the file manually. This takes quite some time unfortunately :-(</p>
+
+<p>Note: this is only valid for transactions in one account. You can of course have one
+account with very few transactions (while another has maybe 100 or more transactions) and
+with that one, DPBank will work very quickly.</p>
+</body>
+</html>

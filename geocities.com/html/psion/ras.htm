@@ -1,0 +1,109 @@
+<html>
+
+<head>
+<title>Windows NT RAS to Psion Series 5 Connection</title>
+</head>
+
+<body bgcolor="#ffffff" text="#000000" link="#0000ff" vlink="#52188c" alink="#ff0000">
+
+<table height="70" width="470" cellpadding="0" cellspacing="0" border="0">
+</table>
+
+<p><b>Subject:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font size="+1" color="#c60012">Re: Message
+Suite and direct connection</font><br>
+From:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Greg Dawson
+&lt;greg@smithphoto.com&gt;<br>
+Date:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1997/11/19<br>
+Message-ID:&nbsp;&nbsp; &lt;64vdb3$flg@usenet46.supernews.com&gt;<br>
+Newsgroups:&nbsp;&nbsp; comp.sys.psion.comm<br>
+</b><br>
+<br>
+Nils-Christian Haugen &lt;<a href="mailto:nch@idi.ntnu.no">nch@idi.ntnu.no</a>&gt; wrote:<br>
+&gt; I have now downloaded the Message Suite, and it looks fine.&nbsp; But I<br>
+&gt; don't want to connect to the Net through a modem, instead I was<br>
+&gt; planning on hooking the S5 on the Net through my pc.&nbsp; The pc which my<br>
+&gt; S5 is physically connected to runs NT Workstation 4.0, and is directly<br>
+&gt; connected to the Net. <br>
+<br>
+I'll attempt to outline the procedure for this. It is really not that<br>
+complicated, but it is easy to miss something. I will assume you already<br>
+have the messaging suite installed and working with a modem. If not, RTFM<br>
+and get that working first.<br>
+<br>
+<b>WINDOWS NT MACHINE SETUP</b><br>
+<br>
+1) Make sure the Series 5 is connected to the NT box and that PsiWin<br>
+works.<br>
+<br>
+2) Turn OFF PsiWin (to free up the serial port). <br>
+<br>
+3) Install NT's Remote Access Service (from NT's network control panel).<br>
+<br>
+4) Install the modem device titled 'Dial-Up Networking Serial Cable<br>
+between 2 PC's' on the correct COM port. If you need help doing this, read<br>
+the Remote Access Service help file.<br>
+<br>
+5) In the Remote Access Setup dialog box, click the 'Configure' button.<br>
+From there, choose 'Receive Calls Only'. Click 'OK'<br>
+<br>
+6) In the Remote Access Setup dialog box, click the 'Network' button.<br>
+Under 'Encryption Settings' choose 'Allow any authentication including<br>
+clear text. Turn off NetBEUI and IPX. Turn on TCP/IP. Click the<br>
+'Configure' button (the button next to 'TCP/IP').<br>
+<br>
+7) You show now be in a dialog box titled 'RAS Server TCP/IP<br>
+Configuration'. Choose 'Allow remote TCP/IP clients to access:' 'Entire<br>
+Network'. If you have a DHCP server on the network, click 'Use DHCP...'.<br>
+Otherwise, pick a network number you know is free on your local ethernet<br>
+segment. You CANNOT choose just any number. Have you net admin help you if<br>
+need be.<br>
+<br>
+8) OK out of all the dialog boxes and restart your NT machine.<br>
+<br>
+9) When NT comes back up, launch the 'Modems' control panel. Choose your<br>
+'Direct Connection...' modem and click 'Properties'. Change the baud rate<br>
+(usually to 115200).<br>
+<br>
+10) You may need to turn off PsiWin again (if you have it auto loading).<br>
+<br>
+11) Launch NT's Remote Access Administrator. It should be in the<br>
+'Administrative Tools' group under your Start menu.<br>
+<br>
+12) Under the 'Server' menu, choose 'Start Remote Access Service'. <br>
+<br>
+13) Under the 'Users' menu, choose 'Permissions...'. Give the users that<br>
+will be authenicated over the serial link dial-in permission.<br>
+<br>
+<br>
+ON THE PSION SERIES 5<br>
+<br>
+1) Turn off 'Remote Link'... press Ctrl+L in the system screen.<br>
+<br>
+2) Launch the Modem control panel. Choose 'Direct cable connection'. Press<br>
+Ctrl+E to edit the profile. Make sure the baud rate matches the NT box<br>
+(usually 115k/Serial). Use the default settings everywhere else here.<br>
+<br>
+3) Launch the Network control panel. Under 'Current network service',<br>
+choose 'NT Direct Connection'. Press Ctrl+E to edit the profile. Under the<br>
+'Account' tab, enter your user name and password. Under the 'Addresses'<br>
+tab, check 'Get IP address from server' and 'Get DNS address from server'.<br>
+Under the 'Login' tab, check 'Use login script'. There should already be a<br>
+canned login script that will work.<br>
+<br>
+4) That should be it! Launch the email client or browser to see if it<br>
+works.<br>
+<br>
+<br>
+If you have any questions, tell Psion to include instructions on<br>
+connecting directly to NT RAS!<br>
+<br>
+-Greg<br>
+<br>
+----------------------------------<br>
+Greg Dawson<br>
+<a href="mailto:greg@smithphoto.com">greg@smithphoto.com</a><br>
+<a href="http://www.smithphoto.com/~greg">http://www.smithphoto.com/~greg</a><br>
+----------------------------------<br>
+</p>
+</body>
+</html>

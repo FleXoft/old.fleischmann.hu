@@ -1,0 +1,224 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Gyurci/Flex's LCD Project Page</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#ffffff" background="../../pics/linux/linux_inside_bg.jpg">
+
+<table ALIGN=left BORDER=0 WIDTH="100%">
+<tr>
+<td><A href="../index.html"><IMG border=0 height=22 src="../../pics/html/myhome.jpg" width=22></A></td>
+<td align=right><b><FONT SIZE="+3">LCD Project</FONT></b><IMG SRC="../../pics/LCD/LCD_1x16.gif" WIDTH=108 HEIGHT=52 ALT="" BORDER="0"></td>
+</tr>
+</table>
+
+<br clear="all">
+
+<hr SIZE="3" NOSHADE>
+
+A project st&aacute;tusza:<BR>
+<IMG SRC="../../pics/progressbar/progressbar5.jpg" WIDTH=257 HEIGHT=48 ALT="" BORDER="0">
+
+<table BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%">
+<tr>
+<td align="left" bgcolor="lime">
+<font color="black" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b>Egy kis jav&iacute;t&aacute;s</b></font>
+</td>
+<td align="left" bgcolor="lime">
+<font color="black" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b></b></font>
+</td>
+</tr>
+<tr>
+<td valign="top">
+<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b>LCD driver for LiNUX version 0.11.00</b></font><font size="2" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"> [2001/01/10]<br>
+<A href="http://www.extra.hu/flex/down/LCD/lcd_driver-0.11.00.tar.gz">lcd_driver-0.11.00.tar.gz</A><br></font>
+</td>
+</tr>
+
+<tr>
+<td align="left" bgcolor="lime">
+<font color="black" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b>Itt a 2.3.99-Pre3-hoz frissített változat</b></font>
+</td>
+<td align="left" bgcolor="lime">
+<font color="black" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b></b></font>
+</td>
+</tr>
+<tr>
+<td valign="top">
+<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b>LCD driver for LiNUX version 0.10.06</b></font><font size="2" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"> [2000/04/06]<br>
+<A href="http://www.extra.hu/flex/down/LCD/lcd_driver-0.10.06.tar.gz">lcd_driver-0.10.06.tar.gz</A><br></font>
+</td>
+</tr>
+
+<tr>
+<td align="left" bgcolor="lime">
+<font color="black" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b></A>A k&ouml;vetkez&otilde; v&aacute;ltozat</b></font>
+</td>
+<td align="left" bgcolor="lime">
+<font color="black" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b></b></font>
+</td>
+</tr>
+<tr>
+<td valign="top">
+<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b>LCD driver for LiNUX version 0.9.xx</b></font><font size="2" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"> [2000/01/11]<br>
+&nbsp;&middot; ebben m&aacute;r benne lesz a /proc/lcd teljes kezel&eacute;se &eacute;s n&eacute;h&aacute;ny mag&aacute;t az LCD-t vez&eacute;rl&uacute; parancs kezel&eacute;se is...<br>
+<A href="http://www.extra.hu/flex/down/LCD/lcd_driver-0.9.44.tar.gz">lcd_driver-0.9.44.tar.gz</A><br>
+<br>
+&Iacute;me a <B>/proc/lcd</B>:<br>
+<br>
+
+<CENTER>
+<TABLE WIDTH="80%" CELLPADDING=20 CELLSPACING=0 BORDER BGCOLOR="#FEFFE6">
+<TR>
+<TD BGCOLOR="#191919">
+ 
+<P><B><TT><FONT COLOR="#7CFE5A">tree .</FONT></TT></B></P>
+
+<b><tt>
+<FONT COLOR="#7CFE5A">lcd</FONT><br>
+<FONT COLOR="#7CFE5A">|--&nbsp;</FONT><FONT COLOR="#0000FF">HD44780A</FONT><br>
+<FONT COLOR="#7CFE5A">|&nbsp;&nbsp;&nbsp;|--&nbsp;bit</FONT><br>
+<FONT COLOR="#7CFE5A">|&nbsp;&nbsp;&nbsp;|--&nbsp;blinking</FONT><br>
+<FONT COLOR="#7CFE5A">|&nbsp;&nbsp;&nbsp;|--&nbsp;cgram_addr</FONT><br>
+<FONT COLOR="#7CFE5A">|&nbsp;&nbsp;&nbsp;|--&nbsp;cursor</FONT><br>
+<FONT COLOR="#7CFE5A">|&nbsp;&nbsp;&nbsp;|--&nbsp;cursor_shift</FONT><br>
+<FONT COLOR="#7CFE5A">|&nbsp;&nbsp;&nbsp;|--&nbsp;ddram_addr</FONT><br>
+<FONT COLOR="#7CFE5A">|&nbsp;&nbsp;&nbsp;|--&nbsp;display</FONT><br>
+<FONT COLOR="#7CFE5A">|&nbsp;&nbsp;&nbsp;|--&nbsp;display_shift</FONT><br>
+<FONT COLOR="#7CFE5A">|&nbsp;&nbsp;&nbsp;|--&nbsp;entry_mode</FONT><br>
+<FONT COLOR="#7CFE5A">|&nbsp;&nbsp;&nbsp;|--&nbsp;entry_shift</FONT><br>
+<FONT COLOR="#7CFE5A">|&nbsp;&nbsp;&nbsp;|--&nbsp;height</FONT><br>
+<FONT COLOR="#7CFE5A">|&nbsp;&nbsp;&nbsp;|--&nbsp;line_mode</FONT><br>
+<FONT COLOR="#7CFE5A">|&nbsp;&nbsp;&nbsp;|--&nbsp;mode</FONT><br>
+<FONT COLOR="#7CFE5A">|&nbsp;&nbsp;&nbsp;|--&nbsp;status</FONT><br>
+<FONT COLOR="#7CFE5A">|&nbsp;&nbsp;&nbsp;|--&nbsp;width</FONT><br>
+<FONT COLOR="#7CFE5A">|&nbsp;&nbsp;&nbsp;|--&nbsp;x</FONT><br>
+<FONT COLOR="#7CFE5A">|&nbsp;&nbsp;&nbsp;`--&nbsp;y</FONT><br>
+<FONT COLOR="#7CFE5A">`-- device</FONT><br>
+<br>
+<FONT COLOR="#7CFE5A">1 directory, 18 files</FONT></tt></b><br>
+
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+
+<br>
+<br>
+&Iacute;gy n&eacute;z ki a <B>/proc/lcd/HD44780/status</B>:<br>
+<br>
+
+<CENTER>
+<TABLE WIDTH="80%" CELLPADDING=20 CELLSPACING=0 BORDER BGCOLOR="#FEFFE6">
+<TR>
+<TD BGCOLOR="#191919">
+
+<P><B><TT><FONT COLOR="#7CFE5A">cat status</FONT></TT></B></P>
+
+<FONT COLOR="#7CFE5A"><b><tt>LCD driver for LiNUX version 0.9.44 (C) 2000.01.18. by FleXoft.<br>
+DEVICE: HD44780A<br>
+DEVICE_VERSION: 1.3<br>
+IO_PORT_BASE: 0x378<br>
+STATUS: READY<br>
+width: 20<br>
+height: 2<br>
+line_mode: TWO<br>
+mode: NORMAL<br>
+display: ON<br>
+cursor: OFF<br>
+blinking: OFF<br>
+entry_shift: OFF<br>
+entry_mode: ON<br>
+x: 1<br>
+y: 1<br>
+DDRAM_ADDR: 000 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020 [ ] 020<br>
+CGRAM_ADDR: [ÿ] 01f ...</tt></b></FONT>
+
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+<br>
+
+</font>
+
+</td>
+</tr>
+<tr>
+<td align="left" bgcolor="lime">
+<font color="black" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b></A>Az els&otilde; let&ouml;lthet&otilde; v&aacute;ltozat</b></font>
+</td>
+<td align="left" bgcolor="lime">
+<font color="black" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b></b></font>
+</td>
+</tr>
+<tr>
+<td valign="top">
+<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b>LCD driver for LiNUX version 0.8.16</b></font><font size="2" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"> [2000/01/10]<br>
+<A href="http://www.extra.hu/flex/down/LCD/lcd_driver-0.8.16.tar.gz">lcd_driver-0.8.16.tar.gz</A><br>
+&nbsp;&middot; make f&aacute;jl;<br>
+&nbsp;&middot; a Hitachi HD44780-as chip-hez van autodetect;<br>
+&nbsp;&middot; a /dev/lcd-be lehet &iacute;rni;<br>
+&nbsp;&middot; a /proc/lcd-b&otilde;l pedig m&aacute;r lehet st&aacute;tusz inform&aacute;ci&oacute;kat olvasni.
+</font>
+</td>
+</tr>
+<tr>
+<td align="left" bgcolor="lime">
+<font color="black" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b>Egy magyar aki +el&otilde;z&ouml;tt</b></font>
+</td>
+<td align="left" bgcolor="lime">
+<font color="black" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b></b></font>
+</td>
+</tr>
+<tr>
+<td valign="top">
+<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b>LCD driver Linuxhoz</b></font><font size="2" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"> [2000/01/03]<br>
+<A href="http://w3.sztaki.hu:1980/~kissg/pd/">HD44780 alapú (azaz szinte bármelyik) karakteres LCD panel illesztése a printerportra</A>
+</font>
+</td>
+</tr>
+<tr>
+<td align="left" bgcolor="lime">
+<font color="black" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b>Tal&aacute;ltam egy konkurenci&aacute;t</b></font>
+</td>
+<td align="left" bgcolor="lime">
+<font color="black" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b></b></font>
+</td>
+</tr>
+<tr>
+<td valign="top">
+<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b>LCDproc; linux LCD display driver</b></font><font size="2" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"> [99/12/14]<br>
+LCDproc is a small piece of software that displays real-time system information from your Linux box on a 20x4 backlit LCD.
+<A href="http://lcdproc.omnipotent.net/">The&nbsp;Official&nbsp;LCDproc&nbsp;homepage.</A>
+<br>
+</font>
+</td>
+</tr>
+<tr>
+<td align="left" bgcolor="lime">
+<font color="black" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b>Els&otilde; v&aacute;ltozat</b></font>
+</td>
+<td align="left" bgcolor="lime">
+<font color="black" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b></b></font>
+</td>
+</tr>
+<tr>
+<td valign="top">
+<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b>LCD driver for LiNUX version 0.3.00</b></font><font size="2" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"> [99/12/13]<br>
+M&eacute;g nagyon az elej&eacute;n vagyok, de m&aacute;r m&ucirc;kszik...</font>
+</td>
+</tr>
+</table>
+
+<P><table BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%">
+<tr>
+<td ALIGN=middle VALIGN=center BGCOLOR="#000000"><font face="Arial, Helvetica, Verdana, Lucida"><font color="#ffffff"><font size=-2>©
+FLEISCHMANN György -&nbsp;</font></font></font><A href="../contact.htm"><IMG align=absMiddle border=0 height=10 src="../../pics/html/mailto.gif" width=14></A></td>
+</tr>
+</table></P>
+
+</BODY>
+
+</HTML>

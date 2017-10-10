@@ -1,0 +1,198 @@
+<html>
+<head>
+	<title>File Selector V1.0</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<script LANGUAGE="javascript">
+<!--- Hide script from old browsers
+
+// **************************************************************************
+// Photo tools Cookie system for my HomePage
+//
+// Copyright (C) 2000 Flex.
+//   SOCIETE GENERALE HUNGARIA BANK Rt.
+//
+// Designed by FleXoft
+// Written  by FleXoft
+// (mailto: Gyorgy.Fleischmann@socgen.com or gfleischmann@yahoo.com)
+//
+// v1.0 +2000/01/31 Buda, Flex.
+//	Rls: first release.
+//
+// Documentation:
+// --------------
+//
+// TODO:
+// -----
+//
+// ==========================================================================
+//
+// This program is free software; you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation; either version 2, or (at your option)
+// any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program; see the file COPYING.  If not, write to
+// the Free Software Foundation, 675 Mass Ave, Cambridge, MA 02139, USA.
+//
+// **************************************************************************
+//
+// Sets cookie values. Expiration date is optional
+//
+function setCookie(name, value, expire)
+{
+	document.cookie = name + "=" + escape(value) + ((expire == null) ? "" : ("; expires=" + expire.toGMTString()))
+}
+
+function setfile(filename, x, y, htmlmessage)
+{
+	var today = new Date()
+	var expires = new Date()
+	expires.setTime(today.getTime() + 1000*60*60*24*365)
+	if (window.parent.imagename!=filename) {
+    	window.parent.imagename=filename;
+		window.parent.imagewidth=x;
+    	window.parent.imageheight=y;
+		window.parent.htmlmessage=htmlmessage;
+    	setCookie("FlexLastPhotoCookie", filename, expires);
+		setCookie("FlexLastPhotoWidthCookie", x, expires);
+		setCookie("FlexLastPhotoHeightCookie", y, expires);
+    	window.parent.frames[1].zoom(100);}
+		//else
+		//{window.status="It's the same picture!!!"}
+}
+
+// end script hiding from old browsers -->
+</script>
+
+<IMG SRC="../../pics/Flex_logo_b.gif" WIDTH=142 HEIGHT=73 ALT="" BORDER="0"><BR>
+<center><FONT SIZE="-3">Photo browser v1.0</FONT></center><BR>
+
+<FONT FACE="Arial" SIZE="-1">Esztergom Rallye 2000:</FONT><BR>
+<IMG src="../../pics/html/mini_line.gif" width=62 height=15><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/Esztergom_rallye/e1.jpg', 600, 386, '<tt>&nbsp;<B>Esztergom Rallye (2000)</B></tt><BR><IMG src=../../pics/html/mini_line.gif width=62 height=15><BR>Csak néhány kép...<BR>')">#1.</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/Esztergom_rallye/e2.jpg', 600, 386, '<tt>&nbsp;<B>Esztergom Rallye (2000)</B></tt><BR><IMG src=../../pics/html/mini_line.gif width=62 height=15><BR>Csak néhány kép...<BR>')">#2.</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/Esztergom_rallye/e3.jpg', 600, 401, '<tt>&nbsp;<B>Esztergom Rallye (2000)</B></tt><BR><IMG src=../../pics/html/mini_line.gif width=62 height=15><BR>Csak néhány kép...<BR>')">#3.</a></font><br>
+<BR>
+
+<FONT FACE="Arial" SIZE="-1">Egy kicsit m&aacute;s:</FONT><BR>
+<IMG src="../../pics/html/mini_line.gif" width=62 height=15><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/ag.jpg', 438, 308, '<tt>&nbsp;<B>Egy &aacute;g (1999)</B></tt><BR><IMG src=../../pics/html/mini_line.gif width=62 height=15><BR>')">Egy &aacute;g</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/huto.jpg', 438, 308, '<tt>&nbsp;<B>Csend&eacute;let a h&ucirc;t&otilde;ben (1999)</B></tt><BR><IMG src=../../pics/html/mini_line.gif width=62 height=15>')">Csend&eacute;let a h&ucirc;t&otilde;ben</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/kerites.jpg', 438, 308, '<tt>&nbsp;<B>Ker&iacute;t&eacute;s (1999)</B></tt><BR><IMG src=../../pics/html/mini_line.gif width=62 height=15>')">Ker&iacute;t&eacute;s</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/mosogatas.jpg', 438, 308, '<tt>&nbsp;<B>Mosogat&aacute;s (1999)</B></tt><BR><IMG src=../../pics/html/mini_line.gif width=62 height=15>')">Mosogat&aacute;s</a></font><br>
+<BR>
+
+<FONT FACE="Arial" SIZE="-1">BUDAPEST</FONT><BR>
+<IMG src="../../pics/html/mini_line.gif" width=62 height=15><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/hajlektalan_budapest.jpg', 480, 320, '<tt>&nbsp;<B>Hajl&eacute;ktalan Budapesten (1999)</B></tt><BR><IMG src=../../pics/html/mini_line.gif width=62 height=15>')">Hajl&eacute;ktalan</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/allami_fodraszat.jpg', 480, 778, '')">&Aacute;llami fodr&aacute;szat c&eacute;gt&aacute;bla</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/direct_marketing.jpg', 480, 329, '')">Marketing</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/lampak.jpg', 432, 551, '')">Budapesti Duna part</a></font><br>
+<BR>
+
+<FONT FACE="Arial" SIZE="-1">AZ &Eacute;N KEDVENCEIM</FONT><br>
+<IMG src="../../pics/html/mini_line.gif" width=62 height=15><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/coca_cola.jpg', 480, 324, '')">Coca-Cola aut&oacute;</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/cola.jpg', 360, 521, '')">Coca-Cola automata</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/fa_udito.jpg', 480, 668, '')">K&ouml;rnyezetv&eacute;delem</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/fotos_kollega.jpg', 400, 267, '')">Fot&oacute;s koll&eacute;ga</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/hirdeto.jpg', 360, 521)">Hirdet&eacute;s</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/kis_virag.jpg', 480, 338, '')">Kis vir&aacute;g</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/negy_tulipan.jpg', 480, 301, '')">Tulip&aacute;nok</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/love.jpg', 480, 304, '')">Szerelem</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/magyar_zaszlo.jpg', 480, 372, '')">Z&aacute;szl&oacute;</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/perec.jpg', 400, 385, '')">So&oacute;s &uacute;r</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/poharak_viz.jpg', 480, 316, '')">V&iacute;z &eacute;s poharak</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/szobor.jpg', 360, 570, '')">Szobor</a></font><br>
+<BR>
+
+<FONT FACE="Arial" SIZE="-1">GYEREKKOR</FONT><br>
+<IMG src="../../pics/html/mini_line.gif" width=62 height=15><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/gyurika_duna_parton.jpg', 360, 533, '')">A sz&ouml;rny&ucirc; gyerekkor</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/gyurika_duna_parton_II.jpg', 480, 322, '')">A sz&ouml;rny&ucirc; gyerekkor</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/unnepseg_az_oviban.jpg', 480, 310, '')">&Uuml;nneps&eacute;g az oviban</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/ovis_ballagas.jpg', 480, 266, '')">Ovis ballag&aacute;s</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/cowboy.jpg', 360, 522, '')">Sz&ouml;rny&ucirc; gyerekkor</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/alt_isk_I.jpg', 480, 266, '')">&Aacute;ltal&aacute;nos iskolai k&eacute;p</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/standard_iskolai.jpg', 360, 552, '')">Szok&aacute;sos iskolai k&eacute;p</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/kisdobos_avatas.jpg', 360, 322, '')">Kisdobos avat&aacute;s</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/kisdobos_igazolvany.jpg', 138, 160, '')">Kisdobos igazolv&aacute;ny</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/eves_I.jpg', 360, 240, '')">Sz&ouml;rny&ucirc; gyerekkor</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/eves_II.jpg', 360, 240, '')">Sz&ouml;rny&ucirc; gyerekkor</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/ballagas_alt.jpg', 480, 314, '')">&Aacute;ltal&aacute;nos iskolai ballag&aacute;s</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/uttoro_1.jpg', 400, 266, '')">Utt&ouml;r&otilde; avat&aacute;s</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/uttoro_2.jpg', 545, 366, '')">Utt&ouml;r&otilde; avat&aacute;s</a></font><br>
+<BR>
+
+<FONT FACE="Arial" SIZE="-1">CSAL&Aacute;D</FONT><br>
+<IMG src="../../pics/html/mini_line.gif" width=62 height=15><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/fleischmann_csalad.jpg', 480, 316, '')">Csal&aacute;di idill</a></font><br>
+<BR>
+
+<FONT FACE="Arial" SIZE="-1">BUS&Oacute;J&Aacute;R&Aacute;S</FONT><br>
+<IMG src="../../pics/html/mini_line.gif" width=62 height=15><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/jankele.jpg', 360, 287, '')">Jankele</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/buso.jpg', 257, 350, '')">Bus&oacute;j&aacute;r&aacute;s</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/buso_tuz.jpg', 360, 406, '')">Bus&oacute;j&aacute;r&aacute;s</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/amy_and_deron_in_mohacs/20.jpg', 922, 631, '')">Bus&oacute;j&aacute;r&aacute;s</a></font><br>
+<BR>
+
+<FONT FACE="Arial" SIZE="-1">MOH&Aacute;CS</FONT><br>
+<IMG src="../../pics/html/mini_line.gif" width=62 height=15><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/mohacsi_szoli.jpg', 360, 521, '')">Moh&aacute;csi szoli hirdet&eacute;s</a></font><br>
+<BR>
+
+<FONT FACE="Arial" SIZE="-1">KIR&Aacute;NDUL&Aacute;S</FONT><br>
+<IMG src="../../pics/html/mini_line.gif" width=62 height=15><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/pilis.jpg', 465, 355, '')">Pilis</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/pilis_erdo.jpg', 360, 547, '')">Pilis</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/predikaloszek1.jpg', 480, 319, '')">Pr&eacute;dik&aacute;l&oacute;sz&eacute;k</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/predikaloszek2.jpg', 480, 326, '')">Pr&eacute;dik&aacute;l&oacute;sz&eacute;k</a></font><br>
+<BR>
+
+<FONT FACE="Arial" SIZE="-1">PARIZS</FONT><br>
+<IMG src="../../pics/html/mini_line.gif" width=62 height=15><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/paris/atjaro.jpg', 257, 350, '')">&Aacute;tj&aacute;r&oacute;</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/paris/parizs_mozi.jpg', 257, 350, '')">P&aacute;rizsi mozi</a></font><br>
+<BR>
+
+<FONT FACE="Arial" SIZE="-1">AMERIKA</FONT><br>
+<IMG src="../../pics/html/mini_line.gif" width=62 height=15><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/kedvencek/repules.jpg', 480, 316, '')">Rep&uuml;l&eacute;s</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/usa/bw2.jpg', 450, 840, '')">Dallas</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/usa/bw4.jpg', 912, 648, '')">New Orleans Police</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/usa/bw3.jpg', 938, 643, '')">New York</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/usa/bw1.jpg', 840, 570, '')">New York</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/usa/bw5.jpg', 700, 486, '')">New York</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/usa/bw6.jpg', 484, 700, '')">New York</a></font><br>
+
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/usa/cl1.jpg', 840, 552, '')">New York</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/usa/cl10.jpg', 700, 488, '')">New York</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/usa/cl11.jpg', 700, 483, '')">New York</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/usa/cl2.jpg', 840, 552, '')">New York</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/usa/cl3.jpg', 840, 552, '')">New York</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/usa/cl4.jpg', 596, 840, '')">New York</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/usa/cl5.jpg', 552, 840, '')">New York</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/usa/cl6.jpg', 840, 552, '')">New York</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/usa/cl7.jpg', 840, 552, '')">New York</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/usa/cl8.jpg', 652, 840, '')">New York</a></font><br>
+&nbsp;<font size="-2" FACE="Arial"><a href="javascript:setfile('http://www.extra.hu/flex/pics/photos/usa/cl9.jpg', 552, 840, '')">New York</a></font><br>
+<BR>
+
+<HR WIDTH="40%">
+<center><FONT SIZE="-3">END</FONT></center>
+<center><A href="../../index.html" TARGET="_blank"><IMG border=0 height=22 src="../../pics/html/myhome.jpg" width=22></A></center>
+<br>
+
+</body>
+
+</html>
