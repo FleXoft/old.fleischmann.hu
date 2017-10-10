@@ -1,0 +1,14 @@
+#
+# EXIF Title        : Gergõ filmen
+# EXIF Photographer : FLEISCHMANN György, flex
+# EXIF Place        : Budapest, HUNGARY
+#
+# EXIF Camera make  : MINOLTA
+# EXIF Camera model : DYNAX 9000
+# EXIF Date/Time    : 2007:04:29 ??:??:??
+# EXIF Flash used   : No
+# EXIF ISO equiv.   : 100
+# EXIF Metering Mode: spot
+# EXIF Film         : TMAX (expired)
+# EXIF Exposure     : aperture priority (semi-auto)
+#

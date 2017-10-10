@@ -1,0 +1,190 @@
+#!/bin/sh
+##############################################
+# Just a little trick...
+  eval 'exec photoalbum_generator -f $0 -a 2005.txt -A NG_Style -S NG_Style_v2 -c 1 -1 ../B2005Q2/latest.htm ${1+"$@"}'
+##############################################
+#
+# Album
+#
+# Created: 2004.12.31.
+#
+# Global overwriting
+# overwrite:	[{{STYLE}}=>file:css/NG_Style.CSS]
+#
+#############################################################################################################################
+# Title: B2005
+#############################################################################################################################
+#
+# The structure:
+# filename|albumbodytheme|slidetheme|backgroundtheme|frametheme
+#
+#############################################################################################################################
+
+#
+#pics/fake.jpg|Include[NOPIC=>YES,MAXCOL=>1,{{TEXT}}=>absolutefile:metro.htm]|Null|NG_Style_v2|NG_Style_v2|
+
+#
+pics/KM20050331_00539_m.jpg|0[MAXCOL=>2]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2_tooltip|NG_Style_v2_noText_EXIF|
+
+pics/KM20050331_00551_m.jpg|0[MAXCOL=>2]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2_tooltip|NG_Style_v2_noText_EXIF|
+
+
+#
+pics/KM20050325_00346.jpg|0[MAXCOL=>4]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2_tooltip|NG_Style_v2_noText_EXIF|
+../budapest/pics/KM20050323_00291_r.jpg|0[MAXCOL=>4]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2_tooltip|NG_Style_v2_noText_EXIF|
+pics/KM20050321_00238_r.jpg|0[MAXCOL=>4]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2_tooltip|NG_Style_v2_noText_EXIF|
+pics/KM20050320_00223_r.jpg|0[MAXCOL=>4]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2_tooltip|NG_Style_v2_noText_EXIF|
+
+#
+pics/KM20050320_00231_r.jpg|0[MAXCOL=>4]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2_tooltip|NG_Style_v2_noText_EXIF|
+pics/KM20050318_00178_r.jpg|0[MAXCOL=>4]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/KM20050318_00165_r.jpg|0[MAXCOL=>4]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+../budapest/pics/PICT0009_resized.jpg|0[MAXCOL=>4]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+
+# Index
+pics/index_kultur_media_hang6892.jpg|Blog_Empty|Null|NG_Style_v2|NG_Style_v2|
+
+#
+../anna/pics/PICT0008_resized.jpg|0[MAXCOL=>2]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/PICT0022_resized.jpg|0[MAXCOL=>2]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+
+# D7D firsts
+../anna/pics/PICT0007_resized.jpg|0[MAXCOL=>3]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+../anna/pics/PICT0006_resized.jpg|0[MAXCOL=>3]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+../anna/pics/PICT0002_resized.jpg|0[MAXCOL=>3]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+
+#
+ Anita
+pics/fake2.jpg|Blog_Empty|Null|NG_Style_v2|NG_Style_v2|
+../viragok/pics/CS2000MMDD_00961.jpg|Blog_Justify[MAXCOL=>1]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2|
+
+# Odin NJ4028
+pics/Odin_NJ4028.jpg|Blog_Empty|Null|NG_Style_v2|NG_Style_v2|
+
+# BKV vs. Én, február
+#pics/fake2.jpg|Blog_Empty|Null|NG_Style_v2|NG_Style_v2|
+pics/BKV_februar.jpg|Blog_Empty|Null|NG_Style_v2|NG_Style_v2|
+
+#
+../newyork/pics/CS199810DD_00289.jpg|0[MAXCOL=>3]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+../newyork/pics/CS199810DD_00285.jpg|0[MAXCOL=>3]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/CS199810DD_00279.jpg|0[MAXCOL=>3]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+
+#
+../anna/pics/CS200502DD_02111.jpg|0[MAXCOL=>2]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText_next|
+pics/CS200502DD_02110.jpg|0[MAXCOL=>2]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText_prev|
+
+#
+pics/fake10.jpg|Blog_Empty|Null|NG_Style_v2|NG_Style_v2|
+
+#
+pics/CS199YMMDD_00853.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+
+# Anna
+../anna/pics/CS200502DD_02106.jpg|0[MAXCOL=>3]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText_next|
+../anna/pics/CS200502DD_02105.jpg|0[MAXCOL=>3]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText_prev_next|
+../anna/pics/CS200502DD_02104.jpg|0[MAXCOL=>3]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText_prev|
+
+#
+pics/CS200502DD_02103.jpg|0[MAXCOL=>2]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2|
+pics/CS200502DD_02102.jpg|0[MAXCOL=>2]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+
+# NEW CDs
+pics/fake8.jpg|Blog_Empty_Reverse|Null|NG_Style_v2|NG_Style_v2|
+
+# s.S.s.
+pics/fake7.jpg|Blog_Empty_Reverse|Null|NG_Style_v2|NG_Style_v2|
+pics/CS20030125_01289.jpg|0[MAXCOL=>3]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/CS20030125_01290.jpg|0[MAXCOL=>3]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/CS20030125_01293.jpg|0[MAXCOL=>3]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+
+# Mohács
+pics/fake6.jpg|Blog_Empty_Reverse|Null|NG_Style_v2|NG_Style_v2|
+pics/CS20050205_02053.jpg|0[MAXCOL=>4]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/CS20050205_02056.jpg|0[MAXCOL=>4]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/CS20050205_02068.jpg|0[MAXCOL=>4]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/CS20050205_02070.jpg|0[MAXCOL=>4]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+#
+pics/CS20050205_02063.jpg|0[MAXCOL=>3]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/CS20050205_02065.jpg|0[MAXCOL=>3]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/CS20050205_02067.jpg|0[MAXCOL=>3]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+
+# The Neverhood
+pics/fake2.jpg|Blog_Empty|Null|NG_Style_v2|NG_Style_v2|
+pics/fake5.jpg|Blog_Empty|Null|NG_Style_v2|NG_Style_v2|
+
+#
+pics/CS200501DD_02048.jpg|0[MAXCOL=>4]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/CS200501DD_02045.jpg|0[MAXCOL=>4]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+../plakatok/pics/CS200501DD_02043.jpg|0[MAXCOL=>4]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/CS200501DD_02039.jpg|0[MAXCOL=>4]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+
+#
+pics/CS200301DD_02028.jpg|0[MAXCOL=>3]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/CS200301DD_02010.jpg|0[MAXCOL=>3]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/CS200301DD_02008.jpg|0[MAXCOL=>3]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+
+# BKV vs. Én, január
+pics/fake2.jpg|Blog_Empty|Null|NG_Style_v2|NG_Style_v2|
+pics/fake4.jpg|Blog_Empty|Null|NG_Style_v2|NG_Style_v2|
+
+#
+../plakatok/pics/CS2000MMDD_00557.jpg|0[MAXCOL=>3]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+../parizs/pics/CS2000MMDD_00550.jpg|0[MAXCOL=>3]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/CS2000MMDD_00700.jpg|0[MAXCOL=>3]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+
+#
+pics/DI200111DD_DSCF0016.jpg|0[MAXCOL=>3]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/BN2000MMDD_00020.jpg|0[MAXCOL=>3]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2[#3d3d3d=>#000000]|NG_Style_v2_noText|
+pics/CN20050123_00018.jpg|0[MAXCOL=>3]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+#
+../plakatok/pics/CS2004MMDD_01686.jpg|0[MAXCOL=>4]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+../plakatok/pics/CS2004MMDD_01789.jpg|0[MAXCOL=>4]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+../tallinn/pics/CS2004MMDD_01837.jpg|0[MAXCOL=>4]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/CS2004MMDD_01838.jpg|0[MAXCOL=>4]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+
+# #3. Vigyor
+pics/fake2.jpg|Blog_Empty|Null|NG_Style_v2|NG_Style_v2|
+pics/CS2004MMDD_01960.jpg|Blog_Justify|NoFrameNo|NG_Style_v2|NG_Style_v2|
+
+#
+../mohacs/pics/CS199YMMDD_00361.jpg|0[MAXCOL=>2]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/CS2004MMDD_01963.jpg|0[MAXCOL=>2]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+
+# CLIENT
+pics/fake2.jpg|Blog_Empty|Null|NG_Style_v2|NG_Style_v2|
+pics/fake3.jpg|Blog_Empty|Null|NG_Style_v2|NG_Style_v2|
+
+#
+#pics/CS2001MMDD_01056.jpg|0[MAXCOL=>4]|0[#FFFFFF=>#ecd27c,#000001=>#8c721c,#000000=>#8c721c]|NG_Style_v2|NG_Style_v2_noText|
+../viragok/pics/CS2001MMDD_01056.jpg|0[MAXCOL=>4]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/CS20011104_01080.jpg|0[MAXCOL=>4]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+pics/CS2001MMDD_01099.jpg|0[MAXCOL=>4,{{TITLE}}=>]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2|
+../plakatok/pics/CS2001MMDD_01098.jpg|0[MAXCOL=>4]|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2_noText|
+
+#
+ #2, #1, Szandra, Patri
+pics/fake2.jpg|Blog_Empty|Null|NG_Style_v2|NG_Style_v2|
+pics/CS199YMMDD_00097.jpg|Blog_Justify[MAXCOL=>2,width="95%"=>width="91%",bgcolor="#9d9d9d"=>bgcolor="#cc99cc"]|NoFrameNo[#FFFFFF=>#3d3d3d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2|
+pics/CN199YMMDD_00020.jpg|Blog_Justify[MAXCOL=>2,width="95%"=>width="91%"]|NoFrameNo[#FFFFFF=>#3d3d3d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2|
+
+#
+ Depresszió
+pics/fake1.jpg|Blog_Empty|Null|NG_Style_v2|NG_Style_v2|
+
+#
+ Qualysoft
+pics/fake.jpg|Blog_Empty[bgcolor="#9d9d9d"=>bgcolor="#336699"]|Null|NG_Style_v2|NG_Style_v2|
+
+#
+ B.U.É.K.
+pics/BN1999MMDD_nnnnn.jpg|Blog_Justify|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2|NG_Style_v2|
+
+#
+ #51, PG
+pics/BW199YMMDD_XXXXX.jpg|Blog_Justify|Silver|NG_Style_v2|NG_Style_v2|
+
+#############################################################################################################################
+#
+### _END_OF_FILE ###
+

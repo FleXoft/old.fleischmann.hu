@@ -1,0 +1,5 @@
+# Title: Qualysoft 2004
+# nolink: yes
+# nopic: yes
+
+Tavaly pont ilyenkor kezdtem el dolgozni a <a href="http://www.qualysoft.hu/">Qualysoft</a>-nak. Nagyon kis dolgon csúszott csak el a dolog. Ott három emberrel ismerkedtem meg. Nem velük volt a gond. Dícséretes, hogy mindegyiknek van/volt valami internetes lapja. <a href="http://www.tepi.tk/">Tepi</a>(Fabók Péter), <a href="http://www.kkovacs.hu/">Kkovacs</a>(Kovács Kristóf), <a href="http://stargate.qualysoft.hu/~ganszkyb/">Ganszky Balázs</a>.
