@@ -1,0 +1,535 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<!-- NG Style v2 picture theme with shortcutbar -->
+
+<html>
+<head>
+
+<title>Coeliakia. Suxx...</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2" />
+ 
+<meta name="keywords"content="Fleischmann György, fleischmann, flex, gyurci, flexoft, mohács, budapest, magyarország, hungary, photography, digital, photo, black and white, landscape, people, blog, light, photo blog, photolog, photoblog, linux, psion, timex, perl, lcd, minolta, 9000, d7d" />
+<meta name="owner"content="FLEISCHMANN György" />
+<meta name="author"content="FLEISCHMANN György" />
+
+<link rel="icon" href="http://www.fleischmann.hu/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://www.fleischmann.hu/favicon.ico">
+
+<meta name="PBO.auth" content="645917b1946117c27a6ee9bbd02240e1" />
+
+<style type="text/css" media="screen">
+
+body {
+  margin: 0px;
+  padding: 0px;
+
+  background-color: #3d3d3d;
+  font-family: Trebuchet MS, Trebuchet, Georgia, Verdana, Arial, Helvetica, Sans-serif;
+  color: #fffffe;
+  font-size: 14px;
+
+  scrollbar-face-color: #3d3d3d;
+  scrollbar-highlight-color: #3d3d3d;
+  scrollbar-shadow-color: #3d3d3d;
+
+  scrollbar-3dlight-color: #9d9d9d;
+  scrollbar-arrow-color: #ffffff;
+  scrollbar-darkshadow-color: #9d9d9d;
+  scrollbar-track-color: #3d3d3d;
+}
+
+div.linkbar {
+  font-variant: small-caps;
+  color: #9d9d9d;
+  letter-spacing: 1px;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+a, a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* ?Firefox? */
+
+a, div.linkbar a, {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:visited, div.linkbar a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover, div.linkbar a:hover {
+  color: #9d9d9d;
+  text-decoration: none;
+}
+
+a:active,div.linkbar a:active {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+div.shortcutbar {
+  color: #9d9d9d;
+  padding: 3px 0px 5px 0px;
+  font-size: 11px;
+}
+
+a.dot {
+  color: #9d9d9d;
+  text-decoration: none;
+}
+
+a.dot:visited {
+  color: #ee0000;
+  text-decoration: none;
+}
+
+a.dot:hover {
+  color: #fefefe;
+  text-decoration: none;
+}
+
+td.photo_loader {
+  background: #3d3d3d url(../../pics/anim/loading_anim.gif) no-repeat center center;
+}
+
+.photo {
+  background-color: #3d3d3d;
+  color: #3d3d3d;
+  border: 2px solid #9d9d9d;
+}
+
+.photo1 {
+  background-color: #3d3d3d;
+  color: #3d3d3d;
+  border: 1px solid #9d9d9d;
+}
+
+.photo1a {
+  background-color: #ffffff;
+  color: #ffffff;
+  border: 1px solid #000000;
+}
+
+.smallphoto {
+  padding: 4px;
+  background: #E9E9E9;
+  border: 1px solid #D1D1D1;			
+  margin: 3px 0px 12px 20px;
+}
+
+.phototext {
+  color: #dddddd;
+  font-size: 15px;
+}
+
+.phototext A {
+  border-bottom: 1px solid #ff0001;
+}
+
+div.bookmarkbar {
+  FONT-SIZE: 12px; COLOR: #9d9d9d; LETTER-SPACING: 1px; FONT-VARIANT:
+  small-caps; TEXT-DECORATION: none
+}
+div.bookmark A {
+  COLOR: #9d9d9d; TEXT-DECORATION: none
+}
+div.bookmark A:visited {
+  COLOR: #9d9d9d; TEXT-DECORATION: none
+}
+div.bookmark A:hover {
+  COLOR: #ffffff; TEXT-DECORATION: none
+}
+div.bookmark A:active {
+  COLOR: #ff0000; TEXT-DECORATION: none
+}
+
+.minusclick A {
+  DISPLAY: block; WIDTH: 100%; HEIGHT: 100%
+}
+.minusclick a:hover {
+  background: url(../../pics/html/m.gif) no-repeat center center;
+}
+
+.plusclick A {
+  DISPLAY: block; WIDTH: 100%; HEIGHT: 100%
+}
+.plusclick a:hover {
+  background: url(../../pics/html/p.gif) no-repeat center center;
+}
+ 
+.h {
+  
+  BORDER-RIGHT: #9d9d9d 1px solid; BORDER-TOP: #9d9d9d 1px solid; BORDER-LEFT: #9d9d9d 1px solid; BORDER-BOTTOM: #9d9d9d 1px solid;
+}  
+  
+.t {
+  BORDER-RIGHT: #9d9d9d 1px solid; BORDER-TOP: #9d9d9d 1px solid; BORDER-LEFT: #9d9d9d 1px solid; BORDER-BOTTOM: #9d9d9d 1px solid;
+}
+
+.c {
+  BORDER-RIGHT: #9d9d9d 1px solid; BORDER-TOP: #9d9d9d 1px solid; BORDER-LEFT: #9d9d9d 1px solid; BORDER-BOTTOM: #9d9d9d 1px solid;
+}
+
+.cu {
+  BORDER-RIGHT: #9d9d9d 1px solid; BORDER-TOP: #9d9d9d 1px solid; BORDER-LEFT: #9d9d9d 1px solid; BORDER-BOTTOM: #9d9d9d 0px solid;
+}
+
+.cm {
+  BORDER-RIGHT: #9d9d9d 1px solid; BORDER-TOP: #9d9d9d 1px dotted; BORDER-LEFT: #9d9d9d 1px solid; BORDER-BOTTOM: #9d9d9d 1px dotted;
+}
+
+.cd {
+  BORDER-RIGHT: #9d9d9d 1px solid; BORDER-TOP: #9d9d9d 0px solid; BORDER-LEFT: #9d9d9d 1px solid; BORDER-BOTTOM: #9d9d9d 1px solid;
+}
+
+div.text {
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",Arial,Verdana, Helvetica, sans-serif;
+	color:#eee;
+	font-size:14px;
+}
+
+
+</style>
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-1485101-1";
+urchinTracker();
+</script>
+
+<script>
+
+/* I saw the base of this script on http://www.bungie.net/ */
+
+var origWidth = 0;
+var origHeight = 0;
+
+var fullsize = 0;
+
+var imgLoaded = 0;
+var bottomLoaded = 0;
+
+var leftMargin = 20;
+var bottomMargin = 140;
+
+var firstTime = 1;
+
+window.focus();
+
+function resize() {
+  if (!imgLoaded || !bottomLoaded ) return;
+ 
+  if (! origWidth) origWidth = document.getElementById("mainImage").width;
+  if (! origHeight) origHeight = document.getElementById("mainImage").height;
+
+  windowWidth = document.body.clientWidth - leftMargin;
+  windowHeight = document.body.clientHeight - bottomMargin;
+
+  if (windowWidth==0) windowWidth=800;
+  if (windowHeight==0) windowHeight=600;
+
+  if ( firstTime==1 && windowWidth > origWidth && windowHeight > origHeight ) fullsize=1;
+  firstTime=0;
+  
+  /* if ( windowWidth < origWidth ) fullsize=0; */
+  
+  if (fullsize) {
+    document.getElementById("mainImage").width=origWidth;
+    document.getElementById("mainImage").height=origHeight;
+  }
+  else if (origWidth/origHeight > windowWidth/windowHeight) {
+    var newWidth = windowWidth-5;
+    if (isNaN(newWidth)) newWidth=500; 
+    document.getElementById("mainImage").width = newWidth;
+    document.getElementById("mainImage").height = newWidth * (origHeight/origWidth);
+  }
+  else {
+    var newHeight = windowHeight-5;
+    if (isNaN(newHeight)) newHeight=400;
+    document.getElementById("mainImage").height = newHeight;
+    document.getElementById("mainImage").width = newHeight * (origWidth/origHeight);
+  }
+}
+
+function setCookie(name, value, expire) {
+  document.cookie = name + "=" + escape(value) + ((expire == null) ? "" : ("; expires=" + expire.toGMTString()))
+}
+
+function set(item) {
+  var today = new Date()
+  var expires = new Date()
+  expires.setTime(today.getTime() + 1000*60*60*24*365)
+
+  setCookie("FlexLastPhoto", item, expires);
+}
+
+</script>
+
+<script for=window event=onresize>
+resize();
+
+var cookieArray = String(document.cookie).split("; ");
+for (i in cookieArray) {
+  cookie = cookieArray[i].split("=");
+  if (cookie[0] == "zoom") fullsize = Number(cookie[1]);
+}
+
+</script>
+
+<script>
+
+/********************************************************************************/
+/** process the key event
+/********************************************************************************/
+function alertkey(e) {
+  if ( !e ) {
+    if ( window.event ) {
+      e = window.event;
+    }
+    else {
+      return;
+    }
+  }
+
+  if ( typeof(e.which) == 'number' ) {
+    //NS 4, NS 6+, Mozilla 0.9+, Opera
+    e = e.which;
+  }
+  else if( typeof(e.keyCode) == 'number'  ) {
+    //IE, NS 6+, Mozilla 0.9+
+    e = e.keyCode;
+  }
+  else if( typeof(e.charCode) == 'number'  ) {
+    //also NS 6+, Mozilla 0.9+
+    e = e.charCode;
+  }
+  else {
+    return;
+  }
+
+  // left arrow and -
+  if ( e == 37 || e == 100 || e == 109 || e == 189 || e == 188 ) {
+    // previous
+    location.href="KM20070719_09378.htm";
+  }
+  // right arrow and +
+  else if ( e == 39 || e == 102 || e == 107 || e == 187 || e == 190 || e == 32 ) {
+    // next
+    location.href="KM20070711_09361.htm";
+  }
+  // ?
+  else if ( e == 191 ) {
+    location.href='../help/index.htm';
+  }  
+  // a
+  else if ( e == 65 ) {
+    location.href='../about/index.htm';
+  }
+  // b
+  else if ( e == 66 ) {
+    history.back();
+  }
+  // c and x
+  else if ( e == 67 || e == 88 ) {
+    window.close();
+  }  
+  // f
+  else if ( e == 70 ) {
+    location.href='http://www.fleischmann.hu/';
+  }
+  // h
+  else if ( e == 72 ) {
+    location.href='../contents/index.htm';
+  }
+  // i
+  else if ( e == 73 ) {
+    location.href='index.htm';
+  }
+  // l
+  else if ( e == 76 ) {
+    location.href='../contents/links.htm';
+  }
+  // m
+  else if ( e == 77 ) {
+    set(window.location);
+  }  
+  // p
+  else if ( e == 80 ) {
+    print();
+  }    
+  // r
+  else if ( e == 82 ) {
+    fullsize=1-fullsize;
+	document.cookie=('zoom='+fullsize);
+	resize();
+	resize();
+  }  
+  // s
+  else if ( e == 83 ) {
+    location.href="../anna/pics/KM20070714_09370.jpg";
+  }    
+  
+  // e
+  else if ( e == 69 ) {
+    location.href='http://jakabhaza.dyndns.org/squirrelmail/';
+  }
+  // o
+  else if ( e == 79 ) {
+    location.href='https://www.otpbank.hu/otpportal2000/online/HB0210000000.html?x=y';
+  }  
+  
+  // g
+  else if ( e == 71 ) {
+    location.href='http://google.com/mail/';
+  }
+	  
+  // u
+  else if ( e == 85  ) {
+    location.href='http://www.user.hu/mail/gyfleischmann.nsf';
+  }  
+}
+
+if ( document.captureEvents ) {
+  //non IE
+  if ( Event.KEYUP ) {
+  //NS 4, NS 6+, Mozilla 0.9+
+  document.captureEvents(Event.KEYUP);
+  }
+}
+
+// when a key is pressed, run the alertkey function
+document.onkeyup = alertkey;
+
+</script>
+
+<script type="text/javascript" src="http://www.haloscan.com/load/flexoft"> </script>
+
+</head>
+
+<body background="">
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+<tr>
+  <td valign="top" align="center" height="1%">
+  <table bgcolor="Black" width="100%" height="29" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="3" bgcolor="#9d9d9d"><img src="" width="1" height="1"></td>
+  </tr>
+  <tr>
+    <td align="left"><div class="linkbar">&nbsp;<font color="#ff0000">&middot;</font>&nbsp;<a href="../contents/index.htm" onmouseover="window.status='(H)ome!';return true;" onmouseout="window.status='';return true;" accesskey="h"><b>H</b>OME</a>&nbsp;<a href="index.htm" onmouseover="window.status='(I)ndex!';return true;" onmouseout="window.status='';return true;" accesskey="i"><b>I</b>NDEX</a>&nbsp;<a href="javascript:history.back();" onmouseover="window.status='(B)ack!';return true;" onmouseout="window.status='';return true;"><b>B</b>ACK</a>&nbsp;<a href="javascript:print();" onmouseover="window.status='(P)rint!';return true;" onmouseout="window.status='';return true;"><b>P</b>RINT</a>&nbsp;<a href="javascript:set(window.location);" onmouseover="window.status='Save your book(m)ark!';return true;" onmouseout="window.status='';return true;" accesskey="b">BOOK<b>M</b>ARK</a>&nbsp;<a href="../anna/pics/KM20070714_09370.jpg" onmouseover="window.status='(S)ave the picture!';return true;" onmouseout="window.status='';return true;">FILE/<b>S</b>AVE</a>&nbsp;<b>O</b>RDER&nbsp;<a href="javascript:fullsize=1-fullsize;document.cookie=('zoom='+fullsize);resize();resize();" onmouseover="window.status='(R)esize the picture!';return true;" onmouseout="window.status='';return true;" accesskey="r"><b>R</b>ESIZE</a></div></td>
+	<td align="right"><div class="linkbar">&nbsp;<b>A</b>BOUT&nbsp;<a href="../help/index.htm" onmouseover="window.status='Help(?)';return true;" onmouseout="window.status='';return true;">HELP<b>?</b></a>&nbsp;<a href="javascript:this.close();" onmouseover="window.status='(C)lose!';return true;" onmouseout="window.status='';return true;"><b>C</b>LOSE&nbsp;</a><font color="#ff0000">&middot;</font>&nbsp;</div></td>
+	<td width="1" bgcolor="#9d9d9d"><img src="" width="1" height="1"></td>
+  </tr>	
+  <tr>
+    <td colspan="3" bgcolor="#9d9d9d"><img src="" width="1" height="1"></td>
+  </tr>	    
+  </table>	
+<!--  <div class="shortcutbar">|<a class="dot" href="KM20070916_09715.htm" alt="Hé ..." onmouseover="window.status='Hé ...';return true;" onmouseout="window.status='';return true;"> 1 </a>|<a class="dot" href="KM20070916_09699.htm" alt="Safety bicycle" onmouseover="window.status='Safety bicycle';return true;" onmouseout="window.status='';return true;"> 2 </a>|<a class="dot" href="KM20070916_09697.htm" alt="A természet" onmouseover="window.status='A természet';return true;" onmouseout="window.status='';return true;"> 3 </a>|<a class="dot" href="KM20070901_09645.htm" alt="Mind +öregszünk..." onmouseover="window.status='Mind +öregszünk...';return true;" onmouseout="window.status='';return true;"> 4 </a>|<a class="dot" href="KM20070503_08509.htm" alt="Hmmmmmmm..." onmouseover="window.status='Hmmmmmmm...';return true;" onmouseout="window.status='';return true;"> 5 </a>|<a class="dot" href="KM20070503_08560.htm" alt="Kukucs!" onmouseover="window.status='Kukucs!';return true;" onmouseout="window.status='';return true;"> 6 </a>|<a class="dot" href="KM20070804_09511.htm" alt="Lábak" onmouseover="window.status='Lábak';return true;" onmouseout="window.status='';return true;"> 7 </a>|<a class="dot" href="KM20070804_09471.htm" alt="Breed" onmouseover="window.status='Breed';return true;" onmouseout="window.status='';return true;"> 8 </a>|<a class="dot" href="KM20070828_09577.htm" alt="What the fuck... restore the file from 21:00 to ~01:00 fuck, fuck, fuck!!!" onmouseover="window.status='What the fuck... restore the file from 21:00 to ~01:00 fuck, fuck, fuck!!!';return true;" onmouseout="window.status='';return true;"> 9 </a>|<a class="dot" href="KM20070822_09563.htm" alt="Séta közben..." onmouseover="window.status='Séta közben...';return true;" onmouseout="window.status='';return true;"> 10 </a>|<a class="dot" href="KM20070822_09555.htm" alt="Haverok" onmouseover="window.status='Haverok';return true;" onmouseout="window.status='';return true;"> 11 </a>|<a class="dot" href="KM20070822_09550.htm" alt="Haverok" onmouseover="window.status='Haverok';return true;" onmouseout="window.status='';return true;"> 12 </a>|<a class="dot" href="KM20070804_09513.htm" alt="NIKE 500" onmouseover="window.status='NIKE 500';return true;" onmouseout="window.status='';return true;"> 13 </a>|<a class="dot" href="KM20070804_09467.htm" alt="Ez van..." onmouseover="window.status='Ez van...';return true;" onmouseout="window.status='';return true;"> 14 </a>|<a class="dot" href="KM20070804_09466.htm" alt="Öreg ember nem vén ember ;-)" onmouseover="window.status='Öreg ember nem vén ember ;-)';return true;" onmouseout="window.status='';return true;"> 15 </a>|<a class="dot" href="KM20070726_09385.htm" alt="Apja fia" onmouseover="window.status='Apja fia';return true;" onmouseout="window.status='';return true;"> 16 </a>|<a class="dot" href="KM20070729_09404.htm" alt="Ház" onmouseover="window.status='Ház';return true;" onmouseout="window.status='';return true;"> 17 </a>|<a class="dot" href="KM20070803_09435.htm" alt="modern világ, az italunk PEPSI" onmouseover="window.status='modern világ, az italunk PEPSI';return true;" onmouseout="window.status='';return true;"> 18 </a>|<a class="dot" href="KM20070803_09453.htm" alt="Ez itten a jövő..." onmouseover="window.status='Ez itten a jövő...';return true;" onmouseout="window.status='';return true;"> 19 </a>|<a class="dot" href="KM20070729_09409.htm" alt="Kövek" onmouseover="window.status='Kövek';return true;" onmouseout="window.status='';return true;"> 20 </a>|<a class="dot" href="KM20070729_09407.htm" alt="Homokozó" onmouseover="window.status='Homokozó';return true;" onmouseout="window.status='';return true;"> 21 </a>|<a class="dot" href="KM20070729_09401.htm" alt="Gergő" onmouseover="window.status='Gergő';return true;" onmouseout="window.status='';return true;"> 22 </a>|<a class="dot" href="KM20070719_09378.htm" alt="Nyaralás Tamásiban" onmouseover="window.status='Nyaralás Tamásiban';return true;" onmouseout="window.status='';return true;"> 23 </a>|<a class="dot" href="KM20070714_09370.htm" alt="Coeliakia. Suxx..." onmouseover="window.status='Coeliakia. Suxx...';return true;" onmouseout="window.status='';return true;"> 24 </a>|<a class="dot" href="KM20070711_09361.htm" alt="Tükröződés II." onmouseover="window.status='Tükröződés II.';return true;" onmouseout="window.status='';return true;"> 25 </a>|<a class="dot" href="KM20070711_09360.htm" alt="Tükröződés I." onmouseover="window.status='Tükröződés I.';return true;" onmouseout="window.status='';return true;"> 26 </a>|<a class="dot" href="KM20070711_09350.htm" alt="TÜkörkép" onmouseover="window.status='TÜkörkép';return true;" onmouseout="window.status='';return true;"> 27 </a>|<a class="dot" href="KM20070711_09332.htm" alt="Levél tőlem II." onmouseover="window.status='Levél tőlem II.';return true;" onmouseout="window.status='';return true;"> 28 </a>|<a class="dot" href="CN20070530_00037.htm" alt="Még a cumija sem áll jól..." onmouseover="window.status='Még a cumija sem áll jól...';return true;" onmouseout="window.status='';return true;"> 29 </a>|<a class="dot" href="CN20070530_00030.htm" alt="Chips" onmouseover="window.status='Chips';return true;" onmouseout="window.status='';return true;"> 30 </a>|<a class="dot" href="CN20070530_00018.htm" alt="Portré" onmouseover="window.status='Portré';return true;" onmouseout="window.status='';return true;"> 31 </a>|<a class="dot" href="CN20070530_00012.htm" alt="3D" onmouseover="window.status='3D';return true;" onmouseout="window.status='';return true;"> 32 </a>|<a class="dot" href="CN20070530_00002.htm" alt="Metró" onmouseover="window.status='Metró';return true;" onmouseout="window.status='';return true;"> 33 </a>|<a class="dot" href="CN20070530_00001.htm" alt="(de) MAX fotólabor" onmouseover="window.status='(de) MAX fotólabor';return true;" onmouseout="window.status='';return true;"> 34 </a>|<a class="dot" href="KM20070617_09123.htm" alt="Félszemű" onmouseover="window.status='Félszemű';return true;" onmouseout="window.status='';return true;"> 35 </a>|<a class="dot" href="KM20070617_09119.htm" alt="Vigyázz!" onmouseover="window.status='Vigyázz!';return true;" onmouseout="window.status='';return true;"> 36 </a>|<a class="dot" href="KM20070616_09101.htm" alt="Levél tőlem" onmouseover="window.status='Levél tőlem';return true;" onmouseout="window.status='';return true;"> 37 </a>|<a class="dot" href="KM20070616_09093.htm" alt="Virág" onmouseover="window.status='Virág';return true;" onmouseout="window.status='';return true;"> 38 </a>|</div> 
+-->
+  </td>
+</tr>  
+<tr>
+  <td valign="middle" align="center">  
+  
+  <!-- End of Header -->
+
+<!-- ### Picture header based on: ../templates/PICTURE_HEADER_NG_Style_v2_tooltip.HTM -->
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td width="50%" height="100%" class="minusclick">
+  <a href="KM20070719_09378.htm" onmouseover="window.status='- Previous picture!';return true;" onmouseout="window.status='';return true;" accesskey="p"><img src="../../pics/html/1x1.gif" width="100%" height="100%" alt="-" border="0"></a>
+  </td>
+  <td align="center" valign="middle">
+  <table>
+  <tr>
+    <td>
+    <table border="0"  cellpadding="0" style="border: 1px solid #9d9d9d;" bgcolor="#000000"><tr><td bgcolor="#000000">
+	<a href="KM20070711_09361.htm" onmouseover="window.status='Coeliakia. Suxx...';return true;" onmouseout="window.status='';return true;"><img border="0" src="../anna/pics/KM20070714_09370.jpg" alt="Coeliakia. Suxx..." title="Coeliakia. Suxx..." id="mainImage" style="cursor:hand;" onload="imgLoaded=1;resize();"></a><br>
+	</td></tr></table>
+        <img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"><br>
+ 	<table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td align="left">
+	<img src="../../pics/html/EXIF_info.gif" width="88" height="15" alt="" border="0" onmouseover="this.T_FONTFACE='courier';this.T_FONTSIZE='12px';this.T_BGCOLOR='#3d3d3d';this.T_BORDERCOLOR='#9d9d9d';this.T_FONTCOLOR='#dddddd';return escape('<nobr><b>Title&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>:&nbsp;Coeliakia.&nbsp;Suxx...<br><b>Photographer&nbsp;</b>:&nbsp;FLEISCHMANN&nbsp;György,&nbsp;flex<br><b>Place&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>:&nbsp;Budapest,&nbsp;HUNGARY<br><b>File&nbsp;name&nbsp;&nbsp;&nbsp;&nbsp;</b>:&nbsp;S:\\PICTUREs\\Minolta&nbsp;pictures\\KM20070714_09370.jpe<br><b>File&nbsp;size&nbsp;&nbsp;&nbsp;&nbsp;</b>:&nbsp;2110028&nbsp;bytes<br><b>File&nbsp;date&nbsp;&nbsp;&nbsp;&nbsp;</b>:&nbsp;2007.07.14&nbsp;20:29:14<br><b>Camera&nbsp;make&nbsp;&nbsp;</b>:&nbsp;KONICA&nbsp;MINOLTA&nbsp;<br><b>Camera&nbsp;model&nbsp;</b>:&nbsp;DYNAX&nbsp;7D<br><b>Date/Time&nbsp;&nbsp;&nbsp;&nbsp;</b>:&nbsp;2007.07.14&nbsp;20:29:14<br><b>Resolution&nbsp;&nbsp;&nbsp;</b>:&nbsp;3008&nbsp;x&nbsp;2000<br><b>Flash&nbsp;used&nbsp;&nbsp;&nbsp;</b>:&nbsp;Yes&nbsp;(manual)<br><b>Focal&nbsp;length&nbsp;</b>:&nbsp;160.0mm&nbsp;&nbsp;(35mm&nbsp;equivalent:&nbsp;240mm)<br><b>Exposure&nbsp;time</b>:&nbsp;0.0080&nbsp;s&nbsp;&nbsp;(1/125)<br><b>Aperture&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>:&nbsp;f/11.0<br><b>ISO&nbsp;equiv.&nbsp;&nbsp;&nbsp;</b>:&nbsp;100<br><b>Whitebalance&nbsp;</b>:&nbsp;Auto<br><b>Metering&nbsp;Mode</b>:&nbsp;center&nbsp;weight<br><b>Exposure&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>:&nbsp;aperture&nbsp;priority&nbsp;(semi-auto)<br></nobr>')">
+	
+	</td><td align="right"><div class="linkbar"><font color="#ff0000">
+	<a href="javascript:HaloScan('../anna/pics/KM20070714_09370.jpg');" target="_self"><script type="text/javascript">postCount('../anna/pics/KM20070714_09370.jpg');</script></a>&nbsp;&middot;&nbsp;<a href="javascript:HaloScanTB('../anna/pics/KM20070714_09370.jpg');" target="_self"><script type="text/javascript">postCountTB('../anna/pics/KM20070714_09370.jpg'); </script></a>
+	</div></td></tr></table>
+    </td>
+  </tr>
+  </table>
+  </td>
+  <td width="50%" height="100%" class="plusclick">
+  <a href="KM20070711_09361.htm" onmouseover="window.status='+ Next picture!';return true;" onmouseout="window.status='';return true;" accesskey="n"><img src="../../pics/html/1x1.gif" width="100%" height="100%" alt="+" border="0"></a>
+  </td>
+</tr>
+<tr>
+  <td colspan="3">
+  <table  border="0" align="center">
+  <tr>
+    <td>
+    <p class="phototext" align="justify"></p>
+    </td>
+  </tr>
+  </table>
+  </td>
+</tr>
+</table>
+
+
+<!-- ### Picture frame based on: ../templates/PICTURE_FRAME_NG_Style_v2_EXIF_CO_borderv2.HTM -->
+
+  <!-- Footer -->
+  
+  </td>
+</tr>
+<tr>
+  <td valign="bottom" align="center" height="1%">
+
+  <table bgcolor="Black" width="100%" height="29" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="2" bgcolor="#9d9d9d"><img src="" width="1" height="1"></td>
+  </tr>
+  <tr>
+    <td align="center"><div class="linkbar"><font color="#ff0000">&middot;</font>&nbsp;<font color="#9d9d9d">Nincs&nbsp;jog&nbsp;fenntartva</font>&nbsp;<font color="#9d9d9d">-=</font>&nbsp;<a href="http://www.fleischmann.hu/" onmouseover="window.status='www.fleischmann.hu';return true;" onmouseout="window.status='';return true;">FLEISCHMANN</a>&nbsp;<font color="#9d9d9d">=-</font>&nbsp;<font color="#9d9d9d">No&nbsp;rights&nbsp;reserved</font>&nbsp;<font color="#ff0000">&middot;</font></div></td>
+    <td width="1" bgcolor="#9d9d9d"><img src="" width="1" height="1"></td>
+  </tr>	
+  <tr>
+    <td colspan="2" bgcolor="#9d9d9d"><img src="" width="1" height="1"></td>
+  </tr>	    
+  </table>
+
+  </td>
+</tr>
+</table>
+
+<script language="JavaScript" type="text/javascript" src="../../javascript/wz_tooltip.js"></script>
+
+</body>
+
+<script>
+bottomLoaded=1;
+fullsize=1;
+</script>
+
+</html>
+
+
+<!-- ### Picture frame based on: ../templates/PICTURE_FOOTER_NG_Style_v2_tooltip.HTM -->
+
+
+<!-- Generated by:
+photoalbum_generator v1.25
+# Designed by Flex.
+# Written by Flex from FleXoft.
+#	(flex@fleischmann.hu)
+#	(http://www.fleischmann.hu/)
+# Run by flex on stargate at 20071121@15:37
+-->

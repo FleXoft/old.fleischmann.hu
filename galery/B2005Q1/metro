@@ -1,0 +1,34 @@
+#!/bin/sh
+#
+##############################################
+# Just a little trick...
+  eval 'exec photoalbum_generator -f $0 -i metro.htm -A Null -S NG_Style_v2 -c 5 -w 10% -s 0 -1 index.htm#metro -l index.htm#metro -e ${1+"$@"}'
+##############################################
+#
+# Album
+#
+# Created: 2005.03.29.
+#
+# Global overwriting
+# overwrite:	[{{STYLE}}=>file:css/NG_Style.CSS]
+#
+#############################################################################################################################
+# Title: Metro include
+#############################################################################################################################
+#
+# The structure:
+# filename|albumbodytheme|slidetheme|backgroundtheme|frametheme
+#
+#############################################################################################################################
+
+#
+metro_pics/KM20050323_00279.jpg|Empty|Empty|NG_Style_v2_tooltip|NG_Style_v2_noText_EXIF|
+metro_pics/KM20050323_00284.jpg|Empty|Empty|NG_Style_v2_tooltip|NG_Style_v2_noText_EXIF|
+metro_pics/KM20050323_00285.jpg|Empty|Empty|NG_Style_v2_tooltip|NG_Style_v2_noText_EXIF|
+metro_pics/KM20050323_00286.jpg|Empty|Empty|NG_Style_v2_tooltip|NG_Style_v2_noText_EXIF|
+metro_pics/KM20050323_00287.jpg|Empty|Empty|NG_Style_v2_tooltip|NG_Style_v2_noText_EXIF|
+
+#############################################################################################################################
+#
+### _END_OF_FILE ###
+

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+
+<rss version="2.0">
+  <channel>
+  <title>TILOS radioá</title>
+  <link>http://www.tilos.hu/</link>
+  <description>Tilos desc</description>
+  <language>en-us</language>
+  <copyright></copyright>
+  <lastBuildDate>Fri, 4 Apr 2008 09:10:42 GMT</lastBuildDate>
+  <generator>date "+%a,%e %b %Y %X %Z"</generator>
+  <webMaster>tilospodcast@fleischmann.hu</webMaster>
+
+    <ttl>1</ttl>
+    <item>
+    <title>mp3 title</title>
+    <description>mp3 desc</description>
+    <pubDate>Fri, 1 Apr 2008 09:10:42 GMT</pubDate>
+    <enclosure url="http://uj.tilos.hu/online/2008/04/04/08001.mp3" length="1000" type="audio/mpeg"/>
+    <enclosure url="http://uj.tilos.hu/online/2008/04/04/08004.mp3" length="1000" type="audio/mpeg"/>
+    </item>
+
+    <item>
+    <title>mp3 32 title</title>
+    <description>mp3 desc</description>
+    <pubDate>Fri, 1 Apr 2008 09:10:42 GMT</pubDate>
+    <enclosure url="http://uj.tilos.hu/online/2008/04/04/08002.mp3" length="1000" type="audio/mpeg"/>
+    </item>
+
+    <ttl>2</ttl>
+    <item>
+    <title>mp3 333 title</title>
+    <description>mp3 desc</description>
+    <pubDate>Fri, 2 Apr 2008 09:10:42 GMT</pubDate>
+    <enclosure url="http://uj.tilos.hu/online/2008/04/04/08003.mp3" length="1000" type="audio/mpeg"/>
+    </item>
+
+  </channel>
+</rss>

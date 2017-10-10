@@ -1,0 +1,135 @@
+#!/bin/sh
+#
+##############################################
+# Just a little trick...
+  eval 'exec photoalbum_generator -b -f $0 -a contents.txt -A NG_Style -c 2 -s 0 -e ${1+"$@"}'
+##############################################
+#
+# Album from 199Y
+#
+# Created: 2004.12.09.
+#
+# Global overwriting^M
+# overwrite:    [{{STYLE}}=>file:css/NG_Style.CSS]
+#
+#############################################################################################################################
+# Title: Tartalom/Contents
+#############################################################################################################################
+#
+# The structure:
+# filename|albumbodytheme|slidetheme|backgroundtheme|frametheme
+#
+#############################################################################################################################
+
+#
+pics/fake.jpg|Contents[NOPIC=>YES,{{TITLE}}=>B.S.O.D. T-Shirt,{{LINK}}=>../../geocities.com/html/bsod.htm,{{PAGE}}=>2004]|Null|NG_Style_v2|NG_Style_v2|
+pics/fake.jpg|Contents_Empty_but_Link[NOPIC=>YES,{{TITLE}}=>Lotus Notes,{{LINK}}=>http://www.lotus.com/,{{PAGE}}=>]|Null|NG_Style_v2|NG_Style_v2|
+
+#
+pics/fake.jpg|Contents_Empty_but_Link[NOPIC=>YES,NOLINK=>YES,{{TITLE}}=>HTML,{{LINK}}=>,{{PAGE}}=>]|Null|NG_Style_v2|NG_Style_v2|
+pics/fake.jpg|Contents_Empty_but_Link[NOPIC=>YES,{{TITLE}}=>Timex Data Link USB,{{LINK}}=>http://www.timex.com/datalink/,{{PAGE}}=>]|Null|NG_Style_v2|NG_Style_v2|
+
+#
+pics/fake.jpg|Contents[NOPIC=>YES,{{TITLE}}=>&nbsp;&nbsp;NEWS00,{{LINK}}=>../../geocities.com/html/news_template.htm,{{PAGE}}=>2000]|Null|NG_Style_v2|NG_Style_v2|
+pics/fake.jpg|Contents[NOPIC=>YES,{{TITLE}}=>&nbsp;&nbsp;Mastermind,{{LINK}}=>../../development/timex/MasterMi/MasterMi.html,{{PAGE}}=>2004]|Null|NG_Style_v2|NG_Style_v2|
+
+#
+pics/fake.jpg|Contents[NOPIC=>YES,{{TITLE}}=>&nbsp;&nbsp;NEWS01,{{LINK}}=>../../geocities.com/html/news/news01.htm,{{PAGE}}=>2000]|Null|NG_Style_v2|NG_Style_v2|
+pics/fake.jpg|Contents[NOPIC=>YES,{{TITLE}}=>&nbsp;&nbsp;TOD tweak,{{LINK}}=>../../development/timex/tweak/,{{PAGE}}=>2005]|Null|NG_Style_v2|NG_Style_v2|
+
+#
+pics/fake.jpg|Contents[NOPIC=>YES,{{TITLE}}=>&nbsp;&nbsp;Book,{{LINK}}=>../../geocities.com/html/mybook/start.htm,{{PAGE}}=>2000]|Null|NG_Style_v2|NG_Style_v2|
+pics/fake.jpg|Contents_Empty_but_Link[NOPIC=>YES,{{TITLE}}=>Psion,{{LINK}}=>../../geocities.com/html/my_psion_world.htm,{{PAGE}}=>]|Null|NG_Style_v2|NG_Style_v2|
+
+#
+pics/fake.jpg|Contents_Empty_but_Link[NOPIC=>YES,NOLINK=>YES,{{TITLE}}=>JavaScript,{{LINK}}=>,{{PAGE}}=>]|Null|NG_Style_v2|NG_Style_v2|
+pics/fake.jpg|Contents[NOPIC=>YES,{{TITLE}}=>&nbsp;&nbsp;PhotoPal S3x,{{LINK}}=>../../geocities.com/html/photopal/photopal.htm,{{PAGE}}=>2001]|Null|NG_Style_v2|NG_Style_v2|
+
+#
+pics/fake.jpg|Contents[NOPIC=>YES,{{TITLE}}=>&nbsp;&nbsp;Photo Browser,{{LINK}}=>../../geocities.com/html/fotozas2.htm,{{PAGE}}=>2001]|Null|NG_Style_v2|NG_Style_v2|
+pics/fake.jpg|Contents[NOPIC=>YES,{{TITLE}}=>&nbsp;&nbsp;DpBank S3x,{{LINK}}=>../../geocities.com/html/dpbank/dpbank.htm,{{PAGE}}=>1998]|Null|NG_Style_v2|NG_Style_v2|
+
+#
+pics/fake.jpg|Contents[NOPIC=>YES,{{TITLE}}=>&nbsp;&nbsp;SzóVegyKonyha,{{LINK}}=>../../geocities.com/html/SzoVegyKonyha/szovegykonyha.htm,{{PAGE}}=>2000]|Null|NG_Style_v2|NG_Style_v2|
+pics/fake.jpg|Contents[NOPIC=>YES,{{TITLE}}=>&nbsp;&nbsp;PortGet,{{LINK}}=>../../geocities.com/html/my_psion_world.htm#Mozitv,{{PAGE}}=>1998]|Null|NG_Style_v2|NG_Style_v2|
+
+#
+pics/fake.jpg|Contents_Empty_but_Link[NOPIC=>YES,NOLINK=>YES,{{TITLE}}=>WAP,{{LINK}}=>,{{PAGE}}=>]|Null|NG_Style_v2|NG_Style_v2|
+pics/fake.jpg|Contents_Empty_but_Link[NOPIC=>YES,{{TITLE}}=>iPAQ,{{LINK}}=>../../geocities.com/html/iPAQ.htm,{{PAGE}}=>]|Null|NG_Style_v2|NG_Style_v2|
+
+#
+pics/fake.jpg|Contents[NOPIC=>YES,{{TITLE}}=>&nbsp;&nbsp;MyWAP,{{LINK}}=>http://gelon.net/cgi-bin/wapalizenokia6210.cgi?url=http://flexoft.dyndns.org/~flex/WAP/p_index.wml,{{PAGE}}=>2001]|Null|NG_Style_v2|NG_Style_v2|
+pics/fake.jpg|Contents_Empty_but_Link[NOPIC=>YES,{{TITLE}}=>Dia,{{LINK}}=>http://www.diafilmmuzeum.hu/,{{PAGE}}=>]|Null|NG_Style_v2|NG_Style_v2|
+
+#
+pics/fake.jpg|Contents_Empty_but_Link[NOPIC=>YES,{{TITLE}}=>PERL,{{LINK}}=>http://www.perl.com/,{{PAGE}}=>]|Null|NG_Style_v2|NG_Style_v2|
+pics/fake.jpg|Contents[NOPIC=>YES,{{TITLE}}=>&nbsp;&nbsp;Interkozmosz,{{LINK}}=>../../geocities.com/html/interkozmosz/interkozmosz1.htm,{{PAGE}}=>1981]|Null|NG_Style_v2|NG_Style_v2|
+
+#
+pics/fake.jpg|Contents[NOPIC=>YES,{{TITLE}}=>&nbsp;&nbsp;MyBookmarks Everywhere,{{LINK}}=>../../geocities.com/html/mybookmarks.htm,{{PAGE}}=>2001]|Null|NG_Style_v2|NG_Style_v2|
+pics/fake.jpg|Contents[NOPIC=>YES,{{TITLE}}=>&nbsp;&nbsp;Kis&nbsp;Mukk,{{LINK}}=>../../geocities.com/html/A_kis_Mukk/A_kis_Mukk_01.htm,{{PAGE}}=>1956]|Null|NG_Style_v2|NG_Style_v2|
+
+#
+pics/fake.jpg|Contents[NOPIC=>YES,{{TITLE}}=>&nbsp;&nbsp;Photo Album Generator,{{LINK}}=>../../bin/photoalbum_generator,{{PAGE}}=>2005]|Null|NG_Style_v2|NG_Style_v2|
+pics/fake.jpg|Contents[NOPIC=>YES,{{TITLE}}=>Az én/My,{{LINK}}=>http://www.geocities.com/gfleischmann/,{{PAGE}}=>2003]|Null|NG_Style_v2|NG_Style_v2|
+
+#
+pics/fake.jpg|Contents[NOPIC=>YES,{{TITLE}}=>&nbsp;&nbsp;KONICA MINOLTA Dynax 7D Downloader,{{LINK}}=>../../bin/kmd7dd,{{PAGE}}=>2005]|Null|NG_Style_v2|NG_Style_v2|
+pics/fake.jpg|Contents[NOPIC=>YES,{{TITLE}}=>&nbsp;&nbsp;LPs,{{LINK}}=>../../geocities.com/html/mylps.htm,{{PAGE}}=>2001]|Null|NG_Style_v2|NG_Style_v2|
+
+#
+pics/fake.jpg|Contents[NOPIC=>YES,{{TITLE}}=>&nbsp;&nbsp;My TSM preprocessor,{{LINK}}=>../..//bin/mtsm,{{PAGE}}=>2005]|Null|NG_Style_v2|NG_Style_v2|
+pics/fake.jpg|Contents[NOPIC=>YES,{{TITLE}}=>&nbsp;&nbsp;CDs,{{LINK}}=>../../geocities.com/html/mycds.htm,{{PAGE}}=>2001]|Null|NG_Style_v2|NG_Style_v2|
+
+#
+pics/fake.jpg|Contents_Empty_but_Link[NOPIC=>YES,{{TITLE}}=>Linux,{{LINK}}=>http://www.linux.org/,{{PAGE}}=>]|Null|NG_Style_v2|NG_Style_v2|
+pics/fake.jpg|Contents[NOPIC=>YES,{{TITLE}}=>&nbsp;&nbsp;VIDEOs,{{LINK}}=>../../geocities.com/html/myvideos.htm,{{PAGE}}=>2001]|Null|NG_Style_v2|NG_Style_v2|
+
+#
+pics/fake.jpg|Contents[NOPIC=>YES,{{TITLE}}=>&nbsp;&nbsp;LCD device driver project,{{LINK}}=>../../geocities.com/html/LCD/lcd_project.htm,{{PAGE}}=>2001]|Null|NG_Style_v2|NG_Style_v2|
+pics/fake.jpg|Contents[NOPIC=>YES,{{TITLE}}=>&nbsp;&nbsp;DVDs,{{LINK}}=>../dvd/dvd.htm,{{PAGE}}=>2005]|Null|NG_Style_v2|NG_Style_v2|
+
+#
+pics/fake.jpg|Contents[NOPIC=>YES,NOLINK=>YES,{{TITLE}}=>&nbsp;&nbsp;Site Management,{{LINK}}=>,{{PAGE}}=>2001]|Null|NG_Style_v2|NG_Style_v2|
+pics/fake.jpg|Contents[NOPIC=>YES,NOLINK=>YES,{{TITLE}}=>&nbsp;&nbsp;MP3s,{{LINK}}=>,{{PAGE}}=>2005]|Null|NG_Style_v2|NG_Style_v2|
+
+#
+pics/fake.jpg|Contents[NOPIC=>YES,{{TITLE}}=>&nbsp;&nbsp;WEB camera,{{LINK}}=>http://flexoft.dyndns.org/~flex/webcam/webcam.htm,{{PAGE}}=>2001]|Null|NG_Style_v2|NG_Style_v2|
+pics/fake.jpg|Contents[NOPIC=>YES,{{TITLE}}=>&nbsp;&nbsp;<b>L</b>INKs,{{LINK}}=>links.htm,{{PAGE}}=>2005]|Null|NG_Style_v2|NG_Style_v2|
+
+#
+pics/fake.jpg|Contents[NOPIC=>YES,{{TITLE}}=>Fejvadászok&nbsp;Magyarországon,{{LINK}}=>../../geocities.com/html/fejvadaszok_magyarorszagon.htm,{{PAGE}}=>2004]|Null|NG_Style_v2|NG_Style_v2|
+pics/fake.jpg|Contents[NOPIC=>YES,NOLINK=>YES,{{TITLE}}=>&nbsp;&nbsp;CVs,{{LINK}}=>,{{PAGE}}=>2005]|Null|NG_Style_v2|NG_Style_v2|
+
+#pics/fake.jpg|Contents_Empty[NOPIC=>YES,{{TITLE}}=>,{{LINK}}=>,{{PAGE}}=>]|Null|NG_Style_v2|NG_Style_v2|
+
+#pics/fake.jpg|Contents_Empty_but_Link[NOLINK=>YES,{{TITLE}}=>My,{{LINK}}=>,{{PAGE}}=>]|Null|NG_Style_v2|NG_Style_v2|
+#pics/fake.jpg|Contents_Empty_but_Link[{{TITLE}}=>Psion,{{LINK}}=>http://www.geocities.com/Vienna/4558/html/my_psion_world.htm,{{PAGE}}=>]|Null|NG_Style_v2|NG_Style_v2|
+#pics/fake.jpg|Contents[{{TITLE}}=>&nbsp;&nbsp;LPs,{{LINK}}=>http://www.geocities.com/Vienna/4558/html/mylps.htm,{{PAGE}}=>2001]|Null|NG_Style_v2|NG_Style_v2|
+#pics/fake.jpg|Contents[{{TITLE}}=>&nbsp;&nbsp;PhotoPal S3x,{{LINK}}=>http://www.geocities.com/Vienna/4558/html/photopal/photopal.htm,{{PAGE}}=>2001]|Null|NG_Style_v2|NG_Style_v2|
+#pics/fake.jpg|Contents[{{TITLE}}=>&nbsp;&nbsp;CDs,{{LINK}}=>http://www.geocities.com/Vienna/4558/html/mycds.htm,{{PAGE}}=>2001]|Null|NG_Style_v2|NG_Style_v2|
+#pics/fake.jpg|Contents[{{TITLE}}=>&nbsp;&nbsp;DpBank S3x,{{LINK}}=>http://www.geocities.com/Vienna/4558/html/dpbank/dpbank.htm,{{PAGE}}=>1998]|Null|NG_Style_v2|NG_Style_v2|
+#pics/fake.jpg|Contents[{{TITLE}}=>&nbsp;&nbsp;VIDEOs,{{LINK}}=>http://www.geocities.com/Vienna/4558/html/myvideos.htm,{{PAGE}}=>2001]|Null|NG_Style_v2|NG_Style_v2|
+#pics/fake.jpg|Contents_Empty[{{TITLE}}=>,{{LINK}}=>,{{PAGE}}=>]|Null|NG_Style_v2|NG_Style_v2|
+#pics/fake.jpg|Contents[NOLINK=>YES,{{TITLE}}=>&nbsp;&nbsp;CVs,{{LINK}}=>,{{PAGE}}=>2005]|Null|NG_Style_v2|NG_Style_v2|
+#pics/fake.jpg|Contents[{{TITLE}}=>Fejvadászok&nbsp;Magyarországon,{{LINK}}=>http://www.geocities.com/Vienna/4558/html/fejvadaszok_magyarorszagon.htm,{{PAGE}}=>2004]|Null|NG_Style_v2|NG_Style_v2|
+#pics/fake.jpg|Contents_Empty_but_Link[{{TITLE}}=>Linux,{{LINK}}=>http://www.linux.org/,{{PAGE}}=>]|Null|NG_Style_v2|NG_Style_v2|
+#pics/fake.jpg|Contents_Empty[{{TITLE}}=>,{{LINK}}=>,{{PAGE}}=>]|Null|NG_Style_v2|NG_Style_v2|
+#pics/fake.jpg|Contents[{{TITLE}}=>&nbsp;&nbsp;LCD device driver project,{{LINK}}=>http://www.geocities.com/Vienna/4558/html/LCD/lcd_project.htm,{{PAGE}}=>2001]|Null|NG_Style_v2|NG_Style_v2|
+#pics/fake.jpg|Contents_Empty[{{TITLE}}=>,{{LINK}}=>,{{PAGE}}=>]|Null|NG_Style_v2|NG_Style_v2|
+#pics/fake.jpg|Contents_Empty_but_Link[{{TITLE}}=>Dia,{{LINK}}=>http://www.diafilmmuzeum.hu/,{{PAGE}}=>]|Null|NG_Style_v2|NG_Style_v2|
+#pics/fake.jpg|Contents_Empty[{{TITLE}}=>,{{LINK}}=>,{{PAGE}}=>]|Null|NG_Style_v2|NG_Style_v2|
+#pics/fake.jpg|Contents[{{TITLE}}=>&nbsp;&nbsp;Interkozmosz,{{LINK}}=>http://www.geocities.com/Vienna/4558/html/interkozmosz/interkozmosz1.htm,{{PAGE}}=>2000]|Null|NG_Style_v2|NG_Style_v2|
+#pics/fake.jpg|Contents_Empty[{{TITLE}}=>,{{LINK}}=>,{{PAGE}}=>]|Null|NG_Style_v2|NG_Style_v2|
+#pics/fake.jpg|Contents[{{TITLE}}=>&nbsp;&nbsp;Kis&nbsp;Mukk,{{LINK}}=>http://www.geocities.com/Vienna/4558/html/A_kis_Mukk/A_kis_Mukk_01.htm,{{PAGE}}=>2000]|Null|NG_Style_v2|NG_Style_v2|
+#pics/fake.jpg|Contents_Empty[{{TITLE}}=>,{{LINK}}=>,{{PAGE}}=>]|Null|NG_Style_v2|NG_Style_v2|
+
+#pics/fake.jpg|Contents[NOLINK=>YES,{{TITLE}}=>1970-es évek. Születés és környéke,{{LINK}}=>../B2005/index.htm,{{PAGE}}=>1970,NOLINK=>YES]|Null|NG_Style_v2|NG_Style_v2|
+#pics/fake.jpg|Contents[NOLINK=>YES,{{TITLE}}=>1972,{{LINK}}=>,{{PAGE}}=>1972,NOLINK=>YES]|Null|NG_Style_v2|NG_Style_v2|
+
+# extra footer
+pics/fake.jpg|Include[NOPIC=>YES,MAXCOL=>1,{{TEXT}}=>absolutefile:include.htm]|Null|NG_Style_v2|NG_Style_v2|
+
+#############################################################################################################################
+#
+### _END_OF_FILE ###

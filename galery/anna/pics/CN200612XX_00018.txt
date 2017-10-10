@@ -1,0 +1,14 @@
+#
+# EXIF Title        : ;-)
+# EXIF Photographer : FLEISCHMANN György, flex
+# EXIF Place        : Budapest, HUNGARY
+#
+# EXIF Camera make  : MINOLTA
+# EXIF Camera model : DYNAX 9000
+# EXIF Date/Time    : 2006:12:DD ??:??:??
+# EXIF Flash used   : No
+# EXIF ISO equiv.   : 160
+# EXIF Metering Mode: spot
+# EXIF Film         : FUJI NPC (expired)
+# EXIF Exposure     : aperture priority (semi-auto)
+#

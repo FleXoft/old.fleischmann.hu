@@ -1,0 +1,13 @@
+#
+# EXIF Title        : Citroën, Traction
+# EXIF Photographer : FLEISCHMANN György, flex
+# EXIF Place        : Sousse, TUNISIA
+#
+# EXIF Camera make  : MINOLTA
+# EXIF Camera model : DYNAX 9000
+# EXIF Date/Time    : 2004:02:DD ??:??:??
+# EXIF Flash used   : No
+# EXIF ISO equiv.   : 100
+# EXIF Metering Mode: spot
+# EXIF Exposure     : aperture priority (semi-auto)
+#

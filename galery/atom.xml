@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<feed version="0.3" xmlns="http://purl.org/atom/ns#">
+<title>F|L|E|I|S|C|H|M|A|N|N</title>
+<link rel="alternate" type="text/html" href="http://www.fleischmann.hu/photo/blog/latest.htm" />
+<modified>2006-07-17T21:55:57Z</modified>
+<entry>
+<id>tag:www.fleischmann.hu,flex,latest</id>
+<title>Latest photo</title>
+<issued>2006-07-17T22:46:16Z</issued>
+<modified>2006-07-17T22:46:16Z</modified>
+<author>
+<name>_flex</name>
+</author>
+<link rel="alternate" type="text/html" href="http://www.fleischmann.hu/photo/blog/latest.htm" />
+<content type="text/html" mode="escaped" xml:lang="en">
+<![CDATA[ <img src="http://www.fleischmann.hu/photo/blog/latest_thumb.jpg"> ]]>
+</content>
+</entry>
+</feed>
+

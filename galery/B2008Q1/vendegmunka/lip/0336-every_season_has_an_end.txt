@@ -1,0 +1,62 @@
+# Title        : Every season has an end
+
+<table cellspacing="10" cellpadding="10" border="0">
+<tr>
+<td colspan="3">
+<u>The Greenhornes (with Holly Golightly): There Is An End (Broken Flowers Soundtrack)</u>
+</td>
+</tr>
+<tr>
+<td valign="top">
+Words disappear,<br>
+Words weren't so clear,<br>
+Only echos passing through the night.<br>
+<br>
+The lines on my face,<br>
+Your fingers once traced,<br>
+Fading reflection of what was.<br>
+<br>
+Thoughts re-arrange,<br>
+Familar now strange,<br>
+All my skin is drifting on the wind.<br>
+<br>
+Spring brings the rain,<br>
+With winter comes pain,<br>
+Every season has an end.<br>
+</td>
+<td height="100%">
+<table cellpadding="0" cellspacing="0" height="100%" width="1" border="0">
+<tr><td bgcolor="#006633" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#006699" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#663366" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#ff9933" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#ff0000" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#993333" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#006699" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#66cccc" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#ff6633" height="10%"><img src="" height="1" width="1"></td></tr>
+</table>
+</td>
+<td valign="top">
+I try to see through the disguise,<br>
+But the clouds were there,<br>
+Blocking out the sun (the sun).<br>
+<br>
+Thoughts re-arrange,<br>
+Familar now strange,<br>
+All my skin is drifting on the wind.<br>
+<br>
+Spring brings the rain,<br>
+With winter comes pain,<br>
+Every season has an end.<br>
+<br>
+There's an end,<br>
+There's an end,<br>
+There's an end,<br>
+There's an end,<br>
+There's an end<br>
+</td>
+</tr>
+</table>
+
+<center><object width="425" height="355"><param name="movie" value="http://www.youtube.com/v/XREEQoE2-rE&rel=1"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/XREEQoE2-rE&rel=1" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed></object></center><br>

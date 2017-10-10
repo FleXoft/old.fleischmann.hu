@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+
+<channel>
+    <title>Szakácstolvaj</title>
+    <link>http://tilos.hu/program.php?program_id=526</link>
+    <description>Ez egy interaktív beszélgetős, zenékkel tagolt, vitatkozós valami. Témánk szinte bármi lehet, amiről azt gondoljuk, hogy a hallgatót is érdekelheti, olykor valóban érdekli is.</description>    
+    <language>hu</language>
+    <lastBuildDate>_lastBuildDate_</lastBuildDate>
+    <generator>_flex from FleXoft Inc.</generator>
+    <webMaster>tilospodcast@fleischmann.hu</webMaster>
+    

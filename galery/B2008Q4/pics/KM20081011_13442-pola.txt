@@ -1,0 +1,70 @@
+#
+# Title        : Back
+# EXIF Photographer : FLEISCHMANN György, flex
+# EXIF Place        : Budapest, HUNGARY
+#
+
+<table cellspacing="10" cellpadding="10" border="0">
+<tr>
+<td colspan="3">
+<u>STYX - Babe</u>
+</td>
+</tr>
+<tr>
+<td valign="top">
+Babe, I'm leaving, I must be on my way<br>
+The time is drawing near<br>
+My train is going, I see it in your eyes<br>
+The love, the need, your tears<br>
+But I'll be lonely without you<br>
+And I'll need your love to see me through<br>
+So Please believe me, my heart is in your hands<br>
+And I'll be missing you.<br>
+<br>
+Cause You know it's you Babe<br>
+Whenever I get weary and I've had enough<br>
+Feel like giving up<br>
+You know it's you Babe<br>
+Giving me the courage and the strength I need<br>
+Please believe that it's true<br>
+Babe, I love you.<br>
+</td>
+<td height="100%">
+<table cellpadding="0" cellspacing="0" height="100%" width="1" border="0">
+<tr><td bgcolor="#006633" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#006699" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#663366" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#ff9933" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#ff0000" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#993333" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#006699" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#66cccc" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#ff6633" height="10%"><img src="" height="1" width="1"></td></tr>
+</table>
+</td>
+<td valign="top">
+You know it's you Babe<br>
+Whenever I get weary and I've had enough<br>
+Feel like giving up<br>
+You know it's you Babe<br>
+Giving me the courage and the strength I need<br>
+Please believe that it's true<br>
+Babe, I love you.<br>
+<br>
+Babe, I'm leaving, I'll say it once again<br>
+Somehow try to smile<br>
+I know the feeling we're trying to forget<br>
+If only for a while<br>
+Cause I'll be lonely without you<br>
+And I'll need your love to see me through<br>
+But Please believe me, my heart is in your hands<br>
+Cause I'll be missing you<br>
+Babe, I love you.<br>
+Babe, I love you.<br>
+Oooohhhhhhh Babe<br>
+</td>
+</tr>
+</table>
+
+
+

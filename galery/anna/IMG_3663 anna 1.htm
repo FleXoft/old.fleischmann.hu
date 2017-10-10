@@ -1,0 +1,507 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<!-- NG Style v2 picture theme with shortcutbar -->
+
+<html>
+<head>
+
+<title></title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2" />
+ 
+<meta name="keywords"content="Fleischmann György, fleischmann, flex, gyurci, flexoft, mohács, budapest, magyarország, hungary, photography, digital, photo, black and white, landscape, people, blog, light, photo blog, photolog, photoblog, linux, psion, timex, perl, lcd, minolta, 9000, d7d" />
+<meta name="owner"content="FLEISCHMANN György" />
+<meta name="author"content="FLEISCHMANN György" />
+
+<link rel="icon" href="http://www.fleischmann.hu/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://www.fleischmann.hu/favicon.ico">
+
+<meta name="PBO.auth" content="645917b1946117c27a6ee9bbd02240e1" />
+
+<style type="text/css" media="screen">
+
+body {
+  margin: 0px;
+  padding: 0px;
+
+  background-color: #3d3d3d;
+  font-family: Trebuchet MS, Trebuchet, Georgia, Verdana, Arial, Helvetica, Sans-serif;
+  color: #fffffe;
+  font-size: 14px;
+
+  scrollbar-face-color: #3d3d3d;
+  scrollbar-highlight-color: #3d3d3d;
+  scrollbar-shadow-color: #3d3d3d;
+
+  scrollbar-3dlight-color: #9d9d9d;
+  scrollbar-arrow-color: #ffffff;
+  scrollbar-darkshadow-color: #9d9d9d;
+  scrollbar-track-color: #3d3d3d;
+}
+
+div.linkbar {
+  font-variant: small-caps;
+  color: #9d9d9d;
+  letter-spacing: 1px;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+a, a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* ?Firefox? */
+
+a, div.linkbar a, {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:visited, div.linkbar a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover, div.linkbar a:hover {
+  color: #9d9d9d;
+  text-decoration: none;
+}
+
+a:active,div.linkbar a:active {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+div.shortcutbar {
+  color: #9d9d9d;
+  padding: 3px 0px 5px 0px;
+  font-size: 11px;
+}
+
+a.dot {
+  color: #9d9d9d;
+  text-decoration: none;
+}
+
+a.dot:visited {
+  color: #ee0000;
+  text-decoration: none;
+}
+
+a.dot:hover {
+  color: #fefefe;
+  text-decoration: none;
+}
+
+td.photo_loader {
+  background: #3d3d3d url(../../pics/anim/loading_anim.gif) no-repeat center center;
+}
+
+.photo {
+  background-color: #3d3d3d;
+  color: #3d3d3d;
+  border: 2px solid #9d9d9d;
+}
+
+.photo1 {
+  background-color: #3d3d3d;
+  color: #3d3d3d;
+  border: 1px solid #9d9d9d;
+}
+
+.photo1a {
+  background-color: #ffffff;
+  color: #ffffff;
+  border: 1px solid #000000;
+}
+
+.smallphoto {
+  padding: 4px;
+  background: #E9E9E9;
+  border: 1px solid #D1D1D1;			
+  margin: 3px 0px 12px 20px;
+}
+
+.phototext {
+  color: #dddddd;
+  font-size: 15px;
+}
+
+.phototext A {
+  border-bottom: 1px solid #ff0001;
+}
+
+div.bookmarkbar {
+  FONT-SIZE: 12px; COLOR: #9d9d9d; LETTER-SPACING: 1px; FONT-VARIANT:
+  small-caps; TEXT-DECORATION: none
+}
+div.bookmark A {
+  COLOR: #9d9d9d; TEXT-DECORATION: none
+}
+div.bookmark A:visited {
+  COLOR: #9d9d9d; TEXT-DECORATION: none
+}
+div.bookmark A:hover {
+  COLOR: #ffffff; TEXT-DECORATION: none
+}
+div.bookmark A:active {
+  COLOR: #ff0000; TEXT-DECORATION: none
+}
+
+.minusclick A {
+  DISPLAY: block; WIDTH: 100%; HEIGHT: 100%
+}
+.minusclick a:hover {
+  background: url(../../pics/html/m.gif) no-repeat center center;
+}
+
+.plusclick A {
+  DISPLAY: block; WIDTH: 100%; HEIGHT: 100%
+}
+.plusclick a:hover {
+  background: url(../../pics/html/p.gif) no-repeat center center;
+}
+ 
+.h {
+  
+  BORDER-RIGHT: #9d9d9d 1px solid; BORDER-TOP: #9d9d9d 1px solid; BORDER-LEFT: #9d9d9d 1px solid; BORDER-BOTTOM: #9d9d9d 1px solid;
+}  
+  
+.t {
+  BORDER-RIGHT: #9d9d9d 1px solid; BORDER-TOP: #9d9d9d 1px solid; BORDER-LEFT: #9d9d9d 1px solid; BORDER-BOTTOM: #9d9d9d 1px solid;
+}
+
+.c {
+  BORDER-RIGHT: #9d9d9d 1px solid; BORDER-TOP: #9d9d9d 1px solid; BORDER-LEFT: #9d9d9d 1px solid; BORDER-BOTTOM: #9d9d9d 1px solid;
+}
+
+.cu {
+  BORDER-RIGHT: #9d9d9d 1px solid; BORDER-TOP: #9d9d9d 1px solid; BORDER-LEFT: #9d9d9d 1px solid; BORDER-BOTTOM: #9d9d9d 0px solid;
+}
+
+.cm {
+  BORDER-RIGHT: #9d9d9d 1px solid; BORDER-TOP: #9d9d9d 1px dotted; BORDER-LEFT: #9d9d9d 1px solid; BORDER-BOTTOM: #9d9d9d 1px dotted;
+}
+
+.cd {
+  BORDER-RIGHT: #9d9d9d 1px solid; BORDER-TOP: #9d9d9d 0px solid; BORDER-LEFT: #9d9d9d 1px solid; BORDER-BOTTOM: #9d9d9d 1px solid;
+}
+
+div.text {
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",Arial,Verdana, Helvetica, sans-serif;
+	color:#eee;
+	font-size:14px;
+}
+
+
+</style>
+
+<script>
+
+/* I saw the base of this script on http://www.bungie.net/ */
+
+var origWidth = 0;
+var origHeight = 0;
+
+var fullsize = 0;
+
+var imgLoaded = 0;
+var bottomLoaded = 0;
+
+var leftMargin = 20;
+var bottomMargin = 140;
+
+var firstTime = 1;
+
+window.focus();
+
+function resize() {
+  if (!imgLoaded || !bottomLoaded ) return;
+ 
+  if (! origWidth) origWidth = document.getElementById("mainImage").width;
+  if (! origHeight) origHeight = document.getElementById("mainImage").height;
+
+  windowWidth = document.body.clientWidth - leftMargin;
+  windowHeight = document.body.clientHeight - bottomMargin;
+
+  if (windowWidth==0) windowWidth=800;
+  if (windowHeight==0) windowHeight=600;
+
+  if ( firstTime==1 && windowWidth > origWidth && windowHeight > origHeight ) fullsize=1;
+  firstTime=0;
+  
+  /* if ( windowWidth < origWidth ) fullsize=0; */
+  
+  if (fullsize) {
+    document.getElementById("mainImage").width=origWidth;
+    document.getElementById("mainImage").height=origHeight;
+  }
+  else if (origWidth/origHeight > windowWidth/windowHeight) {
+    var newWidth = windowWidth-5;
+    if (isNaN(newWidth)) newWidth=500; 
+    document.getElementById("mainImage").width = newWidth;
+    document.getElementById("mainImage").height = newWidth * (origHeight/origWidth);
+  }
+  else {
+    var newHeight = windowHeight-5;
+    if (isNaN(newHeight)) newHeight=400;
+    document.getElementById("mainImage").height = newHeight;
+    document.getElementById("mainImage").width = newHeight * (origWidth/origHeight);
+  }
+}
+
+function setCookie(name, value, expire) {
+  document.cookie = name + "=" + escape(value) + ((expire == null) ? "" : ("; expires=" + expire.toGMTString()))
+}
+
+function set(item) {
+  var today = new Date()
+  var expires = new Date()
+  expires.setTime(today.getTime() + 1000*60*60*24*365)
+
+  setCookie("FlexLastPhoto", item, expires);
+}
+
+</script>
+
+<script for=window event=onresize>
+resize();
+
+var cookieArray = String(document.cookie).split("; ");
+for (i in cookieArray) {
+  cookie = cookieArray[i].split("=");
+  if (cookie[0] == "zoom") fullsize = Number(cookie[1]);
+}
+
+</script>
+
+<script>
+
+/********************************************************************************/
+/** process the key event
+/********************************************************************************/
+function alertkey(e) {
+  if ( !e ) {
+    if ( window.event ) {
+      e = window.event;
+    }
+    else {
+      return;
+    }
+  }
+
+  if ( typeof(e.which) == 'number' ) {
+    //NS 4, NS 6+, Mozilla 0.9+, Opera
+    e = e.which;
+  }
+  else if( typeof(e.keyCode) == 'number'  ) {
+    //IE, NS 6+, Mozilla 0.9+
+    e = e.keyCode;
+  }
+  else if( typeof(e.charCode) == 'number'  ) {
+    //also NS 6+, Mozilla 0.9+
+    e = e.charCode;
+  }
+  else {
+    return;
+  }
+
+  // left arrow and -
+  if ( e == 37 || e == 100 || e == 109 || e == 189 || e == 188 ) {
+    // previous
+    location.href="index.htm";
+  }
+  // right arrow and +
+  else if ( e == 39 || e == 102 || e == 107 || e == 187 || e == 190 || e == 32 ) {
+    // next
+    location.href="IMG_3658 anna 2.htm";
+  }
+  // ?
+  else if ( e == 191 ) {
+    location.href='../help/index.htm';
+  }  
+  // a
+  else if ( e == 65 ) {
+    location.href='../about/index.htm';
+  }
+  // b
+  else if ( e == 66 ) {
+    history.back();
+  }
+  // c and x
+  else if ( e == 67 || e == 88 ) {
+    window.close();
+  }  
+  // f
+  else if ( e == 70 ) {
+    location.href='http://www.fleischmann.hu/';
+  }
+  // h
+  else if ( e == 72 ) {
+    location.href='../contents/index.htm';
+  }
+  // i
+  else if ( e == 73 ) {
+    location.href='index.htm';
+  }
+  // l
+  else if ( e == 76 ) {
+    location.href='../contents/links.htm';
+  }
+  // m
+  else if ( e == 77 ) {
+    set(window.location);
+  }  
+  // p
+  else if ( e == 80 ) {
+    print();
+  }    
+  // r
+  else if ( e == 82 ) {
+    fullsize=1-fullsize;
+	document.cookie=('zoom='+fullsize);
+	resize();
+	resize();
+  }  
+  // s
+  else if ( e == 83 ) {
+    location.href="pics/IMG_3663 anna 1.jpg";
+  }    
+  
+  // e
+  else if ( e == 69 ) {
+    location.href='http://jakabhaza.dyndns.org/squirrelmail/';
+  }
+  // o
+  else if ( e == 79 ) {
+    location.href='https://www.otpbank.hu/otpportal2000/online/HB0210000000.html?x=y';
+  }  
+  
+  // g
+  else if ( e == 71 ) {
+    location.href='http://google.com/mail/';
+  }
+	  
+  // u
+  else if ( e == 85  ) {
+    location.href='http://www.user.hu/mail/gyfleischmann.nsf';
+  }  
+}
+
+if ( document.captureEvents ) {
+  //non IE
+  if ( Event.KEYUP ) {
+  //NS 4, NS 6+, Mozilla 0.9+
+  document.captureEvents(Event.KEYUP);
+  }
+}
+
+// when a key is pressed, run the alertkey function
+document.onkeyup = alertkey;
+
+</script>
+
+<script type="text/javascript" src="http://www.haloscan.com/load/flexoft"> </script>
+
+</head>
+
+<body background="">
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+<tr>
+  <td valign="top" align="center" height="1%">
+  <table bgcolor="Black" width="100%" height="29" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="3" bgcolor="#9d9d9d"><img src="" width="1" height="1"></td>
+  </tr>
+  <tr>
+    <td align="left"><div class="linkbar">&nbsp;<font color="#ff0000">&middot;</font>&nbsp;<a href="../contents/index.htm" onmouseover="window.status='(H)ome!';return true;" onmouseout="window.status='';return true;" accesskey="h"><b>H</b>OME</a>&nbsp;<a href="index.htm" onmouseover="window.status='(I)ndex!';return true;" onmouseout="window.status='';return true;" accesskey="i"><b>I</b>NDEX</a>&nbsp;<a href="javascript:history.back();" onmouseover="window.status='(B)ack!';return true;" onmouseout="window.status='';return true;"><b>B</b>ACK</a>&nbsp;<a href="javascript:print();" onmouseover="window.status='(P)rint!';return true;" onmouseout="window.status='';return true;"><b>P</b>RINT</a>&nbsp;<a href="javascript:set(window.location);" onmouseover="window.status='Save your book(m)ark!';return true;" onmouseout="window.status='';return true;" accesskey="b">BOOK<b>M</b>ARK</a>&nbsp;<a href="pics/IMG_3663 anna 1.jpg" onmouseover="window.status='(S)ave the picture!';return true;" onmouseout="window.status='';return true;">FILE/<b>S</b>AVE</a>&nbsp;<b>O</b>RDER&nbsp;<a href="javascript:fullsize=1-fullsize;document.cookie=('zoom='+fullsize);resize();resize();" onmouseover="window.status='(R)esize the picture!';return true;" onmouseout="window.status='';return true;" accesskey="r"><b>R</b>ESIZE</a></div></td>
+	<td align="right"><div class="linkbar">&nbsp;<b>A</b>BOUT&nbsp;<a href="../help/index.htm" onmouseover="window.status='Help(?)';return true;" onmouseout="window.status='';return true;">HELP<b>?</b></a>&nbsp;<a href="javascript:window.close();" onmouseover="window.status='(C)lose!';return true;" onmouseout="window.status='';return true;"><b>C</b>LOSE&nbsp;</a><font color="#ff0000">&middot;</font>&nbsp;</div></td>
+	<td width="1" bgcolor="#9d9d9d"><img src="" width="1" height="1"></td>
+  </tr>	
+  <tr>
+    <td colspan="3" bgcolor="#9d9d9d"><img src="" width="1" height="1"></td>
+  </tr>	    
+  </table>	
+<!--  <div class="shortcutbar">|<a class="dot" href="IMG_3663 anna 1.htm" alt="" onmouseover="window.status='';return true;" onmouseout="window.status='';return true;"> 1 </a>|<a class="dot" href="IMG_3658 anna 2.htm" alt="" onmouseover="window.status='';return true;" onmouseout="window.status='';return true;"> 2 </a>|<a class="dot" href="IMG_3656 anna 3.htm" alt="" onmouseover="window.status='';return true;" onmouseout="window.status='';return true;"> 3 </a>|<a class="dot" href="IMG_3655 anna 4.htm" alt="" onmouseover="window.status='';return true;" onmouseout="window.status='';return true;"> 4 </a>|<a class="dot" href="KM20061223_07353.htm" alt="Coder Anna" onmouseover="window.status='Coder Anna';return true;" onmouseout="window.status='';return true;"> 5 </a>|<a class="dot" href="CN200612XX_00018.htm" alt=";-)" onmouseover="window.status=';-)';return true;" onmouseout="window.status='';return true;"> 6 </a>|<a class="dot" href="KM20061028_06835.htm" alt="" onmouseover="window.status='';return true;" onmouseout="window.status='';return true;"> 7 </a>|<a class="dot" href="KM20061105_06943.htm" alt="Party all the time - Anna 5 éves" onmouseover="window.status='Party all the time - Anna 5 éves';return true;" onmouseout="window.status='';return true;"> 8 </a>|<a class="dot" href="KM20061015_06689.htm" alt="A" onmouseover="window.status='A';return true;" onmouseout="window.status='';return true;"> 9 </a>|<a class="dot" href="KM20060721_05953.htm" alt="Vvááááááá..." onmouseover="window.status='Vvááááááá...';return true;" onmouseout="window.status='';return true;"> 10 </a>|<a class="dot" href="KM20060721_05952.htm" alt="" onmouseover="window.status='';return true;" onmouseout="window.status='';return true;"> 11 </a>|<a class="dot" href="KM20060712_05892.htm" alt="" onmouseover="window.status='';return true;" onmouseout="window.status='';return true;"> 12 </a>|<a class="dot" href="KM20060712_05870.htm" alt="" onmouseover="window.status='';return true;" onmouseout="window.status='';return true;"> 13 </a>|<a class="dot" href="KM20060712_05878.htm" alt="Szappanbuborék" onmouseover="window.status='Szappanbuborék';return true;" onmouseout="window.status='';return true;"> 14 </a>|<a class="dot" href="KM20060712_05874.htm" alt="" onmouseover="window.status='';return true;" onmouseout="window.status='';return true;"> 15 </a>|<a class="dot" href="KM20060604_05645.htm" alt="" onmouseover="window.status='';return true;" onmouseout="window.status='';return true;"> 16 </a>|<a class="dot" href="KM20060611_05699.htm" alt="A" onmouseover="window.status='A';return true;" onmouseout="window.status='';return true;"> 17 </a>|<a class="dot" href="KM20060528_05600.htm" alt="Gyereknap" onmouseover="window.status='Gyereknap';return true;" onmouseout="window.status='';return true;"> 18 </a>|<a class="dot" href="KM20060506_05409.htm" alt="Hintázni jó" onmouseover="window.status='Hintázni jó';return true;" onmouseout="window.status='';return true;"> 19 </a>|<a class="dot" href="KM20060521_05510.htm" alt="Én nem csináltam semmit!" onmouseover="window.status='Én nem csináltam semmit!';return true;" onmouseout="window.status='';return true;"> 20 </a>|<a class="dot" href="KM20060521_05487.htm" alt="Csak mindig rosszalkodni valamit..." onmouseover="window.status='Csak mindig rosszalkodni valamit...';return true;" onmouseout="window.status='';return true;"> 21 </a>|<a class="dot" href="KM20060316_05073.htm" alt="A" onmouseover="window.status='A';return true;" onmouseout="window.status='';return true;"> 22 </a>|<a class="dot" href="KM20060218_04779.htm" alt="ROKKER Anna" onmouseover="window.status='ROKKER Anna';return true;" onmouseout="window.status='';return true;"> 23 </a>|<a class="dot" href="KM20060102_04460.htm" alt="...és ismét Anna" onmouseover="window.status='...és ismét Anna';return true;" onmouseout="window.status='';return true;"> 24 </a>|<a class="dot" href="KM20060102_04465.htm" alt="Anna..." onmouseover="window.status='Anna...';return true;" onmouseout="window.status='';return true;"> 25 </a>|<a class="dot" href="KM20051217_04206.htm" alt="" onmouseover="window.status='';return true;" onmouseout="window.status='';return true;"> 26 </a>|<a class="dot" href="KM20051217_04188.htm" alt="ELső tornabemutatóm" onmouseover="window.status='ELső tornabemutatóm';return true;" onmouseout="window.status='';return true;"> 27 </a>|<a class="dot" href="KM20051029_03975.htm" alt="" onmouseover="window.status='';return true;" onmouseout="window.status='';return true;"> 28 </a>|<a class="dot" href="KM20050917_03618.htm" alt="A varázsló baglya I." onmouseover="window.status='A varázsló baglya I.';return true;" onmouseout="window.status='';return true;"> 29 </a>|<a class="dot" href="KM20050904_03508_cropped_bw.htm" alt="Anna, mint leopárd V2 (cropped, bw)" onmouseover="window.status='Anna, mint leopárd V2 (cropped, bw)';return true;" onmouseout="window.status='';return true;"> 30 </a>|<a class="dot" href="KM20050904_03508.htm" alt="Anna, mint leopárd" onmouseover="window.status='Anna, mint leopárd';return true;" onmouseout="window.status='';return true;"> 31 </a>|<a class="dot" href="KM20050719_02690.htm" alt="Anna" onmouseover="window.status='Anna';return true;" onmouseout="window.status='';return true;"> 32 </a>|<a class="dot" href="KM20050719_02691.htm" alt="Anna" onmouseover="window.status='Anna';return true;" onmouseout="window.status='';return true;"> 33 </a>|<a class="dot" href="KM20050722_02884.htm" alt="Boldog névnapot!" onmouseover="window.status='Boldog névnapot!';return true;" onmouseout="window.status='';return true;"> 34 </a>|<a class="dot" href="KM20050609_01867.htm" alt="Anna" onmouseover="window.status='Anna';return true;" onmouseout="window.status='';return true;"> 35 </a>|<a class="dot" href="KM20050515_01434.htm" alt="Anna" onmouseover="window.status='Anna';return true;" onmouseout="window.status='';return true;"> 36 </a>|<a class="dot" href="KM20050407_00709.htm" alt="Anna" onmouseover="window.status='Anna';return true;" onmouseout="window.status='';return true;"> 37 </a>|<a class="dot" href="KM20050407_00707.htm" alt="Anna" onmouseover="window.status='Anna';return true;" onmouseout="window.status='';return true;"> 38 </a>|<a class="dot" href="KM20050318_00171_r.htm" alt="" onmouseover="window.status='';return true;" onmouseout="window.status='';return true;"> 39 </a>|<a class="dot" href="KM20050318_00167_r.htm" alt="" onmouseover="window.status='';return true;" onmouseout="window.status='';return true;"> 40 </a>|<a class="dot" href="KM20050318_00164_r.htm" alt="" onmouseover="window.status='';return true;" onmouseout="window.status='';return true;"> 41 </a>|<a class="dot" href="PICT0008_resized.htm" alt="" onmouseover="window.status='';return true;" onmouseout="window.status='';return true;"> 42 </a>|<a class="dot" href="PICT0007_resized.htm" alt="" onmouseover="window.status='';return true;" onmouseout="window.status='';return true;"> 43 </a>|<a class="dot" href="PICT0006_resized.htm" alt="" onmouseover="window.status='';return true;" onmouseout="window.status='';return true;"> 44 </a>|<a class="dot" href="PICT0002_resized.htm" alt="" onmouseover="window.status='';return true;" onmouseout="window.status='';return true;"> 45 </a>|<a class="dot" href="CS200502DD_02111.htm" alt="" onmouseover="window.status='';return true;" onmouseout="window.status='';return true;"> 46 </a>|<a class="dot" href="CS200502DD_02106.htm" alt="Anna #1." onmouseover="window.status='Anna #1.';return true;" onmouseout="window.status='';return true;"> 47 </a>|<a class="dot" href="CS200502DD_02105.htm" alt="Anna #2." onmouseover="window.status='Anna #2.';return true;" onmouseout="window.status='';return true;"> 48 </a>|<a class="dot" href="CS200502DD_02104.htm" alt="Anna #3." onmouseover="window.status='Anna #3.';return true;" onmouseout="window.status='';return true;"> 49 </a>|<a class="dot" href="BN200412DD_00020.htm" alt="Anna 20041226, Paks" onmouseover="window.status='Anna 20041226, Paks';return true;" onmouseout="window.status='';return true;"> 50 </a>|<a class="dot" href="BN200412DD_00033.htm" alt="Anna 20041226, Paks" onmouseover="window.status='Anna 20041226, Paks';return true;" onmouseout="window.status='';return true;"> 51 </a>|<a class="dot" href="BN200412DD_00009.htm" alt="" onmouseover="window.status='';return true;" onmouseout="window.status='';return true;"> 52 </a>|<a class="dot" href="BN200412DD_00010.htm" alt="" onmouseover="window.status='';return true;" onmouseout="window.status='';return true;"> 53 </a>|<a class="dot" href="BN200412DD_00014.htm" alt="" onmouseover="window.status='';return true;" onmouseout="window.status='';return true;"> 54 </a>|</div> 
+-->
+  </td>
+</tr>  
+<tr>
+  <td valign="middle" align="center">  
+  
+  <!-- End of Header -->
+
+<!-- ### Picture header based on: ../templates/PICTURE_HEADER_NG_Style_v2_tooltip.HTM -->
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td width="50%" height="100%">
+  <a href="index.htm" onmouseover="window.status='- Previous picture!';return true;" onmouseout="window.status='';return true;" accesskey="p"><img src="../../pics/html/1x1.gif" width="100%" height="100%" alt="-" border="0"></a>
+  </td>
+  <td align="center" valign="middle">
+  <table>
+  <tr>
+    <td>
+<a href="IMG_3658 anna 2.htm" onmouseover="window.status='';return true;" onmouseout="window.status='';return true;"><img class="photo" src="pics/IMG_3663 anna 1.jpg" alt="" title="" id="mainImage" style="cursor:hand;" onload="imgLoaded=1;resize();"></a>
+    </td>
+  </tr>
+  </table>
+  </td>
+  <td width="50%" height="100%">
+  <a href="IMG_3658 anna 2.htm" onmouseover="window.status='+ Next picture!';return true;" onmouseout="window.status='';return true;" accesskey="n"><img src="../../pics/html/1x1.gif" width="100%" height="100%" alt="+" border="0"></a>
+  </td>
+</tr>
+</table>
+
+<!-- ### Picture frame based on: ../templates/PICTURE_FRAME_NG_Style_v2_noText.HTM -->
+
+  <!-- Footer -->
+  
+  </td>
+</tr>
+<tr>
+  <td valign="bottom" align="center" height="1%">
+
+  <table bgcolor="Black" width="100%" height="29" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="2" bgcolor="#9d9d9d"><img src="" width="1" height="1"></td>
+  </tr>
+  <tr>
+    <td align="center"><div class="linkbar"><font color="#ff0000">&middot;</font>&nbsp;<font color="#9d9d9d">Nincs&nbsp;jog&nbsp;fenntartva</font>&nbsp;<font color="#9d9d9d">-=</font>&nbsp;<a href="http://www.fleischmann.hu/" onmouseover="window.status='www.fleischmann.hu';return true;" onmouseout="window.status='';return true;">FLEISCHMANN</a>&nbsp;<font color="#9d9d9d">=-</font>&nbsp;<font color="#9d9d9d">No&nbsp;rights&nbsp;reserved</font>&nbsp;<font color="#ff0000">&middot;</font></div></td>
+    <td width="1" bgcolor="#9d9d9d"><img src="" width="1" height="1"></td>
+  </tr>	
+  <tr>
+    <td colspan="2" bgcolor="#9d9d9d"><img src="" width="1" height="1"></td>
+  </tr>	    
+  </table>
+
+  </td>
+</tr>
+</table>
+
+<script language="JavaScript" type="text/javascript" src="../../javascript/wz_tooltip.js"></script>
+
+</body>
+
+<script>
+bottomLoaded=1;
+fullsize=1;
+</script>
+
+</html>
+
+
+<!-- ### Picture frame based on: ../templates/PICTURE_FOOTER_NG_Style_v2_tooltip.HTM -->
+
+
+<!-- Generated by:
+photoalbum_generator v1.25
+# Designed by Flex.
+# Written by Flex from FleXoft.
+#	(flex@fleischmann.hu)
+#	(http://www.fleischmann.hu/)
+# Run by flex on gate at 20070112@22:07
+-->

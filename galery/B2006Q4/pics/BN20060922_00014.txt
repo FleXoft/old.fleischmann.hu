@@ -1,0 +1,13 @@
+#
+# EXIF Title        : PÓK?
+# EXIF Photographer : FLEISCHMANN György, flex
+# EXIF Place        : Balatonfüred, HUNGARY
+#
+# EXIF Camera make  : MINOLTA
+# EXIF Camera model : DYNAX 9000
+# EXIF Date/Time    : 2006:09:23 ??:??:??
+# EXIF Flash used   : No
+# EXIF ISO equiv.   : 400
+# EXIF Metering Mode: spot
+# EXIF Exposure     : aperture priority (semi-auto)
+#

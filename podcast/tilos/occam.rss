@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+<channel>
+    <title>TILOS RÁDIÓ - Occam Borotvája</title>
+    <link>http://www.tilos.hu/</link>
+    <language>HU-hu</language>
+    <lastBuildDate>Thu,17 Apr 2008 11:00:02 PM CEST</lastBuildDate>
+    <generator>_flex from FleXoft Inc.</generator>
+    <webMaster>tilospodcast@fleischmann.hu</webMaster>
+    
+    <item>
+        <title>2008.04.17. 20:00...</title>
+        <description>Max | DarkEye</description>
+        <pubDate>Thu,17 Apr 2008 11:00:02 PM CEST</pubDate>
+        <enclosure url="http://uj.tilos.hu/online/2008/04/17/2000.mp3" length="28864000" type="audio/mpeg"/>
+    </item>
+    <item>
+        <title>2008.04.17. 20:30...</title>
+        <description>  Max | DarkEye</description>
+        <pubDate>Thu,17 Apr 2008 11:00:02 PM CEST</pubDate>
+        <enclosure url="http://uj.tilos.hu/online/2008/04/17/2030.mp3" length="28864000" type="audio/mpeg"/>
+    </item>
+    <item>
+        <title>2008.04.17. 21:00...</title>
+        <description>  Max | DarkEye</description>
+        <pubDate>Thu,17 Apr 2008 11:00:02 PM CEST</pubDate>
+        <enclosure url="http://uj.tilos.hu/online/2008/04/17/2100.mp3" length="28864000" type="audio/mpeg"/>
+    </item>
+    <item>
+        <title>2008.04.17. 21:30...</title>
+        <description>  Max | DarkEye</description>
+        <pubDate>Thu,17 Apr 2008 11:00:02 PM CEST</pubDate>
+        <enclosure url="http://uj.tilos.hu/online/2008/04/17/2130.mp3" length="28864000" type="audio/mpeg"/>
+    </item>
+
+    <item>
+        <title>2008.04.10. 20:00...</title>
+        <description>Max | DarkEye</description>
+        <pubDate>Thu,10 Apr 2008 11:00:02 PM CEST</pubDate>
+        <enclosure url="http://uj.tilos.hu/online/2008/04/10/2000.mp3" length="28864000" type="audio/mpeg"/>
+    </item>
+    <item>
+        <title>2008.04.10. 20:30...</title>
+        <description>  Max | DarkEye</description>
+        <pubDate>Thu,10 Apr 2008 11:00:02 PM CEST</pubDate>
+        <enclosure url="http://uj.tilos.hu/online/2008/04/10/2030.mp3" length="28864000" type="audio/mpeg"/>
+    </item>
+    <item>
+        <title>2008.04.10. 21:00...</title>
+        <description>  Max | DarkEye</description>
+        <pubDate>Thu,10 Apr 2008 11:00:02 PM CEST</pubDate>
+        <enclosure url="http://uj.tilos.hu/online/2008/04/10/2100.mp3" length="28864000" type="audio/mpeg"/>
+    </item>
+    <item>
+        <title>2008.04.10. 21:30...</title>
+        <description>  Max | DarkEye</description>
+        <pubDate>Thu,10 Apr 2008 11:00:02 PM CEST</pubDate>
+        <enclosure url="http://uj.tilos.hu/online/2008/04/10/2130.mp3" length="28864000" type="audio/mpeg"/>
+    </item>
+
+    <item>
+        <title>2008.04.03. 20:00...</title>
+        <description>Max | DarkEye</description>
+        <pubDate>Wed, 3 Apr 2008 10:35:11 PM CEST</pubDate>
+        <enclosure url="http://uj.tilos.hu/online/2008/04/03/2000.mp3" length="28864000" type="audio/mpeg"/>
+    </item>
+    <item>
+        <title>2008.04.03. 20:30...</title>
+        <description>  Max | DarkEye</description>
+        <pubDate>Wed, 3 Apr 2008 10:35:11 PM CEST</pubDate>
+        <enclosure url="http://uj.tilos.hu/online/2008/04/03/2030.mp3" length="28864000" type="audio/mpeg"/>
+    </item>
+    <item>
+        <title>2008.04.03. 21:00...</title>
+        <description>  Max | DarkEye</description>
+        <pubDate>Wed, 3 Apr 2008 10:35:11 PM CEST</pubDate>
+        <enclosure url="http://uj.tilos.hu/online/2008/04/03/2100.mp3" length="28864000" type="audio/mpeg"/>
+    </item>
+    <item>
+        <title>2008.04.03. 21:30...</title>
+        <description>  Max | DarkEye</description>
+        <pubDate>Wed, 3 Apr 2008 10:35:11 PM CEST</pubDate>
+        <enclosure url="http://uj.tilos.hu/online/2008/04/03/2130.mp3" length="28864000" type="audio/mpeg"/>
+    </item>
+
+  </channel>
+</rss>

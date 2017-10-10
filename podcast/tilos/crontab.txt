@@ -1,0 +1,7 @@
+0 13 * * 1 /home/flex/www/fleischmann.hu/podcast/tilos/rss_generator.sh szoke   >/dev/null 2>&1
+0 13 * * 2 /home/flex/www/fleischmann.hu/podcast/tilos/rss_generator.sh tsonka  >/dev/null 2>&1
+#0 11 * * 3 /home/flex/www/fleischmann.hu/podcast/tilos/rss_generator.sh kolor   >/dev/null 2>&1
+0 13 * * 4 /home/flex/www/fleischmann.hu/podcast/tilos/rss_generator.sh szakacs >/dev/null 2>&1
+0 23 * * 4 /home/flex/www/fleischmann.hu/podcast/tilos/rss_generator.sh occam   >/dev/null 2>&1
+0 11 * * 5 /home/flex/www/fleischmann.hu/podcast/tilos/rss_generator.sh haza    >/dev/null 2>&1
+0 19 * * 5 /home/flex/www/fleischmann.hu/podcast/tilos/rss_generator.sh honty   >/dev/null 2>&1

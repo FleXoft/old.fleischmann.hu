@@ -1,0 +1,6 @@
+# Title: Szoci dia projekt
+
+<br>
+<table border="0" cellpadding="10" width="95%" align="center" style="border: 1px solid #AA0000;"><tr><td>
+<div class="text">Köszönet <a href="http://refreshblog.blogspot.com/">FixY</a>-nak a 20D-ért.</div>
+</td></tr></table>

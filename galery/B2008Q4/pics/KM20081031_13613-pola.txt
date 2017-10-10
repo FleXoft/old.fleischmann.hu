@@ -1,0 +1,68 @@
+#
+# Title        : Lo a kezben
+# EXIF Photographer : FLEISCHMANN György, flex
+# EXIF Place        : Budapest, HUNGARY
+#
+
+<table cellspacing="10" cellpadding="10" border="0">
+<tr>
+<td colspan="3">
+<u>Talk Talk - I believe in you</u>
+</td>
+</tr>
+<tr>
+<td valign="top">
+Hear it in my spirit<br>
+<br>
+I've seen heroin for myself<br>
+On the street so young laying wasted<br>
+Enough ain't it enough<br>
+Crippled world<br>
+I just can't bring myself to see it starting<br>
+<br>
+Tell me how I fear it<br>
+I buy prejudice for my health<br>
+Is it worth so much when you taste it?<br>
+Enough there ain't enough hidden hurt<br>
+A time to sell yourself<br>
+A time for passing<br>
+</td>
+<td height="100%">
+<table cellpadding="0" cellspacing="0" height="100%" width="1" border="0">
+<tr><td bgcolor="#006633" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#006699" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#663366" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#ff9933" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#ff0000" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#993333" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#006699" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#66cccc" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#ff6633" height="10%"><img src="" height="1" width="1"></td></tr>
+</table>
+</td>
+<td valign="top">
+Spirit<br>
+<br>
+How long?<br>
+<br>
+Spirit<br>
+<br>
+(Instrumental)<br>
+<br>
+Spirit<br>
+<br>
+Spirit<br>
+<br>
+How long?<br>
+<br>
+Spirit<br>
+<br>
+How long?<br>
+<br>
+Spirit<br>
+</td>
+</tr>
+</table>
+
+
+

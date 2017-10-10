@@ -1,0 +1,30 @@
+    <item>
+        <title>_date_ 10:00...</title>
+        <description>Minek | Lőrinc | Csákányos</description>
+        <pubDate>_pubDate_</pubDate>
+        <enclosure url="http://tilos.hu/online/_YYYY_/_MM_/_DD_/tilosradio-_YYYY__MM__DD_-1000.mp3" length="28864000" type="audio/mpeg"/>
+    </item>
+    <item>
+        <title>_date_ 10:30...</title>
+        <description>Minek | Lőrinc | Csákányos</description>
+        <pubDate>_pubDate_</pubDate>
+        <enclosure url="http://tilos.hu/online/_YYYY_/_MM_/_DD_/tilosradio-_YYYY__MM__DD_-1030.mp3" length="28864000" type="audio/mpeg"/>
+    </item>
+    <item>
+        <title>_date_ 11:00...</title>
+        <description>Minek | Lőrinc | Csákányos</description>
+        <pubDate>_pubDate_</pubDate>
+        <enclosure url="http://tilos.hu/online/_YYYY_/_MM_/_DD_/tilosradio-_YYYY__MM__DD_-1100.mp3" length="28864000" type="audio/mpeg"/>
+    </item>
+    <item>
+        <title>_date_ 11:30...</title>
+        <description>Minek | Lőrinc | Csákányos</description>
+        <pubDate>_pubDate_</pubDate>
+        <enclosure url="http://tilos.hu/online/_YYYY_/_MM_/_DD_/tilosradio-_YYYY__MM__DD_-1130.mp3" length="28864000" type="audio/mpeg"/>
+    </item>
+    <item>
+        <title>_date_ 12:00...</title>
+        <description>Minek | Lőrinc | Csákányos</description>
+        <pubDate>_pubDate_</pubDate>
+        <enclosure url="http://tilos.hu/online/_YYYY_/_MM_/_DD_/tilosradio-_YYYY__MM__DD_-1200.mp3" length="28864000" type="audio/mpeg"/>
+    </item>

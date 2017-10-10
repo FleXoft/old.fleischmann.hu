@@ -1,0 +1,13 @@
+#
+# EXIF Title        : Bakelitek
+# EXIF Photographer : FLEISCHMANN György, flex
+# EXIF Place        : Mátra, HUNGARY
+#
+# EXIF Camera make  : MINOLTA
+# EXIF Camera model : DYNAX 9000
+# EXIF Date/Time    : 2000:MM:DD ??:??:??
+# EXIF Flash used   : Yes
+# EXIF ISO equiv.   : 100
+# EXIF Metering Mode: spot
+# EXIF Exposure     : aperture priority (semi-auto)
+#

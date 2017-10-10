@@ -1,0 +1,25 @@
+    <item>
+        <title>_date_ 20:00...</title>
+        <description>Max | DarkEye</description>
+        <pubDate>_pubDate_</pubDate>
+        <enclosure url="http://tilos.hu/online/_YYYY_/_MM_/_DD_/2000.mp3" length="28864000" type="audio/mpeg"/>
+    </item>
+    <item>
+        <title>_date_ 20:30...</title>
+        <description>  Max | DarkEye</description>
+        <pubDate>_pubDate_</pubDate>
+        <enclosure url="http://tilos.hu/online/_YYYY_/_MM_/_DD_/2030.mp3" length="28864000" type="audio/mpeg"/>
+    </item>
+    <item>
+        <title>_date_ 21:00...</title>
+        <description>  Max | DarkEye</description>
+        <pubDate>_pubDate_</pubDate>
+        <enclosure url="http://tilos.hu/online/_YYYY_/_MM_/_DD_/2100.mp3" length="28864000" type="audio/mpeg"/>
+    </item>
+    <item>
+        <title>_date_ 21:30...</title>
+        <description>  Max | DarkEye</description>
+        <pubDate>_pubDate_</pubDate>
+        <enclosure url="http://tilos.hu/online/_YYYY_/_MM_/_DD_/2130.mp3" length="28864000" type="audio/mpeg"/>
+    </item>
+

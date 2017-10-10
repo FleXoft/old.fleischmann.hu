@@ -1,0 +1,31 @@
+    <item>
+        <title>_date_ 08:00...</title>
+        <description>Túró Rudi | Pálos György | Czabán György | Bojtár B. Endre</description>
+        <pubDate>_pubDate_</pubDate>
+        <enclosure url="http://tilos.hu/online//_MM_/_DD_/tilosradio-_MM__DD_0800.mp3" length="28864000" type="audio/mpeg"/>
+    </item>
+    <item>
+        <title>_date_ 08:30...</title>
+        <description>Túró Rudi | Pálos György | Czabán György | Bojtár B. Endre</description>
+        <pubDate>_pubDate_</pubDate>
+        <enclosure url="http://tilos.hu/online//_MM_/_DD_/tilosradio-_MM__DD_0830.mp3" length="28864000" type="audio/mpeg"/>
+    </item>
+    <item>
+        <title>_date_ 09:00...</title>
+        <description>Túró Rudi | Pálos György | Czabán György | Bojtár B. Endre</description>
+        <pubDate>_pubDate_</pubDate>
+        <enclosure url="http://tilos.hu/online//_MM_/_DD_/tilosradio-_MM__DD_0900.mp3" length="28864000" type="audio/mpeg"/>
+    </item>
+    <item>
+        <title>_date_ 09:30...</title>
+        <description>Túró Rudi | Pálos György | Czabán György | Bojtár B. Endre</description>
+        <pubDate>_pubDate_</pubDate>
+        <enclosure url="http://tilos.hu/online//_MM_/_DD_/tilosradio-_MM__DD_0930.mp3" length="28864000" type="audio/mpeg"/>
+    </item>
+    <item>
+        <title>_date_ 10:00...</title>
+        <description>Túró Rudi | Pálos György | Czabán György | Bojtár B. Endre</description>
+        <pubDate>_pubDate_</pubDate>
+        <enclosure url="http://tilos.hu/online//_MM_/_DD_/tilosradio-_MM__DD_1000.mp3" length="28864000" type="audio/mpeg"/>
+    </item>
+

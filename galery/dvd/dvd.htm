@@ -1,0 +1,1778 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<!-- NG Style album theme -->
+
+<html>
+<head>
+
+  <title>DVD lista</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2" />
+ 
+  <meta name="keywords"content="Fleischmann György, fleischmann, flex, gyurci, flexoft, mohács, budapest, magyarország, hungary, photography, digital, photo, black and white, landscape, people, blog, light, photo blog, photolog, photoblog, linux, psion, timex, perl, lcd, minolta, 9000, d7d" />
+  <meta name="owner"content="FLEISCHMANN György" />
+  <meta name="author"content="FLEISCHMANN György" />
+ 
+  <link rel="icon" href="http://www.fleischmann.hu/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="http://www.fleischmann.hu/favicon.ico">
+  
+  <style type="text/css" media="screen">
+
+body {
+  margin: 0px;
+  padding: 0px;
+
+  background-color: #3d3d3d;
+  font-family: Trebuchet MS, Trebuchet, Georgia, Verdana, Arial, Helvetica, Sans-serif;
+  color: #fffffe;
+  font-size: 14px;
+
+  scrollbar-face-color: #3d3d3d;
+  scrollbar-highlight-color: #3d3d3d;
+  scrollbar-shadow-color: #3d3d3d;
+
+  scrollbar-3dlight-color: #9d9d9d;
+  scrollbar-arrow-color: #ffffff;
+  scrollbar-darkshadow-color: #9d9d9d;
+  scrollbar-track-color: #3d3d3d;
+}
+
+div.linkbar {
+  font-variant: small-caps;
+  color: #9d9d9d;
+  letter-spacing: 1px;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+a, a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* ?Firefox? */
+
+a, div.linkbar a, {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:visited, div.linkbar a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover, div.linkbar a:hover {
+  color: #9d9d9d;
+  text-decoration: none;
+}
+
+a:active,div.linkbar a:active {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+div.shortcutbar {
+  color: #9d9d9d;
+  padding: 3px 0px 5px 0px;
+  font-size: 11px;
+}
+
+a.dot {
+  color: #9d9d9d;
+  text-decoration: none;
+}
+
+a.dot:visited {
+  color: #ee0000;
+  text-decoration: none;
+}
+
+a.dot:hover {
+  color: #fefefe;
+  text-decoration: none;
+}
+
+td.photo_loader {
+  background: #3d3d3d url(../../pics/anim/loading_anim.gif) no-repeat center center;
+}
+
+.photo {
+  background-color: #3d3d3d;
+  color: #3d3d3d;
+  border: 2px solid #9d9d9d;
+}
+
+.photo1 {
+  background-color: #3d3d3d;
+  color: #3d3d3d;
+  border: 1px solid #9d9d9d;
+}
+
+.photo1a {
+  background-color: #ffffff;
+  color: #ffffff;
+  border: 1px solid #000000;
+}
+
+.smallphoto {
+  padding: 4px;
+  background: #E9E9E9;
+  border: 1px solid #D1D1D1;			
+  margin: 3px 0px 12px 20px;
+}
+
+.phototext {
+  color: #dddddd;
+  font-size: 15px;
+}
+
+.phototext A {
+  border-bottom: 1px solid #ff0001;
+}
+
+div.bookmarkbar {
+  FONT-SIZE: 12px; COLOR: #9d9d9d; LETTER-SPACING: 1px; FONT-VARIANT:
+  small-caps; TEXT-DECORATION: none
+}
+div.bookmark A {
+  COLOR: #9d9d9d; TEXT-DECORATION: none
+}
+div.bookmark A:visited {
+  COLOR: #9d9d9d; TEXT-DECORATION: none
+}
+div.bookmark A:hover {
+  COLOR: #ffffff; TEXT-DECORATION: none
+}
+div.bookmark A:active {
+  COLOR: #ff0000; TEXT-DECORATION: none
+}
+
+.minusclick A {
+  DISPLAY: block; WIDTH: 100%; HEIGHT: 100%
+}
+.minusclick a:hover {
+  background: url(../../pics/html/m.gif) no-repeat center center;
+}
+
+.plusclick A {
+  DISPLAY: block; WIDTH: 100%; HEIGHT: 100%
+}
+.plusclick a:hover {
+  background: url(../../pics/html/p.gif) no-repeat center center;
+}
+ 
+.h {
+  
+  BORDER-RIGHT: #9d9d9d 1px solid; BORDER-TOP: #9d9d9d 1px solid; BORDER-LEFT: #9d9d9d 1px solid; BORDER-BOTTOM: #9d9d9d 1px solid;
+}  
+  
+.t {
+  BORDER-RIGHT: #9d9d9d 1px solid; BORDER-TOP: #9d9d9d 1px solid; BORDER-LEFT: #9d9d9d 1px solid; BORDER-BOTTOM: #9d9d9d 1px solid;
+}
+
+.c {
+  BORDER-RIGHT: #9d9d9d 1px solid; BORDER-TOP: #9d9d9d 1px solid; BORDER-LEFT: #9d9d9d 1px solid; BORDER-BOTTOM: #9d9d9d 1px solid;
+}
+
+.cu {
+  BORDER-RIGHT: #9d9d9d 1px solid; BORDER-TOP: #9d9d9d 1px solid; BORDER-LEFT: #9d9d9d 1px solid; BORDER-BOTTOM: #9d9d9d 0px solid;
+}
+
+.cm {
+  BORDER-RIGHT: #9d9d9d 1px solid; BORDER-TOP: #9d9d9d 1px dotted; BORDER-LEFT: #9d9d9d 1px solid; BORDER-BOTTOM: #9d9d9d 1px dotted;
+}
+
+.cd {
+  BORDER-RIGHT: #9d9d9d 1px solid; BORDER-TOP: #9d9d9d 0px solid; BORDER-LEFT: #9d9d9d 1px solid; BORDER-BOTTOM: #9d9d9d 1px solid;
+}
+
+div.text {
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",Arial,Verdana, Helvetica, sans-serif;
+	color:#eee;
+	font-size:14px;
+}
+
+
+   </style>
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-1485101-1";
+urchinTracker();
+</script>
+
+<script>
+
+function getCookie(name) {
+  var search = name + "=";
+  if (document.cookie.length > 0) {     // if there are any cookies
+    offset = document.cookie.indexOf(search);
+    if (offset != -1) {                 // if cookie exists
+      offset += search.length;
+      // set index of beginning of value
+      end = document.cookie.indexOf(";", offset);
+      // set index of end of cookie value
+      if (end == -1) end=document.cookie.length;
+      return unescape(document.cookie.substring(offset, end));
+    }
+    else {
+      return "";
+    }
+  }
+  return "";
+}
+
+var cookie = getCookie("FlexLastPhoto");
+
+</script>
+
+<script>
+
+/********************************************************************************/
+/** process the key event
+/********************************************************************************/
+function alertkey(e) {
+  if ( !e ) {
+    if ( window.event ) {
+      e = window.event;
+    }
+    else {
+      return;
+    }
+  }
+
+  if ( typeof(e.which) == 'number' ) {
+    //NS 4, NS 6+, Mozilla 0.9+, Opera
+    e = e.which;
+  }
+  else if( typeof(e.keyCode) == 'number'  ) {
+    //IE, NS 6+, Mozilla 0.9+
+    e = e.keyCode;
+  }
+  else if( typeof(e.charCode) == 'number'  ) {
+    //also NS 6+, Mozilla 0.9+
+    e = e.charCode;
+  }
+  else {
+    return;
+  }
+
+  // ?
+  if ( e == 191 ) {
+    location.href='../help/index.htm';
+  }  
+  // a
+  else if ( e == 65 ) {
+    location.href='../about/index.htm';
+  }
+  // b
+  else if ( e == 66 ) {
+    history.back();
+  }
+  // c and x
+  else if ( e == 67 || e == 88 ) {
+    window.close();
+  }  
+  // f
+  else if ( e == 70 ) {
+    location.href='http://www.fleischmann.hu/';
+  }
+  // h
+  else if ( e == 72 ) {
+    location.href='../contents/index.htm';
+  }
+  // l
+  else if ( e == 76 ) {
+    location.href='../contents/links.htm';
+  }
+  // m
+  else if ( e == 77 ) {
+    if (cookie != "") {
+	  location.href=cookie;
+    }
+  }  
+  // p
+  else if ( e == 80 ) {
+    print();
+  }
+  
+  // e
+  else if ( e == 69 ) {
+    location.href='http://jakabhaza.dyndns.org/squirrelmail/';
+  }
+  
+  // o
+  else if ( e == 79 ) {
+    location.href='https://www.otpbank.hu/otpportal2000/online/HB0210000000.html?x=y';
+  }
+  
+  // g
+  else if ( e == 71 ) {
+    location.href='http://google.com/mail/';
+  }
+  
+  // u
+  else if ( e == 85  ) {
+    location.href='http://www.user.hu/mail/gyfleischmann.nsf';
+  }
+}
+
+if ( document.captureEvents ) {
+  //non IE
+  if ( Event.KEYUP ) {
+  //NS 4, NS 6+, Mozilla 0.9+
+  document.captureEvents(Event.KEYUP);
+  }
+}
+
+// when a key is pressed, run the alertkey function
+document.onkeyup = alertkey;
+
+</script>
+
+</head>
+
+<body background="">
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+<tr>
+  <td valign="top" align="center" height="1%">
+  <table bgcolor="Black" width="100%" height="29" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="3" bgcolor="#9d9d9d"><img src="" width="1" height="1"></td>
+  </tr>
+  <tr>
+    <td align="left"><div class="linkbar">&nbsp;<font color="#ff0000">&middot;</font>&nbsp;<a href="../contents/index.htm" onmouseover="window.status='(H)ome!';return true;" onmouseout="window.status='';return true;" accesskey="h"><b>H</b>OME</a>&nbsp;<b>I</b>NDEX&nbsp;<a href="javascript:history.back();" onmouseover="window.status='(B)ack!';return true;" onmouseout="window.status='';return true;"><b>B</b>ACK</a>&nbsp;<a href="javascript:print();" onmouseover="window.status='(P)rint!';return true;" onmouseout="window.status='';return true;"><b>P</b>RINT</a>&nbsp;<script>
+  if (cookie != "") {
+    document.write('<a href="'+cookie+'" '); 
+
+    /* onmouseover="window.status='Jump to your bookmark!';return true;" onmouseout="window.status='';return true;" */
+	document.write('onmouseover="window.status=');
+	document.write("'Jump to your book(m)ark!';return true;");
+	document.write('" onmouseout="window.status=');
+	document.write("'';return true;");
+	document.write('"'); 
+	
+	document.write('>'); 
+	
+  }
+</script>BOOK<b>M</b>ARK<script>
+  if (cookie != "") {
+    document.write('</a>'); 
+  }
+</script>	
+	</div></td>
+	<td align="right"><div class="linkbar">&nbsp;<b>A</b>BOUT&nbsp;<a href="../help/index.htm" onmouseover="window.status='Help(?)';return true;" onmouseout="window.status='';return true;">HELP<b>?</b></a>&nbsp;<a href="javascript:window.close();" onmouseover="window.status='(C)lose!';return true;" onmouseout="window.status='';return true;"><b>C</b>LOSE&nbsp;</a><font color="#ff0000">&middot;</font>&nbsp;</div></td>  
+    <td width="1" bgcolor="#9d9d9d"><img src="" width="1" height="1"></td>
+  </tr>
+  <tr>
+    <td colspan="3" bgcolor="#9d9d9d"><img src="" width="1" height="1"></td>
+  </tr>
+  </table>
+  DVD lista
+
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="center">
+
+  <!-- End of Header -->
+
+<!-- Line#: 1 -->
+
+<table border="0" width="100%" cellpadding="2" cellspacing="2">
+<tr>
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_Blog_Justify.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_NoFrameNo.HTM -->
+
+
+<td colspan="1">
+
+<table border="0" width="95%" cellpadding="0" cellspacing="10" align="center">
+<tr>
+  <td align="left" valign="top" width="1%">
+  
+  <p align="justify">  
+  <table align="left" border="0">  
+  <tr>
+    <td>
+    
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><img src="pics/A_generalis_DVDcover_thumb.jpg" alt="" border="0"></td>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+    </td>
+	<td width="5"><img src="" width=5 height=1 alt="" border=0></td>
+  </tr>  
+  </table>
+  
+  <b></b><br>
+  <p class="phototext" align="justify"></p>
+  </p>
+  
+  </td>
+</tr>
+<tr>
+  <td bgcolor="#9d9d9d" height="4"><img src="" width=1 height=4 alt="" border=0></td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<!-- End of Line#: 1 -->
+
+
+<!-- Line#: 2 -->
+
+<table border="0" width="100%" cellpadding="2" cellspacing="2">
+<tr>
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_Blog_Justify.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_NoFrameNo.HTM -->
+
+
+<td colspan="1">
+
+<table border="0" width="95%" cellpadding="0" cellspacing="10" align="center">
+<tr>
+  <td align="left" valign="top" width="1%">
+  
+  <p align="justify">  
+  <table align="left" border="0">  
+  <tr>
+    <td>
+    
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><img src="pics/A_no_otszor_DVDcover_thumb.jpg" alt="" border="0"></td>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+    </td>
+	<td width="5"><img src="" width=5 height=1 alt="" border=0></td>
+  </tr>  
+  </table>
+  
+  <b></b><br>
+  <p class="phototext" align="justify"></p>
+  </p>
+  
+  </td>
+</tr>
+<tr>
+  <td bgcolor="#9d9d9d" height="4"><img src="" width=1 height=4 alt="" border=0></td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<!-- End of Line#: 2 -->
+
+
+<!-- Line#: 3 -->
+
+<table border="0" width="100%" cellpadding="2" cellspacing="2">
+<tr>
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_Blog_Justify.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_NoFrameNo.HTM -->
+
+
+<td colspan="1">
+
+<table border="0" width="95%" cellpadding="0" cellspacing="10" align="center">
+<tr>
+  <td align="left" valign="top" width="1%">
+  
+  <p align="justify">  
+  <table align="left" border="0">  
+  <tr>
+    <td>
+    
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><img src="pics/Abigel_DVDcover_thumb.jpg" alt="" border="0"></td>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+    </td>
+	<td width="5"><img src="" width=5 height=1 alt="" border=0></td>
+  </tr>  
+  </table>
+  
+  <b></b><br>
+  <p class="phototext" align="justify"></p>
+  </p>
+  
+  </td>
+</tr>
+<tr>
+  <td bgcolor="#9d9d9d" height="4"><img src="" width=1 height=4 alt="" border=0></td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<!-- End of Line#: 3 -->
+
+
+<!-- Line#: 4 -->
+
+<table border="0" width="100%" cellpadding="2" cellspacing="2">
+<tr>
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_Blog_Justify.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_NoFrameNo.HTM -->
+
+
+<td colspan="1">
+
+<table border="0" width="95%" cellpadding="0" cellspacing="10" align="center">
+<tr>
+  <td align="left" valign="top" width="1%">
+  
+  <p align="justify">  
+  <table align="left" border="0">  
+  <tr>
+    <td>
+    
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><img src="pics/Alison_Moyet_DVDcover_thumb.jpg" alt="" border="0"></td>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+    </td>
+	<td width="5"><img src="" width=5 height=1 alt="" border=0></td>
+  </tr>  
+  </table>
+  
+  <b></b><br>
+  <p class="phototext" align="justify"></p>
+  </p>
+  
+  </td>
+</tr>
+<tr>
+  <td bgcolor="#9d9d9d" height="4"><img src="" width=1 height=4 alt="" border=0></td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<!-- End of Line#: 4 -->
+
+
+<!-- Line#: 5 -->
+
+<table border="0" width="100%" cellpadding="2" cellspacing="2">
+<tr>
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_Blog_Justify.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_NoFrameNo.HTM -->
+
+
+<td colspan="1">
+
+<table border="0" width="95%" cellpadding="0" cellspacing="10" align="center">
+<tr>
+  <td align="left" valign="top" width="1%">
+  
+  <p align="justify">  
+  <table align="left" border="0">  
+  <tr>
+    <td>
+    
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><img src="pics/Apja_lanya_DVDcover_thumb.jpg" alt="" border="0"></td>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+    </td>
+	<td width="5"><img src="" width=5 height=1 alt="" border=0></td>
+  </tr>  
+  </table>
+  
+  <b></b><br>
+  <p class="phototext" align="justify"></p>
+  </p>
+  
+  </td>
+</tr>
+<tr>
+  <td bgcolor="#9d9d9d" height="4"><img src="" width=1 height=4 alt="" border=0></td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<!-- End of Line#: 5 -->
+
+
+<!-- Line#: 6 -->
+
+<table border="0" width="100%" cellpadding="2" cellspacing="2">
+<tr>
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_Blog_Justify.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_NoFrameNo.HTM -->
+
+
+<td colspan="1">
+
+<table border="0" width="95%" cellpadding="0" cellspacing="10" align="center">
+<tr>
+  <td align="left" valign="top" width="1%">
+  
+  <p align="justify">  
+  <table align="left" border="0">  
+  <tr>
+    <td>
+    
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><img src="pics/Az_orszagut_fantomja_DVDcover_thumb.jpg" alt="" border="0"></td>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+    </td>
+	<td width="5"><img src="" width=5 height=1 alt="" border=0></td>
+  </tr>  
+  </table>
+  
+  <b></b><br>
+  <p class="phototext" align="justify"></p>
+  </p>
+  
+  </td>
+</tr>
+<tr>
+  <td bgcolor="#9d9d9d" height="4"><img src="" width=1 height=4 alt="" border=0></td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<!-- End of Line#: 6 -->
+
+
+<!-- Line#: 7 -->
+
+<table border="0" width="100%" cellpadding="2" cellspacing="2">
+<tr>
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_Blog_Justify.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_NoFrameNo.HTM -->
+
+
+<td colspan="1">
+
+<table border="0" width="95%" cellpadding="0" cellspacing="10" align="center">
+<tr>
+  <td align="left" valign="top" width="1%">
+  
+  <p align="justify">  
+  <table align="left" border="0">  
+  <tr>
+    <td>
+    
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><img src="pics/Az_otodik_pecset_DVDcover_thumb.jpg" alt="" border="0"></td>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+    </td>
+	<td width="5"><img src="" width=5 height=1 alt="" border=0></td>
+  </tr>  
+  </table>
+  
+  <b></b><br>
+  <p class="phototext" align="justify"></p>
+  </p>
+  
+  </td>
+</tr>
+<tr>
+  <td bgcolor="#9d9d9d" height="4"><img src="" width=1 height=4 alt="" border=0></td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<!-- End of Line#: 7 -->
+
+
+<!-- Line#: 8 -->
+
+<table border="0" width="100%" cellpadding="2" cellspacing="2">
+<tr>
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_Blog_Justify.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_NoFrameNo.HTM -->
+
+
+<td colspan="1">
+
+<table border="0" width="95%" cellpadding="0" cellspacing="10" align="center">
+<tr>
+  <td align="left" valign="top" width="1%">
+  
+  <p align="justify">  
+  <table align="left" border="0">  
+  <tr>
+    <td>
+    
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><img src="pics/Egeszseges_erotika_DVDcover_thumb.jpg" alt="" border="0"></td>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+    </td>
+	<td width="5"><img src="" width=5 height=1 alt="" border=0></td>
+  </tr>  
+  </table>
+  
+  <b></b><br>
+  <p class="phototext" align="justify"></p>
+  </p>
+  
+  </td>
+</tr>
+<tr>
+  <td bgcolor="#9d9d9d" height="4"><img src="" width=1 height=4 alt="" border=0></td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<!-- End of Line#: 8 -->
+
+
+<!-- Line#: 9 -->
+
+<table border="0" width="100%" cellpadding="2" cellspacing="2">
+<tr>
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_Blog_Justify.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_NoFrameNo.HTM -->
+
+
+<td colspan="1">
+
+<table border="0" width="95%" cellpadding="0" cellspacing="10" align="center">
+<tr>
+  <td align="left" valign="top" width="1%">
+  
+  <p align="justify">  
+  <table align="left" border="0">  
+  <tr>
+    <td>
+    
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><img src="pics/Happy_end_DVDcover_thumb.jpg" alt="" border="0"></td>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+    </td>
+	<td width="5"><img src="" width=5 height=1 alt="" border=0></td>
+  </tr>  
+  </table>
+  
+  <b></b><br>
+  <p class="phototext" align="justify"></p>
+  </p>
+  
+  </td>
+</tr>
+<tr>
+  <td bgcolor="#9d9d9d" height="4"><img src="" width=1 height=4 alt="" border=0></td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<!-- End of Line#: 9 -->
+
+
+<!-- Line#: 10 -->
+
+<table border="0" width="100%" cellpadding="2" cellspacing="2">
+<tr>
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_Blog_Justify.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_NoFrameNo.HTM -->
+
+
+<td colspan="1">
+
+<table border="0" width="95%" cellpadding="0" cellspacing="10" align="center">
+<tr>
+  <td align="left" valign="top" width="1%">
+  
+  <p align="justify">  
+  <table align="left" border="0">  
+  <tr>
+    <td>
+    
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><img src="pics/Lepeselony_DVDcover_thumb.jpg" alt="" border="0"></td>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+    </td>
+	<td width="5"><img src="" width=5 height=1 alt="" border=0></td>
+  </tr>  
+  </table>
+  
+  <b></b><br>
+  <p class="phototext" align="justify"></p>
+  </p>
+  
+  </td>
+</tr>
+<tr>
+  <td bgcolor="#9d9d9d" height="4"><img src="" width=1 height=4 alt="" border=0></td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<!-- End of Line#: 10 -->
+
+
+<!-- Line#: 11 -->
+
+<table border="0" width="100%" cellpadding="2" cellspacing="2">
+<tr>
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_Blog_Justify.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_NoFrameNo.HTM -->
+
+
+<td colspan="1">
+
+<table border="0" width="95%" cellpadding="0" cellspacing="10" align="center">
+<tr>
+  <td align="left" valign="top" width="1%">
+  
+  <p align="justify">  
+  <table align="left" border="0">  
+  <tr>
+    <td>
+    
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><img src="pics/PG_Still_growing_up_DVDcover_thumb.jpg" alt="" border="0"></td>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+    </td>
+	<td width="5"><img src="" width=5 height=1 alt="" border=0></td>
+  </tr>  
+  </table>
+  
+  <b></b><br>
+  <p class="phototext" align="justify"></p>
+  </p>
+  
+  </td>
+</tr>
+<tr>
+  <td bgcolor="#9d9d9d" height="4"><img src="" width=1 height=4 alt="" border=0></td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<!-- End of Line#: 11 -->
+
+
+<!-- Line#: 12 -->
+
+<table border="0" width="100%" cellpadding="2" cellspacing="2">
+<tr>
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_Blog_Justify.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_NoFrameNo.HTM -->
+
+
+<td colspan="1">
+
+<table border="0" width="95%" cellpadding="0" cellspacing="10" align="center">
+<tr>
+  <td align="left" valign="top" width="1%">
+  
+  <p align="justify">  
+  <table align="left" border="0">  
+  <tr>
+    <td>
+    
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><img src="pics/Sziv_hidjai_DVDcover_thumb.jpg" alt="" border="0"></td>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+    </td>
+	<td width="5"><img src="" width=5 height=1 alt="" border=0></td>
+  </tr>  
+  </table>
+  
+  <b></b><br>
+  <p class="phototext" align="justify"></p>
+  </p>
+  
+  </td>
+</tr>
+<tr>
+  <td bgcolor="#9d9d9d" height="4"><img src="" width=1 height=4 alt="" border=0></td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<!-- End of Line#: 12 -->
+
+
+<!-- Line#: 13 -->
+
+<table border="0" width="100%" cellpadding="2" cellspacing="2">
+<tr>
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_Blog_Justify.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_NoFrameNo.HTM -->
+
+
+<td colspan="1">
+
+<table border="0" width="95%" cellpadding="0" cellspacing="10" align="center">
+<tr>
+  <td align="left" valign="top" width="1%">
+  
+  <p align="justify">  
+  <table align="left" border="0">  
+  <tr>
+    <td>
+    
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><img src="pics/Szuletett_bankrablok_DVDcover_thumb.jpg" alt="" border="0"></td>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+    </td>
+	<td width="5"><img src="" width=5 height=1 alt="" border=0></td>
+  </tr>  
+  </table>
+  
+  <b></b><br>
+  <p class="phototext" align="justify"></p>
+  </p>
+  
+  </td>
+</tr>
+<tr>
+  <td bgcolor="#9d9d9d" height="4"><img src="" width=1 height=4 alt="" border=0></td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<!-- End of Line#: 13 -->
+
+
+<!-- Line#: 14 -->
+
+<table border="0" width="100%" cellpadding="2" cellspacing="2">
+<tr>
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_Blog_Justify.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_NoFrameNo.HTM -->
+
+
+<td colspan="1">
+
+<table border="0" width="95%" cellpadding="0" cellspacing="10" align="center">
+<tr>
+  <td align="left" valign="top" width="1%">
+  
+  <p align="justify">  
+  <table align="left" border="0">  
+  <tr>
+    <td>
+    
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><img src="pics/En_es_a_tabornok_DVDcover_thumb.jpg" alt="Én és a tábornok (The square peg)" border="0"></td>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+    </td>
+	<td width="5"><img src="" width=5 height=1 alt="" border=0></td>
+  </tr>  
+  </table>
+  
+  <b>Én és a tábornok (The square peg)</b><br>
+  <p class="phototext" align="justify"><font style="font-size: 10px">fekete-fehér magyarul beszélő angol vígjáték, 85 perc, 1958</font><br><br>A második világháború idején járunk és Norman Pitkin büszke a háborúban elért tetteire. Eddig ugyan csak mint útbiztosító dolgozott, de egy szép napon kiemelik a tuzvonalba! Már elso naptól látszik, hogy parancsnoka nincs meggyozve Pitkin katonai erényeirol. Szerinte ugyanis, rendes katonává képezni Pitkint nagyobb feladat, mint a kör négyszögesítése...<br><br>[ Rendező: John Paddy Carstairs; Forgatókönyvíró: Henry Blyth, Jack Davies, Eddie Leslie, Norman Wisdom; Operatőr: ; Vágó:  ]<br><br>[ Szereplő(k): Norman Wisdom; Honor Blackman; Edward Chapman ]<br></p>
+  </p>
+  
+  </td>
+</tr>
+<tr>
+  <td bgcolor="#9d9d9d" height="4"><img src="" width=1 height=4 alt="" border=0></td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<!-- End of Line#: 14 -->
+
+
+<!-- Line#: 15 -->
+
+<table border="0" width="100%" cellpadding="2" cellspacing="2">
+<tr>
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_Blog_Justify.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_NoFrameNo.HTM -->
+
+
+<td colspan="1">
+
+<table border="0" width="95%" cellpadding="0" cellspacing="10" align="center">
+<tr>
+  <td align="left" valign="top" width="1%">
+  
+  <p align="justify">  
+  <table align="left" border="0">  
+  <tr>
+    <td>
+    
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><img src="pics/Ne_hagyd_magad_pitkin_DVDcover_thumb.jpg" alt="Ne hagyd magad, Pitkin! (A Stitch in Time)" border="0"></td>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+    </td>
+	<td width="5"><img src="" width=5 height=1 alt="" border=0></td>
+  </tr>  
+  </table>
+  
+  <b>Ne hagyd magad, Pitkin! (A Stitch in Time)</b><br>
+  <p class="phototext" align="justify"><font style="font-size: 10px">fekete-fehér magyarul beszélő angol vígjáték, 89 perc, 1963</font><br><br>Ha Mr. Grimsdale hentes és mészáros nem nyeli le véletlenül aranyóráját, amikor húsboltját megtámadta egy idióta fegyveres rabló, akkor kelekótya segédje, Pitkin sosem jött volna rá, hogy valójában pályát tévesztett és az emberiség megmentése az ő legfőbb feladata. Az emberiség legnagyobb sajnálatára a ketyegő családi örökség Mr. Grimsdale gyomrában landolt, így Pitkin a sebészek fehér egyenruhájára emlékeztető vérfoltos henteskötényében megjelent látogatóban egy londoni kórházban és leküzdhetetlen küldetésvágyától vezérelve ott rögtön el is határozta, hogy további életét a beteg emberek gyógyításának szenteli. Az események innentől úgymond várt fordulatot vettek: tövestül kitépett fogsor, beöntések, a teljes henteseszköztár felvonultatásával végrehajtott műtétek mellett még az is sikerül neki, hogy megmentse egy árva kislány lelkét és milliós támogatást szerezzen egy épülő gyermeküdülőnek.<br><br>[ Rendező: Robert Asher; Forgatókönyvíró: Henry Blyth, Jack Davies, Eddie Leslie, Norman Wisdom; Operatőr: Jack Asher; Vágó: Gerry Hambling ]<br><br>[ Szereplő(k): Norman Wisdom (Norman Pitkin); Edward Chapman (Mr. Grimsdale); Jeanette Sterke (Haskell novér); Jerry Desmonde (Sir Hector); Jill Melford (Lady Brinkley) ]<br></p>
+  </p>
+  
+  </td>
+</tr>
+<tr>
+  <td bgcolor="#9d9d9d" height="4"><img src="" width=1 height=4 alt="" border=0></td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<!-- End of Line#: 15 -->
+
+
+<!-- Line#: 16 -->
+
+<table border="0" width="100%" cellpadding="2" cellspacing="2">
+<tr>
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_Blog_Justify.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_NoFrameNo.HTM -->
+
+
+<td colspan="1">
+
+<table border="0" width="95%" cellpadding="0" cellspacing="10" align="center">
+<tr>
+  <td align="left" valign="top" width="1%">
+  
+  <p align="justify">  
+  <table align="left" border="0">  
+  <tr>
+    <td>
+    
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><img src="pics/Arizonai_almadozok_DVDcover_thumb.jpg" alt="Arizonai álmodozók (Arizona Dream)" border="0"></td>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+    </td>
+	<td width="5"><img src="" width=5 height=1 alt="" border=0></td>
+  </tr>  
+  </table>
+  
+  <b>Arizonai álmodozók (Arizona Dream)</b><br>
+  <p class="phototext" align="justify"><font style="font-size: 10px">színes magyarul beszélő amerikai filmdráma, 100 perc, 1993</font><br><br>A történelem tele van álmokkal, azokat kell keresni. Nekivágni az ismeretlennek, mint Kolumbusz. Ezt teszi a film öt főszereplője, Axel, Elaine, Paul és Grace és Leo. Axel a maga huszonévével örökké az eszkimókról, Alaszkáról álmodik, Elaine, a szerelme, aki kétszer annyi idős, mint a fiú, Pápua Új-Guineáról, s erősen hisz abban, hogy tud repülni. Elaine lánya, Grace teknősbéka szeretne lenni második életében, Paul pedig művész. Leo kilóg a sorból, autókereskedő, pótapa Axel gyerekkorából. S ők együtt Arizónában történetekké formálják szürreális álmaikat, a nagy mester, Kusturica víziójában.<br><br>[ Rendező: Emir Kusturica; író: David Atkins, Emir Kusturica; Forgatókönyvíró: David Atkins; Operatőr: Vilko Filac; Díszlettervező: Jan Pascale; Jelmeztervező: Jill M. Ohanneson; Zene: Goran Bregovic; Producer: Yves Marmion, Claudie Ossard; Executive producer: Paul R. Gurian; Látványtervező: Miljen Kreka Kljakovic; Vágó: Andrija Zafranovic ]<br><br>[ Szereplő(k): Johnny Depp (Axel Blackmar); Jerry Lewis (Leo Sweetie); Faye Dunaway (Elaine Stalker); Lili Taylor (Grace Stalker); Vincent Gallo (Paul Leger); Paulina Porizkova (Millie); Michael J. Pollard (Paul) ]<br></p>
+  </p>
+  
+  </td>
+</tr>
+<tr>
+  <td bgcolor="#9d9d9d" height="4"><img src="" width=1 height=4 alt="" border=0></td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<!-- End of Line#: 16 -->
+
+
+<!-- Line#: 17 -->
+
+<table border="0" width="100%" cellpadding="2" cellspacing="2">
+<tr>
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_Blog_Justify.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_NoFrameNo.HTM -->
+
+
+<td colspan="1">
+
+<table border="0" width="95%" cellpadding="0" cellspacing="10" align="center">
+<tr>
+  <td align="left" valign="top" width="1%">
+  
+  <p align="justify">  
+  <table align="left" border="0">  
+  <tr>
+    <td>
+    
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><img src="pics/Elveszett_gyerekek_varosa_DVDcover_thumb.jpg" alt="Elveszett gyerekek városa (La cité des enfants perdus)" border="0"></td>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+    </td>
+	<td width="5"><img src="" width=5 height=1 alt="" border=0></td>
+  </tr>  
+  </table>
+  
+  <b>Elveszett gyerekek városa (La cité des enfants perdus)</b><br>
+  <p class="phototext" align="justify"><font style="font-size: 10px">színes magyarul beszélő francia sci-fi kalandfilm, 112 perc, 1995</font><br><br>Marc Caro és Jean-Pierre Jeunet fantasztikus meséje olyan gyerekekről szól, akiket elraboltak az álmaikért. Krank, az őrült zsarnok álmatlanságban szenved. Alszik, de semmit sem álmodik. Barátja épít egy különleges gépet, amellyel el lehet lopni mások álmait. A tenger közepén úszó szigetén élő Krank a Küklopszok segítségével gyerekeket rabol el egy közeli kikötőből. Az egyik csemete Denree, a hároméves árva, akit egy elképesztően erős és egyúttal szelíd férfi nevel. A nevelő nem hagyja Krank kezében a kisfiút.<br><br>[ Rendező: Jean-Pierre Jeunet, Marc Caro; Forgatókönyvíró: Gilles Adrien, Jean-Pierre Jeunet, Marc Caro; Zeneszerző: Angelo Badalamenti; Operatőr: Darius Khondji; Vágó: Hervé Schneid ]<br><br>[ Szereplő(k): Ron Perlman (One); Daniel Emilfork (Krank); Joseph Lucien (Denree); Jean-Louis Trintignant (Ervin hangja); Mireille Mossé (Mademoiselle Bismuth); Dominique Pinon (klón); Jean-Claude Dreyfus (Marcello); Rufus (Peeler) ]<br></p>
+  </p>
+  
+  </td>
+</tr>
+<tr>
+  <td bgcolor="#9d9d9d" height="4"><img src="" width=1 height=4 alt="" border=0></td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<!-- End of Line#: 17 -->
+
+
+<!-- Line#: 18 -->
+
+<table border="0" width="100%" cellpadding="2" cellspacing="2">
+<tr>
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_Blog_Justify.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_NoFrameNo.HTM -->
+
+
+<td colspan="1">
+
+<table border="0" width="95%" cellpadding="0" cellspacing="10" align="center">
+<tr>
+  <td align="left" valign="top" width="1%">
+  
+  <p align="justify">  
+  <table align="left" border="0">  
+  <tr>
+    <td>
+    
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><img src="pics/Matrix_DVDcover_thumb.jpg" alt="Mátrix (The Matrix)" border="0"></td>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+    </td>
+	<td width="5"><img src="" width=5 height=1 alt="" border=0></td>
+  </tr>  
+  </table>
+  
+  <b>Mátrix (The Matrix)</b><br>
+  <p class="phototext" align="justify"><font style="font-size: 10px">színes magyarul beszélő amerikai sci-fi, 144 perc, 1999</font><br><br>Két valóság létezik. Az egyik mindennapi életünk - a másik az, ami mögötte van. Az egyik álom. A másik a mátrix. Neo kétségbeesetten kutatja az igazságot a mátrixról. Erről a titokzatos és ismeretlen valamiről. Neo csak mendemondákból hallott - de biztos benne, hogy ez az elképzelhetetlen dolog rosszindulatú, és titokban irányítja az életét. Neo úgy véli, Morpheus, ez a legendák övezte férfi, akit a világ legveszélyesebb emberének tartanak, megmutatja neki az igazságot.<br><br>Egy éjszaka Neo találkozik egy gyönyörű ismeretlennel, Trinityvel, aki elvezetiőt egy másik világba, Ahol Neo találkozik Morpheusszal és személyesen megtapasztalja az igazságot a mátrixról. Neónak egy kérdésre is választ kell találnia, amely ugyanolyan mellbevágó, mint az első. Vajon ő a Kiválasztott? Még mielőtt felfoghatná, miről van szó, Neo biztos abban, hogy a kérdésre nem a válasz. Mások, mint Morpheus társa, Cypher, egyetértenek. Ám akadnak olyanok is, akik nem egészen biztosak ebben.<br><br>A mátrixnak védelmezői is vannak. Vezetőjük a könyörtelen és szó szerint fékezhetetlen Smith ügynök. A mátrix őreinek módszerei egyszerre ámulatba ejtőek és rémisztőek. Neo, Morpheus és Trinity élethalálharcot folytat a mátrix gonosz és szinte legyőzhetetlen őrei ellen, hogy választ találjanak kérdéseikre, ráeszméljenek valódi erejükre, és megismerjék sorsukat. Minden mozdulat, minden másodperc, minden gondolat döntő jelentőségre tesz szert, ha ki akarnak szabadulni a mátrix rabságából, és elpusztítani mindazt, amit képvisel.<br><br>[ Rendező: Andy Wachowski, Larry Wachowski; Forgatókönyvíró: Andy Wachowski, Larry Wachowski; Zeneszerző: Don Davis; Operatőr: Bill Pope; Físzlettervező: Owen Paterson; Jelmeztervező: Kym Barrett ]<br><br>[ Szereplő(k): Keanu Reeves (Neo); Laurence Fishburne (Morpheus); Carrie-Anne Moss (Trinity); Hugo Weaving (Smith ügynök); Joe Pantoliano (Cypher); Marcus Chong (Tank) ]<br></p>
+  </p>
+  
+  </td>
+</tr>
+<tr>
+  <td bgcolor="#9d9d9d" height="4"><img src="" width=1 height=4 alt="" border=0></td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<!-- End of Line#: 18 -->
+
+
+<!-- Line#: 19 -->
+
+<table border="0" width="100%" cellpadding="2" cellspacing="2">
+<tr>
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_Blog_Justify.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_NoFrameNo.HTM -->
+
+
+<td colspan="1">
+
+<table border="0" width="95%" cellpadding="0" cellspacing="10" align="center">
+<tr>
+  <td align="left" valign="top" width="1%">
+  
+  <p align="justify">  
+  <table align="left" border="0">  
+  <tr>
+    <td>
+    
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><img src="pics/Kill_Bill_DVDcover_thumb.jpg" alt="Kill Bill (Kill Bill: Volume 1)" border="0"></td>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+    </td>
+	<td width="5"><img src="" width=5 height=1 alt="" border=0></td>
+  </tr>  
+  </table>
+  
+  <b>Kill Bill (Kill Bill: Volume 1)</b><br>
+  <p class="phototext" align="justify"><font style="font-size: 10px">színes magyarul beszélő amerikai akcióthriller, 90 perc, 2003</font><br><br>A Menyasszony egykor hírhedt bérgyilkosnő volt, egy világklasszis női bérgyilkos-csapat tagja. Az esküvője napján a csapat vezetője, Bill mindenkit lemészárol, de a Menyasszony nem tudja, miért történik ez a szörnyűség. Utolsó szavaival tudatja Bill-lel, hogy várandós, és az ő gyerekét hordja szíve alatt. A Menyasszony nem hal bele a fejlövésbe, hanem kómába esik. Öt év öntudatlanság után magához tér, és úgy dönt, véres bosszút áll a csapat tagjain. Meg akar ölni mindenkit, és úgy tervezi, a sort egykori kolléganőivel kezdi, akik szétszóródva a világ minden táján, mit sem sejtenek arról, hogy valaki vadászik rájuk. A vadászat sikerét hullahegyek jelzik. A Menyasszony Billt, a kiváló kardforgatót hagyja utolsónak...<br><br>[ Rendező: Quentin Tarantino; Forgatókönyvíró: Quentin Tarantino; Operatőr: Robert Richardson;Díszlettervező: Daniel Bradford; Jelmeztervező: Kumiko Ogawa, Catherine Marie Thomas; Zene: Ennio Morricone, Lars Ulrich, Tomoyasu Hotei; Látványtervezo: Yohei Taneda, David Wasco; Vágó: Sally Menke ]<br><br>[ SzereplŐ(k): Uma Thurman (A menyasszony/Fekete Mamba); David Carradine (Bill); Lucy Liu (O-Ren Ishi); Vivica A. Fox (Vernita Green/Kobra); Daryl Hannah (Elle Driver/Kaliforniai Hegyi Kígyó); Michael Madsen (Budd/Csörgokígyó); Michael Jai White (Alburt/Da Moe) ]<br></p>
+  </p>
+  
+  </td>
+</tr>
+<tr>
+  <td bgcolor="#9d9d9d" height="4"><img src="" width=1 height=4 alt="" border=0></td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<!-- End of Line#: 19 -->
+
+
+<!-- Line#: 20 -->
+
+<table border="0" width="100%" cellpadding="2" cellspacing="2">
+<tr>
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_Blog_Justify.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_NoFrameNo.HTM -->
+
+
+<td colspan="1">
+
+<table border="0" width="95%" cellpadding="0" cellspacing="10" align="center">
+<tr>
+  <td align="left" valign="top" width="1%">
+  
+  <p align="justify">  
+  <table align="left" border="0">  
+  <tr>
+    <td>
+    
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><img src="pics/PG_Play_DVDcover_thumb.jpg" alt="Peter Gabriel: Play (The Videos)<br>" border="0"></td>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+    </td>
+	<td width="5"><img src="" width=5 height=1 alt="" border=0></td>
+  </tr>  
+  </table>
+  
+  <b>Peter Gabriel: Play (The Videos)<br></b><br>
+  <p class="phototext" align="justify">For the first time ever on DVD the video collection you've been waiting for. Featuring 23 videos, with fully restored visuals and amazing new 5.1 mixes by Peter, Daniel Lanois and Richard Chappell, and extras including three bonus videos (also with full 5.1 surround mixes). The 5.1 mixes are presented for the first time in a DTS format that is at full 24bit/96khz surround for the ultimate audiophile experience. In addition, Dolby 5.1 and Dolby Stereo soundtracks are provided for those of us without the latest and greatest equipment.<br><br>[ Track List: Father, Son; Sledgehammer; Blood Of Eden; Games Without Frontiers; I Don't Remember; Big Time; Lovetown; Red Rain; In Your Eyes; Don't Give Up; The Barry Williams Show; Washing Of The Water; Biko; Kiss That Frog; Mercy Street; Growing Up; Shaking The Tree; Shock The Monkey; Steam; The Drop; Zaar; Solsbury Hill; Digging In The Dirt ]<br><br>All are presented in either Anamorphic 16:9 or 4:3 aspect ratio, keeping the original aspect ration of the promo film. The audio tracks are remastered and remixed and presented in a choice of either Stereo (Encoded using Dolby Digital) or 5.1 Surround, which is presented in either 48khz/16bit Dolby Surround or 96khz/24bit DTS.<br><br>Introductions<br><br>Each music video has a short introduction for which can be turned on or off on the main menu. These comprise of a mixture of archive footage and recent interviews.<br><br>Extras<br><br>Games Without Frontiers (Live 2004) *<br>Modern Love *<br>The Nest That Sailed The Sky *<br>Trailer for Growing Up Live<br>Trailer for A Family Portrait<br>Trailer for Secret World Live<br>Credits **<br><br>* Audio tracks are presented in the same three formats used in the main track list and setting the audio menu with you selection will also affect the extras menu.<br><br>** Features an exclusive new instrumental mix of In Your Eyes by Richard Chappel.<br><br>Playlist Programme<br><br>The DVD also features a way of programming you own playlist of up to 18 videos, which can be looped for ever and also uses the Introductions preference on the Main Menu.<br><br>To use the 'Programme' feature all you need to do is select the track you want to add and press your enter/ok button. The track will be placed into your playlist ready to be watched and you can then add another. The tracks will play in the order in which you add them, and at all times you can see how many spaces you have left in the bottom-right of the menu. You've got up to 18 slots, but don't feel you have to use them all and you can add the same track more than once if you've got a real favourite. When you're happy with your playlist you can choose to play it once or or on a loop, and unless you select the 'clear list' option your playlist will be saved until the DVD is ejected. It couldn't be easier to create your own personal programme.<br></p>
+  </p>
+  
+  </td>
+</tr>
+<tr>
+  <td bgcolor="#9d9d9d" height="4"><img src="" width=1 height=4 alt="" border=0></td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<!-- End of Line#: 20 -->
+
+
+<!-- Line#: 21 -->
+
+<table border="0" width="100%" cellpadding="2" cellspacing="2">
+<tr>
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_Blog_Justify.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_NoFrameNo.HTM -->
+
+
+<td colspan="1">
+
+<table border="0" width="95%" cellpadding="0" cellspacing="10" align="center">
+<tr>
+  <td align="left" valign="top" width="1%">
+  
+  <p align="justify">  
+  <table align="left" border="0">  
+  <tr>
+    <td>
+    
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><img src="pics/PG_POV_DVDcover_thumb.jpg" alt="Peter Gabriel: Point Of View (1990)" border="0"></td>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+    </td>
+	<td width="5"><img src="" width=5 height=1 alt="" border=0></td>
+  </tr>  
+  </table>
+  
+  <b>Peter Gabriel: Point Of View (1990)</b><br>
+  <p class="phototext" align="justify">[ Track List: This Is The Picture; San Jacinto; Shock The Monkey; Games Without Frontiers; No Self Control; Mercy Street; Sledgehammer; Solsbury Hill; Lay Your Hands On Me; Don't Give Up; In Your Eyes; Biko; ]<br></p>
+  </p>
+  
+  </td>
+</tr>
+<tr>
+  <td bgcolor="#9d9d9d" height="4"><img src="" width=1 height=4 alt="" border=0></td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<!-- End of Line#: 21 -->
+
+
+<!-- Line#: 22 -->
+
+<table border="0" width="100%" cellpadding="2" cellspacing="2">
+<tr>
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_Blog_Justify.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_NoFrameNo.HTM -->
+
+
+<td colspan="1">
+
+<table border="0" width="95%" cellpadding="0" cellspacing="10" align="center">
+<tr>
+  <td align="left" valign="top" width="1%">
+  
+  <p align="justify">  
+  <table align="left" border="0">  
+  <tr>
+    <td>
+    
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><img src="pics/PG_GrowingUp_DVDcover_thumb.jpg" alt="Peter Gabriel: Growing Up (2003)<br>" border="0"></td>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+    </td>
+	<td width="5"><img src="" width=5 height=1 alt="" border=0></td>
+  </tr>  
+  </table>
+  
+  <b>Peter Gabriel: Growing Up (2003)<br></b><br>
+  <p class="phototext" align="justify">November 3rd heralds the start of a very special week for Peter Gabriel fans with the simultaneous release of both a new double CD and a brand new DVD. The DVD entitled 'GROWING UP LIVE' is the film of Gabriel's recent critically acclaimed world tour, which was heralded for its spectacular theatrics. It is released on Warner Vision. The CD entitled 'HIT' is a musical autobiography of Gabriel's solo career including many of his best loved tracks, along with previously unreleased songs, remixes and more unusual material. The album is released on EMI/Realworld Records.<br><br>'Growing Up - Live' captures the show over two days at the Filaforum in Milan. Directed by Grammy nominated and BRIT Award winning Hamish Hamilton, the show was shot in high definition in state of the art 5.1 surround sound. Twenty six cameras were used to capture the show, which once again brought together Peter and leading theatrical director Robert Le Page who also collaborated together on the ground breaking 'Secret World Tour' in 1993. The editing of the DVD sees a departure from the norm, with director and artist deciding on a vertical concept with each track looking different. Every song was given a different word or phrase, which was then carried through to the way each was individually shot and edited.<br><br>Staged in the round with a revolving outer rim, the show threw up many surprises. We see Gabriel perform suspended upside down from the stage and trapped inside a giant zorg ball. There are boats, balls, inflatables and bicycles in a show, which took months to prepare.<br><br>Always noted for his unique combination of sound and vision, the 'Growing Up' tour took this marriage to a new level. Featuring songs from his last album,' UP', along with some of his biggest hits, including 'Sledgehammer', (still the most played video of all time on MTV), 'Solsbury Hill', 'Mercy Street', Digging in the Dirt' and 'Red Rain', the show encapsulates a career spanning over twenty five years and 25 million album sales.<br><br>Gabriel performs alongside long-term collaborators David Rhodes on guitar, Tony Levin on bass and Richard Evans on guitars, mandolin and whistle, with newcomers, Ged Lynch on drums, Rachel Z on keyboards and daughter, Melanie Gabriel on backing vocals.<br><br>Special attention has been paid to the quality of sound on the DVD with Dolby Digital 5.1 surround sound, DTS 5.1 Surround Sound and Dolby Digital 2.0 Stereo. 'Growing Up Live' has several additional features including behind the scenes documentary footage, an interview with Peter, Tony Levin's tour photography and a bonus track - the elbow remix of 'Growing Up'. In addition, there is a noodle giving the user access to an interactive version of 'Growing Up' on both Mac and Windows.<br><br>[Here Comes The Flood; Darkness; Red Rain; Secret World; Sky Blue; Down Side Up; The Barry Williams Show; More Than This; Mercy Street; Digging in the Dirt; Growing Up; Animal Nation; Solsbury Hill; Sledgehammer; Signal to Noise; In Your Eyes; Father, Son ]<br></p>
+  </p>
+  
+  </td>
+</tr>
+<tr>
+  <td bgcolor="#9d9d9d" height="4"><img src="" width=1 height=4 alt="" border=0></td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<!-- End of Line#: 22 -->
+
+
+<!-- Line#: 23 -->
+
+<table border="0" width="100%" cellpadding="2" cellspacing="2">
+<tr>
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_Blog_Justify.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_NoFrameNo.HTM -->
+
+
+<td colspan="1">
+
+<table border="0" width="95%" cellpadding="0" cellspacing="10" align="center">
+<tr>
+  <td align="left" valign="top" width="1%">
+  
+  <p align="justify">  
+  <table align="left" border="0">  
+  <tr>
+    <td>
+    
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><img src="pics/PG_SecretWorldLive_DVDcover_thumb.jpg" alt="Peter Gabriel: Secret World Live (1994)<br>" border="0"></td>
+  <td width="2" bgcolor="Black" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="Black" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+    </td>
+	<td width="5"><img src="" width=5 height=1 alt="" border=0></td>
+  </tr>  
+  </table>
+  
+  <b>Peter Gabriel: Secret World Live (1994)<br></b><br>
+  <p class="phototext" align="justify">The Secret World Live Tour was seen by more than a million people in 1993/94 across five continents and was one of the most innovative and groundbreaking theatrical concerts ever to be staged. The always-visionary Gabriel teamed up with acclaimed Canadian theatrical designer, Robert Le Page, to produce the spectacular stage show, following the 1992 release of Gabriel's album 'US'.<br><br>The Soundtrack has been extensivly remastered and remixed and is avaialbe on the DVD in 3 formats, the highlight of which is in the rich and dynamic DTS 5.1 Surround format. Also on the disc is a Dolby Digital 5.1 Surround audio track and a new remastered Stereo AC3 soundtrack.<br><br>The DVD also includes exclusive footage, unseen until now, including time-lapse footage of the stage set up, a 'Making Of' film with interviews and behind the scenes footage, a the bonus track of the remixed 'Quiet' version of Steam accompanying a photo montage of the tour and a short film on his 'Growing Up' tour shot from the US leg at the end of last year.<br></p>
+  </p>
+  
+  </td>
+</tr>
+<tr>
+  <td bgcolor="#9d9d9d" height="4"><img src="" width=1 height=4 alt="" border=0></td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<!-- End of Line#: 23 -->
+
+
+<!-- ### Album footer based on: ../templates/ALBUM_FOOTER_NG_Style.HTM -->
+
+  <!-- Footer -->
+
+  </td>
+</tr>
+<tr>
+  <td valign="bottom" align="center" height="1%">
+
+  <table bgcolor="Black" width="100%" height="29" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="2" bgcolor="#9d9d9d"><img src="" width="1" height="1"></td>
+  </tr>
+  <tr>
+    <td align="center"><div class="linkbar"><font color="#ff0000">&middot;</font>&nbsp;<font color="#9d9d9d">Nincs&nbsp;jog&nbsp;fenntartva</font>&nbsp;<font color="#9d9d9d">-=</font>&nbsp;<a href="http://www.fleischmann.hu/" onmouseover="window.status='www.fleischmann.hu';return true;" onmouseout="window.status='';return true;">FLEISCHMANN</a>&nbsp;<font color="#9d9d9d">=-</font>&nbsp;<font color="#9d9d9d">No&nbsp;rights&nbsp;reserved</font>&nbsp;<font color="#ff0000">&middot;</font></div></td>
+    <td width="1" bgcolor="#9d9d9d"><img src="" width="1" height="1"></td>
+  </tr>	
+  <tr>
+    <td colspan="2" bgcolor="#9d9d9d"><img src="" width="1" height="1"></td>
+  </tr>	    
+  </table>
+
+  </td>
+</tr>
+</table>
+
+</body>
+  
+</html>
+
+
+<!-- Generated by:
+photoalbum_generator v1.25
+# Designed by Flex.
+# Written by Flex from FleXoft.
+#	(flex@fleischmann.hu)
+#	(http://www.fleischmann.hu/)
+# Run by flex on gate at 20070619@13:52
+-->

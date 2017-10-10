@@ -1,0 +1,79 @@
+#
+# EXIF Title        : Vas
+# EXIF Photographer : FLEISCHMANN György, flex
+# EXIF Place        : Dunaújváros, HUNGARY
+#
+# EXIF Camera make  : MINOLTA
+# EXIF Camera model : DYNAX 9000
+# EXIF Date/Time    : 2008:03:xx ??:??:??
+# EXIF Flash used   : No
+# EXIF ISO equiv.   : 100
+# EXIF Metering Mode: spot
+# EXIF Film         : FUJI Superia (expired)
+# EXIF Exposure     : aperture priority (semi-auto)
+#
+
+<table cellspacing="10" cellpadding="10" border="0">
+<tr>
+<td colspan="3">
+<u>Ozzy Osbourne: Iron Man</u>
+</td>
+</tr>
+<tr>
+<td valign="top">
+Has he lost his mind?<br>
+Can he see or is he blind?<br>
+Can he walk at all,<br>
+or if he moves will he fall?<br>
+<br>
+Is he alive or dead?<br>
+Has he thoughts within his head?<br>
+We'll just pass him there<br>
+why should we even care?<br>
+<br>
+He was turned to steel<br>
+In the great magnetic field<br>
+When he traveled time<br>
+For the future of mankind<br>
+<br>
+Nobody wants him<br>
+He just stares at the world<br>
+Planning his vengeance<br>
+That he will soon unfurl<br>
+</td>
+<td height="100%">
+<table cellpadding="0" cellspacing="0" height="100%" width="1" border="0">
+<tr><td bgcolor="#006633" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#006699" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#663366" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#ff9933" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#ff0000" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#993333" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#006699" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#66cccc" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#ff6633" height="10%"><img src="" height="1" width="1"></td></tr>
+</table>
+</td>
+<td valign="top">
+Now the time is here<br>
+For iron man to spread fear<br>
+Vengeance from the grave<br>
+Kills the people he once saved<br>
+<br>
+Nobody wants him<br>
+They just turn their heads<br>
+Nobody helps him<br>
+Now he has his revenge<br>
+<br>
+Heavy boots of lead<br>
+Fills his victims full of dread<br>
+Running as fast as they can<br>
+Iron man lives again!<br>
+</td>
+</tr>
+</table>
+
+
+
+
+

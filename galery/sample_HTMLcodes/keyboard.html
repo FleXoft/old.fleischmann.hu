@@ -1,0 +1,72 @@
+<html>
+<head>
+   <title>teszt</title>
+</head>
+<body>
+
+<script>
+
+/********************************************************************************/
+/** process the key event
+/********************************************************************************/
+function alertkey(e) {
+  if ( !e ) {
+    if ( window.event ) {
+      e = window.event;
+    }
+    else {
+      return;
+    }
+  }
+
+  if ( typeof(e.which) == 'number' ) {
+    //NS 4, NS 6+, Mozilla 0.9+, Opera
+    e = e.which;
+  }
+  else if( typeof(e.keyCode) == 'number'  ) {
+    //IE, NS 6+, Mozilla 0.9+
+    e = e.keyCode;
+  }
+  else if( typeof(e.charCode) == 'number'  ) {
+    //also NS 6+, Mozilla 0.9+
+    e = e.charCode;
+  }
+  else {
+    return;
+  }
+
+alert (e.toLocaleString(2));
+
+  // left arrow and -
+  if ( e==37 || e==109 ) {
+    // previous
+//    location.href="http://www.rooks.ca/archive/000369.php";
+  }
+  // right arrow and +
+  else if ( e==39 || e==107 ) {
+    // next
+//   location.href="http://www.rooks.ca/archive/000371.php";
+  }
+  // h
+  else if ( e == 72 ) {
+//    location.href='http://www.rooks.ca';
+  }
+}
+
+if ( document.captureEvents ) {
+  //non IE
+  if ( Event.KEYUP ) {
+  //NS 4, NS 6+, Mozilla 0.9+
+  document.captureEvents(Event.KEYUP);
+  }
+}
+
+// when a key is pressed, run the alertkey function
+document.onkeyup = alertkey;
+
+</script>
+
+test
+
+</body>
+</html>

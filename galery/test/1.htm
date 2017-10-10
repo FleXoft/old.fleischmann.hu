@@ -1,0 +1,199 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<!-- NG Style v2 picture theme with shortcutbar -->
+
+<html>
+<head>
+
+<title></title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<meta name="PBO.auth" content="645917b1946117c27a6ee9bbd02240e1" />
+
+<style type="text/css" media="screen">
+{{STYLE}}
+</style>
+
+<script>
+
+/* I saw the base of this script on http://www.bungie.net/ */
+
+var origWidth = 0;
+var origHeight = 0;
+
+var fullsize = 0;
+
+var imgLoaded = 0;
+var bottomLoaded = 0;
+
+var leftMargin = 20;
+var bottomMargin = 140;
+
+var firstTime = 1;
+
+window.focus();
+
+function resize() {
+  if (!imgLoaded || !bottomLoaded ) return;
+ 
+  if (! origWidth) origWidth = document.getElementById("mainImage").width;
+  if (! origHeight) origHeight = document.getElementById("mainImage").height;
+
+  windowWidth = document.body.clientWidth - leftMargin;
+  windowHeight = document.body.clientHeight - bottomMargin;
+
+  if (windowWidth==0) windowWidth=800;
+  if (windowHeight==0) windowHeight=600;
+
+  if ( firstTime==1 && windowWidth > origWidth && windowHeight > origHeight ) fullsize=1;
+  firstTime=0;
+  
+  /* if ( windowWidth < origWidth ) fullsize=0; */
+  
+  if (fullsize) {
+    document.getElementById("mainImage").width=origWidth;
+    document.getElementById("mainImage").height=origHeight;
+  }
+  else if (origWidth/origHeight > windowWidth/windowHeight) {
+    var newWidth = windowWidth-5;
+    if (isNaN(newWidth)) newWidth=500; 
+    document.getElementById("mainImage").width = newWidth;
+    document.getElementById("mainImage").height = newWidth * (origHeight/origWidth);
+  }
+  else {
+    var newHeight = windowHeight-5;
+    if (isNaN(newHeight)) newHeight=400;
+    document.getElementById("mainImage").height = newHeight;
+    document.getElementById("mainImage").width = newHeight * (origWidth/origHeight);
+  }
+}
+
+function setCookie(name, value, expire) {
+  document.cookie = name + "=" + escape(value) + ((expire == null) ? "" : ("; expires=" + expire.toGMTString()))
+}
+
+function set(item) {
+  var today = new Date()
+  var expires = new Date()
+  expires.setTime(today.getTime() + 1000*60*60*24*365)
+
+  setCookie("FlexLastPhoto", item, expires);
+}
+
+</script>
+
+<script for=window event=onresize>
+resize();
+
+var cookieArray = String(document.cookie).split("; ");
+for (i in cookieArray) {
+  cookie = cookieArray[i].split("=");
+  if (cookie[0] == "zoom") fullsize = Number(cookie[1]);
+}
+
+</script>
+
+</head>
+
+<body background="">
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+<tr>
+  <td valign="top" align="center" height="1%">
+  <table bgcolor="Black" width="100%" height="29" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="3" bgcolor="#9d9d9d"><img src="" width="1" height="1"></td>
+  </tr>
+  <tr>
+    <td align="left"><div class="linkbar">&nbsp;<font color="#ff0000">&middot;</font>&nbsp;<a href="index.htm" onmouseover="window.status='Home!';return true;" onmouseout="window.status='';return true;" accesskey="i">INDEX</a>&nbsp;<a href="javascript:history.back();" onmouseover="window.status='Back!';return true;" onmouseout="window.status='';return true;">BACK</a>&nbsp;<a href="javascript:print();" onmouseover="window.status='Print!';return true;" onmouseout="window.status='';return true;">PRINT</a>&nbsp;<a href="pics/1.jpg" onmouseover="window.status='Save the picture!';return true;" onmouseout="window.status='';return true;">FILE/SAVE</a>&nbsp;ORDER&nbsp;<a href="javascript:fullsize=1-fullsize;document.cookie=('zoom='+fullsize);resize();resize();" onmouseover="window.status='Resize the picture!';return true;" onmouseout="window.status='';return true;" accesskey="r">RESIZE</a>&nbsp;<a href="javascript:set(window.location);" onmouseover="window.status='Save your bookmark!';return true;" onmouseout="window.status='';return true;" accesskey="b">BOOKMARK</a></div></td>
+	<td align="right"><div class="linkbar">&nbsp;ABOUT&nbsp;HELP&nbsp;<a href="javascript:window.close();" onmouseover="window.status='Close!';return true;" onmouseout="window.status='';return true;">CLOSE&nbsp;</a><font color="#ff0000">&middot;</font>&nbsp;</div></td>
+	<td width="1" bgcolor="#9d9d9d"><img src="" width="1" height="1"></td>
+  </tr>	
+  <tr>
+    <td colspan="3" bgcolor="#9d9d9d"><img src="" width="1" height="1"></td>
+  </tr>	    
+  </table>	
+<!--  <div class="shortcutbar">|<a href="1.htm" alt="">&#8226</a>|&#8226|<a href="3.htm" alt="">&#8226</a>|</div>
+ -->
+  </td>
+</tr>  
+<tr>
+  <td valign="middle" align="center">  
+  
+  <!-- End of Header -->
+
+<!- ### Picture header based on: ../templates/PICTURE_HEADER_NG_Style_v2_tooltip.HTM -->
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td width="50%" height="100%" class="minusclick">
+  <a href="index.htm" onmouseover="window.status='- Previous picture!';return true;" onmouseout="window.status='';return true;" accesskey="p"><img src="../../pics/html/1x1.gif" width="100%" height="100%" alt="-" border="0"></a>
+  </td>
+  <td align="center" valign="middle">
+  <table>
+  <tr>
+    <td>
+    <a href="3.htm" onmouseover="window.status='';return true;" onmouseout="window.status='';return true;"><img class="photo" src="pics/1.jpg" alt="" id="mainImage" style="cursor:hand;" onload="imgLoaded=1;resize();"></a><br>
+    <img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"><br>
+    <img src="../../pics/html/EXIF_info.gif" width="88" height="15" alt="" border="0" onmouseover="this.T_FONTFACE='courier';this.T_FONTSIZE='12px';this.T_BGCOLOR='#3d3d3d';this.T_BORDERCOLOR='#9d9d9d';this.T_FONTCOLOR='#dddddd';return escape('<nobr><b>Title&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>: n/a<br><b>Photographer&nbsp;</b>:&nbsp;FLEISCHMANN&nbsp;György,&nbsp;flex<br><b>Place&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>:&nbsp;Budapest,&nbsp;HUNGARY<br><b>File&nbsp;name&nbsp;&nbsp;&nbsp;&nbsp;</b>:&nbsp;F:\\Minolta&nbsp;pictures\\KM20050320_00231.jpg<br><b>File&nbsp;size&nbsp;&nbsp;&nbsp;&nbsp;</b>:&nbsp;3840928&nbsp;bytes<br><b>File&nbsp;date&nbsp;&nbsp;&nbsp;&nbsp;</b>:&nbsp;2005.03.20&nbsp;17:50:04<br><b>Camera&nbsp;make&nbsp;&nbsp;</b>:&nbsp;KONICA&nbsp;MINOLTA&nbsp;<br><b>Camera&nbsp;model&nbsp;</b>:&nbsp;DYNAX&nbsp;7D<br><b>Date/Time&nbsp;&nbsp;&nbsp;&nbsp;</b>:&nbsp;2005.03.20&nbsp;17:50:03<br><b>Resolution&nbsp;&nbsp;&nbsp;</b>:&nbsp;3008&nbsp;x&nbsp;2000<br><b>Flash&nbsp;used&nbsp;&nbsp;&nbsp;</b>:&nbsp;No<br><b>Focal&nbsp;length&nbsp;</b>:&nbsp;100.0mm&nbsp;&nbsp;(35mm&nbsp;equivalent:&nbsp;150mm)<br><b>Exposure&nbsp;time</b>:&nbsp;0.0080&nbsp;s&nbsp;&nbsp;(1/125)<br><b>Aperture&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>:&nbsp;f/8.0<br><b>ISO&nbsp;equiv.&nbsp;&nbsp;&nbsp;</b>:&nbsp;100<br><b>Whitebalance&nbsp;</b>:&nbsp;Auto<br><b>Metering&nbsp;Mode</b>:&nbsp;center&nbsp;weight<br><b>Exposure&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>:&nbsp;aperture&nbsp;priority&nbsp;(semi-auto)<br></nobr>')">
+    </td>
+  </tr>
+  </table>
+  </td>
+  <td width="50%" height="100%" class="plusclick">
+  <a href="3.htm" onmouseover="window.status='+ Next picture!';return true;" onmouseout="window.status='';return true;" accesskey="n"><img src="../../pics/html/1x1.gif" width="100%" height="100%" alt="+" border="0"></a>
+  </td>
+</tr>
+</table>
+
+
+<!- ### Picture frame based on: ../templates/PICTURE_FRAME_NG_Style_v2_noText_EXIF.HTM -->
+
+  <!-- Footer -->
+  
+  </td>
+</tr>
+<tr>
+  <td valign="bottom" align="center" height="1%">
+
+  <table bgcolor="Black" width="100%" height="29" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="2" bgcolor="#9d9d9d"><img src="" width="1" height="1"></td>
+  </tr>
+  <tr>
+    <td align="center"><div class="linkbar"><font color="#ff0000">&middot;</font>&nbsp;<font color="#9d9d9d">Nincs&nbsp;jog&nbsp;fenntartva</font>&nbsp;<font color="#9d9d9d">-=</font>&nbsp;<a href="http://www.fleischmann.hu/" onmouseover="window.status='www.fleischmann.hu';return true;" onmouseout="window.status='';return true;">FLEISCHMANN</a>&nbsp;<font color="#9d9d9d">=-</font>&nbsp;<font color="#9d9d9d">No&nbsp;rights&nbsp;reserved</font>&nbsp;<font color="#ff0000">&middot;</font></div></td>
+    <td width="1" bgcolor="#9d9d9d"><img src="" width="1" height="1"></td>
+  </tr>	
+  <tr>
+    <td colspan="2" bgcolor="#9d9d9d"><img src="" width="1" height="1"></td>
+  </tr>	    
+  </table>
+
+  </td>
+</tr>
+</table>
+
+<script language="JavaScript" type="text/javascript" src="../../javascript/wz_tooltip.js"></script>
+
+</body>
+
+<script>
+bottomLoaded=1;
+resize();
+</script>
+
+</html>
+
+
+<!- ### Picture frame based on: ../templates/PICTURE_FOOTER_NG_Style_v2_tooltip.HTM -->
+
+
+<!-- Generated by:
+photoalbum_generator v1.24
+# Designed by Flex.
+# Written by Flex from FleXoft.
+#	(flex@fleischmann.hu)
+#	(http://www.fleischmann.hu/)
+# Run by flex on gate at 20050627@19:40
+-->

@@ -1,0 +1,104 @@
+#
+# EXIF Title        : HiSport I.
+# EXIF Photographer : FLEISCHMANN György, flex
+# EXIF Place        : Mohács, HUNGARY
+#
+# EXIF Camera make  : MINOLTA
+# EXIF Camera model : DYNAX 9000
+# EXIF Date/Time    : 2008:02:07 ??:??:??
+# EXIF Flash used   : No
+# EXIF ISO equiv.   : 100
+# EXIF Metering Mode: spot
+# EXIF Film         : FUJI Superia (expired)
+# EXIF Exposure     : aperture priority (semi-auto)
+#
+
+<table cellspacing="10" cellpadding="10" border="0">
+<tr>
+<td colspan="3">
+<u>Queen: Bicycle race</u>
+</td>
+</tr>
+<tr>
+<td valign="top">
+Bicycle bicycle bicycle<br>
+I want to ride my bicycle bicycle bicycle<br>
+<br>
+I want to ride my bicycle<br>
+I want to ride my bike<br>
+I want to ride my bicycle<br>
+I want to ride it where I like<br>
+<br>
+You say black I say white<br>
+You say bark I say bite<br>
+You say shark I say hey man<br>
+Jaws was never my scene<br>
+And I don't like Star Wars<br>
+You say Rolls I say Royce<br>
+You say God give me a choice<br>
+You say Lord I say Christ<br>
+I don't believe in Peter Pan<br>
+Frankenstein or Superman<br>
+All I wanna do is<br>
+<br>
+Bicycle bicycle bicycle<br>
+I want to ride my bicycle bicycle bicycle<br>
+I want to ride my bicycle<br>
+I want to ride my bike<br>
+I want to ride my bicycle<br>
+I want to ride my<br>
+<br>
+Bicycle races are coming your way<br>
+So forget all your duties oh yeah<br>
+Fat bottomed girls they'll be riding today<br>
+So look out for those beauties oh yeah<br>
+On your marks get set go<br>
+Bicycle race bicycle race bicycle race<br>
+</td>
+<td height="100%">
+<table cellpadding="0" cellspacing="0" height="100%" width="1" border="0">
+<tr><td bgcolor="#006633" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#006699" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#663366" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#ff9933" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#ff0000" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#993333" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#006699" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#66cccc" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#ff6633" height="10%"><img src="" height="1" width="1"></td></tr>
+</table>
+</td>
+<td valign="top">
+Bicycle bicycle bicycle<br>
+I want to ride my bicycle bicycle<br>
+Bicycle bicycle bicycle<br>
+Bicycle race<br>
+<br>
+You say coke I say caine<br>
+You say John I say Wayne<br>
+Hot dog I say cool it man<br>
+I don't wanna be the President of America<br>
+You say smile I say cheese<br>
+Cartier I say please<br>
+Income tax I say Jesus<br>
+I don't wanna be a candidate for<br>
+Vietnam or Watergate<br>
+Cause all I wanna do is<br>
+<br>
+Bicycle bicycle bicycle<br>
+I want to ride my bicycle bicycle bicycle<br>
+I want to ride my bicycle<br>
+I want to ride my bike<br>
+I want to ride my bicycle<br>
+I want to ride it where I like<br>
+</td>
+</tr>
+</table>
+
+
+
+
+
+
+
+

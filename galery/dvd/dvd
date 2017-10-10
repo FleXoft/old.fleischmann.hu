@@ -1,0 +1,53 @@
+#!/bin/sh
+##############################################
+# Just a little trick...
+  eval 'exec photoalbum_generator -f $0 -a dvd.txt -A NG_Style -S NG_Style_v2 -c 1 -i dvd.htm -e ${1+"$@"}'
+##############################################
+#
+# Album
+#
+# Created: 2005.05.12.
+#
+# Global overwriting
+# overwrite:	[{{STYLE}}=>file:css/NG_Style.CSS]
+#
+#############################################################################################################################
+# Title: DVD lista
+#############################################################################################################################
+#
+# The structure:
+# filename|albumbodytheme|slidetheme|backgroundtheme|frametheme
+#
+#############################################################################################################################
+
+pics/A_generalis_DVDcover.jpg|Blog_Justify[NOLINK=>YES]|NoFrameNo|NG_Style_v2|NG_Style_v2|
+pics/A_no_otszor_DVDcover.jpg|Blog_Justify[NOLINK=>YES]|NoFrameNo|NG_Style_v2|NG_Style_v2|
+pics/Abigel_DVDcover.jpg|Blog_Justify[NOLINK=>YES]|NoFrameNo|NG_Style_v2|NG_Style_v2|
+pics/Alison_Moyet_DVDcover.jpg|Blog_Justify[NOLINK=>YES]|NoFrameNo|NG_Style_v2|NG_Style_v2|
+pics/Apja_lanya_DVDcover.jpg|Blog_Justify[NOLINK=>YES]|NoFrameNo|NG_Style_v2|NG_Style_v2|
+pics/Az_orszagut_fantomja_DVDcover.jpg|Blog_Justify[NOLINK=>YES]|NoFrameNo|NG_Style_v2|NG_Style_v2|
+pics/Az_otodik_pecset_DVDcover.jpg|Blog_Justify[NOLINK=>YES]|NoFrameNo|NG_Style_v2|NG_Style_v2|
+pics/Egeszseges_erotika_DVDcover.jpg|Blog_Justify[NOLINK=>YES]|NoFrameNo|NG_Style_v2|NG_Style_v2|
+pics/Happy_end_DVDcover.jpg|Blog_Justify[NOLINK=>YES]|NoFrameNo|NG_Style_v2|NG_Style_v2|
+pics/Lepeselony_DVDcover.jpg|Blog_Justify[NOLINK=>YES]|NoFrameNo|NG_Style_v2|NG_Style_v2|
+pics/PG_Still_growing_up_DVDcover.jpg|Blog_Justify[NOLINK=>YES]|NoFrameNo|NG_Style_v2|NG_Style_v2|
+pics/Sziv_hidjai_DVDcover.jpg|Blog_Justify[NOLINK=>YES]|NoFrameNo|NG_Style_v2|NG_Style_v2|
+pics/Szuletett_bankrablok_DVDcover.jpg|Blog_Justify[NOLINK=>YES]|NoFrameNo|NG_Style_v2|NG_Style_v2|
+
+pics/En_es_a_tabornok_DVDcover.jpg|Blog_Justify[NOLINK=>YES]|NoFrameNo|NG_Style_v2|NG_Style_v2|
+
+#
+pics/Ne_hagyd_magad_pitkin_DVDcover.jpg|Blog_Justify[NOLINK=>YES]|NoFrameNo|NG_Style_v2|NG_Style_v2|
+pics/Arizonai_almadozok_DVDcover.jpg|Blog_Justify[NOLINK=>YES]|NoFrameNo|NG_Style_v2|NG_Style_v2|
+pics/Elveszett_gyerekek_varosa_DVDcover.jpg|Blog_Justify[NOLINK=>YES]|NoFrameNo|NG_Style_v2|NG_Style_v2|
+pics/Matrix_DVDcover.jpg|Blog_Justify|NoFrameNo[NOLINK=>YES]|NG_Style_v2|NG_Style_v2|
+pics/Kill_Bill_DVDcover.jpg|Blog_Justify|NoFrameNo[NOLINK=>YES]|NG_Style_v2|NG_Style_v2|
+pics/PG_Play_DVDcover.jpg|Blog_Justify[NOLINK=>YES]|NoFrameNo|NG_Style_v2|NG_Style_v2|
+pics/PG_POV_DVDcover.jpg|Blog_Justify[NOLINK=>YES]|NoFrameNo|NG_Style_v2|NG_Style_v2|
+pics/PG_GrowingUp_DVDcover.jpg|Blog_Justify[NOLINK=>YES]|NoFrameNo|NG_Style_v2|NG_Style_v2|
+pics/PG_SecretWorldLive_DVDcover.jpg|Blog_Justify[NOLINK=>YES]|NoFrameNo|NG_Style_v2|NG_Style_v2|
+
+#############################################################################################################################
+#
+### _END_OF_FILE ###
+

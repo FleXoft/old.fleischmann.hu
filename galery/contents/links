@@ -1,0 +1,29 @@
+#!/bin/sh
+#
+##############################################
+# Just a little trick...
+  eval 'exec photoalbum_generator -b -f $0 -a links.txt -A NG_Style -c 2 -s 0 -e -i links.htm ${1+"$@"}'
+##############################################
+#
+# Album from 199Y
+#
+# Created: 2004.12.09.
+#
+# Global overwriting^M
+# overwrite:    [{{STYLE}}=>file:css/NG_Style.CSS]
+#
+#############################################################################################################################
+# Title: LINKs
+#############################################################################################################################
+#
+# The structure:
+# filename|albumbodytheme|slidetheme|backgroundtheme|frametheme
+#
+#############################################################################################################################
+
+# extra footer
+pics/fake.jpg|Include[NOPIC=>YES,MAXCOL=>1,{{TEXT}}=>absolutefile:include_b_side.htm]|Null|NG_Style_v2|NG_Style_v2|
+
+#############################################################################################################################
+#
+### _END_OF_FILE ###

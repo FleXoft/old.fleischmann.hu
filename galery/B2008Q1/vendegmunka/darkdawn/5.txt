@@ -1,0 +1,57 @@
+# Title        :        Everything
+
+<table cellspacing="10" cellpadding="10" border="0">
+<tr>
+<td colspan="3">
+<u>Radiohead: In its right place</u>
+</td>
+</tr>
+<tr>
+<td valign="top">
+Everything, everything, everything, everything..<br>
+In its right place<br>
+In its right place<br>
+In its right place<br>
+In its right place<br>
+<br>
+Yesterday I woke up sucking a lemon<br>
+Yesterday I woke up sucking a lemon<br>
+Yesterday I woke up sucking a lemon<br>
+Yesterday I woke up sucking a lemon<br>
+<br>
+Everything, everything, everything..<br>
+In its right place<br>
+In its right place<br>
+In its right place<br>
+Right place<br>
+</td>
+<td height="100%">
+<table cellpadding="0" cellspacing="0" height="100%" width="1" border="0">
+<tr><td bgcolor="#006633" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#006699" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#663366" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#ff9933" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#ff0000" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#993333" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#006699" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#66cccc" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#ff6633" height="10%"><img src="" height="1" width="1"></td></tr>
+</table>
+</td>
+<td valign="top">
+There are two colours in my head<br>
+There are two colours in my head<br>
+What, what is that you try to say?<br>
+What, what was that you tried to say?<br>
+Tried to say.. tried to say..<br>
+Tried to say.. tried to say.. tried to say...<br>
+<br>
+Everything, everything, everything..<br>
+Everything in its right place<br>
+</td>
+</tr>
+</table>
+
+
+
+

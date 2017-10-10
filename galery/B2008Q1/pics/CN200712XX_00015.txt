@@ -1,0 +1,88 @@
+#
+# EXIF Title        : Evil
+# EXIF Photographer : FLEISCHMANN György, flex
+# EXIF Place        : Paks, HUNGARY
+#
+# EXIF Camera make  : MINOLTA
+# EXIF Camera model : DYNAX 9000
+# EXIF Date/Time    : 2007:12:xx ??:??:??
+# EXIF Flash used   : No
+# EXIF ISO equiv.   : 100
+# EXIF Metering Mode: spot
+# EXIF Film         : FUJI Superia (expired)
+# EXIF Exposure     : aperture priority (semi-auto)
+#
+
+<table cellspacing="10" cellpadding="10" border="0">
+<tr>
+<td colspan="3">
+<u>MORCHEEBA: Enjoy The Ride (Feat. Judy Tzuke)</u>
+</td>
+</tr>
+<tr>
+<td valign="top">
+Shut the gates and sunset<br>
+After that you can't get out<br>
+You can see the bigger picture<br>
+Find out what it’s all about<br>
+You're open to the skyline<br>
+You won't want to go back home<br>
+In a garden full of angels<br>
+You will never be alone<br>
+<br>
+But oh the road is long<br>
+The stones that you are walking on<br>
+Have gone<br>
+<br>
+With the moonlight to guide you<br>
+Feel the joy of being alive<br>
+The day that you stop running<br>
+Is the day that you arrive<br>
+<br>
+And the night that you got locked in<br>
+Was the time to decide<br>
+Stop chasing shadows<br>
+Just enjoy the ride<br>
+</td>
+<td height="100%">
+<table cellpadding="0" cellspacing="0" height="100%" width="1" border="0">
+<tr><td bgcolor="#006633" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#006699" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#663366" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#ff9933" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#ff0000" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#993333" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#006699" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#66cccc" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#ff6633" height="10%"><img src="" height="1" width="1"></td></tr>
+</table>
+</td>
+<td valign="top">
+If you close the door to your house<br>
+Don't let anybody in<br>
+It's a room that's full of nothing<br>
+All that underneath your skin<br>
+Face against the window<br>
+You can't watch it fade to grey<br>
+And you'll never catch the fickle wind<br>
+If you choose to stay<br>
+<br>
+But oh the road is long<br>
+The stones that you are walking on<br>
+Have gone<br>
+<br>
+With the moonlight to guide you<br>
+Feel the joy of being alive<br>
+The day that you stop running<br>
+Is the day that you arrive<br>
+<br>
+And the night that you got locked in<br>
+Was the time to decide<br>
+Stop chasing shadows<br>
+Just enjoy the ride<br>
+<br>
+Stop chasing shadows<br>
+Just enjoy the ride<br>
+</td>
+</tr>
+</table>
