@@ -1,0 +1,476 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<!-- NG Style album theme -->
+
+<html>
+<head>
+
+  <title>About</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2" />
+ 
+  <meta name="keywords"content="Fleischmann György, fleischmann, flex, gyurci, flexoft, mohács, budapest, magyarország, hungary, photography, digital, photo, black and white, landscape, people, blog, light, photo blog, photolog, photoblog, linux, psion, timex, perl, lcd, minolta, 9000, d7d" />
+  <meta name="owner"content="FLEISCHMANN György" />
+  <meta name="author"content="FLEISCHMANN György" />
+ 
+  <link rel="icon" href="http://www.fleischmann.hu/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="http://www.fleischmann.hu/favicon.ico">
+  
+  <style type="text/css" media="screen">
+
+body {
+  margin: 0px;
+  padding: 0px;
+
+  background-color: #3d3d3d;
+  font-family: Trebuchet MS, Trebuchet, Georgia, Verdana, Arial, Helvetica, Sans-serif;
+  color: #fffffe;
+  font-size: 14px;
+
+  scrollbar-face-color: #3d3d3d;
+  scrollbar-highlight-color: #3d3d3d;
+  scrollbar-shadow-color: #3d3d3d;
+
+  scrollbar-3dlight-color: #9d9d9d;
+  scrollbar-arrow-color: #ffffff;
+  scrollbar-darkshadow-color: #9d9d9d;
+  scrollbar-track-color: #3d3d3d;
+}
+
+div.linkbar {
+  font-variant: small-caps;
+  color: #9d9d9d;
+  letter-spacing: 1px;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+a, a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* ?Firefox? */
+
+a, div.linkbar a, {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:visited, div.linkbar a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover, div.linkbar a:hover {
+  color: #9d9d9d;
+  text-decoration: none;
+}
+
+a:active,div.linkbar a:active {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+div.shortcutbar {
+  color: #9d9d9d;
+  padding: 3px 0px 5px 0px;
+  font-size: 11px;
+}
+
+a.dot {
+  color: #9d9d9d;
+  text-decoration: none;
+}
+
+a.dot:visited {
+  color: #ee0000;
+  text-decoration: none;
+}
+
+a.dot:hover {
+  color: #fefefe;
+  text-decoration: none;
+}
+
+td.photo_loader {
+  background: #3d3d3d url(../../pics/anim/loading_anim.gif) no-repeat center center;
+}
+
+.photo {
+  background-color: #3d3d3d;
+  color: #3d3d3d;
+  border: 2px solid #9d9d9d;
+}
+
+.photo1 {
+  background-color: #3d3d3d;
+  color: #3d3d3d;
+  border: 1px solid #9d9d9d;
+}
+
+.photo1a {
+  background-color: #ffffff;
+  color: #ffffff;
+  border: 1px solid #000000;
+}
+
+.smallphoto {
+  padding: 4px;
+  background: #E9E9E9;
+  border: 1px solid #D1D1D1;			
+  margin: 3px 0px 12px 20px;
+}
+
+.phototext {
+  color: #dddddd;
+  font-size: 15px;
+}
+
+.phototext A {
+  border-bottom: 1px solid #ff0001;
+}
+
+div.bookmarkbar {
+  FONT-SIZE: 12px; COLOR: #9d9d9d; LETTER-SPACING: 1px; FONT-VARIANT:
+  small-caps; TEXT-DECORATION: none
+}
+div.bookmark A {
+  COLOR: #9d9d9d; TEXT-DECORATION: none
+}
+div.bookmark A:visited {
+  COLOR: #9d9d9d; TEXT-DECORATION: none
+}
+div.bookmark A:hover {
+  COLOR: #ffffff; TEXT-DECORATION: none
+}
+div.bookmark A:active {
+  COLOR: #ff0000; TEXT-DECORATION: none
+}
+
+.minusclick A {
+  DISPLAY: block; WIDTH: 100%; HEIGHT: 100%
+}
+.minusclick a:hover {
+  background: url(../../pics/html/m.gif) no-repeat center center;
+}
+
+.plusclick A {
+  DISPLAY: block; WIDTH: 100%; HEIGHT: 100%
+}
+.plusclick a:hover {
+  background: url(../../pics/html/p.gif) no-repeat center center;
+}
+ 
+.h {
+  
+  BORDER-RIGHT: #9d9d9d 1px solid; BORDER-TOP: #9d9d9d 1px solid; BORDER-LEFT: #9d9d9d 1px solid; BORDER-BOTTOM: #9d9d9d 1px solid;
+}  
+  
+.t {
+  BORDER-RIGHT: #9d9d9d 1px solid; BORDER-TOP: #9d9d9d 1px solid; BORDER-LEFT: #9d9d9d 1px solid; BORDER-BOTTOM: #9d9d9d 1px solid;
+}
+
+.c {
+  BORDER-RIGHT: #9d9d9d 1px solid; BORDER-TOP: #9d9d9d 1px solid; BORDER-LEFT: #9d9d9d 1px solid; BORDER-BOTTOM: #9d9d9d 1px solid;
+}
+
+.cu {
+  BORDER-RIGHT: #9d9d9d 1px solid; BORDER-TOP: #9d9d9d 1px solid; BORDER-LEFT: #9d9d9d 1px solid; BORDER-BOTTOM: #9d9d9d 0px solid;
+}
+
+.cm {
+  BORDER-RIGHT: #9d9d9d 1px solid; BORDER-TOP: #9d9d9d 1px dotted; BORDER-LEFT: #9d9d9d 1px solid; BORDER-BOTTOM: #9d9d9d 1px dotted;
+}
+
+.cd {
+  BORDER-RIGHT: #9d9d9d 1px solid; BORDER-TOP: #9d9d9d 0px solid; BORDER-LEFT: #9d9d9d 1px solid; BORDER-BOTTOM: #9d9d9d 1px solid;
+}
+
+div.text {
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",Arial,Verdana, Helvetica, sans-serif;
+	color:#eee;
+	font-size:14px;
+}
+
+
+   </style>
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-1485101-1";
+urchinTracker();
+</script>
+
+<script>
+
+function getCookie(name) {
+  var search = name + "=";
+  if (document.cookie.length > 0) {     // if there are any cookies
+    offset = document.cookie.indexOf(search);
+    if (offset != -1) {                 // if cookie exists
+      offset += search.length;
+      // set index of beginning of value
+      end = document.cookie.indexOf(";", offset);
+      // set index of end of cookie value
+      if (end == -1) end=document.cookie.length;
+      return unescape(document.cookie.substring(offset, end));
+    }
+    else {
+      return "";
+    }
+  }
+  return "";
+}
+
+var cookie = getCookie("FlexLastPhoto");
+
+</script>
+
+<script>
+
+/********************************************************************************/
+/** process the key event
+/********************************************************************************/
+function alertkey(e) {
+  if ( !e ) {
+    if ( window.event ) {
+      e = window.event;
+    }
+    else {
+      return;
+    }
+  }
+
+  if ( typeof(e.which) == 'number' ) {
+    //NS 4, NS 6+, Mozilla 0.9+, Opera
+    e = e.which;
+  }
+  else if( typeof(e.keyCode) == 'number'  ) {
+    //IE, NS 6+, Mozilla 0.9+
+    e = e.keyCode;
+  }
+  else if( typeof(e.charCode) == 'number'  ) {
+    //also NS 6+, Mozilla 0.9+
+    e = e.charCode;
+  }
+  else {
+    return;
+  }
+
+  // ?
+  if ( e == 191 ) {
+    location.href='../help/index.htm';
+  }  
+  // a
+  else if ( e == 65 ) {
+    location.href='../about/index.htm';
+  }
+  // b
+  else if ( e == 66 ) {
+    history.back();
+  }
+  // c and x
+  else if ( e == 67 || e == 88 ) {
+    window.close();
+  }  
+  // f
+  else if ( e == 70 ) {
+    location.href='http://www.fleischmann.hu/';
+  }
+  // h
+  else if ( e == 72 ) {
+    location.href='../contents/index.htm';
+  }
+  // l
+  else if ( e == 76 ) {
+    location.href='../contents/links.htm';
+  }
+  // m
+  else if ( e == 77 ) {
+    if (cookie != "") {
+	  location.href=cookie;
+    }
+  }  
+  // p
+  else if ( e == 80 ) {
+    print();
+  }
+  
+  // e
+  else if ( e == 69 ) {
+    location.href='http://jakabhaza.dyndns.org/squirrelmail/';
+  }
+  
+  // o
+  else if ( e == 79 ) {
+    location.href='https://www.otpbank.hu/otpportal2000/online/HB0210000000.html?x=y';
+  }
+  
+  // g
+  else if ( e == 71 ) {
+    location.href='http://google.com/mail/';
+  }
+  
+  // u
+  else if ( e == 85  ) {
+    location.href='http://www.user.hu/mail/gyfleischmann.nsf';
+  }
+}
+
+if ( document.captureEvents ) {
+  //non IE
+  if ( Event.KEYUP ) {
+  //NS 4, NS 6+, Mozilla 0.9+
+  document.captureEvents(Event.KEYUP);
+  }
+}
+
+// when a key is pressed, run the alertkey function
+document.onkeyup = alertkey;
+
+</script>
+
+</head>
+
+<body background="">
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+<tr>
+  <td valign="top" align="center" height="1%">
+  <table bgcolor="Black" width="100%" height="29" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="3" bgcolor="#9d9d9d"><img src="" width="1" height="1"></td>
+  </tr>
+  <tr>
+    <td align="left"><div class="linkbar">&nbsp;<font color="#ff0000">&middot;</font>&nbsp;<a href="../contents/index.htm" onmouseover="window.status='(H)ome!';return true;" onmouseout="window.status='';return true;" accesskey="h"><b>H</b>OME</a>&nbsp;<b>I</b>NDEX&nbsp;<a href="javascript:history.back();" onmouseover="window.status='(B)ack!';return true;" onmouseout="window.status='';return true;"><b>B</b>ACK</a>&nbsp;<a href="javascript:print();" onmouseover="window.status='(P)rint!';return true;" onmouseout="window.status='';return true;"><b>P</b>RINT</a>&nbsp;<script>
+  if (cookie != "") {
+    document.write('<a href="'+cookie+'" '); 
+
+    /* onmouseover="window.status='Jump to your bookmark!';return true;" onmouseout="window.status='';return true;" */
+	document.write('onmouseover="window.status=');
+	document.write("'Jump to your book(m)ark!';return true;");
+	document.write('" onmouseout="window.status=');
+	document.write("'';return true;");
+	document.write('"'); 
+	
+	document.write('>'); 
+	
+  }
+</script>BOOK<b>M</b>ARK<script>
+  if (cookie != "") {
+    document.write('</a>'); 
+  }
+</script>	
+	</div></td>
+	<td align="right"><div class="linkbar">&nbsp;<b>A</b>BOUT&nbsp;<a href="../help/index.htm" onmouseover="window.status='Help(?)';return true;" onmouseout="window.status='';return true;">HELP<b>?</b></a>&nbsp;<a href="javascript:this.close();" onmouseover="window.status='(C)lose!';return true;" onmouseout="window.status='';return true;"><b>C</b>LOSE&nbsp;</a><font color="#ff0000">&middot;</font>&nbsp;</div></td>  
+    <td width="1" bgcolor="#9d9d9d"><img src="" width="1" height="1"></td>
+  </tr>
+  <tr>
+    <td colspan="3" bgcolor="#9d9d9d"><img src="" width="1" height="1"></td>
+  </tr>
+  </table>
+  <br>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="image" src="https://www.paypal.com/en_US/i/btn/x-click-but21.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
+<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIHiAYJKoZIhvcNAQcEoIIHeTCCB3UCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYBc0O2q/7NIDjcAlf7OYHfJp0WSeov0g2X6SZkj/8u8pOf1L7Bat5AAawP3FwMaN4BxM0k8Ge43NxACv5jHdtPtn9AT7KQ3COmXtb+wV23jHZG75/o4PCik1jENzvXArtEDm0JrACswtFyxBdZn8AjAWuOH5jrfBAKZ91D23a8MsTELMAkGBSsOAwIaBQAwggEEBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECN2e+uWZWkUvgIHgK2nWrGQGWa7gKBb6gW2MHopcTNsmD4d7CedvcgExAPfgXVvNCLGuRx3VpUiD44BW2BrB2y8b7J++VlaC1++07tqIffZfsw29JLFAKKtzZQxoE13UZgiala78Wpn53x1MWQYQUgvsZ592zqUYwE44sVgLKWO9/ZBSYp2eCe58G+Th9k+z5tsux+D7JM5oXfON8AyIGzYuS+ggDA2Iq1q/gAnb55YdmDgdSo3BxJkFLV5FSJe7uS1zwiD2xGTaN4PNuRgvEFaflRkmq5/tcHVdBZmfodqSFk3Ti3Zux4yaS8ugggOHMIIDgzCCAuygAwIBAgIBADANBgkqhkiG9w0BAQUFADCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20wHhcNMDQwMjEzMTAxMzE1WhcNMzUwMjEzMTAxMzE1WjCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMFHTt38RMxLXJyO2SmS+Ndl72T7oKJ4u4uw+6awntALWh03PewmIJuzbALScsTS4sZoS1fKciBGoh11gIfHzylvkdNe/hJl66/RGqrj5rFb08sAABNTzDTiqqNpJeBsYs/c2aiGozptX2RlnBktH+SUNpAajW724Nv2Wvhif6sFAgMBAAGjge4wgeswHQYDVR0OBBYEFJaffLvGbxe9WT9S1wob7BDWZJRrMIG7BgNVHSMEgbMwgbCAFJaffLvGbxe9WT9S1wob7BDWZJRroYGUpIGRMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbYIBADAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBQUAA4GBAIFfOlaagFrl71+jq6OKidbWFSE+Q4FqROvdgIONth+8kSK//Y/4ihuE4Ymvzn5ceE3S/iBSQQMjyvb+s2TWbQYDwcp129OPIbD9epdr4tJOUNiSojw7BHwYRiPh58S1xGlFgHFXwrEBb3dgNbMUa+u4qectsMAXpVHnD9wIyfmHMYIBmjCCAZYCAQEwgZQwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tAgEAMAkGBSsOAwIaBQCgXTAYBgkqhkiG9w0BCQMxCwYJKoZIhvcNAQcBMBwGCSqGSIb3DQEJBTEPFw0wNzA3MjcxOTQ2NTNaMCMGCSqGSIb3DQEJBDEWBBTJwG4FxrfOigooQGi/0emxaETzKjANBgkqhkiG9w0BAQEFAASBgJgoIKdw8s2Rk/pyvc4Jw5/lI0G3Y4rVT7//1dSNKq1KC1MmM7jUqEZaGfwklhpd+10dVvPo3EPtEJ5FPB7ECzNZbF1LaqbyeFGxdJEX2BiaJcMzB/nJ3670bE/VhHONe9hXW7sPyG9XgDMnWTBhWUumOSkE++IwTj529mcWfyAl-----END PKCS7-----
+">
+</form>
+<table cellpadding="2" cellspacing="0">
+<tr>
+<td width="12" height="1" bgcolor="#006633" align="center" valign="middle">..-.</td>
+<td width="12" height="1" bgcolor="#006699" align="center" valign="middle">.-..</td>
+<td width="12" height="1" bgcolor="#663366" align="center" valign="middle">.</td>
+<td width="12" height="1" bgcolor="#FF9933" align="center" valign="middle">..</td>
+<td width="12" height="1" bgcolor="#FF0000" align="center" valign="middle">...</td>
+<td width="12" height="1" bgcolor="#993333" align="center" valign="middle">-.-.</td>
+<td width="12" height="1" bgcolor="#006699" align="center" valign="middle">....</td>
+<td width="12" height="1" bgcolor="#66CCCC" align="center" valign="middle">--</td>
+<td width="12" height="1" bgcolor="#FF6633" align="center" valign="middle">.-</td>
+<td width="12" height="1" bgcolor="#808000" align="center" valign="middle">-.</td>
+<td width="12" height="1" bgcolor="#ff99cc" align="center" valign="middle">-.</td>
+</tr>
+</table>
+<br>
+<!-- Skype 'Skype Me!' button http://www.skype.com/go/skypebuttons -->
+<script type="text/javascript" src="http://download.skype.com/share/skypebuttons/js/skypeCheck.js"></script>
+<a href="skype:flexoft?call"><img src="http://download.skype.com/share/skypebuttons/buttons/call_green_transparent_34x34.png" style="border: none;" width="34" height="34" alt="Skype Me!" /></a>
+<br>
+<table width="95%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="50%" valign="top">
+<table align="right" border="0" cellpadding="0" cellspacing="0"><tr><td height="10"></td></tr><tr><td width="5"></td><td align="center"><img src="pics/site_index_l.jpg" width="100" height="369" alt="" border="0"></td></tr><tr><td height="5"></td></tr></table>
+<div align="justify" style="margin: 10px;">
+<tt><b><font size=+1>Szem&eacute;lyes adatok</font></b></tt><br>
+<br>
+<tt><b>N&eacute;v:</b></tt> <tt><u><font size=+1>FLEISCHMANN</font></u></b> Gy&ouml;rgy</tt><br>
+<br>
+<tt><b>Sz&uuml;let&eacute;si&nbsp;hely, id&otilde;:</b></tt> <tt><a href="http://www.mohacs.hu/">Moh&aacute;cs</a> (Baranya megye), 1970. m&aacute;jus 5.</tt><br>
+<br>
+<tt><b>Csal&aacute;di&nbsp;&aacute;llapot:</b></tt> <tt>n&otilde;s (egy gyermek)</tt><br>
+<br>
+<tt><b>Lak&oacute;hely:</b></tt> <tt>1182, <a href="http://www.budapest.hu/">Budapest</a>, Jakabh&aacute;za utca 17., I. emelet, 4.</tt><br>
+<br>
+<tt><b>Telefon:</b></tt> <tt>290-6414 (otthon), (30) 979-1403 (mobil)</tt><br>
+<br>
+<tt><b>E-mail:</b></tt> <tt><a href="mailto:Gyorgy@fleischmann.hu">Gyorgy@fleischmann.hu</a><br>
+<tt><b>HomePage:</b></tt> <a href="http://www.fleischmann.hu/"><tt>http://www.fleischmann.hu/</tt></a><br>
+</div>
+</td>
+<td width="50%" valign="top">
+<table align="left" border="0" cellpadding="0" cellspacing="0"><tr><td height="10"></td></tr><tr><td align="center"><img src="pics/site_index_r.jpg" width="100" height="369" alt="" border="0"></td><td width="5"></td></tr><tr><td height="5"></td></tr></table>
+<div align="justify" style="margin: 10px;">
+</div>
+</td>
+</tr></table>
+<br>
+
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="center">
+
+  <!-- End of Header -->
+
+<!-- ### Album footer based on: ../templates/ALBUM_FOOTER_NG_Style.HTM -->
+
+  <!-- Footer -->
+
+  </td>
+</tr>
+<tr>
+  <td valign="bottom" align="center" height="1%">
+
+  <table bgcolor="Black" width="100%" height="29" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="2" bgcolor="#9d9d9d"><img src="" width="1" height="1"></td>
+  </tr>
+  <tr>
+    <td align="center"><div class="linkbar"><font color="#ff0000">&middot;</font>&nbsp;<font color="#9d9d9d">Nincs&nbsp;jog&nbsp;fenntartva</font>&nbsp;<font color="#9d9d9d">-=</font>&nbsp;<a href="http://www.fleischmann.hu/" onmouseover="window.status='www.fleischmann.hu';return true;" onmouseout="window.status='';return true;">FLEISCHMANN</a>&nbsp;<font color="#9d9d9d">=-</font>&nbsp;<font color="#9d9d9d">No&nbsp;rights&nbsp;reserved</font>&nbsp;<font color="#ff0000">&middot;</font></div></td>
+    <td width="1" bgcolor="#9d9d9d"><img src="" width="1" height="1"></td>
+  </tr>	
+  <tr>
+    <td colspan="2" bgcolor="#9d9d9d"><img src="" width="1" height="1"></td>
+  </tr>	    
+  </table>
+
+  </td>
+</tr>
+</table>
+
+</body>
+  
+</html>
+
+
+<!-- Generated by:
+photoalbum_generator v1.25
+# Designed by Flex.
+# Written by Flex from FleXoft.
+#	(flex@fleischmann.hu)
+#	(http://www.fleischmann.hu/)
+# Run by flex on gate at 20070826@21:54
+-->

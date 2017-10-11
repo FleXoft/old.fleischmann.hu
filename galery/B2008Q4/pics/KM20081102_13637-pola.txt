@@ -1,0 +1,59 @@
+#
+# Title        : Felfedezo
+# EXIF Photographer : FLEISCHMANN György, flex
+# EXIF Place        : Budapest, HUNGARY
+#
+
+<table cellspacing="10" cellpadding="10" border="0">
+<tr>
+<td colspan="3">
+<u>Phil Collins - On the air tonight</u>
+</td>
+</tr>
+<tr>
+<td valign="top">
+I can feel it coming in the air tonight, oh lord<br>
+Ive been waiting for this moment, all my life, oh lord<br>
+Can you feel it coming in the air tonight, oh lord, oh lord<br>
+<br>
+Well, if you told me you were drowning<br>
+I would not lend a hand<br>
+Ive seen your face before my friend<br>
+But I dont know if you know who I am<br>
+Well, I was there and I saw what you did<br>
+I saw it with my own two eyes<br>
+So you can wipe off the grin, I know where youve been<br>
+Its all been a pack of lies<br>
+</td>
+<td height="100%">
+<table cellpadding="0" cellspacing="0" height="100%" width="1" border="0">
+<tr><td bgcolor="#006633" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#006699" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#663366" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#ff9933" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#ff0000" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#993333" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#006699" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#66cccc" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#ff6633" height="10%"><img src="" height="1" width="1"></td></tr>
+</table>
+</td>
+<td valign="top">
+And I can feel it coming in the air tonight, oh lord<br>
+Ive been waiting for this moment for all my life, oh lord<br>
+I can feel it in the air tonight, oh lord, oh lord<br>
+And Ive been waiting for this moment all my life, oh lord, oh lord<br>
+<br>
+Well I remember, I remember dont worry<br>
+How could I ever forget, its the first time, the last time we ever met<br>
+But I know the reason why you keep your silence up, no you dont fool me<br>
+The hurt doesnt show; but the pain still grows<br>
+Its no stranger to you or me<br>
+<br>
+And I can feel it coming in the air tonight, oh lord...<br>
+</td>
+</tr>
+</table>
+
+
+

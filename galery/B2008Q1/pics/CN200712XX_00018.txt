@@ -1,0 +1,67 @@
+#
+# EXIF Title        : New shoes
+# EXIF Photographer : FLEISCHMANN György, flex
+# EXIF Place        : Budapest, HUNGARY
+#
+# EXIF Camera make  : MINOLTA
+# EXIF Camera model : DYNAX 9000
+# EXIF Date/Time    : 2007:12:xx ??:??:??
+# EXIF Flash used   : No
+# EXIF ISO equiv.   : 100
+# EXIF Metering Mode: spot
+# EXIF Film         : FUJI Superia (expired)
+# EXIF Exposure     : aperture priority (semi-auto)
+#
+
+<table cellspacing="10" cellpadding="10" border="0">
+<tr>
+<td colspan="3">
+<u>Nu Shooz: Point of no return</u>
+</td>
+</tr>
+<tr>
+<td valign="top">
+All I want's a friend and you want mine<br>
+<br>
+And you've been around for a long long time.<br>
+I loved him but not like now<br>
+Something has changed and I don't know how.<br>
+<br>
+I'm at the point of no return - I'm at the point of no return<br>
+I'm at the point of no return - I'm at the point of no return.<br>
+<br>
+I've never been in love like this<br>
+You turn me around with just one kiss.<br>
+I've never seen you in this way before<br>
+Now you got me wantin' more and more.<br>
+</td>
+<td height="100%">
+<table cellpadding="0" cellspacing="0" height="100%" width="1" border="0">
+<tr><td bgcolor="#006633" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#006699" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#663366" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#ff9933" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#ff0000" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#993333" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#006699" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#66cccc" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#ff6633" height="10%"><img src="" height="1" width="1"></td></tr>
+</table>
+</td>
+<td valign="top">
+I'm at the point of no return - I'm at the point of no return<br>
+It's taken me a whiIe to learn - I'm at the point of no return.<br>
+<br>
+No turnin' back<br>
+it's much too late<br>
+<br>
+To go back now would be a big mistake.<br>
+It's taken me a while to learn<br>
+I'm at the point of no return.<br>
+I'm at the point of no return - I'm at the point of no return<br>
+I'm at the point of no return - I'm at the point of no return.<br>
+I'm at the point of no return - I'm at the point of no return<br>
+I'm at the point of no return - I'm at the point of no return.<br>
+</td>
+</tr>
+</table>

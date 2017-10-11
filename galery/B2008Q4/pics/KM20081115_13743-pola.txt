@@ -1,0 +1,69 @@
+#
+# Title        : A gyerek a lenyeg
+# EXIF Photographer : FLEISCHMANN György, flex
+# EXIF Place        : Budapest, HUNGARY
+#
+
+<table cellspacing="10" cellpadding="10" border="0">
+<tr>
+<td colspan="3">
+<u>DIDO - Who makes you feel</u>
+</td>
+</tr>
+<tr>
+<td valign="top">
+I don't touch you the way I used to<br>
+I don't call and write when im away<br>
+We don't make love as often as we did do<br>
+What couldn't wait now waits and usually goes away<br>
+<br>
+But listen and think when I say it<br>
+Oh but listen and think when I say it<br>
+Who makes you feel the way that I make you feel<br>
+Who loves you and knows you the way I do<br>
+Who touches you and holds you quite like I do<br>
+Who makes you feel like I make you feel<br>
+<br>
+I don't mind if you come home late<br>
+I don't ever ask you where you've been<br>
+I just assume there's a problem will you tell me<br>
+</td>
+<td height="100%">
+<table cellpadding="0" cellspacing="0" height="100%" width="1" border="0">
+<tr><td bgcolor="#006633" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#006699" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#663366" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#ff9933" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#ff0000" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#993333" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#006699" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#66cccc" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#ff6633" height="10%"><img src="" height="1" width="1"></td></tr>
+</table>
+</td>
+<td valign="top">
+But listen and think when I say it<br>
+Oh but listen and think when I say it<br>
+Who makes you feel the way that I make you feel<br>
+Who loves you and knows you the way I do<br>
+Who touches you and holds you quite like I do<br>
+Who makes you feel like I make you feel<br>
+Who makes you feel like I make you feel<br>
+Who makes you feel like I make you feel<br>
+<br>
+Being weak when I am strong<br>
+Being seen, who you are<br>
+Being sad and love's not alone<br>
+<br>
+But listen and think when I say it<br>
+Oh but listen and think when I say it<br>
+Who makes you feel the way that I make you feel<br>
+Who loves you and knows you the way I do<br>
+Who touches you and holds you quite like I do<br>
+Who makes you feel like I make you feel<br>
+</td>
+</tr>
+</table>
+
+
+

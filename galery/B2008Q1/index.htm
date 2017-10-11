@@ -1,0 +1,3317 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<!-- NG Style album theme -->
+
+<html>
+<head>
+
+  <title>B2008Q1</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2" />
+ 
+  <meta name="keywords"content="Fleischmann György, fleischmann, flex, gyurci, flexoft, mohács, budapest, magyarország, hungary, photography, digital, photo, black and white, landscape, people, blog, light, photo blog, photolog, photoblog, linux, psion, timex, perl, lcd, minolta, 9000, d7d" />
+  <meta name="owner"content="FLEISCHMANN György" />
+  <meta name="author"content="FLEISCHMANN György" />
+ 
+  <link rel="icon" href="http://www.fleischmann.hu/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="http://www.fleischmann.hu/favicon.ico">
+  
+  <style type="text/css" media="screen">
+
+body {
+  margin: 0px;
+  padding: 0px;
+
+  background-color: #3d3d3d;
+  font-family: Trebuchet MS, Trebuchet, Georgia, Verdana, Arial, Helvetica, Sans-serif;
+  color: #fffffe;
+  font-size: 14px;
+
+  scrollbar-face-color: #3d3d3d;
+  scrollbar-highlight-color: #3d3d3d;
+  scrollbar-shadow-color: #3d3d3d;
+
+  scrollbar-3dlight-color: #9d9d9d;
+  scrollbar-arrow-color: #ffffff;
+  scrollbar-darkshadow-color: #9d9d9d;
+  scrollbar-track-color: #3d3d3d;
+}
+
+div.linkbar {
+  font-variant: small-caps;
+  color: #9d9d9d;
+  letter-spacing: 1px;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+a, a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* ?Firefox? */
+
+a, div.linkbar a, {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:visited, div.linkbar a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover, div.linkbar a:hover {
+  color: #9d9d9d;
+  text-decoration: none;
+}
+
+a:active,div.linkbar a:active {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+div.shortcutbar {
+  color: #9d9d9d;
+  padding: 3px 0px 5px 0px;
+  font-size: 11px;
+}
+
+a.dot {
+  color: #9d9d9d;
+  text-decoration: none;
+}
+
+a.dot:visited {
+  color: #ee0000;
+  text-decoration: none;
+}
+
+a.dot:hover {
+  color: #fefefe;
+  text-decoration: none;
+}
+
+td.photo_loader {
+  background: #3d3d3d url(../../pics/anim/loading_anim.gif) no-repeat center center;
+}
+
+.photo {
+  background-color: #3d3d3d;
+  color: #3d3d3d;
+  border: 2px solid #9d9d9d;
+}
+
+.photo1 {
+  background-color: #3d3d3d;
+  color: #3d3d3d;
+  border: 1px solid #9d9d9d;
+}
+
+.photo1a {
+  background-color: #ffffff;
+  color: #ffffff;
+  border: 1px solid #000000;
+}
+
+.smallphoto {
+  padding: 4px;
+  background: #E9E9E9;
+  border: 1px solid #D1D1D1;			
+  margin: 3px 0px 12px 20px;
+}
+
+.phototext {
+  color: #dddddd;
+  font-size: 15px;
+}
+
+.phototext A {
+  border-bottom: 1px solid #ff0001;
+}
+
+div.bookmarkbar {
+  FONT-SIZE: 12px; COLOR: #9d9d9d; LETTER-SPACING: 1px; FONT-VARIANT:
+  small-caps; TEXT-DECORATION: none
+}
+div.bookmark A {
+  COLOR: #9d9d9d; TEXT-DECORATION: none
+}
+div.bookmark A:visited {
+  COLOR: #9d9d9d; TEXT-DECORATION: none
+}
+div.bookmark A:hover {
+  COLOR: #ffffff; TEXT-DECORATION: none
+}
+div.bookmark A:active {
+  COLOR: #ff0000; TEXT-DECORATION: none
+}
+
+.minusclick A {
+  DISPLAY: block; WIDTH: 100%; HEIGHT: 100%
+}
+.minusclick a:hover {
+  background: url(../../pics/html/m.gif) no-repeat center center;
+}
+
+.plusclick A {
+  DISPLAY: block; WIDTH: 100%; HEIGHT: 100%
+}
+.plusclick a:hover {
+  background: url(../../pics/html/p.gif) no-repeat center center;
+}
+ 
+.h {
+  
+  BORDER-RIGHT: #9d9d9d 1px solid; BORDER-TOP: #9d9d9d 1px solid; BORDER-LEFT: #9d9d9d 1px solid; BORDER-BOTTOM: #9d9d9d 1px solid;
+}  
+  
+.t {
+  BORDER-RIGHT: #9d9d9d 1px solid; BORDER-TOP: #9d9d9d 1px solid; BORDER-LEFT: #9d9d9d 1px solid; BORDER-BOTTOM: #9d9d9d 1px solid;
+}
+
+.c {
+  BORDER-RIGHT: #9d9d9d 1px solid; BORDER-TOP: #9d9d9d 1px solid; BORDER-LEFT: #9d9d9d 1px solid; BORDER-BOTTOM: #9d9d9d 1px solid;
+}
+
+.cu {
+  BORDER-RIGHT: #9d9d9d 1px solid; BORDER-TOP: #9d9d9d 1px solid; BORDER-LEFT: #9d9d9d 1px solid; BORDER-BOTTOM: #9d9d9d 0px solid;
+}
+
+.cm {
+  BORDER-RIGHT: #9d9d9d 1px solid; BORDER-TOP: #9d9d9d 1px dotted; BORDER-LEFT: #9d9d9d 1px solid; BORDER-BOTTOM: #9d9d9d 1px dotted;
+}
+
+.cd {
+  BORDER-RIGHT: #9d9d9d 1px solid; BORDER-TOP: #9d9d9d 0px solid; BORDER-LEFT: #9d9d9d 1px solid; BORDER-BOTTOM: #9d9d9d 1px solid;
+}
+
+div.text {
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",Arial,Verdana, Helvetica, sans-serif;
+	color:#eee;
+	font-size:14px;
+}
+
+
+   </style>
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-1485101-1";
+urchinTracker();
+</script>
+
+<script>
+
+function getCookie(name) {
+  var search = name + "=";
+  if (document.cookie.length > 0) {     // if there are any cookies
+    offset = document.cookie.indexOf(search);
+    if (offset != -1) {                 // if cookie exists
+      offset += search.length;
+      // set index of beginning of value
+      end = document.cookie.indexOf(";", offset);
+      // set index of end of cookie value
+      if (end == -1) end=document.cookie.length;
+      return unescape(document.cookie.substring(offset, end));
+    }
+    else {
+      return "";
+    }
+  }
+  return "";
+}
+
+var cookie = getCookie("FlexLastPhoto");
+
+</script>
+
+<script>
+
+/********************************************************************************/
+/** process the key event
+/********************************************************************************/
+function alertkey(e) {
+  if ( !e ) {
+    if ( window.event ) {
+      e = window.event;
+    }
+    else {
+      return;
+    }
+  }
+
+  if ( typeof(e.which) == 'number' ) {
+    //NS 4, NS 6+, Mozilla 0.9+, Opera
+    e = e.which;
+  }
+  else if( typeof(e.keyCode) == 'number'  ) {
+    //IE, NS 6+, Mozilla 0.9+
+    e = e.keyCode;
+  }
+  else if( typeof(e.charCode) == 'number'  ) {
+    //also NS 6+, Mozilla 0.9+
+    e = e.charCode;
+  }
+  else {
+    return;
+  }
+
+  // ?
+  if ( e == 191 ) {
+    location.href='../help/index.htm';
+  }  
+  // a
+  else if ( e == 65 ) {
+    location.href='../about/index.htm';
+  }
+  // b
+  else if ( e == 66 ) {
+    history.back();
+  }
+  // c and x
+  else if ( e == 67 || e == 88 ) {
+    window.close();
+  }  
+  // f
+  else if ( e == 70 ) {
+    location.href='http://www.fleischmann.hu/';
+  }
+  // h
+  else if ( e == 72 ) {
+    location.href='../contents/index.htm';
+  }
+  // l
+  else if ( e == 76 ) {
+    location.href='../contents/links.htm';
+  }
+  // m
+  else if ( e == 77 ) {
+    if (cookie != "") {
+	  location.href=cookie;
+    }
+  }  
+  // p
+  else if ( e == 80 ) {
+    print();
+  }
+  
+  // e
+  else if ( e == 69 ) {
+    location.href='http://jakabhaza.dyndns.org/squirrelmail/';
+  }
+  
+  // o
+  else if ( e == 79 ) {
+    location.href='https://www.otpbank.hu/otpportal2000/online/HB0210000000.html?x=y';
+  }
+  
+  // g
+  else if ( e == 71 ) {
+    location.href='http://google.com/mail/';
+  }
+  
+  // u
+  else if ( e == 85  ) {
+    location.href='http://www.user.hu/mail/gyfleischmann.nsf';
+  }
+}
+
+if ( document.captureEvents ) {
+  //non IE
+  if ( Event.KEYUP ) {
+  //NS 4, NS 6+, Mozilla 0.9+
+  document.captureEvents(Event.KEYUP);
+  }
+}
+
+// when a key is pressed, run the alertkey function
+document.onkeyup = alertkey;
+
+</script>
+
+</head>
+
+<body background="">
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+<tr>
+  <td valign="top" align="center" height="1%">
+  <table bgcolor="Black" width="100%" height="29" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="3" bgcolor="#9d9d9d"><img src="" width="1" height="1"></td>
+  </tr>
+  <tr>
+    <td align="left"><div class="linkbar">&nbsp;<font color="#ff0000">&middot;</font>&nbsp;<a href="../contents/index.htm" onmouseover="window.status='(H)ome!';return true;" onmouseout="window.status='';return true;" accesskey="h"><b>H</b>OME</a>&nbsp;<b>I</b>NDEX&nbsp;<a href="javascript:history.back();" onmouseover="window.status='(B)ack!';return true;" onmouseout="window.status='';return true;"><b>B</b>ACK</a>&nbsp;<a href="javascript:print();" onmouseover="window.status='(P)rint!';return true;" onmouseout="window.status='';return true;"><b>P</b>RINT</a>&nbsp;<script>
+  if (cookie != "") {
+    document.write('<a href="'+cookie+'" '); 
+
+    /* onmouseover="window.status='Jump to your bookmark!';return true;" onmouseout="window.status='';return true;" */
+	document.write('onmouseover="window.status=');
+	document.write("'Jump to your book(m)ark!';return true;");
+	document.write('" onmouseout="window.status=');
+	document.write("'';return true;");
+	document.write('"'); 
+	
+	document.write('>'); 
+	
+  }
+</script>BOOK<b>M</b>ARK<script>
+  if (cookie != "") {
+    document.write('</a>'); 
+  }
+</script>	
+	</div></td>
+	<td align="right"><div class="linkbar">&nbsp;<b>A</b>BOUT&nbsp;<a href="../help/index.htm" onmouseover="window.status='Help(?)';return true;" onmouseout="window.status='';return true;">HELP<b>?</b></a>&nbsp;<a href="javascript:this.close();" onmouseover="window.status='(C)lose!';return true;" onmouseout="window.status='';return true;"><b>C</b>LOSE&nbsp;</a><font color="#ff0000">&middot;</font>&nbsp;</div></td>  
+    <td width="1" bgcolor="#9d9d9d"><img src="" width="1" height="1"></td>
+  </tr>
+  <tr>
+    <td colspan="3" bgcolor="#9d9d9d"><img src="" width="1" height="1"></td>
+  </tr>
+  </table>
+  <table width="100%" height="42" cellpadding="0" cellspacing="0"><tr><td background="../../pics/html/kotta_m.gif"><img src="" width="1" height="1" alt="" border="0"></td></tr></table>
+<br>
+<table width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+<td width="1">&nbsp;&nbsp;<a href="../B2007Q4/index.htm"><b><</b></a></td>
+<td align="center"><b>2008Q1:</b> Ez a képek és a zene éve lesz itt.</td>
+<td width="1"><a href="../B2008Q2/index.htm"><b>></b></a>&nbsp;&nbsp;</td>
+</tr></table>
+<br>
+
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="center">
+
+  <!-- End of Header -->
+
+<!-- Line#: 1 -->
+
+<table border="0" width="100%" cellpadding="2" cellspacing="2">
+<tr>
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_Blog_Empty_Reverse.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_Null.HTM -->
+
+
+<td colspan="1"> 
+
+<table border="0" width="95%" cellpadding="0" cellspacing="10" align="center">
+<tr>
+  <td bgcolor="#9d9d9d" height="4"><img src="" width=1 height=4 alt="" border=0></td>
+</tr>
+<tr>
+  <td align="left" valign="top" width="1%">
+  <p align="justify"><b></b></p>
+  <p class="phototext" align="justify">Egyelőre várom a vendégmunkásokat... Sokan most sem leszünk.<br><br><a target="_self" name="vendegmunka">Vendégmunkások 2008.03.01. - 2008.04.xx.</a><br><br><table cellpadding="0" cellspacing="0" width="100%"><tr><td bgcolor="#006633" width="10%"><img src="" height="1" width="1"></td><td bgcolor="#006699" width="10%"><img src="" height="1" width="1"></td><td bgcolor="#663366" width="10%"><img src="" height="1" width="1"></td><td bgcolor="#ff9933" width="10%"><img src="" height="1" width="1"></td><td bgcolor="#ff0000" width="10%"><img src="" height="1" width="1"></td><td bgcolor="#993333" width="10%"><img src="" height="1" width="1"></td><td bgcolor="#006699" width="10%"><img src="" height="1" width="1"></td><td bgcolor="#66cccc" width="10%"><img src="" height="1" width="1"></td><td bgcolor="#ff6633" width="10%"><img src="" height="1" width="1"></td></tr></table><br><table align="left" border="0" cellpadding="0" cellspacing="0"><tr><td><img src="vendegmunka/PP_200804.JPG" width=95 border="0">&nbsp;&nbsp;<img src="vendegmunka/BandW_2008Q2.jpg" width=95 border="0"></td><td width=10><img src="" width="6" height="1"></td></tr></table><font color="#ff0000">&middot;</font> Sokat gondolkodtam ezen a vendégmunka dolgon. Miért nem jöttek többen, hol vannak a többi <a href="http://budapest.photobloggers.org/">blogger</a>ek és végül semmi okosságra nem jöttem rá. <a href="http://www.tiglis.hu/phototiglis/">Kinga</a> válasza volt talán a legelfogadhatóbb: azaz lehet, hogy nekik mégsem tetszett ez az ötlet. Legyen így!<br><font color="#ff0000">&middot;</font> Végül csalódottnak sem mondanám magam, mert nagyon szép kis társaság jött itt össze. Köszönöm szépen!<br><font color="#ff0000">&middot;</font> De a <b>lényeg a lényeg</b>: az elején arra gondoltam, hogy mivel kevesen jöttek ezért mindekinek adok majd valami ajándékot, de végül mégsem így lesz. Nekem az utolsónak jelentkező <a href="http://dawn.freeblog.hu/">DarkDawn</a> képei + zenéi fogtak meg nagyon, így Ő választhat, hogy 1 magyar vagy 1 angol fotós újságot kér ajándékba?<br><font color="#ff0000">&middot;</font> Nem is húzom tovább, ugorjunk a következő negyedévre ( <a href="../B2008Q2/index.htm">2008Q2</a> ), mert van 1 kis lemaradásom...<br><br>Még1* köszönöm mindenkinek a részvételt!<br><div align="right">Sziasztok,<br><b>_flex.</b></div><script type="text/javascript" src="http://www.haloscan.com/load/flexoft"></script><br><div class="linkbar" align="right"><font color="#ff0000"><a href="javascript:HaloScan('2008Q1/vendegmunka/vend_link.txt');" target="_self"><script type="text/javascript">postCount('2008Q1/vendegmunka/vend_link.txt');</script></a>&nbsp;&middot;&nbsp;<a href="javascript:HaloScanTB('2008Q1/vendegmunka/vend_link.txt');" target="_self"><script type="text/javascript">postCountTB('2008Q1/vendegmunka/vend_link.txt'); </script></a></div></p>
+  </td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<!-- End of Line#: 1 -->
+
+
+<!-- Line#: 2 -->
+
+<table border="0" width="100%" cellpadding="2" cellspacing="2">
+<tr>
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_Blog_Empty_Reverse.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_Null.HTM -->
+
+
+<td colspan="1"> 
+
+<table border="0" width="95%" cellpadding="0" cellspacing="10" align="center">
+<tr>
+  <td bgcolor="#9d9d9d" height="4"><img src="" width=1 height=4 alt="" border=0></td>
+</tr>
+<tr>
+  <td align="left" valign="top" width="1%">
+  <p align="justify"><b>#5. <a href="http://dawn.freeblog.hu/">Beyond the jupiter - DarkDawn - HAJNAL Dávid</a></b></p>
+  <p class="phototext" align="justify"></p>
+  </td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<!-- End of Line#: 2 -->
+
+
+<!-- Line#: 3 -->
+
+<table border="0" width="100%" cellpadding="2" cellspacing="2">
+<tr>
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 3 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="5.htm" onmouseover="window.status='Everything';return true;" onmouseout="window.status='';return true;"><img src="vendegmunka/darkdawn/5_thumb.jpg" alt="Everything" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">5</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>Everything</i></font>
+</td>
+<!- End of Slide#: 3 -->
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 4 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="4.htm" onmouseover="window.status='Litany';return true;" onmouseout="window.status='';return true;"><img src="vendegmunka/darkdawn/4_thumb.jpg" alt="Litany" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">4</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>Litany</i></font>
+</td>
+<!- End of Slide#: 4 -->
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 5 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="3.htm" onmouseover="window.status='Forest';return true;" onmouseout="window.status='';return true;"><img src="vendegmunka/darkdawn/3_thumb.jpg" alt="Forest" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">3</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>Forest</i></font>
+</td>
+<!- End of Slide#: 5 -->
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 6 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="2.htm" onmouseover="window.status='Hajnal';return true;" onmouseout="window.status='';return true;"><img src="vendegmunka/darkdawn/2_thumb.jpg" alt="Hajnal" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">2</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>Hajnal</i></font>
+</td>
+<!- End of Slide#: 6 -->
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 7 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="1.htm" onmouseover="window.status='Brazil';return true;" onmouseout="window.status='';return true;"><img src="vendegmunka/darkdawn/1_thumb.jpg" alt="Brazil" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">1</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>Brazil</i></font>
+</td>
+<!- End of Slide#: 7 -->
+</tr>
+</table>
+
+<!-- End of Line#: 3 -->
+
+
+<!-- Line#: 4 -->
+
+<table border="0" width="100%" cellpadding="2" cellspacing="2">
+<tr>
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_Blog_Empty_Reverse.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_Null.HTM -->
+
+
+<td colspan="1"> 
+
+<table border="0" width="95%" cellpadding="0" cellspacing="10" align="center">
+<tr>
+  <td bgcolor="#9d9d9d" height="4"><img src="" width=1 height=4 alt="" border=0></td>
+</tr>
+<tr>
+  <td align="left" valign="top" width="1%">
+  <p align="justify"><b>#4. <a href="http://zsanett.exposuremanager.com/">Fjordontúli Napló - ROZENDAAL-PANDUR Zsanett</a></b></p>
+  <p class="phototext" align="justify"></p>
+  </td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<!-- End of Line#: 4 -->
+
+
+<!-- Line#: 5 -->
+
+<table border="0" width="100%" cellpadding="2" cellspacing="2">
+<tr>
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 9 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="szuloklettunk.htm" onmouseover="window.status='Szülők lettünk';return true;" onmouseout="window.status='';return true;"><img src="vendegmunka/zsanett/szuloklettunk_thumb.jpg" alt="Szülők lettünk" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">szuloklettunk</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>Szülők lettünk</i></font>
+</td>
+<!- End of Slide#: 9 -->
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 10 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="hollandia.htm" onmouseover="window.status='Üdvözlet Hollandiából';return true;" onmouseout="window.status='';return true;"><img src="vendegmunka/zsanett/hollandia_thumb.jpg" alt="Üdvözlet Hollandiából" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">hollandia</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>Üdvözlet Hollandiából</i></font>
+</td>
+<!- End of Slide#: 10 -->
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 11 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="topart.htm" onmouseover="window.status='Koraeste tóparton';return true;" onmouseout="window.status='';return true;"><img src="vendegmunka/zsanett/topart_thumb.jpg" alt="Koraeste tóparton" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">topart</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>Koraeste tóparton</i></font>
+</td>
+<!- End of Slide#: 11 -->
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 12 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="konturok.htm" onmouseover="window.status='Kontúrok';return true;" onmouseout="window.status='';return true;"><img src="vendegmunka/zsanett/konturok_thumb.jpg" alt="Kontúrok" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">konturok</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>Kontúrok</i></font>
+</td>
+<!- End of Slide#: 12 -->
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 13 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="kozel.htm" onmouseover="window.status='Közel';return true;" onmouseout="window.status='';return true;"><img src="vendegmunka/zsanett/kozel_thumb.jpg" alt="Közel" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">kozel</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>Közel</i></font>
+</td>
+<!- End of Slide#: 13 -->
+</tr>
+</table>
+
+<!-- End of Line#: 5 -->
+
+
+<!-- Line#: 6 -->
+
+<table border="0" width="100%" cellpadding="2" cellspacing="2">
+<tr>
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_Blog_Empty_Reverse.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_Null.HTM -->
+
+
+<td colspan="1"> 
+
+<table border="0" width="95%" cellpadding="0" cellspacing="10" align="center">
+<tr>
+  <td bgcolor="#9d9d9d" height="4"><img src="" width=1 height=4 alt="" border=0></td>
+</tr>
+<tr>
+  <td align="left" valign="top" width="1%">
+  <p align="justify"><b>#3. <a href="http://www.lostinpixels.hu/">LiP - Lost In Pixels - SPRENC Balázs</a></b></p>
+  <p class="phototext" align="justify"></p>
+  </td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<!-- End of Line#: 6 -->
+
+
+<!-- Line#: 7 -->
+
+<table border="0" width="100%" cellpadding="2" cellspacing="2">
+<tr>
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 15 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="0279-the_outsider.htm" onmouseover="window.status='The Outsider';return true;" onmouseout="window.status='';return true;"><img src="vendegmunka/lip/0279-the_outsider_thumb.jpg" alt="The Outsider" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">0279-the_outsider</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>The Outsider</i></font>
+</td>
+<!- End of Slide#: 15 -->
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 16 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="0395-light_my_fire.htm" onmouseover="window.status='Light my fire';return true;" onmouseout="window.status='';return true;"><img src="vendegmunka/lip/0395-light_my_fire_thumb.jpg" alt="Light my fire" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">0395-light_my_fire</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>Light my fire</i></font>
+</td>
+<!- End of Slide#: 16 -->
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 17 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="0336-every_season_has_an_end.htm" onmouseover="window.status='Every season has an end';return true;" onmouseout="window.status='';return true;"><img src="vendegmunka/lip/0336-every_season_has_an_end_thumb.jpg" alt="Every season has an end" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">0336-every_season_has_an_end</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>Every season has an end</i></font>
+</td>
+<!- End of Slide#: 17 -->
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 18 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="0261-just_visiting.htm" onmouseover="window.status='Just visiting';return true;" onmouseout="window.status='';return true;"><img src="vendegmunka/lip/0261-just_visiting_thumb.jpg" alt="Just visiting" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">0261-just_visiting</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>Just visiting</i></font>
+</td>
+<!- End of Slide#: 18 -->
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 19 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="0503-optimistic.htm" onmouseover="window.status='Optimistic';return true;" onmouseout="window.status='';return true;"><img src="vendegmunka/lip/0503-optimistic_thumb.jpg" alt="Optimistic" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">0503-optimistic</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>Optimistic</i></font>
+</td>
+<!- End of Slide#: 19 -->
+</tr>
+</table>
+
+<!-- End of Line#: 7 -->
+
+
+<!-- Line#: 8 -->
+
+<table border="0" width="100%" cellpadding="2" cellspacing="2">
+<tr>
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 20 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="0151-at_the_table_of_gloom.htm" onmouseover="window.status='At the table of gloom';return true;" onmouseout="window.status='';return true;"><img src="vendegmunka/lip/0151-at_the_table_of_gloom_thumb.jpg" alt="At the table of gloom" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">0151-at_the_table_of_gloom</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>At the table of gloom</i></font>
+</td>
+<!- End of Slide#: 20 -->
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 21 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="0421-no_staring_at_the_clouds.htm" onmouseover="window.status='No staring at the clouds';return true;" onmouseout="window.status='';return true;"><img src="vendegmunka/lip/0421-no_staring_at_the_clouds_thumb.jpg" alt="No staring at the clouds" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">0421-no_staring_at_the_clouds</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>No staring at the clouds</i></font>
+</td>
+<!- End of Slide#: 21 -->
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 22 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="0163-go_to_sleep.htm" onmouseover="window.status='Go to sleep';return true;" onmouseout="window.status='';return true;"><img src="vendegmunka/lip/0163-go_to_sleep_thumb.jpg" alt="Go to sleep" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">0163-go_to_sleep</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>Go to sleep</i></font>
+</td>
+<!- End of Slide#: 22 -->
+</tr>
+</table>
+
+<!-- End of Line#: 8 -->
+
+
+<!-- Line#: 9 -->
+
+<table border="0" width="100%" cellpadding="2" cellspacing="2">
+<tr>
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_Blog_Empty_Reverse.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_Null.HTM -->
+
+
+<td colspan="1"> 
+
+<table border="0" width="95%" cellpadding="0" cellspacing="10" align="center">
+<tr>
+  <td bgcolor="#9d9d9d" height="4"><img src="" width=1 height=4 alt="" border=0></td>
+</tr>
+<tr>
+  <td align="left" valign="top" width="1%">
+  <p align="justify"><b>#2. <a href="http://fuhur.fw.hu/">FUHUR - MONOSTORI Krisztián</a></b></p>
+  <p class="phototext" align="justify"></p>
+  </td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<!-- End of Line#: 9 -->
+
+
+<!-- Line#: 10 -->
+
+<table border="0" width="100%" cellpadding="2" cellspacing="2">
+<tr>
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 24 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="Jegeso.htm" onmouseover="window.status='People always talk about the weather';return true;" onmouseout="window.status='';return true;"><img src="vendegmunka/fuhur/Jegeso_thumb.jpg" alt="People always talk about the weather" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">Jegeso</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>People always talk about the weather</i></font>
+</td>
+<!- End of Slide#: 24 -->
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 25 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="unflyable.htm" onmouseover="window.status='Unflyable';return true;" onmouseout="window.status='';return true;"><img src="vendegmunka/fuhur/unflyable_thumb.jpg" alt="Unflyable" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">unflyable</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>Unflyable</i></font>
+</td>
+<!- End of Slide#: 25 -->
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 26 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="longway.htm" onmouseover="window.status='On the long way';return true;" onmouseout="window.status='';return true;"><img src="vendegmunka/fuhur/longway_thumb.jpg" alt="On the long way" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">longway</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>On the long way</i></font>
+</td>
+<!- End of Slide#: 26 -->
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 27 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="Janka.htm" onmouseover="window.status='Janka';return true;" onmouseout="window.status='';return true;"><img src="vendegmunka/fuhur/Janka_thumb.jpg" alt="Janka" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">Janka</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>Janka</i></font>
+</td>
+<!- End of Slide#: 27 -->
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 28 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="Make_you_feel_small.htm" onmouseover="window.status='Make you feel small';return true;" onmouseout="window.status='';return true;"><img src="vendegmunka/fuhur/Make_you_feel_small_thumb.jpg" alt="Make you feel small" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">Make_you_feel_small</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>Make you feel small</i></font>
+</td>
+<!- End of Slide#: 28 -->
+</tr>
+</table>
+
+<!-- End of Line#: 10 -->
+
+
+<!-- Line#: 11 -->
+
+<table border="0" width="100%" cellpadding="2" cellspacing="2">
+<tr>
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_Blog_Empty_Reverse.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_Null.HTM -->
+
+
+<td colspan="1"> 
+
+<table border="0" width="95%" cellpadding="0" cellspacing="10" align="center">
+<tr>
+  <td bgcolor="#9d9d9d" height="4"><img src="" width=1 height=4 alt="" border=0></td>
+</tr>
+<tr>
+  <td align="left" valign="top" width="1%">
+  <p align="justify"><b>#1. RÓNAI Péter</b></p>
+  <p class="phototext" align="justify"></p>
+  </td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<!-- End of Line#: 11 -->
+
+
+<!-- Line#: 12 -->
+
+<table border="0" width="100%" cellpadding="2" cellspacing="2">
+<tr>
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 30 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="A_nyar_illata.htm" onmouseover="window.status='A nyár illata';return true;" onmouseout="window.status='';return true;"><img src="vendegmunka/ronai/A_nyar_illata_thumb.jpg" alt="A nyár illata" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">A_nyar_illata</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>A nyár illata</i></font>
+</td>
+<!- End of Slide#: 30 -->
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 31 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="Kapaszkodva.htm" onmouseover="window.status='Kapaszkodva';return true;" onmouseout="window.status='';return true;"><img src="vendegmunka/ronai/Kapaszkodva_thumb.jpg" alt="Kapaszkodva" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">Kapaszkodva</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>Kapaszkodva</i></font>
+</td>
+<!- End of Slide#: 31 -->
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 32 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="06_16.htm" onmouseover="window.status='06 16';return true;" onmouseout="window.status='';return true;"><img src="vendegmunka/ronai/06_16_thumb.jpg" alt="06 16" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">06_16</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>06 16</i></font>
+</td>
+<!- End of Slide#: 32 -->
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 33 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="Felhojatek.htm" onmouseover="window.status='Felhőjáték';return true;" onmouseout="window.status='';return true;"><img src="vendegmunka/ronai/Felhojatek_thumb.jpg" alt="Felhőjáték" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">Felhojatek</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>Felhőjáték</i></font>
+</td>
+<!- End of Slide#: 33 -->
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 34 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="Vihar_jon.htm" onmouseover="window.status='Vihar jön';return true;" onmouseout="window.status='';return true;"><img src="vendegmunka/ronai/Vihar_jon_thumb.jpg" alt="Vihar jön" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">Vihar_jon</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>Vihar jön</i></font>
+</td>
+<!- End of Slide#: 34 -->
+</tr>
+</table>
+
+<!-- End of Line#: 12 -->
+
+
+<!-- Line#: 13 -->
+
+<table border="0" width="100%" cellpadding="2" cellspacing="2">
+<tr>
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_Blog_Empty_Reverse.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_Null.HTM -->
+
+
+<td colspan="1"> 
+
+<table border="0" width="95%" cellpadding="0" cellspacing="10" align="center">
+<tr>
+  <td bgcolor="#9d9d9d" height="4"><img src="" width=1 height=4 alt="" border=0></td>
+</tr>
+<tr>
+  <td align="left" valign="top" width="1%">
+  <p align="justify"><b></b></p>
+  <p class="phototext" align="justify"></p>
+  </td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<!-- End of Line#: 13 -->
+
+
+<!-- Line#: 14 -->
+
+<table border="0" width="100%" cellpadding="2" cellspacing="2">
+<tr>
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 36 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="NO20080222_00557.htm" onmouseover="window.status='Első nap a HEIM PÁLban';return true;" onmouseout="window.status='';return true;"><img src="pics/NO20080222_00557_thumb.jpg" alt="Első nap a HEIM PÁLban" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">NO20080222_00557</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>Első nap a HEIM PÁLban</i></font>
+</td>
+<!- End of Slide#: 36 -->
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 37 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="KM20080217_10854.htm" onmouseover="window.status='Az apartman ( Hajrá nyár! )';return true;" onmouseout="window.status='';return true;"><img src="../balaton/pics/KM20080217_10854_thumb.jpg" alt="Az apartman ( Hajrá nyár! )" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">KM20080217_10854</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>Az apartman ( Hajrá nyár! )</i></font>
+</td>
+<!- End of Slide#: 37 -->
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 38 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="KM20080222_10855.htm" onmouseover="window.status='Baktérium a házban...';return true;" onmouseout="window.status='';return true;"><img src="../gergo/pics/KM20080222_10855_thumb.jpg" alt="Baktérium a házban..." border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">KM20080222_10855</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>Baktérium a házban...</i></font>
+</td>
+<!- End of Slide#: 38 -->
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 39 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="KM20080211_10797.htm" onmouseover="window.status='Zhu Ziyan Michelle látogatóban';return true;" onmouseout="window.status='';return true;"><img src="pics/KM20080211_10797_thumb.jpg" alt="Zhu Ziyan Michelle látogatóban" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">KM20080211_10797</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>Zhu Ziyan Michelle látogatóban</i></font>
+</td>
+<!- End of Slide#: 39 -->
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 40 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="KM20080217_10825.htm" onmouseover="window.status='U.F.O. peték a Balatonon I.';return true;" onmouseout="window.status='';return true;"><img src="pics/KM20080217_10825_thumb.jpg" alt="U.F.O. peték a Balatonon I." border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">KM20080217_10825</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>U.F.O. peték a Balatonon I.</i></font>
+</td>
+<!- End of Slide#: 40 -->
+</tr>
+</table>
+
+<!-- End of Line#: 14 -->
+
+
+<!-- Line#: 15 -->
+
+<table border="0" width="100%" cellpadding="2" cellspacing="2">
+<tr>
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 41 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="CN200712XX_00015.htm" onmouseover="window.status='Evil';return true;" onmouseout="window.status='';return true;"><img src="pics/CN200712XX_00015_thumb.jpg" alt="Evil" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">CN200712XX_00015</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>Evil</i></font>
+</td>
+<!- End of Slide#: 41 -->
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 42 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="KM20080205_10740.htm" onmouseover="window.status='Ovis farsang (Anna keze is érdekes lehet annak, aki még nem tudja... Részletek a szerkesztőségben. :-)';return true;" onmouseout="window.status='';return true;"><img src="pics/KM20080205_10740_thumb.jpg" alt="Ovis farsang (Anna keze is érdekes lehet annak, aki még nem tudja... Részletek a szerkesztőségben. :-)" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">KM20080205_10740</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>Ovis farsang (Anna keze is érdekes lehet annak, aki még nem tudja... Részletek a szerkesztőségben. :-)</i></font>
+</td>
+<!- End of Slide#: 42 -->
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 43 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="CN200712XX_00018.htm" onmouseover="window.status='New shoes';return true;" onmouseout="window.status='';return true;"><img src="pics/CN200712XX_00018_thumb.jpg" alt="New shoes" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">CN200712XX_00018</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>New shoes</i></font>
+</td>
+<!- End of Slide#: 43 -->
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 44 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="CN200711XX_00013.htm" onmouseover="window.status='Még mindig New York';return true;" onmouseout="window.status='';return true;"><img src="pics/CN200711XX_00013_thumb.jpg" alt="Még mindig New York" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">CN200711XX_00013</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>Még mindig New York</i></font>
+</td>
+<!- End of Slide#: 44 -->
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 45 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="KM20080116_10570.htm" onmouseover="window.status='Úszás nyíltnap az oviban';return true;" onmouseout="window.status='';return true;"><img src="../anna/pics/KM20080116_10570_thumb.jpg" alt="Úszás nyíltnap az oviban" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">KM20080116_10570</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>Úszás nyíltnap az oviban</i></font>
+</td>
+<!- End of Slide#: 45 -->
+</tr>
+</table>
+
+<!-- End of Line#: 15 -->
+
+
+<!-- Line#: 16 -->
+
+<table border="0" width="100%" cellpadding="2" cellspacing="2">
+<tr>
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 46 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="KM20071225_10417.htm" onmouseover="window.status='Az első nyugati autó a családban: AUDI 80';return true;" onmouseout="window.status='';return true;"><img src="pics/KM20071225_10417_thumb.jpg" alt="Az első nyugati autó a családban: AUDI 80" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">KM20071225_10417</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>Az első nyugati autó a családban: AUDI 80</i></font>
+</td>
+<!- End of Slide#: 46 -->
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 47 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="NO20080110_00475.htm" onmouseover="window.status='Napra, Barbaro koncert MUPA';return true;" onmouseout="window.status='';return true;"><img src="pics/NO20080110_00475_thumb.jpg" alt="Napra, Barbaro koncert MUPA" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">NO20080110_00475</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>Napra, Barbaro koncert MUPA</i></font>
+</td>
+<!- End of Slide#: 47 -->
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 48 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="KM20050428_01071.htm" onmouseover="window.status='Róma';return true;" onmouseout="window.status='';return true;"><img src="pics/KM20050428_01071_thumb.jpg" alt="Róma" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">KM20050428_01071</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>Róma</i></font>
+</td>
+<!- End of Slide#: 48 -->
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 49 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="KM20050428_01047.htm" onmouseover="window.status='Csepel';return true;" onmouseout="window.status='';return true;"><img src="pics/KM20050428_01047_thumb.jpg" alt="Csepel" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">KM20050428_01047</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>Csepel</i></font>
+</td>
+<!- End of Slide#: 49 -->
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 50 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="KM20080105_10520.htm" onmouseover="window.status='Eszkimó';return true;" onmouseout="window.status='';return true;"><img src="../anna/pics/KM20080105_10520_thumb.jpg" alt="Eszkimó" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">KM20080105_10520</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>Eszkimó</i></font>
+</td>
+<!- End of Slide#: 50 -->
+</tr>
+</table>
+
+<!-- End of Line#: 16 -->
+
+
+<!-- Line#: 17 -->
+
+<table border="0" width="100%" cellpadding="2" cellspacing="2">
+<tr>
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 51 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="KM20080101_10494.htm" onmouseover="window.status='Jég';return true;" onmouseout="window.status='';return true;"><img src="pics/KM20080101_10494_thumb.jpg" alt="Jég" border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">KM20080101_10494</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>Jég</i></font>
+</td>
+<!- End of Slide#: 51 -->
+
+<!-- ### Album body based on: ../templates/ALBUM_BODY_0.HTM -->
+
+
+<!-- ### Album slide based on: ../templates/SLIDE_0.HTM -->
+
+
+<!- Slide#: 52 -->
+<td align="center" valign="top" width="1%">
+
+<table width="161" height="160" border="0" cellpadding="0" cellspacing="0" bgcolor="#3d3d3d" background="">
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle">
+
+<table border="0" cellpadding="0" cellspacing="0" height="158" width="158">
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#9d9d9d">&nbsp;</font></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" height="10">
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+  <td align="center" valign="middle" height="10%"><a href="KM20080101_10487.htm" onmouseover="window.status='Új év, új lehetőségek...';return true;" onmouseout="window.status='';return true;"><img src="pics/KM20080101_10487_thumb.jpg" alt="Új év, új lehetőségek..." border="0"></a></td>
+  <td width="2" bgcolor="#9d9d9d" colspan="2"><img src="../../pics/html/1x1.gif" width="2" height="1" alt="" border="0"></td>
+</tr>
+<tr>
+  <td height="2" bgcolor="#9d9d9d" colspan="5"><img src="../../pics/html/1x1.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+  </td>
+</tr>  
+<tr>
+  <td align="center" valign="middle" colspan="5"><font size="1" face="Tahoma" color="#5d5d5d">KM20080101_10487</font></td>
+</tr>
+</table>
+
+  </td>
+  <td width="1" bgcolor="#9d9d9d"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>  
+</tr>
+<tr>
+  <td width="160" height="1" bgcolor="#9d9d9d" colspan="3"><img src="../../pics/html/1x1.gif" width="1" height="1" alt="" border="0"></td>
+</tr>
+</table>
+
+<font color="#ffffff" style="font-size: 13px;"><i>Új év, új lehetőségek...</i></font>
+</td>
+<!- End of Slide#: 52 -->
+</tr>
+</table>
+
+<!-- End of Line#: 17 -->
+
+
+<!-- ### Album footer based on: ../templates/ALBUM_FOOTER_NG_Style.HTM -->
+
+  <!-- Footer -->
+
+  </td>
+</tr>
+<tr>
+  <td valign="bottom" align="center" height="1%">
+
+  <table bgcolor="Black" width="100%" height="29" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="2" bgcolor="#9d9d9d"><img src="" width="1" height="1"></td>
+  </tr>
+  <tr>
+    <td align="center"><div class="linkbar"><font color="#ff0000">&middot;</font>&nbsp;<font color="#9d9d9d">Nincs&nbsp;jog&nbsp;fenntartva</font>&nbsp;<font color="#9d9d9d">-=</font>&nbsp;<a href="http://www.fleischmann.hu/" onmouseover="window.status='www.fleischmann.hu';return true;" onmouseout="window.status='';return true;">FLEISCHMANN</a>&nbsp;<font color="#9d9d9d">=-</font>&nbsp;<font color="#9d9d9d">No&nbsp;rights&nbsp;reserved</font>&nbsp;<font color="#ff0000">&middot;</font></div></td>
+    <td width="1" bgcolor="#9d9d9d"><img src="" width="1" height="1"></td>
+  </tr>	
+  <tr>
+    <td colspan="2" bgcolor="#9d9d9d"><img src="" width="1" height="1"></td>
+  </tr>	    
+  </table>
+
+  </td>
+</tr>
+</table>
+
+</body>
+  
+</html>
+
+
+<!-- Generated by:
+photoalbum_generator v1.25
+# Designed by Flex.
+# Written by Flex from FleXoft.
+#	(flex@fleischmann.hu)
+#	(http://www.fleischmann.hu/)
+# Run by flex on stargate at 20080407@15:57
+-->

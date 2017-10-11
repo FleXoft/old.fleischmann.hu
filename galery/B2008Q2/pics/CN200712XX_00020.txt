@@ -1,0 +1,81 @@
+#
+# EXIF Title        : Hull a hó és hózik
+# EXIF Photographer : FLEISCHMANN György, flex
+# EXIF Place        : Budapest, HUNGARY
+#
+# EXIF Camera make  : MINOLTA
+# EXIF Camera model : DYNAX 9000
+# EXIF Date/Time    : 2007:12:xx ??:??:??
+# EXIF Flash used   : No
+# EXIF ISO equiv.   : 100
+# EXIF Metering Mode: spot
+# EXIF Film         : FUJI Superia (expired)
+# EXIF Exposure     : aperture priority (semi-auto)
+#
+
+<table cellspacing="10" cellpadding="10" border="0">
+<tr>
+<td colspan="3">
+<u>Koncz Zsuzsa: Micimackó (Bródy János)</u>
+</td>
+</tr>
+<tr>
+<td valign="top">
+Egy napon, mikor Micimackónak semmi dolga nem akadt,<br>
+Eszébe jutott, hogy tenni kéne valami nagyon fontosat.<br>
+Elment tehát Malackához, hogy meglesse, mit csinál,<br>
+De Malackánál éppen akkor senkit nem talált<br>
+<br>
+Így hát elindult hazafelé, miközben sûrûn hullt a hó,<br>
+S arra gondolt, hogy otthon talán akad egy kis ennivaló.<br>
+S hogy kimelegedjék, ugrándozott, s jó nagyokat lépett,<br>
+S a hidegre való tekintettel énekelni kezdett.<br>
+<br>
+Minél inkább havazik, annál inkább hull a hó,<br>
+Minél inkább hull a hó, annál inkább havazik.<br>
+Hull a hó és hózik, Micimackó fázik,<br>
+Hull a hó és hózik, Micimackó fázik.<br>
+<br>
+Ismert erdei körökben az az általános nézet,<br>
+Hogy Micimackó, mint minden medve, szereti a mézet.<br>
+És ez nem csak afféle szerény vélemény,<br>
+Hanem határozottan állítom, hogy tény, tény, tény.<br>
+</td>
+<td height="100%">
+<table cellpadding="0" cellspacing="0" height="100%" width="1" border="0">
+<tr><td bgcolor="#006633" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#006699" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#663366" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#ff9933" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#ff0000" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#993333" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#006699" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#66cccc" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#ff6633" height="10%"><img src="" height="1" width="1"></td></tr>
+</table>
+</td>
+<td valign="top">
+Ezért mikor hideg van, és sûrûn hull a fehér hó,<br>
+Kell, hogy legyen az almáriumban eltéve ennivaló.<br>
+Így aztán, ha télidõben Micimackó megéhezik,<br>
+Megkóstol egy csupor mézet alaposan fenékig.<br>
+<br>
+Minél inkább havazik, annál inkább hull a hó,<br>
+Minél inkább hull a hó, annál inkább havazik.<br>
+Hull a hó és hózik, Micimackó fázik.<br>
+Hull a hó és hózik, Micimackó fázik.<br>
+<br>
+Micimackó a barátom, és gyakran elbeszélgetünk,<br>
+Azokról a dolgokról, mit mind a ketten ismerünk,<br>
+És tanultunk egy verset is, és most már kívülrõl tudom,<br>
+Ha hideg van, és hull a hó, én mindig ezt dúdolgatom,<br>
+<br>
+Hogy<br>
+<br>
+Minél inkább havazik, annál inkább hull a hó,<br>
+Minél inkább hull a hó, annál inkább havazik.<br>
+Hull a hó és hózik, Micimackó fázik.<br>
+Hull a hó és hózik, Micimackó fázik.<br>
+</td>
+</tr>
+</table>

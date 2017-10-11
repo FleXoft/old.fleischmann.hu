@@ -1,0 +1,81 @@
+# Title        : A nyár illata
+
+<table cellspacing="10" cellpadding="10" border="0">
+<tr>
+<td colspan="3">
+<u>Zorán : A szerelemnek múlnia kell</u>
+</td>
+</tr>
+<tr>
+<td valign="top">
+Hogy értsd, egy pohár víz mit ér<br>
+Ahhoz hõség kell, ahhoz sivatag kell<br>
+Hogy lásd, egy napod mennyit ér<br>
+Néha látnod kell<br>
+Az élet hogyan fogy el<br>
+<br>
+A lángot akkor õrzöd még<br>
+Ha félsz, hogy ellobban, elég<br>
+S elveszted fényét, melegét<br>
+<br>
+Jó, mikor hisszük még<br>
+Lehet olyan a világ<br>
+Amilyet szeretnénk<br>
+Hidd el, a hajnal attól szép<br>
+hogy minden éjben ott lapul<br>
+Az örök sötétség<br>
+<br>
+Egy érzés mindent eltakart<br>
+S elhittük, mindörökké tart<br>
+S a törvény nálunk do"l le majd<br>
+<br>
+De jaj, a szerelemnek múlnia kell<br>
+S ha múlik, akkor fájnia kell<br>
+Hogy érezd mennyit ér, míg tart, míg él<br>
+A szerelemnek múlnia kell<br>
+Akkor is, ha égig emel<br>
+És szép, hogy mást hiszel, mert mást ígér<br>
+</td>
+<td height="100%">
+<table cellpadding="0" cellspacing="0" height="100%" width="1" border="0">
+<tr><td bgcolor="#006633" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#006699" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#663366" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#ff9933" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#ff0000" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#993333" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#006699" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#66cccc" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#ff6633" height="10%"><img src="" height="1" width="1"></td></tr>
+</table>
+</td>
+<td valign="top">
+Várj, a kezed ne húzd el<br>
+Annyi csodát idéz, amikor hozzám érsz<br>
+Ha sírsz, a szemed ne takard el<br>
+Miért titkolnánk<br>
+Hogy egy kicsit nehéz<br>
+<br>
+Egy érzés mindent eltakart<br>
+S elhittük, mindörökké tart<br>
+S a törvény nálunk do"l le majd<br>
+<br>
+De jaj, a szerelemnek múlnia kell<br>
+Ha múlik, akkor fájnia kell<br>
+Hogy érezd mennyit ér, míg tart, míg él<br>
+A szerelemnek múlnia kell<br>
+Akkor is, ha égig emel<br>
+És végig mást hiszel, mert mást ígér<br>
+<br>
+A szerelemnek múlnia kell<br>
+Ha múlik, akkor fájnia kell<br>
+Hogy érezd mennyit ér, míg tart, míg él<br>
+<br>
+Míg tart, míg él<br>
+<br>
+A szerelemnek múlnia kell<br>
+Ha múlik, akkor fájnia kell,<br>
+Hogy érezd mennyit ér, míg tart, míg él<br>
+</td>
+</tr>
+</table>

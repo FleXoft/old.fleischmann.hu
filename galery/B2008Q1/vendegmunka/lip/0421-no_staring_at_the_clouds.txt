@@ -1,0 +1,43 @@
+# Title        : No staring at the clouds
+
+<table cellspacing="10" cellpadding="10" border="0">
+<tr>
+<td colspan="3">
+<u>Soundgarden: Boot Camp</u>
+</td>
+</tr>
+<tr>
+<td valign="top">
+I must obey the rules<br>
+I must be tame and cool<br>
+No staring at the clouds<br>
+I must stay on the ground<br>
+In clusters of the mice<br>
+The smoke is in our eyes<br>
+</td>
+<td height="100%">
+<table cellpadding="0" cellspacing="0" height="100%" width="1" border="0">
+<tr><td bgcolor="#006633" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#006699" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#663366" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#ff9933" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#ff0000" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#993333" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#006699" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#66cccc" height="10%"><img src="" height="1" width="1"></td></tr>
+<tr><td bgcolor="#ff6633" height="10%"><img src="" height="1" width="1"></td></tr>
+</table>
+</td>
+<td valign="top">
+Like babies on display<br>
+Like angels in a cage<br>
+I must be pure and true<br>
+I must contain my views<br>
+There must be something else<br>
+There must be something good<br>
+Far away<br>
+</td>
+</tr>
+</table>
+
+<center><object width="425" height="355"><param name="movie" value="http://www.youtube.com/v/gI-Xb8iKtRc&rel=1"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/gI-Xb8iKtRc&rel=1" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed></object></center><br>

@@ -1,0 +1,31 @@
+#!/bin/sh
+#
+##############################################
+# Just a little trick...
+  eval 'exec photoalbum_generator -f $0 -a aa.txt -A NG_Style -S NG_Style_v2 -c 5 -e ${1+"$@"}'
+##############################################
+#
+# Album
+#
+# Created: 2005.05.25.
+#
+# Global overwriting
+# overwrite:	[{{STYLE}}=>file:css/NG_Style.CSS]
+#
+#############################################################################################################################
+# Title: Anyuka, Apuka
+#############################################################################################################################
+#
+# The structure:
+# filename|albumbodytheme|slidetheme|backgroundtheme|frametheme
+#
+#############################################################################################################################
+
+pics/KM20070127_07539.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2_tooltip[resize();;=>fullsize=1;]|NG_Style_v2_noText|
+pics/KM20061224_07362.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2_tooltip[resize();;=>fullsize=1;]|NG_Style_v2_noText|
+pics/KM20061224_07361.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2_tooltip[resize();;=>fullsize=1;]|NG_Style_v2_noText|
+pics/KM20061022_06780.jpg|0|0[#FFFFFF=>#3d3d3d,#000001=>#5d5d5d,#000000=>#9d9d9d]|NG_Style_v2_tooltip[resize();;=>fullsize=1;]|NG_Style_v2_noText|
+
+#############################################################################################################################
+#
+### _END_OF_FILE ###
