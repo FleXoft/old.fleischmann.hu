@@ -1,0 +1,631 @@
+E0C88 assembler v1.2 r3                 SN00000000-061 (c) 2000 TASKING, Inc.
+                                                                                                                            Page   1
+C:\M851\app\tweak\build\minute.asm
+ADDR   CODE      LINE SOURCELINE
+                   2 
+                   3 ; ********************************************************************
+                   4 ; *
+                   5 ; * M851 PERIODIC TASK BUILDER
+                   6 ; * Timex Corporation 2002 All Rights Reserved
+                   7 ; * July 2002
+                   8 ; *
+                   9 ; * Periodic Task: Tweak
+                  10 ; *
+                  11 ; ********************************************************************
+                  12 
+                  13 
+                  76 
+                  79 
+00F31A            81 CODECOMMONADDRESS:
+                  82 
+                  83      ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+                  84      ;
+                  85      ; PERIODIC TASKS SOURCE FILE TO BE IN THE COMMON SECTION
+                  86      ; * Always have the Background Handler routine to be the first file
+                  87      ;
+                  88      ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+                  89 
+                  90     INCLUDE 'C:\M851\app\tweak\src\minute.asm'
+                   1 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+                   2 ;
+                   3 ; File Name    : tweak.asm
+                   4 ; Purpose      : tweak Application 
+                   5 ;
+                   6 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+                   7 ;;;;;;;;;;;;;DO NOT MODIFY THE FOLLOWING SUBROUTINE DEFINITION;;;;;;;;;;;;;;;;;
+                   8 
+                  12         DEFINE SUBROUTINE "'tweak'"
+                  13 
+                  14 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+                  15 
+00F31A CED053F2   16         ld      A, [COREPTZIndex]
+00F31E C7C3F3     17         ld      IY, #localtimebuffer
+                  18         KTOD_COPY_TIME_MIN_TO_DOW_FROM_RESOURCE
+                 +18 ; 
+                 +18 ;                 car     ktodCopyTimeMinToDOWFromResource
+00F321 F25B4C    +18 ; ;     carL    ktodCopyTimeMinToDOWFromResource
+                 +18 ;                                 
+                 +18 ;        
+                  19 
+00F324 CED0C9F3   20         ld      A, [dow]
+                  21 
+00F328 3200       22 test0:  cp      A, #00
+                  23         jr      NZ, test1
+00F32A E714      +23 ;       jrS     NZ, test1
+00F32C C60000     24         ld      IX, #00
+00F32F B205       25         ld      L, #SEG_S
+                  26         LCD_DISP_SEG_CHAR
+                 +26 ;                 
+                 +26 ;                 car     lcdDispSegChar
+00F331 F250A9    +26 ; ;     carL    lcdDispSegChar
+                 +26 ; 
+                 +26 ; 
+                  27 
+00F334 C60200     28         ld      IX, #02
+00F337 B21D       29         ld      L, #SEG_U
+                  30         LCD_DISP_SEG_CHAR
+E0C88 assembler v1.2 r3                 SN00000000-061 (c) 2000 TASKING, Inc.
+                                                                                                                            Page   2
+
+ADDR   CODE      LINE SOURCELINE
+                 +30 ;                 
+                 +30 ;                 car     lcdDispSegChar
+00F339 F248A9    +30 ; ;     carL    lcdDispSegChar
+                 +30 ; 
+                 +30 ; 
+                  31 
+                  32         jr  exit
+00F33C F38C00    +32 ;       jrL     exit
+                  33             
+00F33F 3201       34 test1:  cp      A, #01
+                  35         jr      NZ, test2
+00F341 E713      +35 ;       jrS     NZ, test2
+00F343 C60000     36         ld      IX, #00
+00F346 B217       37         ld      L, #SEG_M
+                  38         LCD_DISP_SEG_CHAR
+                 +38 ;                 
+                 +38 ;                 car     lcdDispSegChar
+00F348 F239A9    +38 ; ;     carL    lcdDispSegChar
+                 +38 ; 
+                 +38 ; 
+                  39 
+00F34B C60200     40         ld      IX, #02
+00F34E B200       41         ld      L, #SEG_O
+                  42         LCD_DISP_SEG_CHAR
+                 +42 ;                 
+                 +42 ;                 car     lcdDispSegChar
+00F350 F231A9    +42 ; ;     carL    lcdDispSegChar
+                 +42 ; 
+                 +42 ; 
+                  43 
+                  44         jr  exit
+00F353 F176      +44 ;       jrS     exit
+                  45         
+00F355 3202       46 test2:  cp      A, #02
+                  47         jr      NZ, test3
+00F357 E713      +47 ;       jrS     NZ, test3
+00F359 C60000     48         ld      IX, #00
+00F35C B21C       49         ld      L, #SEG_T
+                  50         LCD_DISP_SEG_CHAR
+                 +50 ;                 
+                 +50 ;                 car     lcdDispSegChar
+00F35E F223A9    +50 ; ;     carL    lcdDispSegChar
+                 +50 ; 
+                 +50 ; 
+                  51 
+00F361 C60200     52         ld      IX, #02
+00F364 B21D       53         ld      L, #SEG_U
+                  54         LCD_DISP_SEG_CHAR
+                 +54 ;                 
+                 +54 ;                 car     lcdDispSegChar
+00F366 F21BA9    +54 ; ;     carL    lcdDispSegChar
+                 +54 ; 
+                 +54 ; 
+                  55 
+                  56         jr  exit
+00F369 F160      +56 ;       jrS     exit
+                  57         
+00F36B 3203       58 test3:  cp      A, #03
+                  59         jr      NZ, test4
+00F36D E713      +59 ;       jrS     NZ, test4
+00F36F C60000     60         ld      IX, #00
+00F372 B21F       61         ld      L, #SEG_W
+E0C88 assembler v1.2 r3                 SN00000000-061 (c) 2000 TASKING, Inc.
+                                                                                                                            Page   3
+
+ADDR   CODE      LINE SOURCELINE
+                  62         LCD_DISP_SEG_CHAR
+                 +62 ;                 
+                 +62 ;                 car     lcdDispSegChar
+00F374 F20DA9    +62 ; ;     carL    lcdDispSegChar
+                 +62 ; 
+                 +62 ; 
+                  63 
+00F377 C60200     64         ld IX, #02
+00F37A B20F       65         ld L, #SEG_E
+                  66         LCD_DISP_SEG_CHAR
+                 +66 ;                 
+                 +66 ;                 car     lcdDispSegChar
+00F37C F205A9    +66 ; ;     carL    lcdDispSegChar
+                 +66 ; 
+                 +66 ; 
+                  67         
+                  68         jr  exit
+00F37F F14A      +68 ;       jrS     exit
+                  69         
+00F381 3204       70 test4:  cp      A, #04
+                  71         jr      NZ, test5
+00F383 E713      +71 ;       jrS     NZ, test5
+00F385 C60000     72         ld      IX, #00
+00F388 B21C       73         ld      L, #SEG_T
+                  74         LCD_DISP_SEG_CHAR
+                 +74 ;                 
+                 +74 ;                 car     lcdDispSegChar
+00F38A F2F7A8    +74 ; ;     carL    lcdDispSegChar
+                 +74 ; 
+                 +74 ; 
+                  75 
+00F38D C60200     76         ld IX, #02
+00F390 B212       77         ld L, #SEG_H
+                  78         LCD_DISP_SEG_CHAR
+                 +78 ;                 
+                 +78 ;                 car     lcdDispSegChar
+00F392 F2EFA8    +78 ; ;     carL    lcdDispSegChar
+                 +78 ; 
+                 +78 ; 
+                  79         
+                  80         jr  exit
+00F395 F134      +80 ;       jrS     exit
+                  81         
+00F397 3205       82 test5:  cp      A, #05
+                  83         jr      NZ, test6
+00F399 E713      +83 ;       jrS     NZ, test6
+00F39B C60000     84         ld      IX, #00
+00F39E B210       85         ld      L, #SEG_F
+                  86         LCD_DISP_SEG_CHAR
+                 +86 ;                 
+                 +86 ;                 car     lcdDispSegChar
+00F3A0 F2E1A8    +86 ; ;     carL    lcdDispSegChar
+                 +86 ; 
+                 +86 ; 
+                  87 
+00F3A3 C60200     88         ld      IX, #02
+00F3A6 B21B       89         ld      L, #SEG_R
+                  90         LCD_DISP_SEG_CHAR
+                 +90 ;                 
+                 +90 ;                 car     lcdDispSegChar
+00F3A8 F2D9A8    +90 ; ;     carL    lcdDispSegChar
+                 +90 ; 
+E0C88 assembler v1.2 r3                 SN00000000-061 (c) 2000 TASKING, Inc.
+                                                                                                                            Page   4
+
+ADDR   CODE      LINE SOURCELINE
+                 +90 ; 
+                  91 
+                  92         jr  exit
+00F3AB F11E      +92 ;       jrS     exit
+                  93         
+00F3AD 3206       94 test6:  cp      A, #06
+                  95         jr      NZ, exit
+00F3AF E71A      +95 ;       jrS     NZ, exit
+00F3B1 C60000     96         ld      IX, #00
+00F3B4 B205       97         ld      L, #SEG_S
+                  98         LCD_DISP_SEG_CHAR
+                 +98 ;                 
+                 +98 ;                 car     lcdDispSegChar
+00F3B6 F2CBA8    +98 ; ;     carL    lcdDispSegChar
+                 +98 ; 
+                 +98 ; 
+                  99 
+00F3B9 C60200    100         ld IX, #02
+00F3BC B20B      101         ld L, #SEG_A
+                 102         LCD_DISP_SEG_CHAR
+                +102 ;                 
+                +102 ;                 car     lcdDispSegChar
+00F3BE F2C3A8   +102 ; ;     carL    lcdDispSegChar
+                +102 ; 
+                +102 ; 
+                 103         
+                 104         jr  exit
+00F3C1 F108     +104 ;       jrS     exit
+                 105 
+                 106 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+                 107 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; DATA AREA ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+                 108 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+                 109 
+00F3C3           110 localtimebuffer:
+00F3C3 00        111         db 00 ;minute
+00F3C4 00        112         db 00 ;hour
+00F3C5 00        113         db 00 ;date
+00F3C6 00        114         db 00 ;month
+00F3C7 00        115         db 00 ;year lo
+00F3C8 00        116         db 00 ;year hi
+00F3C9 00        117 dow:    db 00 ;dow
+                 118         
+00F3CA           119 exit:
+                 120         ;F
+00F3CA B01F      121         ld      A, #31
+00F3CC B101      122         ld      B, #1
+                 123         LCD_DISPLAY_MAIN_DM_PIXEL
+                +123 ; 
+                +123 ;                 car     lcdDispMainDMPixel
+00F3CE F2569F   +123 ; ;     carL    lcdDispMainDMPixel
+                +123 ; 
+00F3D1 B01F      124         ld      A, #31
+00F3D3 B102      125         ld      B, #2
+                 126         LCD_DISPLAY_MAIN_DM_PIXEL
+                +126 ; 
+                +126 ;                 car     lcdDispMainDMPixel
+00F3D5 F24F9F   +126 ; ;     carL    lcdDispMainDMPixel
+                +126 ; 
+00F3D8 B01F      127         ld      A, #31
+00F3DA B103      128         ld      B, #3
+                 129         LCD_DISPLAY_MAIN_DM_PIXEL
+                +129 ; 
+E0C88 assembler v1.2 r3                 SN00000000-061 (c) 2000 TASKING, Inc.
+                                                                                                                            Page   5
+
+ADDR   CODE      LINE SOURCELINE
+                +129 ;                 car     lcdDispMainDMPixel
+00F3DC F2489F   +129 ; ;     carL    lcdDispMainDMPixel
+                +129 ; 
+00F3DF B01F      130         ld      A, #31
+00F3E1 B104      131         ld      B, #4
+                 132         LCD_DISPLAY_MAIN_DM_PIXEL
+                +132 ; 
+                +132 ;                 car     lcdDispMainDMPixel
+00F3E3 F2419F   +132 ; ;     carL    lcdDispMainDMPixel
+                +132 ; 
+00F3E6 B01F      133         ld      A, #31
+00F3E8 B105      134         ld      B, #5
+                 135         LCD_DISPLAY_MAIN_DM_PIXEL
+                +135 ; 
+                +135 ;                 car     lcdDispMainDMPixel
+00F3EA F23A9F   +135 ; ;     carL    lcdDispMainDMPixel
+                +135 ; 
+                 136         ;
+00F3ED B020      137         ld      A, #32
+00F3EF B101      138         ld      B, #1
+                 139         LCD_DISPLAY_MAIN_DM_PIXEL
+                +139 ; 
+                +139 ;                 car     lcdDispMainDMPixel
+00F3F1 F2339F   +139 ; ;     carL    lcdDispMainDMPixel
+                +139 ; 
+00F3F4 B020      140         ld      A, #32
+00F3F6 B103      141         ld      B, #3
+                 142         LCD_DISPLAY_MAIN_DM_PIXEL
+                +142 ; 
+                +142 ;                 car     lcdDispMainDMPixel
+00F3F8 F22C9F   +142 ; ;     carL    lcdDispMainDMPixel
+                +142 ; 
+                 143 
+                 144         ;L
+00F3FB B022      145         ld      A, #34
+00F3FD B101      146         ld      B, #1
+                 147         LCD_DISPLAY_MAIN_DM_PIXEL
+                +147 ; 
+                +147 ;                 car     lcdDispMainDMPixel
+00F3FF F2259F   +147 ; ;     carL    lcdDispMainDMPixel
+                +147 ; 
+00F402 B022      148         ld      A, #34
+00F404 B102      149         ld      B, #2
+                 150         LCD_DISPLAY_MAIN_DM_PIXEL
+                +150 ; 
+                +150 ;                 car     lcdDispMainDMPixel
+00F406 F21E9F   +150 ; ;     carL    lcdDispMainDMPixel
+                +150 ; 
+00F409 B022      151         ld      A, #34
+00F40B B103      152         ld      B, #3
+                 153         LCD_DISPLAY_MAIN_DM_PIXEL
+                +153 ; 
+                +153 ;                 car     lcdDispMainDMPixel
+00F40D F2179F   +153 ; ;     carL    lcdDispMainDMPixel
+                +153 ; 
+00F410 B022      154         ld      A, #34
+00F412 B104      155         ld      B, #4
+                 156         LCD_DISPLAY_MAIN_DM_PIXEL
+                +156 ; 
+                +156 ;                 car     lcdDispMainDMPixel
+00F414 F2109F   +156 ; ;     carL    lcdDispMainDMPixel
+                +156 ; 
+E0C88 assembler v1.2 r3                 SN00000000-061 (c) 2000 TASKING, Inc.
+                                                                                                                            Page   6
+
+ADDR   CODE      LINE SOURCELINE
+00F417 B022      157         ld      A, #34
+00F419 B105      158         ld      B, #5
+                 159         LCD_DISPLAY_MAIN_DM_PIXEL
+                +159 ; 
+                +159 ;                 car     lcdDispMainDMPixel
+00F41B F2099F   +159 ; ;     carL    lcdDispMainDMPixel
+                +159 ; 
+                 160         ;
+00F41E B023      161         ld      A, #35
+00F420 B105      162         ld      B, #5
+                 163         LCD_DISPLAY_MAIN_DM_PIXEL
+                +163 ; 
+                +163 ;                 car     lcdDispMainDMPixel
+00F422 F2029F   +163 ; ;     carL    lcdDispMainDMPixel
+                +163 ; 
+                 164 
+                 165         ;E
+                 166 
+00F425 B025      167         ld      A, #37
+00F427 B101      168         ld      B, #1
+                 169         LCD_DISPLAY_MAIN_DM_PIXEL
+                +169 ; 
+                +169 ;                 car     lcdDispMainDMPixel
+00F429 F2FB9E   +169 ; ;     carL    lcdDispMainDMPixel
+                +169 ; 
+00F42C B025      170         ld      A, #37
+00F42E B102      171         ld      B, #2
+                 172         LCD_DISPLAY_MAIN_DM_PIXEL
+                +172 ; 
+                +172 ;                 car     lcdDispMainDMPixel
+00F430 F2F49E   +172 ; ;     carL    lcdDispMainDMPixel
+                +172 ; 
+00F433 B025      173         ld      A, #37
+00F435 B103      174         ld      B, #3
+                 175         LCD_DISPLAY_MAIN_DM_PIXEL
+                +175 ; 
+                +175 ;                 car     lcdDispMainDMPixel
+00F437 F2ED9E   +175 ; ;     carL    lcdDispMainDMPixel
+                +175 ; 
+00F43A B025      176         ld      A, #37
+00F43C B104      177         ld      B, #4
+                 178         LCD_DISPLAY_MAIN_DM_PIXEL
+                +178 ; 
+                +178 ;                 car     lcdDispMainDMPixel
+00F43E F2E69E   +178 ; ;     carL    lcdDispMainDMPixel
+                +178 ; 
+00F441 B025      179         ld      A, #37
+00F443 B105      180         ld      B, #5
+                 181         LCD_DISPLAY_MAIN_DM_PIXEL
+                +181 ; 
+                +181 ;                 car     lcdDispMainDMPixel
+00F445 F2DF9E   +181 ; ;     carL    lcdDispMainDMPixel
+                +181 ; 
+                 182         ;
+00F448 B026      183         ld      A, #38
+00F44A B101      184         ld      B, #1
+                 185         LCD_DISPLAY_MAIN_DM_PIXEL
+                +185 ; 
+                +185 ;                 car     lcdDispMainDMPixel
+00F44C F2D89E   +185 ; ;     carL    lcdDispMainDMPixel
+                +185 ; 
+00F44F B026      186         ld      A, #38
+E0C88 assembler v1.2 r3                 SN00000000-061 (c) 2000 TASKING, Inc.
+                                                                                                                            Page   7
+
+ADDR   CODE      LINE SOURCELINE
+00F451 B103      187         ld      B, #3
+                 188         LCD_DISPLAY_MAIN_DM_PIXEL
+                +188 ; 
+                +188 ;                 car     lcdDispMainDMPixel
+00F453 F2D19E   +188 ; ;     carL    lcdDispMainDMPixel
+                +188 ; 
+00F456 B026      189         ld      A, #38
+00F458 B105      190         ld      B, #5
+                 191         LCD_DISPLAY_MAIN_DM_PIXEL
+                +191 ; 
+                +191 ;                 car     lcdDispMainDMPixel
+00F45A F2CA9E   +191 ; ;     carL    lcdDispMainDMPixel
+                +191 ; 
+                 192 
+                 193         ;x
+00F45D B028      194         ld      A, #40
+00F45F B101      195         ld      B, #1
+                 196         LCD_DISPLAY_MAIN_DM_PIXEL
+                +196 ; 
+                +196 ;                 car     lcdDispMainDMPixel
+00F461 F2C39E   +196 ; ;     carL    lcdDispMainDMPixel
+                +196 ; 
+00F464 B028      197         ld      A, #40
+00F466 B102      198         ld      B, #2
+                 199         LCD_DISPLAY_MAIN_DM_PIXEL
+                +199 ; 
+                +199 ;                 car     lcdDispMainDMPixel
+00F468 F2BC9E   +199 ; ;     carL    lcdDispMainDMPixel
+                +199 ; 
+00F46B B028      200         ld      A, #40
+00F46D B104      201         ld      B, #4
+                 202         LCD_DISPLAY_MAIN_DM_PIXEL
+                +202 ; 
+                +202 ;                 car     lcdDispMainDMPixel
+00F46F F2B59E   +202 ; ;     carL    lcdDispMainDMPixel
+                +202 ; 
+00F472 B028      203         ld      A, #40
+00F474 B105      204         ld      B, #5
+                 205         LCD_DISPLAY_MAIN_DM_PIXEL
+                +205 ; 
+                +205 ;                 car     lcdDispMainDMPixel
+00F476 F2AE9E   +205 ; ;     carL    lcdDispMainDMPixel
+                +205 ; 
+                 206         ;
+00F479 B029      207         ld      A, #41
+00F47B B103      208         ld      B, #3
+                 209         LCD_DISPLAY_MAIN_DM_PIXEL
+                +209 ; 
+                +209 ;                 car     lcdDispMainDMPixel
+00F47D F2A79E   +209 ; ;     carL    lcdDispMainDMPixel
+                +209 ; 
+                 210         ;
+00F480 B02A      211         ld      A, #42
+00F482 B101      212         ld      B, #1
+                 213         LCD_DISPLAY_MAIN_DM_PIXEL
+                +213 ; 
+                +213 ;                 car     lcdDispMainDMPixel
+00F484 F2A09E   +213 ; ;     carL    lcdDispMainDMPixel
+                +213 ; 
+00F487 B02A      214         ld      A, #42
+00F489 B102      215         ld      B, #2
+                 216         LCD_DISPLAY_MAIN_DM_PIXEL
+E0C88 assembler v1.2 r3                 SN00000000-061 (c) 2000 TASKING, Inc.
+                                                                                                                            Page   8
+
+ADDR   CODE      LINE SOURCELINE
+                +216 ; 
+                +216 ;                 car     lcdDispMainDMPixel
+00F48B F2999E   +216 ; ;     carL    lcdDispMainDMPixel
+                +216 ; 
+00F48E B02A      217         ld      A, #42
+00F490 B104      218         ld      B, #4
+                 219         LCD_DISPLAY_MAIN_DM_PIXEL
+                +219 ; 
+                +219 ;                 car     lcdDispMainDMPixel
+00F492 F2929E   +219 ; ;     carL    lcdDispMainDMPixel
+                +219 ; 
+00F495 B02A      220         ld      A, #42
+00F497 B105      221         ld      B, #5
+                 222         LCD_DISPLAY_MAIN_DM_PIXEL
+                +222 ; 
+                +222 ;                 car     lcdDispMainDMPixel
+00F499 F28B9E   +222 ; ;     carL    lcdDispMainDMPixel
+                +222 ; 
+                 223         
+                 224 ;# BATTERY CHECK based on Philip Hamer's sourcecode
+                 225 ;# ================================================
+                 226  
+                 227         ; Turn on 1/4 HZ sampling
+00F49C C512FF    228         ld            HL, #SVDReg
+00F49F CE25EF    229         and           [HL], #~bSVDON
+00F4A2 CE2D20    230         or            [HL], #bSVDSP
+                 231         ; We need to wait 16 clock cycles for reading of battery power
+                 232         ; 1 bus cycle = 2 clock cycles
+                 233         ; nop = 2 bus cycles = 4 clock cycles
+00F4A5 FF        234         nop
+00F4A6 FF        235         nop
+00F4A7 FF        236         nop
+00F4A8 FF        237         nop
+                 238         ; Mask out top 4 bits to get voltage level
+00F4A9 45        239         ld            A, [HL]
+00F4AA 220F      240         and           A, #(bSVD0|bSVD1|bSVD2|bSVD3)
+                 241         ; Turn off 1/4 HZ sampling
+00F4AC CE25DF    242         and           [HL], #~bSVDSP
+                 243  
+                 244         ; Check voltage
+                 245         ;cp            A, #HW_SVD_LEVEL_1p83_VOLTS
+                 246         ;jr            Z, bat1p83
+                 247  
+                 248         ;cp            A, #HW_SVD_LEVEL_2p00_VOLTS
+                 249         ;jr            Z, bat2p00
+                 250          
+                 251         ;cp            A, #HW_SVD_LEVEL_2p17_VOLTS
+                 252         ;jr            Z, bat2p17
+                 253  
+00F4AF 3204      254         cp            A, #HW_SVD_LEVEL_2p33_VOLTS
+                 255         jr            Z, bat2p33
+00F4B1 E62D     +255 ;       jrS     Z, bat2p33
+                 256  
+00F4B3 3205      257         cp            A, #HW_SVD_LEVEL_2p50_VOLTS
+                 258         jr            Z, bat2p50
+00F4B5 E622     +258 ;       jrS     Z, bat2p50
+                 259  
+00F4B7 3206      260         cp            A, #HW_SVD_LEVEL_2p67_VOLTS
+                 261         jr            Z, bat2p67
+00F4B9 E617     +261 ;       jrS     Z, bat2p67
+                 262  
+00F4BB 3207      263         cp            A, #HW_SVD_LEVEL_2p83_VOLTS
+E0C88 assembler v1.2 r3                 SN00000000-061 (c) 2000 TASKING, Inc.
+                                                                                                                            Page   9
+
+ADDR   CODE      LINE SOURCELINE
+                 264         jr            Z, bat2p83
+00F4BD E60C     +264 ;       jrS     Z, bat2p83
+                 265  
+00F4BF 3208      266         cp            A, #HW_SVD_LEVEL_3p00_VOLTS
+                 267         jr            Z, bat3p00
+00F4C1 E601     +267 ;       jrS     Z, bat3p00
+                 268  
+                 269         ;cp            A, #HW_SVD_LEVEL_3p17_VOLTS
+                 270         ;jr            Z, bat3p17
+                 271  
+                 272         ;cp            A, #HW_SVD_LEVEL_3p33_VOLTS
+                 273         ;jr            Z, bat3p33
+                 274  
+                 275         ;cp            A, #HW_SVD_LEVEL_3p50_VOLTS
+                 276         ;jr            Z, bat3p50
+                 277  
+                 278         ;cp            A, #HW_SVD_LEVEL_3p67_VOLTS
+                 279         ;jr            Z, bat3p67
+                 280  
+                 281         ;cp            A, #HW_SVD_LEVEL_3p83_VOLTS
+                 282         ;jr            Z, bat3p83
+                 283  
+                 284         ;cp            A, #HW_SVD_LEVEL_4p00_VOLTS
+                 285         ;jr            Z, bat4p00
+                 286  
+                 287         ;cp            A, #HW_SVD_LEVEL_4p17_VOLTS
+                 288         ;jr            Z, bat4p17
+                 289  
+00F4C3           290 bat3p00:
+00F4C3 B02A      291         ld      A, #42
+00F4C5 B107      292         ld      B, #7
+                 293         LCD_DISPLAY_MAIN_DM_PIXEL
+                +293 ; 
+                +293 ;                 car     lcdDispMainDMPixel
+00F4C7 F25D9E   +293 ; ;     carL    lcdDispMainDMPixel
+                +293 ; 
+                 294  
+00F4CA           295 bat2p83:
+00F4CA B02A      296         ld      A, #42
+00F4CC B108      297         ld      B, #8
+                 298         LCD_DISPLAY_MAIN_DM_PIXEL
+                +298 ; 
+                +298 ;                 car     lcdDispMainDMPixel
+00F4CE F2569E   +298 ; ;     carL    lcdDispMainDMPixel
+                +298 ; 
+                 299  
+00F4D1           300 bat2p67:
+00F4D1 B02A      301         ld      A, #42
+00F4D3 B109      302         ld      B, #9
+                 303         LCD_DISPLAY_MAIN_DM_PIXEL
+                +303 ; 
+                +303 ;                 car     lcdDispMainDMPixel
+00F4D5 F24F9E   +303 ; ;     carL    lcdDispMainDMPixel
+                +303 ; 
+                 304  
+00F4D8           305 bat2p50:
+00F4D8 B02A      306         ld      A, #42
+00F4DA B10A      307         ld      B, #10
+                 308         LCD_DISPLAY_MAIN_DM_PIXEL
+                +308 ; 
+                +308 ;                 car     lcdDispMainDMPixel
+00F4DC F2489E   +308 ; ;     carL    lcdDispMainDMPixel
+E0C88 assembler v1.2 r3                 SN00000000-061 (c) 2000 TASKING, Inc.
+                                                                                                                            Page  10
+
+ADDR   CODE      LINE SOURCELINE
+                +308 ; 
+                 309  
+00F4DF           310 bat2p33:
+00F4DF B02A      311         ld      A, #42
+00F4E1 B10B      312         ld      B, #11
+                 313         LCD_DISPLAY_MAIN_DM_PIXEL
+                +313 ; 
+                +313 ;                 car     lcdDispMainDMPixel
+00F4E3 F2419E   +313 ; ;     carL    lcdDispMainDMPixel
+                +313 ; 
+                 314 
+                 315 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+                 316 ; All periodic task must exit through this section.
+                 317 ; The periodic task builder will insert code to complete task.
+                 318 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+                  91 
+                  92     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+                  93     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+                  94 
+                  95                 ; reload the foreground state manager and background handler
+                  96                 ; if it is determined that it is an EEPROM based application
+                  97                 jr coreRestoreCodeOverlay
+00F4E6 F3CFB2    +97 ;       jrL     coreRestoreCodeOverlay
+                  98 
+00F4E9           100 CommonCodeEnd:
+                 101 
+                 104 
+                 105 ;**END FILE MINUTE.ASM
+
+Section summary:
+
+ NR ADDR   SIZE CYCLE NAME
+  1 00F31A 01cf   569 .text

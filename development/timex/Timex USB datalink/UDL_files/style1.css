@@ -1,0 +1,156 @@
+.MenuTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff
+}
+.MenuBar {
+	FONT-SIZE: 11px
+}
+.MenuBarSelected {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px
+}
+.BottomInfo {
+	FONT-SIZE: 9px
+}
+.PostDate {
+	FONT-SIZE: 9px; COLOR: #999
+}
+.DateInfo {
+	FONT-SIZE: 9px; COLOR: #6699cc
+}
+.NormalText {
+	FONT-SIZE: 11px
+}
+.Error {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ff0000
+}
+.pic {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-COLOR: #000000; BORDER-BOTTOM-COLOR: #000000; PADDING-BOTTOM: 0px; MARGIN: 5px; BORDER-TOP-COLOR: #000000; PADDING-TOP: 0px; BORDER-RIGHT-COLOR: #000000
+}
+.miniBanner {
+	BORDER-LEFT-COLOR: #dddddd; BORDER-BOTTOM-COLOR: #dddddd; BORDER-TOP-COLOR: #dddddd; BORDER-RIGHT-COLOR: #dddddd
+}
+.GreyPic {
+	BORDER-LEFT-COLOR: #cccccc; BORDER-BOTTOM-COLOR: #cccccc; BORDER-TOP-COLOR: #cccccc; BORDER-RIGHT-COLOR: #cccccc
+}
+.headline {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px
+}
+.menu {
+	FONT-WEIGHT: bold; COLOR: #6699cc
+}
+.green {
+	COLOR: #99cc66
+}
+.ForumTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #666666
+}
+.ForumText {
+	FONT-SIZE: 11px
+}
+.ForumBorder {
+	BACKGROUND-COLOR: #abc0cd
+}
+.ForumHeader {
+	FONT-SIZE: 12px; COLOR: #666666; BACKGROUND-COLOR: #dfe7ec
+}
+.ForumMainHeader {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ffffff
+}
+.ForumBody {
+	BACKGROUND-COLOR: #f4f6fa
+}
+.ForumBodyLight {
+	BACKGROUND-COLOR: #ffffff
+}
+BLOCKQUOTE.ForumQuote {
+	BORDER-RIGHT: #6699cc 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #6699cc 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; BORDER-LEFT: #6699cc 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #6699cc 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.FormBoxBorder {
+	BACKGROUND-COLOR: #abc0cd
+}
+.FormBoxHeader {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #666666; BACKGROUND-COLOR: #dfe7ec
+}
+.FormBoxBody {
+	BACKGROUND-COLOR: #f4f6fa
+}
+.boxborder {
+	BACKGROUND: #cccccc
+}
+.boxheader {
+	BACKGROUND: #99cc66; COLOR: #ffffff
+}
+.boxbody {
+	BACKGROUND: #f4faef
+}
+.boxbodywhite {
+	BACKGROUND: #ffffff
+}
+.boxbodyblue {
+	BACKGROUND: #6699cc; COLOR: #ffffff
+}
+TD {
+	FONT-SIZE: 11px
+}
+H1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px
+}
+H2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px
+}
+H2.blue {
+	COLOR: #6699cc
+}
+H3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px
+}
+HR {
+	COLOR: #99cc66; HEIGHT: 1px
+}
+P {
+	FONT-SIZE: 12px; LINE-HEIGHT: 120%; TEXT-ALIGN: justify
+}
+A {
+	FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #555555; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #555555; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #3a77ee; TEXT-DECORATION: underline
+}
+A.whiteLink {
+	FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+A.whiteLink:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.whiteLink:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.whiteLink:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+LI.navitem {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 8px; BACKGROUND: url(/images/page/nav_bullet.gif) no-repeat 0px 7px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+UL.navitem {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+INPUT.field {
+	BORDER-RIGHT: #bbbbbb 1px solid; BORDER-TOP: #bbbbbb 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #bbbbbb 1px solid; BORDER-BOTTOM: #bbbbbb 1px solid
+}
+INPUT.button {
+	MARGIN-TOP: 5px; MARGIN-BOTTOM: 2px; FONT: 11px Verdana, Helvetica, sans-serif; MARGIN-LEFT: 2px; COLOR: #abc0cd; BORDER-TOP-STYLE: solid; BORDER-RIGHT-STYLE: solid; BORDER-LEFT-STYLE: solid; BACKGROUND-COLOR: #f4f6fa; BORDER-BOTTOM-STYLE: solid; font-color: #ABC0CD
+}
+TEXTAREA {
+	BORDER-RIGHT: #bbbbbb 1px solid; BORDER-TOP: #bbbbbb 1px solid; BORDER-LEFT: #bbbbbb 1px solid; BORDER-BOTTOM: #bbbbbb 1px solid
+}
+SELECT {
+	BORDER-RIGHT: #bbbbbb 1px solid; BORDER-TOP: #bbbbbb 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #bbbbbb 1px solid; BORDER-BOTTOM: #bbbbbb 1px solid
+}
+FORM {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: 0px
+}

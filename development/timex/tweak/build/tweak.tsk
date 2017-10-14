@@ -1,0 +1,6 @@
+[Periodic Task]
+Name=Tweak
+Description=Tweak application
+Version Required=018
+CODE=tweak_code_018.bin
+App Interface=

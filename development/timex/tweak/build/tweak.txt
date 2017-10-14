@@ -1,0 +1,19 @@
+Periodic Task: TWEAK
+================================================================================
+
+Description:
+------------
+
+  Tweak application
+
+ << Periodic Task overview >>
+
+
+Files:
+------
+
+ TWEAK.TSK                - application info
+ TWEAK.TXT                - application description (this file)
+ TWEAK_CODE_018.BIN       - application code
+
+

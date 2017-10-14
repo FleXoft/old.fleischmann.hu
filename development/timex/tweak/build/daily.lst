@@ -1,0 +1,45 @@
+E0C88 assembler v1.2 r3                 SN00000000-061 (c) 2000 TASKING, Inc.
+                                                                                                                            Page   1
+C:\M851\app\tweak\build\daily.asm
+ADDR   CODE      LINE SOURCELINE
+                   2 
+                   3 ; ********************************************************************
+                   4 ; *
+                   5 ; * M851 PERIODIC TASK BUILDER
+                   6 ; * Timex Corporation 2002 All Rights Reserved
+                   7 ; * July 2002
+                   8 ; *
+                   9 ; * Periodic Task: Tweak
+                  10 ; *
+                  11 ; ********************************************************************
+                  12 
+                  13 
+                  76 
+                  79 
+00F31A            81 CODECOMMONADDRESS:
+                  82 
+                  83      ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+                  84      ;
+                  85      ; PERIODIC TASKS SOURCE FILE TO BE IN THE COMMON SECTION
+                  86      ; * Always have the Background Handler routine to be the first file
+                  87      ;
+                  88      ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+                  89 
+                  90 
+                  91     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+                  92     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+                  93 
+                  94                 ; reload the foreground state manager and background handler
+                  95                 ; if it is determined that it is an EEPROM based application
+                  96                 jr coreRestoreCodeOverlay
+00F31A F39BB4    +96 ;       jrL     coreRestoreCodeOverlay
+                  97 
+00F31D            99 CommonCodeEnd:
+                 100 
+                 103 
+                 104 ;**END FILE DAILY.ASM
+
+Section summary:
+
+ NR ADDR   SIZE CYCLE NAME
+  1 00F31A 0003     3 .text

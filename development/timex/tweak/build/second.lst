@@ -1,0 +1,68 @@
+E0C88 assembler v1.2 r3                 SN00000000-061 (c) 2000 TASKING, Inc.
+                                                                                                                            Page   1
+C:\M851\app\tweak\build\second.asm
+ADDR   CODE      LINE SOURCELINE
+                   2 
+                   3 ; ********************************************************************
+                   4 ; *
+                   5 ; * M851 PERIODIC TASK BUILDER
+                   6 ; * Timex Corporation 2002 All Rights Reserved
+                   7 ; * July 2002
+                   8 ; *
+                   9 ; * Periodic Task: Tweak
+                  10 ; *
+                  11 ; ********************************************************************
+                  12 
+                  13 
+                  76 
+                  79 
+00F31A            81 CODECOMMONADDRESS:
+                  82 
+                  83      ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+                  84      ;
+                  85      ; PERIODIC TASKS SOURCE FILE TO BE IN THE COMMON SECTION
+                  86      ; * Always have the Background Handler routine to be the first file
+                  87      ;
+                  88      ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+                  89 
+                  90     INCLUDE 'C:\M851\app\tweak\src\second.asm'
+                   1 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+                   2 ;
+                   3 ; File Name    : tweak.asm
+                   4 ; Purpose      : tweak Application 
+                   5 ;
+                   6 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+                   7 ;;;;;;;;;;;;;DO NOT MODIFY THE FOLLOWING SUBROUTINE DEFINITION;;;;;;;;;;;;;;;;;
+                   8 
+                  12         DEFINE SUBROUTINE "'min'"
+                  13 
+00F31A B001       14         LD      A, #1
+00F31C B102       15         LD      B, #2
+                  16         LCD_DISPLAY_MAIN_DM_PIXEL
+                 +16 ; 
+                 +16 ;                 car     lcdDispMainDMPixel
+00F31E F206A0    +16 ; ;     carL    lcdDispMainDMPixel
+                 +16 ; 
+                  17 
+                  18 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+                  19 ; All periodic task must exit through this section.
+                  20 ; The periodic task builder will insert code to complete task.
+                  21 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+                  91 
+                  92     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+                  93     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+                  94 
+                  95                 ; reload the foreground state manager and background handler
+                  96                 ; if it is determined that it is an EEPROM based application
+                  97                 jr coreRestoreCodeOverlay
+00F321 F394B4    +97 ;       jrL     coreRestoreCodeOverlay
+                  98 
+00F324           100 CommonCodeEnd:
+                 101 
+                 104 
+                 105 ;**END FILE SECOND.ASM
+
+Section summary:
+
+ NR ADDR   SIZE CYCLE NAME
+  1 00F31A 000a    12 .text

@@ -1,0 +1,36 @@
+BODY {
+	SCROLLBAR-FACE-COLOR: #f4faef; MARGIN: 0px; SCROLLBAR-HIGHLIGHT-COLOR: #f4faef; SCROLLBAR-SHADOW-COLOR: #f3eeee; SCROLLBAR-3DLIGHT-COLOR: #eeeeee; SCROLLBAR-ARROW-COLOR: #985c58; SCROLLBAR-TRACK-COLOR: #f4faef; FONT-FAMILY: Verdana, Helvetica, sans-serif; SCROLLBAR-DARKSHADOW-COLOR: #b39795; BACKGROUND-COLOR: #f4faef
+}
+INPUT.button {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 9px; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid; BACKGROUND-COLOR: #ff9900
+}
+INPUT.field {
+	BORDER-RIGHT: #bbbbbb 1px solid; BORDER-TOP: #bbbbbb 1px solid; FONT-SIZE: 9px; BORDER-LEFT: #bbbbbb 1px solid; BORDER-BOTTOM: #bbbbbb 1px solid; BACKGROUND-COLOR: #f5f5f5
+}
+.Error {
+	FONT-WEIGHT: bold; FONT-SIZE: 9px; COLOR: #ff0000
+}
+TD {
+	FONT-SIZE: 9px
+}
+A:link {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #3a77ee; TEXT-DECORATION: underline
+}
+.DarkRow {
+	BACKGROUND-COLOR: #f4faef
+}
+.LightRow {
+	BACKGROUND-COLOR: #ffffff
+}
+.border {
+	BACKGROUND-COLOR: #eeeeee
+}
+FORM {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: 0px
+}

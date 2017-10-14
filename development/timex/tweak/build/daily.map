@@ -1,0 +1,43 @@
+P r o c e s s   t a b l e
+=========================
+
+Pid #		Load_mod
+0000		daily.out
+
+
+M a p   p e r   c l u s t e r
+=============================
+
+Cluster: rom
+Chips:	 i_rom, i_ram, dis_mem, io_mem
+
+Pid #	Section		Physical    Virtual     Size        Amode       Chip
+0000    <reserved>     	0x000026    0x000026    0x000002    (absolute)  i_rom       
+0000    .text          	0x00031a    0x00f31a    0x000003    (absolute)  i_ram       
+
+
+M A P   p e r   L O A D _ M O D
+===============================
+
+
+Load module daily.out:
+Section        	Virtual     Size        Physical    
+.text          	0x00f31a    0x000003    0x00031a    
+ 
+Symbols:  Space SMC88_space
+             Sorted on symbol                Sorted on address
+             ----------------                -----------------
+ CODECOMMONADDRESS - 0x00f31a     CODECOMMONADDRESS - 0x00f31a
+     CommonCodeEnd - 0x00f31d         CommonCodeEnd - 0x00f31d
+ 
+Symbols:  Space undefined
+             Sorted on symbol                Sorted on address
+             ----------------                -----------------
+    CommonCodeSize - 0x000003        CommonCodeSize - 0x000003
+
+
+Sections:
+
+daily:
+Sectio   Virtual     Size        
+ .text - 0x00f31a    0x000003
